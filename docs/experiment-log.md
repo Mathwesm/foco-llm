@@ -24,6 +24,14 @@ Geração acumulada: 175,88 segundos e 5.213 tokens de saída. Pico de memória 
 
 As métricas foram recalculadas a partir das respostas brutas antes da exportação; o gráfico foi inspecionado visualmente. [Relatório, reprodução e artefatos](baseline-2026-09-27.md). Não houve ajuste de pesos nem mudança do parser para melhorar retroativamente esta execução.
 
+## 2026-09-27 — separação de formato, resposta e evidências
+
+As 120 respostas existentes foram reavaliadas sem inferência ou treinamento adicional. O protocolo `content-envelope-v2` mantém o relatório estrito e acrescenta aceitação de um único bloco Markdown completo, sem reparo de conteúdo. Verifica correspondência de prompts e recalcula o baseline estrito antes da publicação.
+
+Foram lidos 120 objetos; 102 tinham identificadores de evidência válidos e 18 usavam referências inexistentes. Exigindo identificadores válidos, houve 22 acertos; avaliando a resposta independentemente desses identificadores, 37/120. Seleção exata de evidências: 35/120. Esses números são leituras diferentes das mesmas saídas, não ganhos do modelo.
+
+A exportação intermediária v1 foi preservada; a v2 acrescenta a métrica de resposta independente. Foram acrescentados testes para cercas incompletas/múltiplas, texto externo, chaves duplicadas, schema incorreto, evidências inválidas, denominadores, integridade de checkpoints e preservação da leitura estrita. O gráfico foi inspecionado. [Protocolo, resultados e limitações](content-evaluation-2026-09-27.md).
+
 ## Como registrar cada treinamento futuro
 
 Cada execução deverá registrar:

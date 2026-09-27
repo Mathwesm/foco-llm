@@ -4,6 +4,8 @@
 
 [Resultado registrado](baseline-2026-09-27.md): 120 respostas geradas, mas 0 aceitas pelo contrato estrito, pois todas vieram em blocos Markdown. O próximo passo é separar avaliação de formato e de conteúdo antes de qualquer treinamento. Este resultado fica preservado.
 
+**Atualização:** a separação foi implementada em `content-envelope-v2`, com 37/120 acertos de resposta e 102/120 saídas com identificadores válidos. [Diagnóstico completo](content-evaluation-2026-09-27.md). A prioridade passa a ser competência limpa e revisão do benchmark, antes de treinar.
+
 Executar o Qwen2.5-0.5B-Instruct sem ajuste nos 120 exemplos de validação do piloto. A revisão é `7ae557604adf67be50417f59c2c2f167def9a775`; o modelo possui aproximadamente 0,49 bilhão de parâmetros e licença Apache 2.0, conforme sua [ficha oficial](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct).
 
 Usar FP16 na RTX 3060 de 6 GB, lote unitário, geração gulosa e limite de 128 tokens novos. Registrar respostas brutas, erros de formato, tokens, duração de geração e pico de memória alocada/reservada pelo PyTorch. Esses picos não representam todo o uso de memória da GPU por outros programas. Downloads, carregamento, tokenização e gravação ficam fora da duração de geração.

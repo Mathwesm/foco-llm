@@ -6,6 +6,8 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Estado atual:** primeiro baseline local concluído em 120 exemplos de validação. As 120 respostas foram rejeitadas pelo contrato de JSON puro por usarem blocos Markdown; a pontuação estrita zero não mede isoladamente raciocínio. [Resultados e limitações](docs/baseline-2026-09-27.md). Ainda não houve treinamento neste projeto. O artigo será escrito a partir dos experimentos concluídos.
 
+**Diagnóstico adicional:** a avaliação versionada de conteúdo encontrou 37/120 respostas corretas quando o acerto é medido independentemente dos identificadores de evidência. É uma reanálise das mesmas respostas, não uma melhora do modelo. [Protocolo, comparação e gráfico](docs/content-evaluation-2026-09-27.md).
+
 ## O que já funciona
 
 - Geração reproduzível de problemas de aritmética, dedução e acompanhamento de objetos.
