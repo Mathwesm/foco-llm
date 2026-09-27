@@ -32,6 +32,19 @@ poethepoet = "^0.32"
 
 # Task shortcuts that behave identically on Windows, macOS and Linux. A Makefile
 # would not: Windows has no make. Run them with `poetry run poe <task>`.
+
+[tool.poetry.group.inference]
+optional = true
+
+[tool.poetry.group.inference.dependencies]
+torch = {version = "2.8.0", python = ">=3.12,<3.14", source = "pytorch-cu128"}
+transformers = {version = "4.57.3", python = ">=3.12,<3.14"}
+
+[[tool.poetry.source]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+priority = "explicit"
+
 [tool.poe.tasks]
 fmt = "ruff format ."
 lint = "ruff check --fix ."
