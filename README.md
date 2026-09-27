@@ -4,7 +4,7 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
-**Estado atual:** infraestrutura do piloto sintético implementada. Ainda não há baseline de LLM, treinamento ou conclusão científica. O artigo será escrito a partir dos experimentos concluídos.
+**Estado atual:** primeiro baseline local concluído em 120 exemplos de validação. As 120 respostas foram rejeitadas pelo contrato de JSON puro por usarem blocos Markdown; a pontuação estrita zero não mede isoladamente raciocínio. [Resultados e limitações](docs/baseline-2026-09-27.md). Ainda não houve treinamento neste projeto. O artigo será escrito a partir dos experimentos concluídos.
 
 ## O que já funciona
 
@@ -17,7 +17,7 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 ## Instalação
 
-Requisitos: Python 3.12 e Poetry 2.4.1. Não é necessário ter GPU para esta etapa.
+Requisitos: Python 3.12 e Poetry 2.4.1. Geração de dados e avaliação de respostas não exigem GPU; a inferência descrita abaixo foi executada em GPU NVIDIA.
 
 ```bash
 poetry install
@@ -50,6 +50,20 @@ $latestRun = Get-Content data/processed/latest.json -Raw | ConvertFrom-Json
 $datasetPath = Join-Path (Join-Path 'data/processed' $latestRun.path) 'dataset.json'
 poetry run python -m foco_llm validate $datasetPath
 ```
+
+## Executar o modelo localmente
+
+Instale a camada opcional de inferência com `poetry install --with inference`. A configuração validada usa Python 3.12, PyTorch com CUDA 12.8 e GPU NVIDIA. Para CPU, informe `--device cpu`; o tempo e a precisão numérica podem diferir da execução em FP16 na GPU.
+
+```powershell
+poetry run python -m foco_llm.inference $datasetPath --revision 7ae557604adf67be50417f59c2c2f167def9a775 --output data/inference/2026-09-27
+```
+
+O padrão executa **validação**, sem abrir o teste final. O executor preserva cada resposta bruta e retoma checkpoints compatíveis ao repetir o mesmo comando. Mantenha o mesmo `--output` ao retomar em outro dia. A revisão do modelo, dados, código e ambiente ficam no manifesto. Não execute duas instâncias no mesmo destino.
+
+O primeiro uso baixa o modelo público. Mesmo com os pesos em cache, o tokenizer desta versão pode consultar metadados na rede; `HF_HUB_OFFLINE=1` não foi compatível com o carregamento observado. A inferência acontece localmente e os enunciados não são enviados a um serviço de geração.
+
+O diretório da execução contém `manifest.json`, `responses/`, `predictions.json`, `report.json`, `summary.json` e `paired-accuracy.png`. JSON inválido ou evidências inválidas ficam preservados e entram como falhas. Duração e memória são medidas pelo executor, com as limitações descritas no [plano por etapas](docs/next-steps.md).
 
 ## Avaliar respostas registradas
 
@@ -101,7 +115,8 @@ data/          # saídas locais; não versionadas
 
 O piloto usa inglês nos enunciados, dificuldade fixa e templates compartilhados entre splits. Serve para verificar a infraestrutura; não sustenta afirmações de generalização estrutural ou de relevância semântica em texto livre. Os validadores reconhecem a gramática controlada do gerador.
 
-Ainda faltam seleção do modelo, execução de inferência, ajuste, checkpoints de treinamento, alertas de execuções longas, diversidade de templates, intervalos de confiança e repetição por sementes. Não há agendamento nem consumo de serviços pagos nesta etapa.
+Ainda faltam ajuste, checkpoints de treinamento, alertas de execuções longas, diversidade de templates, intervalos de confiança e repetição por sementes. Não há agendamento nem consumo de serviços pagos nesta etapa.
 
 - [Plano e referências](docs/research-plan.md)
 - [Diário e registro de treinamentos](docs/experiment-log.md)
+- [Próximas etapas e critérios de conclusão](docs/next-steps.md)

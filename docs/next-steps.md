@@ -1,6 +1,8 @@
 # Próximas etapas e critérios de conclusão
 
-## 1. Baseline local — execução atual
+## 1. Baseline local — concluído em 2026-09-27
+
+[Resultado registrado](baseline-2026-09-27.md): 120 respostas geradas, mas 0 aceitas pelo contrato estrito, pois todas vieram em blocos Markdown. O próximo passo é separar avaliação de formato e de conteúdo antes de qualquer treinamento. Este resultado fica preservado.
 
 Executar o Qwen2.5-0.5B-Instruct sem ajuste nos 120 exemplos de validação do piloto. A revisão é `7ae557604adf67be50417f59c2c2f167def9a775`; o modelo possui aproximadamente 0,49 bilhão de parâmetros e licença Apache 2.0, conforme sua [ficha oficial](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct).
 

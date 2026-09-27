@@ -18,3 +18,21 @@ import pytest
 def test_secret_scan_excludes_dependencies_on_both_platforms(path, excluded):
     settings = runpy.run_path(str(Path(__file__).parents[1] / "scripts" / "check_secrets.py"))
     assert bool(re.search(settings["EXCLUDED_PATHS"], path)) is excluded
+
+
+@pytest.mark.parametrize(
+    "key,size,suffix,excluded",
+    [
+        ("prompt_sha256", 64, ",", True),
+        ("dataset_sha256", 64, "", True),
+        ("model_revision", 40, ",", True),
+        ("api_key", 64, "", False),
+        ("revision", 32, "", False),
+        # Synthetic extra field verifies that the exclusion cannot hide credentials.
+        ("prompt_sha256", 64, ', "api_key": "value"', False),  # pragma: allowlist secret
+    ],
+)
+def test_only_complete_provenance_fields_are_excluded(key, size, suffix, excluded):
+    settings = runpy.run_path(str(Path(__file__).parents[1] / "scripts" / "check_secrets.py"))
+    line = f'  "{key}": "{"a" * size}"{suffix}'
+    assert bool(re.search(settings["PROVENANCE_LINES"], line)) is excluded

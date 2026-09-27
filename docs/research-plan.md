@@ -25,9 +25,9 @@ Documentar quantidade de exemplos e tokens, etapas de otimização, parâmetros 
 
 ## O que falta antes do primeiro treinamento
 
-1. Escolher uma família de modelos e revisões concretas, verificar licenças e ambiente de GPU.
-2. Adicionar execução de inferência com retomada, limites de geração e registro de respostas brutas.
-3. Medir baseline, memória e duração em dados de desenvolvimento; manter teste final reservado.
+1. Confirmar a escolha definitiva após o piloto: Qwen2.5-0.5B-Instruct já foi executado com revisão fixa em GPU.
+2. Separar formato e conteúdo na avaliação: o executor com retomada está implementado, mas o primeiro baseline teve todas as respostas rejeitadas por blocos Markdown.
+3. Congelar uma nova versão do protocolo antes de repetir a avaliação de desenvolvimento; manter o baseline estrito original e o teste final reservado.
 4. Diversificar templates e distratores, separar estruturas e revisar exemplos manualmente.
 5. Implementar ajuste, checkpoints, avaliação por sementes e alertas de falha em execuções longas.
 
