@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "arithmetic-000008:clean",
+    "prompt_sha256": "3e879eec4ccd871c13b2d6c732998d9930de5445b526dec07166dffaf0e0d122",
+    "finished_at": "2026-09-27T15:18:36.575375Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 137,
+      "output_tokens": 128,
+      "elapsed_seconds": 6.232060700000147,
+      "peak_allocated_bytes": 3135446528,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000008:numeric",
+    "prompt_sha256": "888adca67cc0fcd5853f87b88abf2c2ab654dbc1b4dada979018099a7a00f652",
+    "finished_at": "2026-09-27T15:18:46.632113Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 152,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.046012500002689,
+      "peak_allocated_bytes": 3136987136,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000008:similar",
+    "prompt_sha256": "0aba31614b18d1fb24ea5a0493be6d22fd4fe47ac01eb0f512b8069531ac4f19",
+    "finished_at": "2026-09-27T15:18:51.672855Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.0374714999998105,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000008:unrelated",
+    "prompt_sha256": "566eff5286fd5bb546aad614390844ddc1fe2e4dfbd08ea1a402a77a70c17de6",
+    "finished_at": "2026-09-27T15:18:41.582520Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 150,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.000231099998928,
+      "peak_allocated_bytes": 3136780800,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000018:clean",
+    "prompt_sha256": "b4d0cb35baa5855db22fbcfefa77c4a60e28b3cb1f311cc46f5fd82dee29fedc",
+    "finished_at": "2026-09-27T15:18:56.679783Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 139,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.003150700002152,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000018:numeric",
+    "prompt_sha256": "5068fa715f79fd6364faad076f0fad3529d44b80c9a5b7a5049dd47ca7068b33",
+    "finished_at": "2026-09-27T15:19:06.751191Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.0999595999965095,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000018:similar",
+    "prompt_sha256": "0b4d0244ef5fc546855388b41b1d34e8f6ce350f1b6908a353caebf89a51803f",
+    "finished_at": "2026-09-27T15:19:11.794030Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.0393189000023995,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000018:unrelated",
+    "prompt_sha256": "500ce4f3c9cdaa736f2b2f09da1056611013c7b7a062873889d5c27f930c5904",
+    "finished_at": "2026-09-27T15:19:01.647760Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 152,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.964285699999891,
+      "peak_allocated_bytes": 3136987136,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000028:clean",
+    "prompt_sha256": "843b8827178526132778a3fd22363ad763584431bedd76bb0afbbd1672ffeb0c",
+    "finished_at": "2026-09-27T15:19:16.800593Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.003345800003444,
+      "peak_allocated_bytes": 3135856128,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000028:numeric",
+    "prompt_sha256": "43d33e7546aca25bfe0ad2bd162377f005799c3a0e19f5fcf410c24cc519f38c",
+    "finished_at": "2026-09-27T15:19:26.856338Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.052117399995041,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000028:similar",
+    "prompt_sha256": "96d240778604d145ca4682edadac06782c751e648d077716118a61a7feadbc83",
+    "finished_at": "2026-09-27T15:19:31.729994Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.869911900001171,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000028:unrelated",
+    "prompt_sha256": "96a32cfef61b97f4c00f69a27e83c381c8aa3c4c255b5e8087bb1f781065a362",
+    "finished_at": "2026-09-27T15:19:21.801245Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.996614199997566,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000038:clean",
+    "prompt_sha256": "fb09eeb85b3a3ffa5e7a21ae2e5ebd238d44907d52139a9798b7126f91560a1b",
+    "finished_at": "2026-09-27T15:19:36.480223Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 140,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.746968599996762,
+      "peak_allocated_bytes": 3135753216,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000038:numeric",
+    "prompt_sha256": "9f49d269171083b7a96c6efd315c5efdd592a9729ef87820d51af38c8c09c144",
+    "finished_at": "2026-09-27T15:19:46.175242Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 155,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.976696999998239,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000038:similar",
+    "prompt_sha256": "af62f34a619c68d623c38e10296e3aa994398148af443b12479693f947876dcf",
+    "finished_at": "2026-09-27T15:19:50.895301Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.716924899999867,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000038:unrelated",
+    "prompt_sha256": "68b2d3ef0ef9acd0f18e8e69277ff8acac6741338c1c472740e63210b5c5a4c4",
+    "finished_at": "2026-09-27T15:19:41.194480Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 153,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.7103805000006105,
+      "peak_allocated_bytes": 3137091072,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000048:clean",
+    "prompt_sha256": "ac48e76e56ee3db0679294c797b94317d32ca446cb25b39faf31cff8c5cc1b89",
+    "finished_at": "2026-09-27T15:19:55.480938Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 140,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.5811043000067,
+      "peak_allocated_bytes": 3135753216,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000048:numeric",
+    "prompt_sha256": "d6313da48d35e3c608aeddff1db73043f3179b2965c795034eef360e6d40d60f",
+    "finished_at": "2026-09-27T15:20:04.907510Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.936060600004566,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000048:similar",
+    "prompt_sha256": "dfb528afcfb1391abfdc23166f7c814dd77c8d52527afac2469cd15da63e8a20",
+    "finished_at": "2026-09-27T15:20:09.939304Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 157,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.027765899998485,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000048:unrelated",
+    "prompt_sha256": "f1687a5d7364b95fbfe1dd45828db42cf227c8c702fdf2f3b9dda69dc630c901",
+    "finished_at": "2026-09-27T15:19:59.967728Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 153,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.484272599998803,
+      "peak_allocated_bytes": 3137091072,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000058:clean",
+    "prompt_sha256": "abc7019f4cdbd5a8813d7f47782f6a88f8de10d0f9631d0317f846c153bd8598",
+    "finished_at": "2026-09-27T15:20:14.463769Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.521252799997455,
+      "peak_allocated_bytes": 3135856128,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000058:numeric",
+    "prompt_sha256": "d219ab390c68b38c93ccb297e5531742cbb6babe0f19bd99adf110bc4360a10a",
+    "finished_at": "2026-09-27T15:20:23.530647Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 155,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.5704304999962915,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000058:similar",
+    "prompt_sha256": "63c8d96f0ae72e79a937529f00520ce9008caa84a7752bb304fd233fc3cf5875",
+    "finished_at": "2026-09-27T15:20:28.236150Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 157,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.702256299999135,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000058:unrelated",
+    "prompt_sha256": "c67c1d5241d30dc3fec9a25840d8e70aa56848c7d216aeb14459587f306e5a1f",
+    "finished_at": "2026-09-27T15:20:18.956232Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.488260999998602,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000068:clean",
+    "prompt_sha256": "65987ef06bd2c4ad430aa9fdbc3155746146a484fdc0f78d39731cb41f77c2e3",
+    "finished_at": "2026-09-27T15:20:32.801774Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.562677399997483,
+      "peak_allocated_bytes": 3135856128,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000068:numeric",
+    "prompt_sha256": "772f96fbab92d9e55a723f0b7a9ef60a59f043af0ce61b3c09922b7c63522584",
+    "finished_at": "2026-09-27T15:20:42.166934Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.710284300002968,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000068:similar",
+    "prompt_sha256": "a6ed05ba34c77f93be864a49e578e296b3df6aca7f583d236cd7715315470a1c",
+    "finished_at": "2026-09-27T15:20:46.829307Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.658299900002021,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000068:unrelated",
+    "prompt_sha256": "3a79d661d1aa4cc69bd0b1fcb3cde95d7725e70e96270cbb39a8ee85c353ff19",
+    "finished_at": "2026-09-27T15:20:37.453788Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.648423700004059,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000078:clean",
+    "prompt_sha256": "7d3a0b38cbd256bf0e05538dd243908eeb2fce391535af61fa65317556dd5f73",
+    "finished_at": "2026-09-27T15:20:51.388038Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.555224800002179,
+      "peak_allocated_bytes": 3135856128,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000078:numeric",
+    "prompt_sha256": "4c10dd9101c4d7112acc1e10e65206d818cba726422a5f2b4b47f106650e9657",
+    "finished_at": "2026-09-27T15:21:01.695064Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.163506500000949,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000078:similar",
+    "prompt_sha256": "394b649a3a042402972f787e20734df00ea8919063eaa2c5696464266ed4c0dc",
+    "finished_at": "2026-09-27T15:21:06.851042Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.152024300004996,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000078:unrelated",
+    "prompt_sha256": "c8319c779c1fa2d2a72c6969bf5be6352312bc59c4c5f9e747a6e0e9591be5f4",
+    "finished_at": "2026-09-27T15:20:56.527225Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.1364760999931605,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000088:clean",
+    "prompt_sha256": "3d9a42baa8bf6043e0dc62462312b9104d2372eb33320500933dd3e54e3be97a",
+    "finished_at": "2026-09-27T15:21:12.041088Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.186524500000814,
+      "peak_allocated_bytes": 3135856128,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000088:numeric",
+    "prompt_sha256": "c05defe9d6b89ea43226f4ab9f1c7ed37f68ef0dd34b443d1786bf8b4c48e500",
+    "finished_at": "2026-09-27T15:21:22.315458Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.161647000000812,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000088:similar",
+    "prompt_sha256": "e6362b83b4dff111837f300659a5e88175d8fe6f3fcfbf8eb8613ea2a64ac116",
+    "finished_at": "2026-09-27T15:21:26.667051Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.348500600004627,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000088:unrelated",
+    "prompt_sha256": "35f999219f83483db71ab3a181b77a771d4407c64650190da2d343baa777a7df",
+    "finished_at": "2026-09-27T15:21:17.150682Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.10653010000533,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000098:clean",
+    "prompt_sha256": "c511f5d77160ae294c84c94aab5f0c66a8885dfc3b64a9e68f3608ea4a6666ac",
+    "finished_at": "2026-09-27T15:21:31.129633Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.4589333000039915,
+      "peak_allocated_bytes": 3135856128,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000098:numeric",
+    "prompt_sha256": "d36471067aa133b25cefaeeab40499ddd4ce0c5c5f2ac90a9a90326833c1bd34",
+    "finished_at": "2026-09-27T15:21:40.918483Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.900075099998503,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000098:similar",
+    "prompt_sha256": "a77592e6f763fdb85b87f711b471ad3bc0eb545179d07963c7908e2f525c0fe2",
+    "finished_at": "2026-09-27T15:21:45.952833Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.030235400001402,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "arithmetic-000098:unrelated",
+    "prompt_sha256": "da31aba172381fb2f3ac277c93574c995feb1a0e1874695e4199d38b0bea0da1",
+    "finished_at": "2026-09-27T15:21:36.014900Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.8821322999938275,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000008:clean",
+    "prompt_sha256": "9faa87b0eaeb98ef0a2847457d853989aa41bc60ebbd9abcf3e1351305312082",
+    "finished_at": "2026-09-27T15:21:50.706488Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 143,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.750219499997911,
+      "peak_allocated_bytes": 3136061440,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000008:numeric",
+    "prompt_sha256": "fd62e6142d0cb85b3cf30032262bb765055e2d3bfc08287461ff09f185ccfa86",
+    "finished_at": "2026-09-27T15:22:00.588256Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.924238699997659,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000008:similar",
+    "prompt_sha256": "cd5abcbf10c28fe9302ece50c94462025c72a5b1d76e7cb55264b57b84546251",
+    "finished_at": "2026-09-27T15:22:07.511550Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 168,
+      "output_tokens": 128,
+      "elapsed_seconds": 6.919238200003747,
+      "peak_allocated_bytes": 3138643968,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000008:unrelated",
+    "prompt_sha256": "ff8fe7d47f2b4a6972450f320ce17a20fdb4148682764ec39bd833076a96a353",
+    "finished_at": "2026-09-27T15:21:55.659920Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.950379499998235,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000018:clean",
+    "prompt_sha256": "1dce28291e30b2edd857f58c5921a1db4152a8826c983d3c5f5ca6b3491e02f7",
+    "finished_at": "2026-09-27T15:22:23.677977Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 143,
+      "output_tokens": 128,
+      "elapsed_seconds": 16.15607309999905,
+      "peak_allocated_bytes": 3136061440,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000018:numeric",
+    "prompt_sha256": "a3efefb8e5cf82bb7519fbc07ebe68a14d4119cf372a6519a21123a98f3dbb1e",
+    "finished_at": "2026-09-27T15:22:39.338030Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.384881800004223,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000018:similar",
+    "prompt_sha256": "0abd55d5a27d10802dc14dac09fb9385e2dd001ed126d4003a7fe439d939c6b5",
+    "finished_at": "2026-09-27T15:22:43.818909Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 168,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.477406800004246,
+      "peak_allocated_bytes": 3138643968,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000018:unrelated",
+    "prompt_sha256": "1de39992986626d39841eb356f2852c8581f17bc61da75fe1904efbbfd8ca370",
+    "finished_at": "2026-09-27T15:22:34.950318Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 156,
+      "output_tokens": 128,
+      "elapsed_seconds": 11.264867199999571,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000028:clean",
+    "prompt_sha256": "0ea067d1be7415051869d29d4a7ed5a23aafc6e05c73351fd7ac56f768489563",
+    "finished_at": "2026-09-27T15:22:48.141510Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 145,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.319803300000785,
+      "peak_allocated_bytes": 3136267264,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000028:numeric",
+    "prompt_sha256": "a38f7670fa74338038cec50b1a5c48e6b916655627cff389427cb69c045edf7e",
+    "finished_at": "2026-09-27T15:22:57.379980Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 160,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.629738499999803,
+      "peak_allocated_bytes": 3137813504,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000028:similar",
+    "prompt_sha256": "baf3bf9a0e8fac819a1d55d5204120efb0964557bc29bf9b77760476b1ad2899",
+    "finished_at": "2026-09-27T15:23:02.245806Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.863062699994771,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000028:unrelated",
+    "prompt_sha256": "232ea3fdc29aa6030149ecd9b0c5cde3dd5bbb09c2573f778b5ae622a42b29d8",
+    "finished_at": "2026-09-27T15:22:52.746546Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.601830299994617,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000038:clean",
+    "prompt_sha256": "437d9bb79860d7b18f2a2aaa1ddebe68856871448b169694b9189abc19b280c0",
+    "finished_at": "2026-09-27T15:23:06.908615Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 145,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.659774100000504,
+      "peak_allocated_bytes": 3136267264,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000038:numeric",
+    "prompt_sha256": "42f5312d27a6d907955faec5969ca315e7aaa5c298b02320f4a8b950ac449fa1",
+    "finished_at": "2026-09-27T15:23:16.332777Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 160,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.762350699995295,
+      "peak_allocated_bytes": 3137813504,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000038:similar",
+    "prompt_sha256": "c14684e75226b612efe6a2d8241832953a594d93d5f2acd261c4370278cb44de",
+    "finished_at": "2026-09-27T15:23:21.026378Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.6902602999980445,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000038:unrelated",
+    "prompt_sha256": "823c86d2c2a58866fe2f64ad1d81231cb09d4c8bc64e90ffeef9c656871c9695",
+    "finished_at": "2026-09-27T15:23:11.566036Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.654297000000952,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000048:clean",
+    "prompt_sha256": "a9d23c3c594a853b9685b85c005c892387402fa20cb468dd1a07592d0e907370",
+    "finished_at": "2026-09-27T15:23:25.541919Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 145,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.512569300000905,
+      "peak_allocated_bytes": 3136267264,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000048:numeric",
+    "prompt_sha256": "cfd3bf0a687c900863ff3c7ff518bf98505f8d88274d485867802afe01a2eca6",
+    "finished_at": "2026-09-27T15:23:34.922047Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 160,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.688151999995171,
+      "peak_allocated_bytes": 3137813504,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000048:similar",
+    "prompt_sha256": "06e988c32ef7bb5e34c753589432c2ba3fd1f71ad5d1aaab7204dd02921af9c8",
+    "finished_at": "2026-09-27T15:23:39.527730Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.598878400000103,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000048:unrelated",
+    "prompt_sha256": "654e85569d6814f6c127aef17d6006a6b9b13f5ff6afb12c33c35c4644fe045f",
+    "finished_at": "2026-09-27T15:23:30.230675Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.685226100002183,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000058:clean",
+    "prompt_sha256": "9f5f8414e6f75a0b6932307984069f16df2cf3215512d4f52f6b06974010235b",
+    "finished_at": "2026-09-27T15:23:44.130179Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 145,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.596147399999609,
+      "peak_allocated_bytes": 3136267264,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000058:numeric",
+    "prompt_sha256": "cca5a3117dc02a57f569f29a8858de6427b2568099d11d8d7008d4f667ec3e27",
+    "finished_at": "2026-09-27T15:23:53.328593Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 160,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.518969800003106,
+      "peak_allocated_bytes": 3137813504,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000058:similar",
+    "prompt_sha256": "57c1a220786d8b86c46e85cab9311e084dad09b46dc47013b0ada19070514115",
+    "finished_at": "2026-09-27T15:23:57.664550Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.3319116000056965,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000058:unrelated",
+    "prompt_sha256": "d5df9a2849a4ba68ccbc651b12b724cdf2b3cc2110795c027adb771b2d99bdce",
+    "finished_at": "2026-09-27T15:23:48.804254Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.669410700000299,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000068:clean",
+    "prompt_sha256": "f8bb9f71c803049fbdb82f887fcb6f48620b62284db35551ca807a33734cf2a3",
+    "finished_at": "2026-09-27T15:24:02.005422Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 144,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.3381494999994175,
+      "peak_allocated_bytes": 3136163328,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000068:numeric",
+    "prompt_sha256": "838ad9e4d0b3d1b7b68f4d5b127367eef553a9d3290bd88e38839ee476673a9e",
+    "finished_at": "2026-09-27T15:24:10.669949Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.336309999998775,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000068:similar",
+    "prompt_sha256": "c71fde3405b6ed5f97397ebf6e7bdfb71d55e8f6a3c57666d5f219ec31152ea1",
+    "finished_at": "2026-09-27T15:24:14.982705Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 168,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.309138900003745,
+      "peak_allocated_bytes": 3138643968,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000068:unrelated",
+    "prompt_sha256": "3a92f4866716a6dffb0a815e274b52be7d3929d45c86e5956297e12a6598dbc9",
+    "finished_at": "2026-09-27T15:24:06.330970Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 157,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.321303500000795,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000078:clean",
+    "prompt_sha256": "b4a0afa0b9ec23133549e69d1178bd6fbacca5b784b9225668c044319167e396",
+    "finished_at": "2026-09-27T15:24:19.275605Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 145,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.289535000003525,
+      "peak_allocated_bytes": 3136267264,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000078:numeric",
+    "prompt_sha256": "f97cfec41d9889c0885dba0f8c8a3396a8a0e1599f7718b126610a24eb66129d",
+    "finished_at": "2026-09-27T15:24:28.288155Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 160,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.57816350000212,
+      "peak_allocated_bytes": 3137813504,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000078:similar",
+    "prompt_sha256": "636e8c8136a377321edc6b2a7db00197384b524aefa10d2713c5e9450049cf6e",
+    "finished_at": "2026-09-27T15:24:32.769507Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.478550799998629,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000078:unrelated",
+    "prompt_sha256": "8b7868bd5377055826104e1ceea37f75fe70fd70658f2cf61a3165590b6e06dd",
+    "finished_at": "2026-09-27T15:24:23.706199Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.427929199999198,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000088:clean",
+    "prompt_sha256": "d1ec580e4d726146b811c01a55cba4eb32577533891e2ad926bd7763ce0a9d00",
+    "finished_at": "2026-09-27T15:24:37.253054Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 145,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.479673100002401,
+      "peak_allocated_bytes": 3136267264,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000088:numeric",
+    "prompt_sha256": "065f24625536ef7edbd699183525ede2ceb2f6e71cda6e7027b310dd1d4b6586",
+    "finished_at": "2026-09-27T15:24:46.232325Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.419975500000874,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000088:similar",
+    "prompt_sha256": "a095048bbfd228450d4e5395cd98cb8c9745054fc407d68c1c744c268ffd0f17",
+    "finished_at": "2026-09-27T15:24:50.588539Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.352719599999546,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000088:unrelated",
+    "prompt_sha256": "7ea027933d6b837e80775a84e11b0d26a55b61db6f3d705dfd0b13ec25c4b5e9",
+    "finished_at": "2026-09-27T15:24:41.809290Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.553466999997909,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000098:clean",
+    "prompt_sha256": "bfb09b99a02a2467704c6fb71ae99c9d347420fead5ed5ae11a3b9113728c01e",
+    "finished_at": "2026-09-27T15:24:55.536833Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 144,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.945880100000068,
+      "peak_allocated_bytes": 3136163328,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000098:numeric",
+    "prompt_sha256": "195ca576230c828c34543e1ad36d6af90a9412c2368d446aeb6ab1bafa523443",
+    "finished_at": "2026-09-27T15:25:05.442126Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.660552900000766,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000098:similar",
+    "prompt_sha256": "3a47a02e994aba9277cd9cfc6fe75ead9411073684735c2eac47091185631f85",
+    "finished_at": "2026-09-27T15:25:10.286157Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 168,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.840310699997644,
+      "peak_allocated_bytes": 3138643968,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "deduction-000098:unrelated",
+    "prompt_sha256": "fff0bf3eab95b7f73c0823fce69653e7c39b6ee508dc2a21bd190ba78018988e",
+    "finished_at": "2026-09-27T15:25:00.777617Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 157,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.237493700005871,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000008:clean",
+    "prompt_sha256": "9bbf9754fa17569dbbb2fe4a9c81a10b63fd63df18e261ff1bdc8dd904cf9867",
+    "finished_at": "2026-09-27T15:25:15.173944Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 157,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.883691499999259,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000008:numeric",
+    "prompt_sha256": "7bd02be256d914bcc0093daf93fde1f059f3f468cc546aca5c0e29f3a6c021d5",
+    "finished_at": "2026-09-27T15:25:24.535041Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 171,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.53869080000004,
+      "peak_allocated_bytes": 3138956800,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000008:similar",
+    "prompt_sha256": "5ca2b0248c2ea4c13d851d7fc84ae9ac3bd374fd708445eae8cae632e704026b",
+    "finished_at": "2026-09-27T15:25:28.889815Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 176,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.3518003999997745,
+      "peak_allocated_bytes": 3139476992,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000008:unrelated",
+    "prompt_sha256": "c49547d7ac6e9d46577f49d01bffa266e76376a811569bef661b40078b8cb3b0",
+    "finished_at": "2026-09-27T15:25:19.993242Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.8160368999961065,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000018:clean",
+    "prompt_sha256": "a9ca533189555fb136f05733532da1d55a2d79947c5a3961984e3d4c60620080",
+    "finished_at": "2026-09-27T15:25:33.243307Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.349722799997835,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000018:numeric",
+    "prompt_sha256": "470a03992c4f540fbb6c6fae4e8b2a4abc69339c23d1ca2301e5fc95135da3d9",
+    "finished_at": "2026-09-27T15:25:42.034410Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.346716499996546,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000018:similar",
+    "prompt_sha256": "0751c34c929331ddd6202ac27ba7577f734b35ca697ed219c974a056b22d6e31",
+    "finished_at": "2026-09-27T15:25:46.410424Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.3731198999958,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000018:unrelated",
+    "prompt_sha256": "414524a99c2cc43a8cee6e5d82676874d1bf637b7fedfef0eca17ce1895750b0",
+    "finished_at": "2026-09-27T15:25:37.684219Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.4376407000017934,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000028:clean",
+    "prompt_sha256": "ed38574512443ecfa74f7a13790864d985fc0102e3a8f475f2123e83eca228b1",
+    "finished_at": "2026-09-27T15:25:50.987740Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.574243200004275,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000028:numeric",
+    "prompt_sha256": "79c77aebdb078c61ed1aa920ad1dfe267c36c92f3387f57426c541acfc6f67b1",
+    "finished_at": "2026-09-27T15:26:00.305150Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.641191000002436,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000028:similar",
+    "prompt_sha256": "b790c5cbb51c98aff95d2ac455525bfad39eb49d1485f4f635725f3fe7596846",
+    "finished_at": "2026-09-27T15:26:04.834818Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.5258313000013,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000028:unrelated",
+    "prompt_sha256": "5b62fcb383b4de64ca4baa403902853040f4c4d243af2f42b3259f0281ee17b2",
+    "finished_at": "2026-09-27T15:25:55.661528Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.670237899998028,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000038:clean",
+    "prompt_sha256": "e282e9e3daf0b0d6a59beedc74a554ff57e75a619544d27ed0372fc1dc70a860",
+    "finished_at": "2026-09-27T15:26:09.607593Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 157,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.770066600001883,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000038:numeric",
+    "prompt_sha256": "d57ff7ede07fa31fae8a02e99516ed83fd86ace4402bd90ef948c8ee10835df0",
+    "finished_at": "2026-09-27T15:26:18.860219Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.464877499995055,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000038:similar",
+    "prompt_sha256": "81921f2ffcea5d1dbf42c49a0b24434799e5d4bbf74bf1d27b41fdf3b6c10cbc",
+    "finished_at": "2026-09-27T15:26:23.496663Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 176,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.632077900001605,
+      "peak_allocated_bytes": 3139476992,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000038:unrelated",
+    "prompt_sha256": "6e6b320709ca3c2b0da374001b672643f33f0acfb92b40fdaf167a80e23d21a1",
+    "finished_at": "2026-09-27T15:26:14.393058Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 170,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.7819616999986465,
+      "peak_allocated_bytes": 3138851840,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000048:clean",
+    "prompt_sha256": "45b0abb6fe11f7337eb4b06cc8aa5406963e374a8b651e2e9730be66c883a864",
+    "finished_at": "2026-09-27T15:26:27.869975Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.370203799997398,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000048:numeric",
+    "prompt_sha256": "8cca7fb0c4cfbdc0a99b152e840fc6281ccf7f14e865e84f25c1eb820d8e35c6",
+    "finished_at": "2026-09-27T15:26:36.744121Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.474348399999144,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000048:similar",
+    "prompt_sha256": "6066180b3f70e421131ec79abfd809538c6fcf283a12a87a93dbf4dace385539",
+    "finished_at": "2026-09-27T15:26:41.518649Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.771622300002491,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000048:unrelated",
+    "prompt_sha256": "6cce106743e07de83c7ec3b6907064b474939c3515affcd98f8b437ece6a86d3",
+    "finished_at": "2026-09-27T15:26:32.266668Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.393254500006151,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000058:clean",
+    "prompt_sha256": "53eae30d1de4a1a49934d7470c6257521bf465d78531139ef3e08634390dd1bf",
+    "finished_at": "2026-09-27T15:26:46.328100Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 158,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.8060352000029525,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000058:numeric",
+    "prompt_sha256": "292a19699f93a94bf5bbcbcece0a90d2c0e01d6c39c1f5763edd2d41d9de2f72",
+    "finished_at": "2026-09-27T15:26:55.766608Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 173,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.69062319999648,
+      "peak_allocated_bytes": 3139164672,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000058:similar",
+    "prompt_sha256": "fcbf1cb0be074aa541b81348961652337894db67576ff2a95e968fbc12be8bd3",
+    "finished_at": "2026-09-27T15:27:00.437564Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 177,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.667922399996314,
+      "peak_allocated_bytes": 3139582464,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000058:unrelated",
+    "prompt_sha256": "54b24cffeb078fe31275faf2b69c53bab4159f9b78b6b71dde3aea82ebae1d38",
+    "finished_at": "2026-09-27T15:26:51.073049Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 171,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.741421700004139,
+      "peak_allocated_bytes": 3138956800,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000068:clean",
+    "prompt_sha256": "b2cb3ddbb784a31f2abbb575ae0a807c8cc989ff81dde58284be4d7c85dbf64f",
+    "finished_at": "2026-09-27T15:27:05.143621Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.703655600002094,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000068:numeric",
+    "prompt_sha256": "528ec67c237ea581bd1e5f3fce80d168c113f2ec94f3dfce8aa3ce8be42659d3",
+    "finished_at": "2026-09-27T15:27:14.456673Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.6294593999991775,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000068:similar",
+    "prompt_sha256": "9a853dd8e6c13507f053137e1fb57864fa5cd3f595dd8ed07f6f748f62a3340c",
+    "finished_at": "2026-09-27T15:27:19.273435Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.814056499999424,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000068:unrelated",
+    "prompt_sha256": "5e25e912bdd54bae7031cc12daad017ae3d2489ff696acb82fc44ac6aecc6753",
+    "finished_at": "2026-09-27T15:27:09.824324Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.677340700000059,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000078:clean",
+    "prompt_sha256": "d6cf931389be6055174ac72f416efe03aa93c0954ed159770a31d5e6a8c3bb9f",
+    "finished_at": "2026-09-27T15:27:23.978514Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.702063400000043,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000078:numeric",
+    "prompt_sha256": "ede6da96cbf0defadd51fc31b744429a5ff35ea03247a0293d2cd7379e4aed72",
+    "finished_at": "2026-09-27T15:27:33.426762Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.858220699999947,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000078:similar",
+    "prompt_sha256": "0610094a59783f52af62f896fafc734d53a079114b16112f4641b78a5b6cca48",
+    "finished_at": "2026-09-27T15:27:38.074820Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.6439778999992996,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000078:unrelated",
+    "prompt_sha256": "3200f8ccdb8ea59db7e1a7c2e4f4ea8d9df359b8986e51f59ffed2414a1cfd0d",
+    "finished_at": "2026-09-27T15:27:28.565034Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.5812561999991885,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000088:clean",
+    "prompt_sha256": "10cfdefc1af6d9f7013f648d9c38bb5f7beb7e17017ad080cf9edc3e6e11d8e3",
+    "finished_at": "2026-09-27T15:27:43.422221Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 5.344357000001764,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000088:numeric",
+    "prompt_sha256": "78cba428e97a50c2beb125559e04e277f56a8a8598bd110b8f3942210dc2825e",
+    "finished_at": "2026-09-27T15:27:52.839654Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.6526331000059145,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000088:similar",
+    "prompt_sha256": "f6700de5b713a0141ce1821a0ef677b4a0026d0dd896cfd772d1a9629bc91666",
+    "finished_at": "2026-09-27T15:27:57.341197Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.497964900001534,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000088:unrelated",
+    "prompt_sha256": "bc36f6a22264d9f87fdee7263294c5742f3b2afed53a00cd4f5c33e56a9cd101",
+    "finished_at": "2026-09-27T15:27:48.183947Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.758546600001864,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000098:clean",
+    "prompt_sha256": "22f5b6634a6c0186736b8a2c339de9823ae9806dc9c05064bf376c1ac5933f3a",
+    "finished_at": "2026-09-27T15:28:01.859013Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 159,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.513964599995234,
+      "peak_allocated_bytes": 3137711104,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000098:numeric",
+    "prompt_sha256": "6e25a946645449d67157ab52e68b5673b9d17c12901556a25b3c088510233acd",
+    "finished_at": "2026-09-27T15:28:10.595942Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 174,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.344390900005237,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000098:similar",
+    "prompt_sha256": "20b01ecef0ffcd82ece8250bd425e79ea89979b421235c0e769368fb7ce44e06",
+    "finished_at": "2026-09-27T15:28:15.015541Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 178,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.416549499997927,
+      "peak_allocated_bytes": 3139686400,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "tracking-000098:unrelated",
+    "prompt_sha256": "c6342c828b011010207a3d1159eb94313cb8a4cfb9b3bb17f352787bd68a080d",
+    "finished_at": "2026-09-27T15:28:06.247581Z",
+    "generation": {
+      "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "input_tokens": 172,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.385222500000964,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "token_limit"
+    }
+  }
+]
