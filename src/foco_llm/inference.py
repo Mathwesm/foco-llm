@@ -23,6 +23,9 @@ def main() -> None:
     parser.add_argument("--model-id", default="Qwen/Qwen2.5-0.5B-Instruct")
     parser.add_argument("--split", choices=[s.value for s in Split], default="validation")
     parser.add_argument("--device", choices=["cuda", "cpu"], default="cuda")
+    parser.add_argument(
+        "--precision", choices=["float16", "bfloat16", "float32"], default="float16"
+    )
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max-new-tokens", type=int, default=128)
     parser.add_argument("--max-seconds", type=float, default=60)
@@ -37,6 +40,7 @@ def main() -> None:
         model_id=args.model_id,
         split=args.split,
         device=args.device,
+        precision=args.precision,
         seed=args.seed,
         max_new_tokens=args.max_new_tokens,
         max_seconds=args.max_seconds,

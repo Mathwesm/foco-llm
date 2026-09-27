@@ -19,6 +19,7 @@ class InferenceConfig(Record):
     max_input_tokens: int = Field(default=1024, ge=1, le=4096)
     max_seconds: float = Field(default=60, gt=0, le=600)
     device: Literal["cuda", "cpu"] = "cuda"
+    precision: Literal["float16", "bfloat16", "float32"] = "float16"
 
 
 class Generation(Record):

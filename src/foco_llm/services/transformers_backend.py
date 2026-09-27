@@ -5,9 +5,27 @@ from __future__ import annotations
 import importlib
 import os
 from time import perf_counter
+from typing import Any
 
 from foco_llm.models.experiment import Prompt
 from foco_llm.models.inference import Generation, InferenceConfig
+
+
+class NumericalInferenceError(RuntimeError):
+    """Generation cannot choose a token from invalid numerical scores."""
+
+
+def check_logits(_input_ids: object, scores: Any) -> Any:
+    """Reject NaN, positive infinity, or rows with no finite candidate token.
+
+    The optional tensor-library boundary uses Any to avoid requiring PyTorch in
+    the lightweight CI environment. Negative infinity is a valid token mask.
+    """
+    if scores.isnan().any() or scores.isposinf().any() or not scores.isfinite().any(dim=-1).all():
+        raise NumericalInferenceError(
+            "Invalid logits detected; aborting instead of emitting tokens"
+        )
+    return scores
 
 
 class TransformersBackend:
@@ -34,7 +52,9 @@ class TransformersBackend:
             revision=config.revision,
             trust_remote_code=False,
             use_safetensors=True,
-            dtype=self.torch.float16 if config.device == "cuda" else self.torch.float32,
+            dtype=getattr(self.torch, config.precision)
+            if config.device == "cuda"
+            else self.torch.float32,
             attn_implementation="eager",
         ).to(config.device)
         self.model.eval()
@@ -69,6 +89,7 @@ class TransformersBackend:
         with self.torch.inference_mode():
             outputs = self.model.generate(
                 **inputs,
+                logits_processor=[check_logits],
                 generation_config=self.transformers.GenerationConfig(
                     do_sample=False,
                     max_new_tokens=self.config.max_new_tokens,
