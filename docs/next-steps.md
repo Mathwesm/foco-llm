@@ -1,5 +1,7 @@
 # Próximas etapas e critérios de conclusão
 
+**Prioridade atual — 2026-09-28:** o baseline v2.1 terminou com 6/120 acertos e nenhuma tarefa atingiu 8/10 na condição limpa. Antes de treinamento de eficácia, definir diagnóstico que separe profundidade, ordem e contrato de resposta. Não modificar o protocolo retrospectivamente nem selecionar apenas exemplos acertados. [Resultado e limitações](baseline-v21-2026-09-28.md). Os registros abaixo preservam a sequência histórica.
+
 ## 1. Baseline local — concluído em 2026-09-27
 
 [Resultado registrado](baseline-2026-09-27.md): 120 respostas geradas, mas 0 aceitas pelo contrato estrito, pois todas vieram em blocos Markdown. O próximo passo é separar avaliação de formato e de conteúdo antes de qualquer treinamento. Este resultado fica preservado.

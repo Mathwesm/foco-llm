@@ -50,7 +50,11 @@ Os pesos-base permaneceram iguais; os adaptadores mudaram; perdas, gradientes e 
 
 Foram encontrados e corrigidos durante desenvolvimento um teste sensível a maiúsculas nos templates e a forma de importar um script em testes com layout src/. Não houve erro de treinamento na GPU. A auditoria manual identificou a concordância “1 marbles”, registrada como limitação da versão candidata. Nenhum teste final foi usado para inferência ou treinamento.
 
-## Como registrar cada treinamento futuro
+## 2026-09-28 — auditoria v2.1 e baseline sem ajuste
+
+Corrigidos os controles de ordem relativa, quantidade de frases e concordância, preservando a versão anterior. A execução `145ba1dd1550430d`, código `cd2b7be`, avaliou os 120 exemplos de validação v2.1 com o modelo original 1,5B em BF16. Resultado: 6/120 respostas corretas, 9/120 conjuntos de evidências exatos, zero contratos estritos de JSON puro; 112 saídas aceitas pelo avaliador de conteúdo. Todas terminaram por EOS. Nenhuma tarefa atingiu o limiar de competência limpa. Não iniciado treinamento de eficácia; próximo passo recomendado é diagnosticar dificuldade e formato sem abrir o teste final. [Relatório, gráficos e reprodução](baseline-v21-2026-09-28.md).
+
+## Campos dos próximos treinamentos
 
 Cada execução deverá registrar:
 

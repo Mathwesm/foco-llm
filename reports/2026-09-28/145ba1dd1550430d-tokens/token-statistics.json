@@ -1,0 +1,123 @@
+{
+  "inputs": [
+    {
+      "file": "validation.json",
+      "source_sha256": "e0d31717afa5c30ef9e2a8754b291615abe84b6e61e3578d4011d5500c338557"
+    },
+    {
+      "file": "raw-responses.json",
+      "source_sha256": "f91a294f560c4c34fc9ae259a8f81c313589eb21b5721cc6804815ac702b4668"
+    }
+  ],
+  "groups": [
+    {
+      "task": "arithmetic",
+      "condition": "clean",
+      "examples": 10,
+      "input_min": 170,
+      "input_mean": 171.3,
+      "input_max": 172,
+      "output_mean": 37.9
+    },
+    {
+      "task": "arithmetic",
+      "condition": "unrelated",
+      "examples": 10,
+      "input_min": 227,
+      "input_mean": 228.3,
+      "input_max": 229,
+      "output_mean": 31.0
+    },
+    {
+      "task": "arithmetic",
+      "condition": "numeric",
+      "examples": 10,
+      "input_min": 235,
+      "input_mean": 236.1,
+      "input_max": 237,
+      "output_mean": 31.3
+    },
+    {
+      "task": "arithmetic",
+      "condition": "similar",
+      "examples": 10,
+      "input_min": 256,
+      "input_mean": 257.4,
+      "input_max": 259,
+      "output_mean": 31.6
+    },
+    {
+      "task": "deduction",
+      "condition": "clean",
+      "examples": 10,
+      "input_min": 167,
+      "input_mean": 173.4,
+      "input_max": 175,
+      "output_mean": 35.5
+    },
+    {
+      "task": "deduction",
+      "condition": "unrelated",
+      "examples": 10,
+      "input_min": 224,
+      "input_mean": 230.4,
+      "input_max": 232,
+      "output_mean": 29.0
+    },
+    {
+      "task": "deduction",
+      "condition": "numeric",
+      "examples": 10,
+      "input_min": 231,
+      "input_mean": 238.0,
+      "input_max": 240,
+      "output_mean": 28.6
+    },
+    {
+      "task": "deduction",
+      "condition": "similar",
+      "examples": 10,
+      "input_min": 252,
+      "input_mean": 259.8,
+      "input_max": 262,
+      "output_mean": 28.0
+    },
+    {
+      "task": "tracking",
+      "condition": "clean",
+      "examples": 10,
+      "input_min": 206,
+      "input_mean": 207.2,
+      "input_max": 208,
+      "output_mean": 28.1
+    },
+    {
+      "task": "tracking",
+      "condition": "unrelated",
+      "examples": 10,
+      "input_min": 263,
+      "input_mean": 264.2,
+      "input_max": 265,
+      "output_mean": 24.2
+    },
+    {
+      "task": "tracking",
+      "condition": "numeric",
+      "examples": 10,
+      "input_min": 268,
+      "input_mean": 271.5,
+      "input_max": 273,
+      "output_mean": 25.0
+    },
+    {
+      "task": "tracking",
+      "condition": "similar",
+      "examples": 10,
+      "input_min": 320,
+      "input_mean": 323.3,
+      "input_max": 326,
+      "output_mean": 25.7
+    }
+  ],
+  "interpretation": "Sentence counts are controlled; token lengths still differ"
+}
