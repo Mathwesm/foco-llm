@@ -17,6 +17,8 @@ EXCLUDED_PATHS = (
 PROVENANCE_LINES = (
     r'^\s*"(?:(?:prompt|dataset|source)_sha256)": "[a-f0-9]{64}",?\s*$'
     r'|^\s*"(?:model_revision|revision)": "[a-f0-9]{40}",?\s*$'
+    # Audited public run IDs in the BF16 comparison; never exclude arbitrary IDs.
+    r'|^\s*"(?:d3382a884de2c421|6836fbda70e99de1)",?\s*$'
 )
 
 

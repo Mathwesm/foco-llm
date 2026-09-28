@@ -12,4 +12,4 @@ O teste real confirmou: FP16 acionou a proteção; BF16 não acionou e gerou o i
 poetry run python scripts/check_precision.py data/processed/2026-09-27/969659029e986d86/dataset.json data/diagnostics/precision/results.json
 ```
 
-Os testes sem GPU cobrem NaN parcial/total, infinito positivo, linhas totalmente mascaradas e preservação de scores válidos. O teste local com o backend real complementa esses testes. Ainda é necessário conferir a execução completa dos modelos em BF16; a comparação deverá usar a mesma precisão nos dois lados.
+Os testes sem GPU cobrem NaN parcial/total, infinito positivo, linhas totalmente mascaradas e preservação de scores válidos. O teste local com o backend real complementa esses testes. **Atualização:** as duas execuções completas em BF16 concluíram 120 exemplos cada, com a proteção ativa, sem falha numérica. [Comparação válida, métricas e limitações](model-comparison-2026-09-27.md). Isso confirma estabilidade somente nos prompts e na configuração avaliados.

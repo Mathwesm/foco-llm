@@ -11,6 +11,7 @@ from pydantic import TypeAdapter
 
 from foco_llm.core.content_evaluation import PROTOCOL_VERSION, ContentEvaluation, compare_protocols
 from foco_llm.core.evaluation import EvaluationReport
+from foco_llm.core.plots import plot_paired_accuracy
 from foco_llm.core.validation import validate_dataset
 from foco_llm.models.experiment import ModelRun, Problem, Split
 from foco_llm.models.inference import Checkpoint
@@ -81,6 +82,11 @@ def analyze(source: Path, output: Path) -> ContentEvaluation:
     chart = output / "content-metrics.png"
     if not chart.exists():
         build_chart(result).savefig(chart, dpi=180, bbox_inches="tight")
+    scatter = output / "answer-only-paired-accuracy.png"
+    if not scatter.exists():
+        figure, axis = plot_paired_accuracy(result.answer_only)
+        axis.set_title(f"Answer-only paired accuracy: {result.answer_only.model_id}")
+        figure.savefig(scatter, dpi=180, bbox_inches="tight")
     logger.info(
         "Diagnostic saved: strict={}, content={}, examples={}, path={}",
         result.strict_accepted,

@@ -36,3 +36,17 @@ def test_only_complete_provenance_fields_are_excluded(key, size, suffix, exclude
     settings = runpy.run_path(str(Path(__file__).parents[1] / "scripts" / "check_secrets.py"))
     line = f'  "{key}": "{"a" * size}"{suffix}'
     assert bool(re.search(settings["PROVENANCE_LINES"], line)) is excluded
+
+
+@pytest.mark.parametrize(
+    "value,suffix,excluded",
+    [
+        ("d3382a884de2c421", ",", True),  # pragma: allowlist secret -- public run ID
+        ("6836fbda70e99de1", "", True),  # pragma: allowlist secret -- public run ID
+        ("a" * 16, "", False),
+        ("d3382a884de2c421", ', "other": "value"', False),  # pragma: allowlist secret
+    ],
+)
+def test_only_audited_standalone_run_ids_are_excluded(value, suffix, excluded):
+    settings = runpy.run_path(str(Path(__file__).parents[1] / "scripts" / "check_secrets.py"))
+    assert bool(re.search(settings["PROVENANCE_LINES"], f'  "{value}"{suffix}')) is excluded

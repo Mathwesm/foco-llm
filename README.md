@@ -4,9 +4,9 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
-**Estado atual:** primeiro baseline local concluído em 120 exemplos de validação. As 120 respostas foram rejeitadas pelo contrato de JSON puro por usarem blocos Markdown; a pontuação estrita zero não mede isoladamente raciocínio. [Resultados e limitações](docs/baseline-2026-09-27.md). Ainda não houve treinamento neste projeto. O artigo será escrito a partir dos experimentos concluídos.
+**Estado atual:** comparação local em BF16 concluída nos mesmos 120 exemplos de validação: Qwen2.5-0.5B-Instruct acertou 38/120 respostas e Qwen2.5-1.5B-Instruct, 74/120. O modelo maior melhorou principalmente em acompanhamento de objetos; ambos tiveram dificuldade em aritmética. [Resultados, gráficos e limitações](docs/model-comparison-2026-09-27.md). Ainda não houve treinamento neste projeto. O artigo será escrito a partir dos experimentos concluídos.
 
-**Diagnóstico adicional:** a avaliação versionada de conteúdo encontrou 37/120 respostas corretas quando o acerto é medido independentemente dos identificadores de evidência. É uma reanálise das mesmas respostas, não uma melhora do modelo. [Protocolo, comparação e gráfico](docs/content-evaluation-2026-09-27.md).
+**Histórico preservado:** o primeiro baseline de 0,5B em FP16 teve 37/120 respostas corretas na [análise de conteúdo](docs/content-evaluation-2026-09-27.md). A tentativa de 1,5B em FP16 apresentou [falha numérica](docs/numerical-failure-2026-09-27.md); por isso ambos foram repetidos em BF16 com proteção contra scores inválidos. Todas as saídas dos baselines válidos usaram blocos Markdown; pontuação estrita de JSON puro zero não significa zero acertos de conteúdo.
 
 ## O que já funciona
 
@@ -55,10 +55,10 @@ poetry run python -m foco_llm validate $datasetPath
 
 ## Executar o modelo localmente
 
-Instale a camada opcional de inferência com `poetry install --with inference`. A configuração validada usa Python 3.12, PyTorch com CUDA 12.8 e GPU NVIDIA. Para CPU, informe `--device cpu`; o tempo e a precisão numérica podem diferir da execução em FP16 na GPU.
+Instale a camada opcional de inferência com `poetry install --with inference`. A configuração validada usa Python 3.12, PyTorch com CUDA 12.8 e GPU NVIDIA. Informe explicitamente `--precision bfloat16` para reproduzir a comparação atual; o padrão histórico da CLI continua sendo FP16. Para CPU, informe `--device cpu`; o backend usa FP32 nesse dispositivo.
 
 ```powershell
-poetry run python -m foco_llm.inference $datasetPath --revision 7ae557604adf67be50417f59c2c2f167def9a775 --output data/inference/2026-09-27
+poetry run python -m foco_llm.inference $datasetPath --revision 7ae557604adf67be50417f59c2c2f167def9a775 --precision bfloat16 --output data/inference/2026-09-27
 ```
 
 O padrão executa **validação**, sem abrir o teste final. O executor preserva cada resposta bruta e retoma checkpoints compatíveis ao repetir o mesmo comando. Mantenha o mesmo `--output` ao retomar em outro dia. A revisão do modelo, dados, código e ambiente ficam no manifesto. Não execute duas instâncias no mesmo destino.
@@ -122,3 +122,5 @@ Ainda faltam ajuste, checkpoints de treinamento, alertas de execuções longas, 
 - [Plano e referências](docs/research-plan.md)
 - [Diário e registro de treinamentos](docs/experiment-log.md)
 - [Próximas etapas e critérios de conclusão](docs/next-steps.md)
+- [Protocolo da comparação entre modelos](docs/model-comparison-protocol.md)
+- [Controles de treinamento, repetições e nuvem](docs/training-and-cloud-plan.md)

@@ -32,6 +32,16 @@ Foram lidos 120 objetos; 102 tinham identificadores de evidência válidos e 18 
 
 A exportação intermediária v1 foi preservada; a v2 acrescenta a métrica de resposta independente. Foram acrescentados testes para cercas incompletas/múltiplas, texto externo, chaves duplicadas, schema incorreto, evidências inválidas, denominadores, integridade de checkpoints e preservação da leitura estrita. O gráfico foi inspecionado. [Protocolo, resultados e limitações](content-evaluation-2026-09-27.md).
 
+## 2026-09-27 — comparação de dois tamanhos em BF16
+
+A tentativa de 1,5B em FP16 (`f0d3988e46770dcb`) concluiu com saídas inválidas repetitivas. O diagnóstico encontrou NaN nos logits; os artefatos foram preservados como falha técnica. Foi adicionada proteção contra scores inválidos e opção explícita de precisão. Ambos os modelos foram então executados integralmente em BF16, com o mesmo código de inferência (`24bc5e0`) e os mesmos controles.
+
+Execuções `d3382a884de2c421` (0,5B) e `6836fbda70e99de1` (1,5B): 120 exemplos cada, todos encerrados por EOS, nenhuma falha numérica. Acerto independente da resposta: 38/120 e 74/120; seleção exata de evidências: 34/120 e 71/120. Todas as saídas usaram blocos Markdown e tiveram rejeição no contrato estrito original. Tempo de geração: 505,14 s e 460,05 s; tokens: 5.129 e 3.904.
+
+O modelo de 1,5B atingiu o limiar exploratório de competência limpa em dedução e acompanhamento; ambos ficaram em 1/10 em aritmética limpa. Em dedução com distratores semelhantes, seis acertos limpos viraram erros no modelo maior. Revisar o benchmark antes do treinamento; não interpretar tamanho como causa isolada nem selecionar configuração pelo teste final.
+
+Exportação, reavaliação de respostas brutas e controles da comparação foram verificados. Foram gerados gráficos por condição e dispersão de acurácia limpa/com distratores. [Relatório e reprodução](model-comparison-2026-09-27.md). Nenhum ajuste de pesos, serviço pago ou edição do artigo foi realizado.
+
 ## Como registrar cada treinamento futuro
 
 Cada execução deverá registrar:

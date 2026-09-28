@@ -6,9 +6,11 @@
 
 **Atualização:** a separação foi implementada em `content-envelope-v2`, com 37/120 acertos de resposta e 102/120 saídas com identificadores válidos. [Diagnóstico completo](content-evaluation-2026-09-27.md). A prioridade passa a ser competência limpa e revisão do benchmark, antes de treinar.
 
+**Comparação concluída:** repetidos ambos em BF16, 0,5B teve 38/120 acertos e 1,5B, 74/120. O modelo de 1,5B atingiu o limiar exploratório de competência limpa em dedução e acompanhamento, mas nenhum em aritmética. [Relatório completo](model-comparison-2026-09-27.md). Priorizar revisão dos dados e depois teste funcional com 1,5B; ainda falta medir memória de treinamento. Os [controles e repetições](training-and-cloud-plan.md) estão definidos separadamente.
+
 Executar o Qwen2.5-0.5B-Instruct sem ajuste nos 120 exemplos de validação do piloto. A revisão é `7ae557604adf67be50417f59c2c2f167def9a775`; o modelo possui aproximadamente 0,49 bilhão de parâmetros e licença Apache 2.0, conforme sua [ficha oficial](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct).
 
-Usar FP16 na RTX 3060 de 6 GB, lote unitário, geração gulosa e limite de 128 tokens novos. Registrar respostas brutas, erros de formato, tokens, duração de geração e pico de memória alocada/reservada pelo PyTorch. Esses picos não representam todo o uso de memória da GPU por outros programas. Downloads, carregamento, tokenização e gravação ficam fora da duração de geração.
+O primeiro baseline usou FP16 na RTX 3060 de 6 GB, lote unitário, geração gulosa e limite de 128 tokens novos. Para a comparação atual entre tamanhos, usar explicitamente `--precision bfloat16` em ambos: a tentativa de 1,5B em FP16 apresentou [falha numérica](numerical-failure-2026-09-27.md). Registrar respostas brutas, erros de formato, tokens, duração de geração e pico de memória alocada/reservada pelo PyTorch. Esses picos não representam todo o uso de memória da GPU por outros programas. Downloads, carregamento, tokenização e gravação ficam fora da duração de geração.
 
 **Conclusão:** execução real preservada, métricas por tarefa/condição, gráfico e limitações documentadas. O teste final permanece reservado. Esta etapa mede um modelo já ajustado para instruções, sem ajuste adicional neste projeto.
 
