@@ -1,0 +1,16 @@
+{
+  "generator_version": "benchmark-v2-candidate",
+  "dataset_sha256": "f6dd4f65804eb72421d50fb3c7850e3982220dd1da4c6604591ea41587364e2b",
+  "config": {
+    "seed": 42,
+    "problems_per_task": 100
+  },
+  "examples": 1200,
+  "split_counts": {
+    "train": 960,
+    "validation": 120,
+    "test": 120
+  },
+  "shift": "Disjoint language templates and depths: train 2/3, validation 4, test 5",
+  "status": "Candidate pending baseline and broader manual audit; not a final benchmark"
+}

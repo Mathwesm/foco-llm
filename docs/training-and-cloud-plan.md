@@ -60,4 +60,4 @@ Um experimento local bem-sucedido não garante igualdade bit a bit em outra GPU.
 
 ## Estado atual
 
-Planejamento, sem treinamento implementado ou executado. Os baselines servem para dimensionar a próxima etapa. O artigo e o teste final continuam reservados.
+O [teste funcional de treinamento local](training-smoke-2026-09-28.md) foi implementado e executado: seis passos LoRA com retomada e recarga verificadas. A matriz científica C1/C2/C3, suas repetições e a comparação em nuvem ainda não foram executadas. O artigo e o teste final continuam reservados.

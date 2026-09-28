@@ -42,6 +42,14 @@ O modelo de 1,5B atingiu o limiar exploratório de competência limpa em deduç�
 
 Exportação, reavaliação de respostas brutas e controles da comparação foram verificados. Foram gerados gráficos por condição e dispersão de acurácia limpa/com distratores. [Relatório e reprodução](model-comparison-2026-09-27.md). Nenhum ajuste de pesos, serviço pago ou edição do artigo foi realizado.
 
+## 2026-09-28 — teste funcional LoRA e retomada
+
+Código `4b602d6`, benchmark-v2 candidato com 1.200 exemplos, modelo Qwen2.5-1.5B-Instruct BF16, LoRA rank 4, seed 42. Foram executadas duas realizações de seis passos: uma interrompida deliberadamente após o terceiro passo e retomada em outro processo; outra contínua como controle. Ambas usam os mesmos seis exemplos de treino e totalizam 170 tokens supervisionados cada.
+
+Os pesos-base permaneceram iguais; os adaptadores mudaram; perdas, gradientes e pesos permaneceram finitos. A comparação encontrou igualdade exata dos tensores dos adaptadores, estado do otimizador e perdas por passo. A recarga de ambos em modelo-base novo teve diferença zero de logits na sonda. Pico alocado: 3.658.595.840 bytes. Perda na sonda de treino: 0,498208 → 0,461185, sem conclusão de eficácia. [Relatório, gráfico e limitações](training-smoke-2026-09-28.md).
+
+Foram encontrados e corrigidos durante desenvolvimento um teste sensível a maiúsculas nos templates e a forma de importar um script em testes com layout src/. Não houve erro de treinamento na GPU. A auditoria manual identificou a concordância “1 marbles”, registrada como limitação da versão candidata. Nenhum teste final foi usado para inferência ou treinamento.
+
 ## Como registrar cada treinamento futuro
 
 Cada execução deverá registrar:

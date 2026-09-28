@@ -4,7 +4,9 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
-**Estado atual:** comparação local em BF16 concluída nos mesmos 120 exemplos de validação: Qwen2.5-0.5B-Instruct acertou 38/120 respostas e Qwen2.5-1.5B-Instruct, 74/120. O modelo maior melhorou principalmente em acompanhamento de objetos; ambos tiveram dificuldade em aritmética. [Resultados, gráficos e limitações](docs/model-comparison-2026-09-27.md). Ainda não houve treinamento neste projeto. O artigo será escrito a partir dos experimentos concluídos.
+**Estado atual:** primeiro teste funcional de treinamento LoRA concluído no modelo de 1,5B: seis atualizações, pausa/retomada e recarga verificadas, com pico alocado de 3,41 GiB na GPU local. A execução retomada reproduziu os pesos e o estado do otimizador da execução contínua. [Relatório e gráfico](docs/training-smoke-2026-09-28.md). Ainda não foi medida melhora de acurácia após treinamento. O artigo será escrito a partir dos experimentos concluídos.
+
+**Baselines no piloto original:** Qwen2.5-0.5B-Instruct acertou 38/120 respostas e Qwen2.5-1.5B-Instruct, 74/120, ambos em BF16. [Comparação e limitações](docs/model-comparison-2026-09-27.md). Esses resultados não são misturados com os dados revisados usados no teste de treinamento.
 
 **Histórico preservado:** o primeiro baseline de 0,5B em FP16 teve 37/120 respostas corretas na [análise de conteúdo](docs/content-evaluation-2026-09-27.md). A tentativa de 1,5B em FP16 apresentou [falha numérica](docs/numerical-failure-2026-09-27.md); por isso ambos foram repetidos em BF16 com proteção contra scores inválidos. Todas as saídas dos baselines válidos usaram blocos Markdown; pontuação estrita de JSON puro zero não significa zero acertos de conteúdo.
 
@@ -16,6 +18,8 @@ Investigação experimental da seleção de informações relevantes em modelos 
 - Separação de treino/validação/teste por problema, mantendo suas variantes juntas.
 - Prompts sem gabarito, avaliação de previsões registradas e gráfico de dispersão pareada.
 - Saídas identificadas pelo conteúdo, preservação de resultados anteriores e logs JSON.
+- Versão candidata dos dados com fatos embaralhados, tempos explícitos e templates/comprimentos separados por partição.
+- Teste LoRA com máscara de perda, checkpoints íntegros, retomada e comparação com execução contínua.
 
 ## Instalação
 
@@ -115,12 +119,13 @@ data/          # saídas locais; não versionadas
 
 ## Limites e próximos passos
 
-O piloto usa inglês nos enunciados, dificuldade fixa e templates compartilhados entre splits. Serve para verificar a infraestrutura; não sustenta afirmações de generalização estrutural ou de relevância semântica em texto livre. Os validadores reconhecem a gramática controlada do gerador.
+O piloto original usa inglês nos enunciados, dificuldade fixa e templates compartilhados entre splits. A versão candidata v2 separa templates e comprimentos de cadeia, mas muda ambos ao mesmo tempo e ainda precisa de auditoria ampliada. Os dados não sustentam afirmações de generalização estrutural ampla ou de relevância semântica em texto livre. Os validadores reconhecem a gramática controlada do gerador.
 
-Ainda faltam ajuste, checkpoints de treinamento, alertas de execuções longas, diversidade de templates, intervalos de confiança e repetição por sementes. Não há agendamento nem consumo de serviços pagos nesta etapa.
+O ajuste funcional e os checkpoints já foram verificados. Ainda faltam treinamentos de eficácia, avaliação dos adaptadores, alertas de execuções longas, auditoria ampliada dos dados revisados, intervalos de confiança e repetição por sementes. Não há agendamento nem consumo de serviços pagos nesta etapa.
 
 - [Plano e referências](docs/research-plan.md)
 - [Diário e registro de treinamentos](docs/experiment-log.md)
 - [Próximas etapas e critérios de conclusão](docs/next-steps.md)
 - [Protocolo da comparação entre modelos](docs/model-comparison-protocol.md)
 - [Controles de treinamento, repetições e nuvem](docs/training-and-cloud-plan.md)
+- [Dados revisados e comandos do teste LoRA](docs/benchmark-v2-and-smoke.md)

@@ -16,11 +16,15 @@ O primeiro baseline usou FP16 na RTX 3060 de 6 GB, lote unitário, geração gul
 
 ## 2. Revisar o benchmark
 
+**Atualização em 2026-09-28:** gerada versão candidata v2 com 1.200 exemplos, fatos embaralhados, distratores sem prefixo exclusivo e tempos explícitos. Verificação automática e auditoria manual de três exemplos de treino concluídas. Faltam auditoria ampliada, ajuste de concordância, controle de comprimento e baseline da versão revisada. [Protocolo e limitações](benchmark-v2-and-smoke.md).
+
 Inspecionar os erros de validação; diversificar enunciados, profundidade do raciocínio, posição e quantidade dos distratores. Evitar pistas triviais que denunciem quais frases ignorar. Separar templates e estruturas entre treino e avaliação, além de manter variantes do mesmo problema juntas. Revisar manualmente uma amostra estratificada e registrar defeitos encontrados.
 
 **Conclusão:** versão nova e imutável dos dados, verificadores independentes, protocolo congelado e ausência de vazamento entre splits. Resultados do piloto atual não são misturados com os do benchmark novo.
 
 ## 3. Ajuste piloto
+
+**Teste funcional concluído em 2026-09-28:** seis passos LoRA no modelo de 1,5B, com retomada exata em relação ao controle contínuo, pesos-base intactos e recarga verificada. Pico alocado de 3,41 GiB. [Resultado completo](training-smoke-2026-09-28.md). Ainda não é o experimento de eficácia ou uma medição com o comprimento máximo configurado.
 
 Adicionar adaptadores LoRA em um modelo pequeno e medir memória antes de aumentar a escala. Se necessário, avaliar quantização em um ambiente compatível. Começar com poucos passos somente no treino; salvar adaptador, configuração, checkpoints, curvas de perda e versões. Alertas de falha via Telegram serão configurados antes de execuções longas, com credenciais exclusivamente por ambiente.
 

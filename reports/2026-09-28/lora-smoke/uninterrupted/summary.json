@@ -1,0 +1,13 @@
+{
+  "experiment_type": "functional_training_test_not_effectiveness_evidence",
+  "completed_steps": 6,
+  "base_weights_unchanged": true,
+  "adapters_changed": true,
+  "reload_max_abs_logit_difference": 0.0,
+  "initial_train_probe_loss": 0.4982084035873413,
+  "final_train_probe_loss": 0.46118471026420593,
+  "training_seconds": 1.7549555999867152,
+  "supervised_tokens": 170,
+  "peak_allocated_bytes": 3658595840,
+  "peak_reserved_bytes": 4599054336
+}
