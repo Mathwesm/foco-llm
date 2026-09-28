@@ -16,6 +16,9 @@ EXCLUDED_PATHS = (
 # must be one JSON field; other keys and additional content remain scanned.
 PROVENANCE_LINES = (
     r'^\s*"(?:(?:prompt|dataset|source)_sha256)": "[a-f0-9]{64}",?\s*$'
+    # Verified hashes of local adapter files and comparison input artifacts.
+    r'|^\s*"(?:adapter_sha256|adapter_config_sha256|training_manifest_sha256|sha256)"'
+    r': "[a-f0-9]{64}",?\s*$'
     r'|^\s*"(?:model_revision|revision)": "[a-f0-9]{40}",?\s*$'
     # Audited public run IDs in the BF16 comparison; never exclude arbitrary IDs.
     r'|^\s*"(?:d3382a884de2c421|6836fbda70e99de1)",?\s*$'

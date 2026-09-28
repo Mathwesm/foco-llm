@@ -4,6 +4,10 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Como entender os experimentos:** [guia dos 120 casos, tarefas, exemplos e histórico](docs/experiment-guide.md). A validação usa 30 problemas-base em inglês, cada um em quatro condições; os testes automatizados do código são uma verificação separada.
+
+**Treino seguido de validação:** ciclo funcional v2.1 concluído; seis passos LoRA mantiveram 6/120 acertos, com evidências exatas de 9/120 para 10/120. [Relatório antes/depois](docs/adapter-validation-2026-09-28.md). Ainda não é evidência de eficácia do treinamento.
+
 **Atualização do benchmark v2.1:** baseline sem ajuste concluído: **6/120 acertos**, com competência limpa abaixo do critério em todas as tarefas. Isso impede atribuir as falhas especificamente aos distratores. [Resultados, gráficos e próxima decisão](docs/baseline-v21-2026-09-28.md). A versão controla ordem relativa dos fatos e quantidade de frases; os comprimentos em tokens continuam diferentes.
 
 **Estado atual:** primeiro teste funcional de treinamento LoRA concluído no modelo de 1,5B: seis atualizações, pausa/retomada e recarga verificadas, com pico alocado de 3,41 GiB na GPU local. A execução retomada reproduziu os pesos e o estado do otimizador da execução contínua. [Relatório e gráfico](docs/training-smoke-2026-09-28.md). Ainda não foi medida melhora de acurácia após treinamento. O artigo será escrito a partir dos experimentos concluídos.

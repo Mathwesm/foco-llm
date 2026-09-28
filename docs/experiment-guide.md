@@ -78,6 +78,8 @@ A apresentação será preparada depois. Este guia e os relatórios são a base 
 
 ## Modelos maiores e nuvem
 
+Atualização: o [primeiro ciclo treino → validação na v2.1](adapter-validation-2026-09-28.md) manteve 6/120 acertos após seis passos LoRA. As evidências exatas passaram de 9 para 10. Esse orçamento funcional não substitui os controles científicos descritos acima.
+
 Já usamos a família Qwen, de origem chinesa. Não escolhemos modelos pelo país, e sim por licença, disponibilidade de pesos, tamanho, competência e viabilidade. Pesos gratuitos não tornam a GPU gratuita. Nenhuma instância foi contratada.
 
 A ampliação usará primeiro uma única GPU, se suficiente: revisão fixada, mesmo conjunto, execução retomável, limites de tokens, amostra curta para medir memória e tempo, e orçamento máximo antes do lote completo. Repetir primeiro uma configuração local separa a mudança de hardware da mudança de modelo. Quantização, batching e outras otimizações devem ter seus efeitos medidos, sem sacrificar comparabilidade silenciosamente.

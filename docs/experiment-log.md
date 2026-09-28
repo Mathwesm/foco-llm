@@ -54,6 +54,10 @@ Foram encontrados e corrigidos durante desenvolvimento um teste sensível a mai�
 
 Corrigidos os controles de ordem relativa, quantidade de frases e concordância, preservando a versão anterior. A execução `145ba1dd1550430d`, código `cd2b7be`, avaliou os 120 exemplos de validação v2.1 com o modelo original 1,5B em BF16. Resultado: 6/120 respostas corretas, 9/120 conjuntos de evidências exatos, zero contratos estritos de JSON puro; 112 saídas aceitas pelo avaliador de conteúdo. Todas terminaram por EOS. Nenhuma tarefa atingiu o limiar de competência limpa. Não iniciado treinamento de eficácia; próximo passo recomendado é diagnosticar dificuldade e formato sem abrir o teste final. [Relatório, gráficos e reprodução](baseline-v21-2026-09-28.md).
 
+## 2026-09-28 — ciclo funcional v2.1
+
+Código `646fa00`, treino `aa1bb31bbe1b6c28`, inferência `1388c1f4d0e24a2b`. Seis atualizações LoRA e recarga verificadas; 120 casos de validação avaliados sem alterar o protocolo. Acurácia permaneceu em 6/120 nos mesmos exemplos; evidências exatas passaram de 9 para 10. Perda de sonda de treino caiu de 0,534521 para 0,493718. Sem conclusão de eficácia, sem nuvem e sem teste final. [Relatório e reprodução](adapter-validation-2026-09-28.md); [guia detalhado das tarefas e do histórico](experiment-guide.md).
+
 ## Campos dos próximos treinamentos
 
 Cada execução deverá registrar:

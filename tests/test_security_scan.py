@@ -25,6 +25,12 @@ def test_secret_scan_excludes_dependencies_on_both_platforms(path, excluded):
     [
         ("prompt_sha256", 64, ",", True),
         ("dataset_sha256", 64, "", True),
+        ("adapter_sha256", 64, ",", True),
+        ("adapter_config_sha256", 64, ",", True),
+        ("training_manifest_sha256", 64, ",", True),
+        ("sha256", 64, "", True),
+        ("adapter_sha256", 32, "", False),
+        ("sha256", 64, ', "extra": "value"', False),
         ("model_revision", 40, ",", True),
         ("api_key", 64, "", False),
         ("revision", 32, "", False),
