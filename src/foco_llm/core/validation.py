@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 
+from foco_llm.core.solver_v2 import solve_v2
 from foco_llm.models.experiment import Condition, Problem, Task
 
 ARITHMETIC_FACT_COUNT = 3
@@ -72,6 +73,11 @@ def solve(problem: Problem) -> str:
     Raises:
         DatasetError: Required facts are missing or ambiguous.
     """
+    if problem.base_id.startswith("v2-"):
+        try:
+            return solve_v2(problem)
+        except ValueError as error:
+            raise DatasetError(str(error)) from error
     solvers = {Task.ARITHMETIC: _arithmetic, Task.DEDUCTION: _deduction, Task.TRACKING: _tracking}
     return solvers[problem.task](problem)
 
