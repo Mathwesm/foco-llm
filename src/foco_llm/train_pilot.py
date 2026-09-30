@@ -9,6 +9,7 @@ from loguru import logger
 
 from foco_llm.core.pilot_configuration import PilotConfig, select_pilot
 from foco_llm.models.training import StepResult, TrainingExample
+from foco_llm.services.answer_training import AnswerTrainingBackend
 from foco_llm.services.artifacts import load_dataset, publish_text
 from foco_llm.services.inference import _source_fingerprint
 from foco_llm.services.training_backend import TrainingBackend, TrainingError
@@ -23,7 +24,9 @@ from foco_llm.utils.logger import setup_logging
 def run_pilot(dataset: Path, config: PilotConfig, output: Path) -> Path:
     """Train only source examples, checkpoint each update, and verify adapter reload."""
     selected = select_pilot(load_dataset(dataset), config)
-    backend = TrainingBackend(config)
+    backend = (
+        AnswerTrainingBackend(config) if config.supervision == "answer" else TrainingBackend(config)
+    )
     examples = tuple(backend.encode(p) for p in selected)
     manifest = {
         "protocol": "source-task-pilot-v1",
@@ -32,7 +35,7 @@ def run_pilot(dataset: Path, config: PilotConfig, output: Path) -> Path:
         "source_sha256": _source_fingerprint(),
         "dataset_sha256": hashlib.sha256(dataset.read_bytes()).hexdigest(),
         "example_ids": [p.id for p in selected],
-        "supervision": "answer_and_evidence; prompt masked; assistant EOS supervised",
+        "supervision": config.supervision,
         "schedule": "fixed seeded base order, repeated cyclically; batch size one",
     }
     payload = json.dumps(manifest, sort_keys=True, indent=2)

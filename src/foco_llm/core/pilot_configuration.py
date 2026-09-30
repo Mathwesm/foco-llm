@@ -1,6 +1,7 @@
 """Bounded source-task pilot configuration and training-only selection."""
 
 import hashlib
+from typing import Literal
 
 from pydantic import Field
 
@@ -15,6 +16,8 @@ class PilotConfig(SmokeConfig):
     source_task: Task = Task.DEDUCTION
     condition: Condition = Condition.SIMILAR
     examples: int = Field(default=32, ge=1, le=80)
+    selection_seed: int = Field(default=42, ge=0)
+    supervision: Literal["answer", "answer_and_evidence"] = "answer_and_evidence"
 
 
 def select_pilot(problems: tuple[Problem, ...], config: PilotConfig) -> tuple[Problem, ...]:
@@ -41,5 +44,7 @@ def select_pilot(problems: tuple[Problem, ...], config: PilotConfig) -> tuple[Pr
         raise ValueError("Duplicate source training bases")
     if len(selected) < config.examples:
         raise ValueError("Insufficient source training examples")
-    selected.sort(key=lambda p: hashlib.sha256(f"{config.seed}:{p.base_id}".encode()).digest())
+    selected.sort(
+        key=lambda p: hashlib.sha256(f"{config.selection_seed}:{p.base_id}".encode()).digest()
+    )
     return tuple(selected[: config.examples])

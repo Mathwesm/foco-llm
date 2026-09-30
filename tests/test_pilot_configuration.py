@@ -15,6 +15,8 @@ def test_source_selection_excludes_targets_and_is_stable_under_input_reordering(
     assert selected == select_pilot(tuple(reversed(data)), config)
     clean = select_pilot(data, config.model_copy(update={"condition": Condition.CLEAN}))
     assert [p.base_id for p in selected] == [p.base_id for p in clean]
+    repeated = select_pilot(data, config.model_copy(update={"seed": 43}))
+    assert repeated == selected
 
 
 def test_missing_or_duplicate_sources_fail_instead_of_using_evaluation():
