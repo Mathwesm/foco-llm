@@ -58,6 +58,10 @@ Corrigidos os controles de ordem relativa, quantidade de frases e concordância,
 
 Código `646fa00`, treino `aa1bb31bbe1b6c28`, inferência `1388c1f4d0e24a2b`. Seis atualizações LoRA e recarga verificadas; 120 casos de validação avaliados sem alterar o protocolo. Acurácia permaneceu em 6/120 nos mesmos exemplos; evidências exatas passaram de 9 para 10. Perda de sonda de treino caiu de 0,534521 para 0,493718. Sem conclusão de eficácia, sem nuvem e sem teste final. [Relatório e reprodução](adapter-validation-2026-09-28.md); [guia detalhado das tarefas e do histórico](experiment-guide.md).
 
+## 2026-09-28 — diagnóstico de ordem, sem treinamento
+
+Código `f240f71`, execução `bdd7837e740bfc0b`. Trinta problemas limpos da validação v2.1 com frases em ordem inversa e mesmos IDs/gabaritos. Reutilizadas as respostas originais verificadas. Dedução: 3/10 → 2/10, três perdas e dois ganhos; demais tarefas 0/10 → 0/10. Todas as novas respostas terminaram por EOS. [Relatório, pares, limitações e reprodução](order-diagnostic-2026-09-28.md).
+
 ## Campos dos próximos treinamentos
 
 Cada execução deverá registrar:

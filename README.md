@@ -4,6 +4,8 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Diagnóstico de ordem:** nos 30 casos limpos, inverter as frases mudou cinco resultados de dedução (três perdas e dois ganhos), sem resolver a baixa competência inicial. [Método, pares e gráfico](docs/order-diagnostic-2026-09-28.md).
+
 **Como entender os experimentos:** [guia dos 120 casos, tarefas, exemplos e histórico](docs/experiment-guide.md). A validação usa 30 problemas-base em inglês, cada um em quatro condições; os testes automatizados do código são uma verificação separada.
 
 **Treino seguido de validação:** ciclo funcional v2.1 concluído; seis passos LoRA mantiveram 6/120 acertos, com evidências exatas de 9/120 para 10/120. [Relatório antes/depois](docs/adapter-validation-2026-09-28.md). Ainda não é evidência de eficácia do treinamento.
