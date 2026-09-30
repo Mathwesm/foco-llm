@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "v2-deduction-000072:similar",
+    "base_id": "v2-deduction-000072",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P390 implies property P9252."
+      },
+      {
+        "id": "F2",
+        "text": "Property P8710 implies property P7545."
+      },
+      {
+        "id": "F3",
+        "text": "Property P824 implies property P8131."
+      },
+      {
+        "id": "F4",
+        "text": "violet has property P390."
+      },
+      {
+        "id": "F5",
+        "text": "Property P8131 implies property P5049."
+      },
+      {
+        "id": "F6",
+        "text": "Property P9252 implies property P8710."
+      },
+      {
+        "id": "F7",
+        "text": "silver has property P4522."
+      },
+      {
+        "id": "F8",
+        "text": "Property P4522 implies property P824."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P7545",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000001:similar",
+    "base_id": "v2-deduction-000001",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "silver has property P626."
+      },
+      {
+        "id": "F2",
+        "text": "Property P7304 implies property P8970."
+      },
+      {
+        "id": "F3",
+        "text": "Property P3573 implies property P7304."
+      },
+      {
+        "id": "F4",
+        "text": "violet has property P3573."
+      },
+      {
+        "id": "F5",
+        "text": "Property P6773 implies property P6727."
+      },
+      {
+        "id": "F6",
+        "text": "Property P626 implies property P6773."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P8970",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-deduction-000005:similar",
+    "base_id": "v2-deduction-000005",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P3935 implies property P7359."
+      },
+      {
+        "id": "F2",
+        "text": "silver has property P6678."
+      },
+      {
+        "id": "F3",
+        "text": "Property P3898 implies property P752."
+      },
+      {
+        "id": "F4",
+        "text": "Property P796 implies property P6796."
+      },
+      {
+        "id": "F5",
+        "text": "Property P6796 implies property P3898."
+      },
+      {
+        "id": "F6",
+        "text": "Property P7359 implies property P3860."
+      },
+      {
+        "id": "F7",
+        "text": "Property P6678 implies property P3935."
+      },
+      {
+        "id": "F8",
+        "text": "azure has property P796."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P752",
+    "evidence": [
+      "F3",
+      "F4",
+      "F5",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000084:similar",
+    "base_id": "v2-deduction-000084",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "violet has property P6292."
+      },
+      {
+        "id": "F2",
+        "text": "Property P8404 implies property P8708."
+      },
+      {
+        "id": "F3",
+        "text": "Property P7745 implies property P8404."
+      },
+      {
+        "id": "F4",
+        "text": "Property P6292 implies property P1632."
+      },
+      {
+        "id": "F5",
+        "text": "Property P1632 implies property P2697."
+      },
+      {
+        "id": "F6",
+        "text": "silver has property P7745."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P2697",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000093:similar",
+    "base_id": "v2-deduction-000093",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P8464 implies property P4338."
+      },
+      {
+        "id": "F2",
+        "text": "Property P564 implies property P254."
+      },
+      {
+        "id": "F3",
+        "text": "Property P6976 implies property P8651."
+      },
+      {
+        "id": "F4",
+        "text": "azure has property P5596."
+      },
+      {
+        "id": "F5",
+        "text": "Property P3975 implies property P564."
+      },
+      {
+        "id": "F6",
+        "text": "Property P5596 implies property P3975."
+      },
+      {
+        "id": "F7",
+        "text": "amber has property P8464."
+      },
+      {
+        "id": "F8",
+        "text": "Property P4338 implies property P6976."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P254",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000097:similar",
+    "base_id": "v2-deduction-000097",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P8697 implies property P3525."
+      },
+      {
+        "id": "F2",
+        "text": "Property P7042 implies property P2231."
+      },
+      {
+        "id": "F3",
+        "text": "azure has property P4322."
+      },
+      {
+        "id": "F4",
+        "text": "Property P789 implies property P7042."
+      },
+      {
+        "id": "F5",
+        "text": "copper has property P789."
+      },
+      {
+        "id": "F6",
+        "text": "Property P4322 implies property P8697."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P3525",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000080:similar",
+    "base_id": "v2-deduction-000080",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "amber has property P8965."
+      },
+      {
+        "id": "F2",
+        "text": "copper has property P5295."
+      },
+      {
+        "id": "F3",
+        "text": "Property P5295 implies property P5323."
+      },
+      {
+        "id": "F4",
+        "text": "Property P3268 implies property P4288."
+      },
+      {
+        "id": "F5",
+        "text": "Property P1426 implies property P2653."
+      },
+      {
+        "id": "F6",
+        "text": "Property P4288 implies property P1648."
+      },
+      {
+        "id": "F7",
+        "text": "Property P8965 implies property P3268."
+      },
+      {
+        "id": "F8",
+        "text": "Property P5323 implies property P1426."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P1648",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-deduction-000006:similar",
+    "base_id": "v2-deduction-000006",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P1231 implies property P4382."
+      },
+      {
+        "id": "F2",
+        "text": "Property P4382 implies property P5419."
+      },
+      {
+        "id": "F3",
+        "text": "amber has property P1231."
+      },
+      {
+        "id": "F4",
+        "text": "ivory has property P3677."
+      },
+      {
+        "id": "F5",
+        "text": "Property P3677 implies property P8716."
+      },
+      {
+        "id": "F6",
+        "text": "Property P8716 implies property P8874."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5419",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-deduction-000013:similar",
+    "base_id": "v2-deduction-000013",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P791 implies property P1322."
+      },
+      {
+        "id": "F2",
+        "text": "ivory has property P791."
+      },
+      {
+        "id": "F3",
+        "text": "Property P3718 implies property P9465."
+      },
+      {
+        "id": "F4",
+        "text": "Property P1322 implies property P71."
+      },
+      {
+        "id": "F5",
+        "text": "Property P9465 implies property P4539."
+      },
+      {
+        "id": "F6",
+        "text": "silver has property P3718."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P4539",
+    "evidence": [
+      "F3",
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000074:similar",
+    "base_id": "v2-deduction-000074",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P490 implies property P9374."
+      },
+      {
+        "id": "F2",
+        "text": "Property P2814 implies property P361."
+      },
+      {
+        "id": "F3",
+        "text": "Property P3700 implies property P490."
+      },
+      {
+        "id": "F4",
+        "text": "azure has property P3700."
+      },
+      {
+        "id": "F5",
+        "text": "ivory has property P2814."
+      },
+      {
+        "id": "F6",
+        "text": "Property P361 implies property P5773."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P5773",
+    "evidence": [
+      "F2",
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000020:similar",
+    "base_id": "v2-deduction-000020",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P4134 implies property P7882."
+      },
+      {
+        "id": "F2",
+        "text": "Property P3038 implies property P4134."
+      },
+      {
+        "id": "F3",
+        "text": "ivory has property P7949."
+      },
+      {
+        "id": "F4",
+        "text": "Property P6656 implies property P7539."
+      },
+      {
+        "id": "F5",
+        "text": "azure has property P3038."
+      },
+      {
+        "id": "F6",
+        "text": "Property P7882 implies property P5836."
+      },
+      {
+        "id": "F7",
+        "text": "Property P7539 implies property P8974."
+      },
+      {
+        "id": "F8",
+        "text": "Property P7949 implies property P6656."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P8974",
+    "evidence": [
+      "F3",
+      "F4",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000073:similar",
+    "base_id": "v2-deduction-000073",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P7508 implies property P916."
+      },
+      {
+        "id": "F2",
+        "text": "Property P6837 implies property P4497."
+      },
+      {
+        "id": "F3",
+        "text": "azure has property P7756."
+      },
+      {
+        "id": "F4",
+        "text": "copper has property P6837."
+      },
+      {
+        "id": "F5",
+        "text": "Property P7756 implies property P7508."
+      },
+      {
+        "id": "F6",
+        "text": "Property P4497 implies property P5646."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P916",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000022:similar",
+    "base_id": "v2-deduction-000022",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "silver has property P4957."
+      },
+      {
+        "id": "F2",
+        "text": "ivory has property P1235."
+      },
+      {
+        "id": "F3",
+        "text": "Property P5668 implies property P8119."
+      },
+      {
+        "id": "F4",
+        "text": "Property P2720 implies property P2318."
+      },
+      {
+        "id": "F5",
+        "text": "Property P8301 implies property P5668."
+      },
+      {
+        "id": "F6",
+        "text": "Property P4957 implies property P2720."
+      },
+      {
+        "id": "F7",
+        "text": "Property P2318 implies property P1163."
+      },
+      {
+        "id": "F8",
+        "text": "Property P1235 implies property P8301."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P8119",
+    "evidence": [
+      "F2",
+      "F3",
+      "F5",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000024:similar",
+    "base_id": "v2-deduction-000024",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P3908 implies property P2600."
+      },
+      {
+        "id": "F2",
+        "text": "Property P6696 implies property P532."
+      },
+      {
+        "id": "F3",
+        "text": "silver has property P6696."
+      },
+      {
+        "id": "F4",
+        "text": "Property P532 implies property P4172."
+      },
+      {
+        "id": "F5",
+        "text": "Property P2600 implies property P7639."
+      },
+      {
+        "id": "F6",
+        "text": "azure has property P3908."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P4172",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-deduction-000075:similar",
+    "base_id": "v2-deduction-000075",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P9183 implies property P3573."
+      },
+      {
+        "id": "F2",
+        "text": "copper has property P4338."
+      },
+      {
+        "id": "F3",
+        "text": "Property P4338 implies property P3688."
+      },
+      {
+        "id": "F4",
+        "text": "Property P3688 implies property P8536."
+      },
+      {
+        "id": "F5",
+        "text": "Property P3428 implies property P9183."
+      },
+      {
+        "id": "F6",
+        "text": "azure has property P3428."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P3573",
+    "evidence": [
+      "F1",
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000040:similar",
+    "base_id": "v2-deduction-000040",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P4362 implies property P8913."
+      },
+      {
+        "id": "F2",
+        "text": "Property P2239 implies property P785."
+      },
+      {
+        "id": "F3",
+        "text": "amber has property P4362."
+      },
+      {
+        "id": "F4",
+        "text": "Property P785 implies property P7721."
+      },
+      {
+        "id": "F5",
+        "text": "Property P8913 implies property P2662."
+      },
+      {
+        "id": "F6",
+        "text": "violet has property P2239."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2662",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000051:similar",
+    "base_id": "v2-deduction-000051",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P6280 implies property P1335."
+      },
+      {
+        "id": "F2",
+        "text": "ivory has property P9433."
+      },
+      {
+        "id": "F3",
+        "text": "copper has property P6280."
+      },
+      {
+        "id": "F4",
+        "text": "Property P8956 implies property P2839."
+      },
+      {
+        "id": "F5",
+        "text": "Property P1335 implies property P1918."
+      },
+      {
+        "id": "F6",
+        "text": "Property P9433 implies property P8956."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P1918",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000000:similar",
+    "base_id": "v2-deduction-000000",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P5297 implies property P7982."
+      },
+      {
+        "id": "F2",
+        "text": "Property P5366 implies property P5753."
+      },
+      {
+        "id": "F3",
+        "text": "ivory has property P5366."
+      },
+      {
+        "id": "F4",
+        "text": "Property P8478 implies property P5297."
+      },
+      {
+        "id": "F5",
+        "text": "violet has property P8478."
+      },
+      {
+        "id": "F6",
+        "text": "Property P5753 implies property P8100."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P8100",
+    "evidence": [
+      "F2",
+      "F3",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000092:similar",
+    "base_id": "v2-deduction-000092",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P5149 implies property P4997."
+      },
+      {
+        "id": "F2",
+        "text": "copper has property P5149."
+      },
+      {
+        "id": "F3",
+        "text": "azure has property P6448."
+      },
+      {
+        "id": "F4",
+        "text": "Property P6448 implies property P1875."
+      },
+      {
+        "id": "F5",
+        "text": "Property P4997 implies property P8304."
+      },
+      {
+        "id": "F6",
+        "text": "Property P1875 implies property P5387."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P5387",
+    "evidence": [
+      "F3",
+      "F4",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000055:similar",
+    "base_id": "v2-deduction-000055",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "amber has property P5127."
+      },
+      {
+        "id": "F2",
+        "text": "Property P5127 implies property P2939."
+      },
+      {
+        "id": "F3",
+        "text": "Property P5064 implies property P8278."
+      },
+      {
+        "id": "F4",
+        "text": "copper has property P1966."
+      },
+      {
+        "id": "F5",
+        "text": "Property P2939 implies property P148."
+      },
+      {
+        "id": "F6",
+        "text": "Property P1966 implies property P5064."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P8278",
+    "evidence": [
+      "F3",
+      "F4",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000050:similar",
+    "base_id": "v2-deduction-000050",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P9401 implies property P5754."
+      },
+      {
+        "id": "F2",
+        "text": "Property P7960 implies property P3300."
+      },
+      {
+        "id": "F3",
+        "text": "amber has property P6546."
+      },
+      {
+        "id": "F4",
+        "text": "Property P6546 implies property P9401."
+      },
+      {
+        "id": "F5",
+        "text": "Property P5556 implies property P7960."
+      },
+      {
+        "id": "F6",
+        "text": "azure has property P5556."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5754",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-deduction-000086:similar",
+    "base_id": "v2-deduction-000086",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P6534 implies property P193."
+      },
+      {
+        "id": "F2",
+        "text": "azure has property P146."
+      },
+      {
+        "id": "F3",
+        "text": "Property P7495 implies property P1373."
+      },
+      {
+        "id": "F4",
+        "text": "Property P146 implies property P9918."
+      },
+      {
+        "id": "F5",
+        "text": "Property P5533 implies property P7495."
+      },
+      {
+        "id": "F6",
+        "text": "Property P9918 implies property P6534."
+      },
+      {
+        "id": "F7",
+        "text": "silver has property P3558."
+      },
+      {
+        "id": "F8",
+        "text": "Property P3558 implies property P5533."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P1373",
+    "evidence": [
+      "F3",
+      "F5",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000052:similar",
+    "base_id": "v2-deduction-000052",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P1073 implies property P8240."
+      },
+      {
+        "id": "F2",
+        "text": "Property P9315 implies property P9837."
+      },
+      {
+        "id": "F3",
+        "text": "ivory has property P4547."
+      },
+      {
+        "id": "F4",
+        "text": "Property P4547 implies property P9315."
+      },
+      {
+        "id": "F5",
+        "text": "Property P9831 implies property P940."
+      },
+      {
+        "id": "F6",
+        "text": "Property P9837 implies property P9452."
+      },
+      {
+        "id": "F7",
+        "text": "azure has property P9831."
+      },
+      {
+        "id": "F8",
+        "text": "Property P940 implies property P1073."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P8240",
+    "evidence": [
+      "F1",
+      "F5",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000046:similar",
+    "base_id": "v2-deduction-000046",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P7594 implies property P2174."
+      },
+      {
+        "id": "F2",
+        "text": "Property P1041 implies property P1766."
+      },
+      {
+        "id": "F3",
+        "text": "Property P8157 implies property P3104."
+      },
+      {
+        "id": "F4",
+        "text": "silver has property P7594."
+      },
+      {
+        "id": "F5",
+        "text": "Property P2174 implies property P1041."
+      },
+      {
+        "id": "F6",
+        "text": "Property P2256 implies property P8157."
+      },
+      {
+        "id": "F7",
+        "text": "Property P7200 implies property P2256."
+      },
+      {
+        "id": "F8",
+        "text": "copper has property P7200."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P3104",
+    "evidence": [
+      "F3",
+      "F6",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000012:similar",
+    "base_id": "v2-deduction-000012",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P9258 implies property P1877."
+      },
+      {
+        "id": "F2",
+        "text": "Property P3747 implies property P3482."
+      },
+      {
+        "id": "F3",
+        "text": "amber has property P9043."
+      },
+      {
+        "id": "F4",
+        "text": "Property P3482 implies property P1066."
+      },
+      {
+        "id": "F5",
+        "text": "copper has property P8212."
+      },
+      {
+        "id": "F6",
+        "text": "Property P8212 implies property P9258."
+      },
+      {
+        "id": "F7",
+        "text": "Property P1877 implies property P8651."
+      },
+      {
+        "id": "F8",
+        "text": "Property P9043 implies property P3747."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P1066",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000065:similar",
+    "base_id": "v2-deduction-000065",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P361 implies property P4600."
+      },
+      {
+        "id": "F2",
+        "text": "Property P3766 implies property P361."
+      },
+      {
+        "id": "F3",
+        "text": "Property P2277 implies property P5543."
+      },
+      {
+        "id": "F4",
+        "text": "azure has property P2277."
+      },
+      {
+        "id": "F5",
+        "text": "Property P9437 implies property P3766."
+      },
+      {
+        "id": "F6",
+        "text": "Property P697 implies property P1143."
+      },
+      {
+        "id": "F7",
+        "text": "Property P5543 implies property P697."
+      },
+      {
+        "id": "F8",
+        "text": "ivory has property P9437."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P4600",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000031:similar",
+    "base_id": "v2-deduction-000031",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P9175 implies property P2967."
+      },
+      {
+        "id": "F2",
+        "text": "Property P2967 implies property P1315."
+      },
+      {
+        "id": "F3",
+        "text": "copper has property P2848."
+      },
+      {
+        "id": "F4",
+        "text": "Property P2801 implies property P3161."
+      },
+      {
+        "id": "F5",
+        "text": "silver has property P9175."
+      },
+      {
+        "id": "F6",
+        "text": "Property P2848 implies property P2801."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P3161",
+    "evidence": [
+      "F3",
+      "F4",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-deduction-000057:similar",
+    "base_id": "v2-deduction-000057",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P2359 implies property P8812."
+      },
+      {
+        "id": "F2",
+        "text": "Property P2994 implies property P6840."
+      },
+      {
+        "id": "F3",
+        "text": "ivory has property P852."
+      },
+      {
+        "id": "F4",
+        "text": "Property P8946 implies property P9279."
+      },
+      {
+        "id": "F5",
+        "text": "Property P9279 implies property P1814."
+      },
+      {
+        "id": "F6",
+        "text": "Property P852 implies property P8946."
+      },
+      {
+        "id": "F7",
+        "text": "violet has property P2359."
+      },
+      {
+        "id": "F8",
+        "text": "Property P8812 implies property P2994."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P6840",
+    "evidence": [
+      "F1",
+      "F2",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000017:similar",
+    "base_id": "v2-deduction-000017",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P2575 implies property P7154."
+      },
+      {
+        "id": "F2",
+        "text": "violet has property P1307."
+      },
+      {
+        "id": "F3",
+        "text": "Property P127 implies property P3641."
+      },
+      {
+        "id": "F4",
+        "text": "Property P8945 implies property P1941."
+      },
+      {
+        "id": "F5",
+        "text": "Property P4481 implies property P127."
+      },
+      {
+        "id": "F6",
+        "text": "silver has property P2575."
+      },
+      {
+        "id": "F7",
+        "text": "Property P7154 implies property P8945."
+      },
+      {
+        "id": "F8",
+        "text": "Property P1307 implies property P4481."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P1941",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-deduction-000014:similar",
+    "base_id": "v2-deduction-000014",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "azure has property P4973."
+      },
+      {
+        "id": "F2",
+        "text": "copper has property P9982."
+      },
+      {
+        "id": "F3",
+        "text": "Property P5285 implies property P3007."
+      },
+      {
+        "id": "F4",
+        "text": "Property P4973 implies property P5285."
+      },
+      {
+        "id": "F5",
+        "text": "Property P9982 implies property P9681."
+      },
+      {
+        "id": "F6",
+        "text": "Property P9681 implies property P8851."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P3007",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-deduction-000041:similar",
+    "base_id": "v2-deduction-000041",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P7089 implies property P1452."
+      },
+      {
+        "id": "F2",
+        "text": "Property P2745 implies property P3924."
+      },
+      {
+        "id": "F3",
+        "text": "Property P3924 implies property P3124."
+      },
+      {
+        "id": "F4",
+        "text": "violet has property P7089."
+      },
+      {
+        "id": "F5",
+        "text": "azure has property P1529."
+      },
+      {
+        "id": "F6",
+        "text": "Property P1452 implies property P5757."
+      },
+      {
+        "id": "F7",
+        "text": "Property P1529 implies property P2745."
+      },
+      {
+        "id": "F8",
+        "text": "Property P5757 implies property P434."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P3124",
+    "evidence": [
+      "F2",
+      "F3",
+      "F5",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-deduction-000037:similar",
+    "base_id": "v2-deduction-000037",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P2695 implies property P98."
+      },
+      {
+        "id": "F2",
+        "text": "azure has property P4652."
+      },
+      {
+        "id": "F3",
+        "text": "Property P9071 implies property P4697."
+      },
+      {
+        "id": "F4",
+        "text": "Property P3207 implies property P9071."
+      },
+      {
+        "id": "F5",
+        "text": "Property P98 implies property P7765."
+      },
+      {
+        "id": "F6",
+        "text": "Property P5585 implies property P2695."
+      },
+      {
+        "id": "F7",
+        "text": "copper has property P5585."
+      },
+      {
+        "id": "F8",
+        "text": "Property P4652 implies property P3207."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P4697",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8"
+    ]
+  }
+]

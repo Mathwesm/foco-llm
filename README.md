@@ -4,6 +4,8 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Piloto local de tarefa-fonte — 30/09:** 64 passos LoRA em 32 exemplos de dedução com distratores; validação passou de **6/120 para 19/120**, principalmente na tarefa treinada. Uma semente, sem controles C1/C2 ainda: não é prova de transferência robusta. [Protocolo, resultados e gráficos](docs/source-task-pilot-2026-09-30.md).
+
 **Diagnóstico de formato concluído:** 60 novas gerações; JSON explícito e resposta simples não resolveram a baixa acurácia limpa. [Resultado](docs/format-diagnostic-2026-09-29.md) e [pendências locais antes da nuvem](docs/local-completion-checklist.md).
 
 **Diagnóstico de ordem:** nos 30 casos limpos, inverter as frases mudou cinco resultados de dedução (três perdas e dois ganhos), sem resolver a baixa competência inicial. [Método, pares e gráfico](docs/order-diagnostic-2026-09-28.md).
@@ -14,7 +16,7 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Atualização do benchmark v2.1:** baseline sem ajuste concluído: **6/120 acertos**, com competência limpa abaixo do critério em todas as tarefas. Isso impede atribuir as falhas especificamente aos distratores. [Resultados, gráficos e próxima decisão](docs/baseline-v21-2026-09-28.md). A versão controla ordem relativa dos fatos e quantidade de frases; os comprimentos em tokens continuam diferentes.
 
-**Estado atual:** primeiro teste funcional de treinamento LoRA concluído no modelo de 1,5B: seis atualizações, pausa/retomada e recarga verificadas, com pico alocado de 3,41 GiB na GPU local. A execução retomada reproduziu os pesos e o estado do otimizador da execução contínua. [Relatório e gráfico](docs/training-smoke-2026-09-28.md). Ainda não foi medida melhora de acurácia após treinamento. O artigo será escrito a partir dos experimentos concluídos.
+**Histórico do teste funcional:** seis atualizações LoRA no modelo de 1,5B, pausa/retomada e recarga verificadas, com pico alocado de 3,41 GiB na GPU local. A execução retomada reproduziu os pesos e o estado do otimizador da execução contínua. [Relatório e gráfico](docs/training-smoke-2026-09-28.md). O artigo será escrito a partir dos experimentos concluídos.
 
 **Baselines no piloto original:** Qwen2.5-0.5B-Instruct acertou 38/120 respostas e Qwen2.5-1.5B-Instruct, 74/120, ambos em BF16. [Comparação e limitações](docs/model-comparison-2026-09-27.md). Esses resultados não são misturados com os dados revisados usados no teste de treinamento.
 

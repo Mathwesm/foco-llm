@@ -1,5 +1,11 @@
 # Próximas etapas e critérios de conclusão
 
+**Atualização — 30/09/2026:** [piloto C3 de dedução](source-task-pilot-2026-09-30.md)
+concluído, 64 passos/32 exemplos/seed 42; validação 6/120 → 19/120. Próxima
+etapa: implementar a supervisão de resposta para C1/C2, congelar a seleção dos
+mesmos problemas-base entre braços e sementes, executar repetições e estimar
+incerteza agrupando as variantes por problema-base. A fase local não terminou.
+
 **Atualização — 29/09/2026:** diagnósticos de [formato](format-diagnostic-2026-09-29.md)
 e [profundidade](depth-diagnostic-2026-09-29.md) concluídos. O segundo teve 120
 inferências novas e mostrou dificuldade crescente mesmo sem distratores.

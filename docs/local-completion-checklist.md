@@ -1,6 +1,6 @@
 # Conclusão local antes da ampliação em nuvem
 
-Atualização: 29/09/2026. Não declarar a fase local concluída somente porque o smoke test passou.
+Atualização: 30/09/2026. Não declarar a fase local concluída somente porque o smoke test ou um piloto passou.
 
 ## Concluído
 
@@ -16,7 +16,7 @@ Atualização: 29/09/2026. Não declarar a fase local concluída somente porque 
 - Diagnóstico de formato concluído: original 3/30, JSON explícito 4/30, resposta simples 3/30; aritmética e acompanhamento seguem em zero. [Resultado](format-diagnostic-2026-09-29.md). Não alterado o prompt padrão.
 - Dificuldade/profundidade concluída: 120 casos novos com linguagem fixa; queda de acurácia com mais etapas, sem treino. [Resultado](depth-diagnostic-2026-09-29.md). O benchmark congelado não foi modificado.
 - Congelar dados, prompts, métricas e orçamento dos controles científicos.
-- Executor configurável além dos seis passos funcionais, com tarefa-fonte, supervisão, sementes e validação por lote/época previamente definidos.
+- Executor de piloto C3 concluído: tarefa-fonte, condição, seed e orçamento por arquivo; 64 passos em 32 exemplos, avaliação fixa ao final. [Resultado: 6/120 → 19/120](source-task-pilot-2026-09-30.md). Faltam seleção do objetivo C1/C2 e os demais controles.
 - C0 original, C1 treino limpo/resposta, C2 ruído/resposta, C3 ruído/resposta+evidências; controlar diferenças de formato e registrar tokens supervisionados.
 - Três sementes por braço ajustado e medição de tempo/memória antes da matriz completa.
 - Transferência para tarefas excluídas do treino; manter teste final reservado até congelar o protocolo.

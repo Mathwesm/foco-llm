@@ -88,7 +88,7 @@ def compare(before: Path, after: Path, output: Path) -> None:
     ids = [p.id for p in problems]
     for label, values, color, offset in (
         ("Original", left, "#0072B2", -0.2),
-        ("Six-step adapter", right, "#D55E00", 0.2),
+        ("LoRA adapter", right, "#D55E00", 0.2),
     ):
         totals = [sum(values[i] for i in ids if i.startswith(f"v2-{t}-")) for t in Task]
         axis.bar([i + offset for i in range(3)], totals, width=0.4, label=label, color=color)
@@ -98,7 +98,7 @@ def compare(before: Path, after: Path, output: Path) -> None:
         ylim=(0, 40),
         xlabel="Task",
         ylabel="Correct answers (out of 40)",
-        title="Functional adapter validation: all context conditions combined",
+        title="Adapter validation: all context conditions combined",
     )
     axis.legend()
     if not (output / "before-after.png").exists():
