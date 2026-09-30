@@ -1,0 +1,22 @@
+{
+  "attempted": 120,
+  "valid": 113,
+  "rejected": {
+    "v2-arithmetic-000049:clean": "invalid_json_or_evidence",
+    "v2-arithmetic-000049:unrelated": "invalid_json_or_evidence",
+    "v2-arithmetic-000049:similar": "invalid_json_or_evidence",
+    "v2-arithmetic-000059:unrelated": "invalid_json_or_evidence",
+    "v2-arithmetic-000059:similar": "invalid_json_or_evidence",
+    "v2-deduction-000069:unrelated": "invalid_json_or_evidence",
+    "v2-tracking-000089:similar": "invalid_json_or_evidence"
+  },
+  "generation_seconds": 173.17566209973302,
+  "output_tokens": 3275,
+  "peak_allocated_bytes": 3167192576,
+  "peak_reserved_bytes": 3370123264,
+  "stop_counts": {
+    "eos": 119,
+    "token_limit": 1,
+    "time_limit": 0
+  }
+}

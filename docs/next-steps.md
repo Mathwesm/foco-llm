@@ -1,5 +1,13 @@
 # Próximas etapas e critérios de conclusão
 
+**Fechamento local — 30/09/2026:** a rodada congelada terminou; os quatro
+braços foram avaliados no teste reservado. [Resultados e dados brutos](final-local-results-2026-09-30.md).
+O próximo passo operacional é preparar o mesmo pipeline no Kaggle e conferir
+GPU, limites da conta e instalação antes de executar um experimento novo.
+Variar hiperparâmetros ou usar modelo maior é opcional e exige protocolo
+separado; não altera a avaliação final já registrada. Os registros abaixo
+preservam o planejamento e o histórico anteriores.
+
 **Atualização — 30/09/2026, controles concluídos:** [nove treinos e resultados](local-controls-2026-09-30.md).
 C2 atingiu média 34,3/120, C1 31,7/120, C3 19,0/120. Antes do Kaggle,
 auditar uma amostra estratificada das respostas, revisar os artefatos,

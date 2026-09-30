@@ -1,4 +1,4 @@
-"""Re-score saved validation responses with a versioned content-envelope diagnostic."""
+"""Re-score saved validation or final-test responses with the same content contract."""
 
 import argparse
 import hashlib
@@ -37,22 +37,23 @@ def build_chart(result: ContentEvaluation) -> Figure:
         axis.bar_label(bars, fmt="%.0f%%", padding=2, fontsize=8)
         axis.set(ylim=(0, 115), ylabel=title, xlabel="Task / condition")
         axis.tick_params(axis="x", labelsize=7)
-    figure.suptitle(
-        f"Post-hoc validation diagnostic: {PROTOCOL_VERSION}\nSame raw outputs; no training"
-    )
+    figure.suptitle(f"Post-hoc {result.analysis_type}: {PROTOCOL_VERSION}\nSame raw outputs")
     return figure
 
 
 def analyze(source: Path, output: Path) -> ContentEvaluation:
     """Verify raw checkpoints and original scores before publishing a separate analysis."""
     manifest = json.loads((source / "manifest.json").read_text(encoding="utf-8"))
-    case_file = f"{manifest['config']['split']}.json"
+    split = Split(manifest["config"]["split"])
+    if split not in (Split.VALIDATION, Split.TEST):
+        raise ValueError("Content diagnostic requires validation or test examples")
+    case_file = f"{split.value}.json"
     problems = TypeAdapter(tuple[Problem, ...]).validate_json(
         (source / case_file).read_text(encoding="utf-8")
     )
     validate_dataset(problems)
-    if any(p.split != Split.VALIDATION for p in problems):
-        raise ValueError("This diagnostic is restricted to validation examples")
+    if any(p.split != split for p in problems):
+        raise ValueError("Content diagnostic split differs from the manifest")
     records = TypeAdapter(tuple[Checkpoint, ...]).validate_json(
         (source / "raw-responses.json").read_text(encoding="utf-8")
     )
@@ -60,6 +61,10 @@ def analyze(source: Path, output: Path) -> ContentEvaluation:
         (source / "predictions.json").read_text(encoding="utf-8")
     )
     result = compare_protocols(problems, records, provenance)
+    analysis_type = (
+        "post_hoc_final_test" if split == Split.TEST else "post_hoc_validation_diagnostic"
+    )
+    result = result.model_copy(update={"analysis_type": analysis_type})
     original = EvaluationReport.model_validate_json(
         (source / "report.json").read_text(encoding="utf-8")
     )
@@ -75,7 +80,7 @@ def analyze(source: Path, output: Path) -> ContentEvaluation:
             {
                 "protocol": PROTOCOL_VERSION,
                 "inputs": inputs,
-                "analysis_type": "post_hoc_validation_diagnostic",
+                "analysis_type": analysis_type,
             },
             indent=2,
         ),

@@ -2,6 +2,12 @@
 
 Atualização: 30/09/2026. Não declarar a fase local concluída somente porque o smoke test ou um piloto passou.
 
+**Estado atual:** a rodada local acordada foi concluída após os nove treinos,
+auditoria manual delimitada, protocolo congelado e avaliação final dos quatro
+braços nos 120 casos reservados. [Resultados finais](final-local-results-2026-09-30.md).
+Os itens históricos abaixo registram o plano original; pendências opcionais
+não impedem a passagem para Kaggle.
+
 ## Concluído
 
 - Dados sintéticos com separação por problema-base, gabaritos verificados e variantes pareadas.
@@ -12,7 +18,7 @@ Atualização: 30/09/2026. Não declarar a fase local concluída somente porque 
 - Controles C1/C2/C3 concluídos com três sementes e validação completa; [resultados, respostas brutas e intervalos exploratórios](local-controls-2026-09-30.md).
 - Diagnóstico de ordem; documentação e figuras.
 
-## Em execução ou pendente
+## Histórico e melhorias opcionais
 
 - Diagnóstico de formato concluído: original 3/30, JSON explícito 4/30, resposta simples 3/30; aritmética e acompanhamento seguem em zero. [Resultado](format-diagnostic-2026-09-29.md). Não alterado o prompt padrão.
 - Dificuldade/profundidade concluída: 120 casos novos com linguagem fixa; queda de acurácia com mais etapas, sem treino. [Resultado](depth-diagnostic-2026-09-29.md). O benchmark congelado não foi modificado.

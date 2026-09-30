@@ -1,0 +1,234 @@
+{
+  "schema_version": "1",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "prompt_version": "evidence-json-v1",
+  "seed": 42,
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 128
+  },
+  "groups": [
+    {
+      "task": "arithmetic",
+      "condition": "clean",
+      "count": 10,
+      "answered": 9,
+      "accuracy": 0.0,
+      "evidence_precision": 0.9,
+      "evidence_recall": 0.85,
+      "evidence_exact": 0.6
+    },
+    {
+      "task": "arithmetic",
+      "condition": "unrelated",
+      "count": 10,
+      "answered": 8,
+      "accuracy": 0.0,
+      "evidence_precision": 0.78,
+      "evidence_recall": 0.3666666666666667,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "arithmetic",
+      "condition": "numeric",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.0,
+      "evidence_precision": 0.8749999999999998,
+      "evidence_recall": 0.5,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "arithmetic",
+      "condition": "similar",
+      "count": 10,
+      "answered": 8,
+      "accuracy": 0.0,
+      "evidence_precision": 0.6833333333333333,
+      "evidence_recall": 0.33333333333333337,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "deduction",
+      "condition": "clean",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.7,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.7,
+      "evidence_exact": 0.5
+    },
+    {
+      "task": "deduction",
+      "condition": "unrelated",
+      "count": 10,
+      "answered": 9,
+      "accuracy": 0.0,
+      "evidence_precision": 0.9,
+      "evidence_recall": 0.21666666666666665,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "deduction",
+      "condition": "numeric",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.0,
+      "evidence_precision": 0.9,
+      "evidence_recall": 0.2333333333333333,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "deduction",
+      "condition": "similar",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.3,
+      "evidence_precision": 0.7166666666666666,
+      "evidence_recall": 0.2333333333333333,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "tracking",
+      "condition": "clean",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.5,
+      "evidence_precision": 1.0,
+      "evidence_recall": 0.4166666666666667,
+      "evidence_exact": 0.1
+    },
+    {
+      "task": "tracking",
+      "condition": "unrelated",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.1,
+      "evidence_precision": 0.9454545454545455,
+      "evidence_recall": 0.2833333333333333,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "tracking",
+      "condition": "numeric",
+      "count": 10,
+      "answered": 10,
+      "accuracy": 0.0,
+      "evidence_precision": 0.7287878787878789,
+      "evidence_recall": 0.2666666666666667,
+      "evidence_exact": 0.0
+    },
+    {
+      "task": "tracking",
+      "condition": "similar",
+      "count": 10,
+      "answered": 9,
+      "accuracy": 0.0,
+      "evidence_precision": 0.625,
+      "evidence_recall": 0.23333333333333334,
+      "evidence_exact": 0.0
+    }
+  ],
+  "paired": [
+    {
+      "task": "arithmetic",
+      "condition": "unrelated",
+      "pairs": 10,
+      "clean_accuracy": 0.0,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 0.0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": null
+    },
+    {
+      "task": "arithmetic",
+      "condition": "numeric",
+      "pairs": 10,
+      "clean_accuracy": 0.0,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 0.0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": null
+    },
+    {
+      "task": "arithmetic",
+      "condition": "similar",
+      "pairs": 10,
+      "clean_accuracy": 0.0,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 0.0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": null
+    },
+    {
+      "task": "deduction",
+      "condition": "unrelated",
+      "pairs": 10,
+      "clean_accuracy": 0.7,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 70.0,
+      "correct_to_wrong": 7,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": 1.0
+    },
+    {
+      "task": "deduction",
+      "condition": "numeric",
+      "pairs": 10,
+      "clean_accuracy": 0.7,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 70.0,
+      "correct_to_wrong": 7,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": 1.0
+    },
+    {
+      "task": "deduction",
+      "condition": "similar",
+      "pairs": 10,
+      "clean_accuracy": 0.7,
+      "distracted_accuracy": 0.3,
+      "penalty_percentage_points": 40.0,
+      "correct_to_wrong": 5,
+      "wrong_to_correct": 1,
+      "conditional_failure_rate": 0.7142857142857143
+    },
+    {
+      "task": "tracking",
+      "condition": "unrelated",
+      "pairs": 10,
+      "clean_accuracy": 0.5,
+      "distracted_accuracy": 0.1,
+      "penalty_percentage_points": 40.0,
+      "correct_to_wrong": 4,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": 0.8
+    },
+    {
+      "task": "tracking",
+      "condition": "numeric",
+      "pairs": 10,
+      "clean_accuracy": 0.5,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 50.0,
+      "correct_to_wrong": 5,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": 1.0
+    },
+    {
+      "task": "tracking",
+      "condition": "similar",
+      "pairs": 10,
+      "clean_accuracy": 0.5,
+      "distracted_accuracy": 0.0,
+      "penalty_percentage_points": 50.0,
+      "correct_to_wrong": 5,
+      "wrong_to_correct": 0,
+      "conditional_failure_rate": 1.0
+    }
+  ]
+}

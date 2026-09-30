@@ -4,6 +4,14 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Rodada local encerrada — 30/09:** os nove treinos e a avaliação final
+congelada terminaram. No teste reservado de 120 casos, C0/C1/C2/C3
+acertaram respectivamente **6/16/26/9** respostas; C2 foi o melhor, mas
+aritmética permaneceu em 0/40 e a transferência para acompanhamento foi
+pequena. [Relatório final, limitações e artefatos auditáveis](docs/final-local-results-2026-09-30.md).
+O próximo ambiente experimental é Kaggle; ajustes de parâmetros são uma
+rodada opcional posterior, separada deste teste.
+
 **Controles locais de 30/09:** nove treinos (C1/C2/C3 × três sementes) concluídos. Médias de acertos na validação: **31,7/120** com contexto limpo e supervisão da resposta, **34,3/120** com ruído similar e supervisão da resposta, **19,0/120** com ruído similar e supervisão de resposta + evidências; modelo original **6/120**. Aritmética segue em 0/40. [Resultados, figura e limitações](docs/local-controls-2026-09-30.md).
 
 **Piloto local de tarefa-fonte — 30/09:** 64 passos LoRA em 32 exemplos de dedução com distratores; validação passou de **6/120 para 19/120**, principalmente na tarefa treinada. Uma semente, sem controles C1/C2 ainda: não é prova de transferência robusta. [Protocolo, resultados e gráficos](docs/source-task-pilot-2026-09-30.md).
