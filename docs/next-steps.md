@@ -1,5 +1,12 @@
 # Próximas etapas e critérios de conclusão
 
+**Atualização — 29/09/2026:** diagnósticos de [formato](format-diagnostic-2026-09-29.md)
+e [profundidade](depth-diagnostic-2026-09-29.md) concluídos. O segundo teve 120
+inferências novas e mostrou dificuldade crescente mesmo sem distratores.
+Próximo marco: executor científico configurável e piloto de treinamento,
+mantendo controles, avaliação nas tarefas-alvo e teste final reservado.
+Os estados abaixo preservam a sequência histórica.
+
 **Diagnóstico de ordem concluído:** 30 novas gerações sem treino; dedução mudou de 3/10 para 2/10, com cinco pares alterados; outras tarefas permaneceram em zero. [Resultado](order-diagnostic-2026-09-28.md). Próxima etapa: contraste de contrato de resposta com problemas fixos; depois profundidade com linguagem controlada. Não escolher a melhor ordem por item.
 
 **Prioridade atual — 2026-09-28:** o baseline v2.1 terminou com 6/120 acertos e nenhuma tarefa atingiu 8/10 na condição limpa. Antes de treinamento de eficácia, definir diagnóstico que separe profundidade, ordem e contrato de resposta. Não modificar o protocolo retrospectivamente nem selecionar apenas exemplos acertados. [Resultado e limitações](baseline-v21-2026-09-28.md). Os registros abaixo preservam a sequência histórica.

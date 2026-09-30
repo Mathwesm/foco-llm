@@ -1,0 +1,422 @@
+[
+  {
+    "id": "v2-arithmetic-000008:clean",
+    "prompt_sha256": "4627e5bf811adc000bd5b39ae5229e2d2534b845d811d51c6e5a1031d085a4eb",
+    "finished_at": "2026-09-30T02:00:25.426469Z",
+    "generation": {
+      "text": "51",
+      "input_tokens": 155,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.11409909999929368,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000018:clean",
+    "prompt_sha256": "1c519c11dfd4a08d2ac1aac31fa633c1294f4e9898370e807bb7d3905d58c2ca",
+    "finished_at": "2026-09-30T02:00:25.544246Z",
+    "generation": {
+      "text": "10",
+      "input_tokens": 155,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.13887010001053568,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:clean",
+    "prompt_sha256": "1f575e4784e3fbf5dcddabcaa99555eecbfb13458ffdd43db93816fe4a33e3f2",
+    "finished_at": "2026-09-30T02:00:25.686177Z",
+    "generation": {
+      "text": "11",
+      "input_tokens": 155,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.1103579000046011,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000038:clean",
+    "prompt_sha256": "ac7a42a81f8839d1b1ba0a06582d77171b3c9f39883056015f18c0bc3ce2aa29",
+    "finished_at": "2026-09-30T02:00:25.799339Z",
+    "generation": {
+      "text": "10",
+      "input_tokens": 154,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.12827860000834335,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:clean",
+    "prompt_sha256": "8fde9b19ecc0103aabce01f653bb411702ba6d1184f53b56641b8b3008bdfcb8",
+    "finished_at": "2026-09-30T02:00:25.930011Z",
+    "generation": {
+      "text": "120",
+      "input_tokens": 154,
+      "output_tokens": 4,
+      "elapsed_seconds": 0.15867659999639727,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:clean",
+    "prompt_sha256": "8dc1d155e40f026e354fc6819f4e38dcd78f3b53cdb9c0812f1fc66cc8baae71",
+    "finished_at": "2026-09-30T02:00:26.090233Z",
+    "generation": {
+      "text": "To determine the number of marbles remaining in copper, we need to account for the changes made to the marble count:\n\n1. **Initial marble count of copper:** 59 marbles\n2. **Update A:** 1 marble is removed from it.\n3. **Update J:** 4 marbles are removed from it.\n4. **Update I:** 3 marbles are removed from it.\n5. **Update Z:** 7 marbles are added to it.\n\nLet's calculate the net change in the marble count:\n\n- Initial count: 59 marbles\n- Update A: -1 marble\n-",
+      "input_tokens": 154,
+      "output_tokens": 128,
+      "elapsed_seconds": 4.774290999994264,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000068:clean",
+    "prompt_sha256": "f78b4fb6aa90689a4e09d2af6717255630b6c94db1994a6a6109fd709e9cbfb7",
+    "finished_at": "2026-09-30T02:00:30.867247Z",
+    "generation": {
+      "text": "14",
+      "input_tokens": 154,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.11725210001168307,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000078:clean",
+    "prompt_sha256": "f791775f8f169743b189b98572fd0f88f0c2b021bc0bf7615f649e8cc8a56206",
+    "finished_at": "2026-09-30T02:00:30.986763Z",
+    "generation": {
+      "text": "10",
+      "input_tokens": 154,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.1190340000030119,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:clean",
+    "prompt_sha256": "4bf8f706774b2d78b3a5646308d327a973495214e1ec9e1e62f79674032ebcad",
+    "finished_at": "2026-09-30T02:00:31.107625Z",
+    "generation": {
+      "text": "3",
+      "input_tokens": 153,
+      "output_tokens": 2,
+      "elapsed_seconds": 0.07991580000089016,
+      "peak_allocated_bytes": 3137091072,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:clean",
+    "prompt_sha256": "7edde9a4bf8f27d9155ae0a5a6163057119d11dfe857d4b9f8bcdff39a2f5857",
+    "finished_at": "2026-09-30T02:00:31.190079Z",
+    "generation": {
+      "text": "14",
+      "input_tokens": 155,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.11382910000975244,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000008:clean",
+    "prompt_sha256": "e190f56a5d96a2d5b2ffb50f534908162c0783b3eda1c60ef739c901bef24a37",
+    "finished_at": "2026-09-30T02:00:31.306598Z",
+    "generation": {
+      "text": "P2134",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22602740000002086,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000018:clean",
+    "prompt_sha256": "3b9f97c2103a8d0a72677aea38ab4487e134ca9b71733270e8f7f19370803207",
+    "finished_at": "2026-09-30T02:00:31.534200Z",
+    "generation": {
+      "text": "P8034",
+      "input_tokens": 154,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2336117000086233,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000028:clean",
+    "prompt_sha256": "5206dd0590e825ac8b00c819a4cf1b4502e724a036b1296b29ce4fcdd2aa66c6",
+    "finished_at": "2026-09-30T02:00:31.770111Z",
+    "generation": {
+      "text": "P610",
+      "input_tokens": 154,
+      "output_tokens": 5,
+      "elapsed_seconds": 0.18585569999413565,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000038:clean",
+    "prompt_sha256": "94502f28e15f4fc863dde9389cf65f3b3599d880dfb04d4465de97c4583efee8",
+    "finished_at": "2026-09-30T02:00:31.958148Z",
+    "generation": {
+      "text": "P6191",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22275340001215227,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000048:clean",
+    "prompt_sha256": "5838828baea2dcfd1d04791050b81bafa2010e8376215a40164408bc029ea0c9",
+    "finished_at": "2026-09-30T02:00:32.183494Z",
+    "generation": {
+      "text": "P9958",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22007499999017455,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000058:clean",
+    "prompt_sha256": "6f4bd04a5cb1da5d5bed4c052081775652b91b484faf7c780dd6a51dc7d7d139",
+    "finished_at": "2026-09-30T02:00:32.405548Z",
+    "generation": {
+      "text": "P9580",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22803690000728238,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000068:clean",
+    "prompt_sha256": "615cc85e94aaaecbf50f213261e7b044ad705e630ff235bcbd54388643c5b34a",
+    "finished_at": "2026-09-30T02:00:32.635855Z",
+    "generation": {
+      "text": "P8833",
+      "input_tokens": 150,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2490970000071684,
+      "peak_allocated_bytes": 3136780800,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000078:clean",
+    "prompt_sha256": "c338f865cec9ed38344ed5538d44691cf4f4dfa6353fd8e9f542862e4444fb03",
+    "finished_at": "2026-09-30T02:00:32.888130Z",
+    "generation": {
+      "text": "P4426",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2431924000120489,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000088:clean",
+    "prompt_sha256": "7d8eb52b021193a150829224ca67b1baba6d91b3b09aa83ddd67ae1890372466",
+    "finished_at": "2026-09-30T02:00:33.132786Z",
+    "generation": {
+      "text": "P7309",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.23729620000813156,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-deduction-000098:clean",
+    "prompt_sha256": "096dd06dc6af30986ecebf56d425e8de170d8a545db5d3a352078e11f72046e4",
+    "finished_at": "2026-09-30T02:00:33.372486Z",
+    "generation": {
+      "text": "P9011",
+      "input_tokens": 158,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.23541050001222175,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000008:clean",
+    "prompt_sha256": "9474f6ff034050b8706a61afd197ac06361109fec93320afd34823a732442cb1",
+    "finished_at": "2026-09-30T02:00:33.610434Z",
+    "generation": {
+      "text": "B3037",
+      "input_tokens": 191,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22879310000280384,
+      "peak_allocated_bytes": 3141049856,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000018:clean",
+    "prompt_sha256": "bd80c53cadde8d4cd2807eebab8f1f7cb6c61b9edbc5cc38b05d828a2bccc70c",
+    "finished_at": "2026-09-30T02:00:33.841545Z",
+    "generation": {
+      "text": "B6981",
+      "input_tokens": 189,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2445659000077285,
+      "peak_allocated_bytes": 3140839424,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000028:clean",
+    "prompt_sha256": "2eab6ee9e916dcc2ab805ebd5ad58dfe9e1430ca291f51e2f0171ebc9bfe5ec9",
+    "finished_at": "2026-09-30T02:00:34.088629Z",
+    "generation": {
+      "text": "B8885",
+      "input_tokens": 189,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2384858000004897,
+      "peak_allocated_bytes": 3140839424,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000038:clean",
+    "prompt_sha256": "67389b33511de589d2dfff19414ef6d5367d1f2409937380b9b5e97a77ad1116",
+    "finished_at": "2026-09-30T02:00:34.329407Z",
+    "generation": {
+      "text": "B757",
+      "input_tokens": 189,
+      "output_tokens": 5,
+      "elapsed_seconds": 0.21276870000292547,
+      "peak_allocated_bytes": 3140839424,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000048:clean",
+    "prompt_sha256": "0bea80fe67d0e3d9c299030face2b1cc08d3673f0f2ee473af3885bbb73c1989",
+    "finished_at": "2026-09-30T02:00:34.544919Z",
+    "generation": {
+      "text": "B7479",
+      "input_tokens": 191,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22928749999846332,
+      "peak_allocated_bytes": 3141049856,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000058:clean",
+    "prompt_sha256": "f5713d4527cea88342d90483bc1accd4b539937401afb8ed567ad78b9dcf2ef9",
+    "finished_at": "2026-09-30T02:00:34.775883Z",
+    "generation": {
+      "text": "B4359",
+      "input_tokens": 191,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2440152999915881,
+      "peak_allocated_bytes": 3141049856,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000068:clean",
+    "prompt_sha256": "b56205815740d5a38140a42917df82e189c8c70beea62737db93ffb5a96a87c4",
+    "finished_at": "2026-09-30T02:00:35.022229Z",
+    "generation": {
+      "text": "B7393",
+      "input_tokens": 191,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.23703289999684785,
+      "peak_allocated_bytes": 3141049856,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000078:clean",
+    "prompt_sha256": "f271830edf7ae7e9530f9c2f0e1f34d58c0f1f52c0509d7ee384e7e081267eb0",
+    "finished_at": "2026-09-30T02:00:35.261229Z",
+    "generation": {
+      "text": "B2843",
+      "input_tokens": 191,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.2252994000009494,
+      "peak_allocated_bytes": 3141049856,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000088:clean",
+    "prompt_sha256": "d7faa18f490e840f21b2327fc349819b21fd3c06209c5bd9a8d25da05fe5d1d6",
+    "finished_at": "2026-09-30T02:00:35.492438Z",
+    "generation": {
+      "text": "B2973",
+      "input_tokens": 191,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.22699520000605844,
+      "peak_allocated_bytes": 3141049856,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-tracking-000098:clean",
+    "prompt_sha256": "53fb1919c4eb01e6c7667f37a46063b46c634b2d6d235d68682c8d726aac389f",
+    "finished_at": "2026-09-30T02:00:35.722373Z",
+    "generation": {
+      "text": "B8225",
+      "input_tokens": 189,
+      "output_tokens": 6,
+      "elapsed_seconds": 0.21968280000146478,
+      "peak_allocated_bytes": 3140839424,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  }
+]

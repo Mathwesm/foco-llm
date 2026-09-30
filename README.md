@@ -4,6 +4,8 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Diagnóstico de formato concluído:** 60 novas gerações; JSON explícito e resposta simples não resolveram a baixa acurácia limpa. [Resultado](docs/format-diagnostic-2026-09-29.md) e [pendências locais antes da nuvem](docs/local-completion-checklist.md).
+
 **Diagnóstico de ordem:** nos 30 casos limpos, inverter as frases mudou cinco resultados de dedução (três perdas e dois ganhos), sem resolver a baixa competência inicial. [Método, pares e gráfico](docs/order-diagnostic-2026-09-28.md).
 
 **Como entender os experimentos:** [guia dos 120 casos, tarefas, exemplos e histórico](docs/experiment-guide.md). A validação usa 30 problemas-base em inglês, cada um em quatro condições; os testes automatizados do código são uma verificação separada.

@@ -1,0 +1,699 @@
+{
+  "groups": [
+    {
+      "arm": "original",
+      "task": "arithmetic",
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "arm": "original",
+      "task": "deduction",
+      "count": 10,
+      "correct": 3,
+      "readable": 10
+    },
+    {
+      "arm": "original",
+      "task": "tracking",
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "arm": "explicit_json",
+      "task": "arithmetic",
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "arm": "explicit_json",
+      "task": "deduction",
+      "count": 10,
+      "correct": 4,
+      "readable": 9
+    },
+    {
+      "arm": "explicit_json",
+      "task": "tracking",
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "arm": "plain_answer",
+      "task": "arithmetic",
+      "count": 10,
+      "correct": 0,
+      "readable": 9
+    },
+    {
+      "arm": "plain_answer",
+      "task": "deduction",
+      "count": 10,
+      "correct": 3,
+      "readable": 10
+    },
+    {
+      "arm": "plain_answer",
+      "task": "tracking",
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    }
+  ],
+  "decisions": [
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000008:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000018:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000028:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000038:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000048:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000058:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000068:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000078:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000088:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-arithmetic-000098:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000008:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000018:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000028:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000038:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000048:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000058:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000068:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000078:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000088:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-deduction-000098:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000008:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000018:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000028:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000038:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000048:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000058:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000068:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000078:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000088:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "original",
+      "id": "v2-tracking-000098:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000008:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000018:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000028:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000038:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000048:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000058:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000068:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000078:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000088:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-arithmetic-000098:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000008:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000018:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000028:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000038:clean",
+      "task": "deduction",
+      "readable": false,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000048:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000058:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000068:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000078:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000088:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-deduction-000098:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000008:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000018:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000028:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000038:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000048:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000058:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000068:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000078:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000088:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "explicit_json",
+      "id": "v2-tracking-000098:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000008:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000018:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000028:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000038:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000048:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000058:clean",
+      "task": "arithmetic",
+      "readable": false,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000068:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000078:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000088:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-arithmetic-000098:clean",
+      "task": "arithmetic",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000008:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000018:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000028:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000038:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000048:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000058:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000068:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000078:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000088:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-deduction-000098:clean",
+      "task": "deduction",
+      "readable": true,
+      "correct": true
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000008:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000018:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000028:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000038:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000048:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000058:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000068:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000078:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000088:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    },
+    {
+      "arm": "plain_answer",
+      "id": "v2-tracking-000098:clean",
+      "task": "tracking",
+      "readable": true,
+      "correct": false
+    }
+  ]
+}

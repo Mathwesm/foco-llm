@@ -60,4 +60,18 @@ Um experimento local bem-sucedido não garante igualdade bit a bit em outra GPU.
 
 ## Estado atual
 
+### Alternativa gratuita: Kaggle (29/09/2026)
+
+Considerar Kaggle antes de contratar GPU paga, conforme sugestão do autor. A
+[documentação oficial](https://www.kaggle.com/docs/efficient-gpu-usage) informa
+cota semanal; confirmar saldo, GPU disponível e duração máxima na conta antes
+de estimar o experimento. A disponibilidade pode ter fila. Não houve execução
+ou autenticação no Kaggle nesta etapa.
+
+Usar o mesmo repositório e Poetry, registrar o ambiente efetivamente fornecido,
+salvar checkpoints e exportar resultados antes do encerramento da sessão.
+Verificar compatibilidade de Python, CUDA e precisão; não presumir que BF16
+local funciona na GPU fornecida. Se for necessário mudar precisão, registrar
+como outra configuração e não atribuir a diferença somente ao hardware.
+
 O [teste funcional de treinamento local](training-smoke-2026-09-28.md) foi implementado e executado: seis passos LoRA com retomada e recarga verificadas. A matriz científica C1/C2/C3, suas repetições e a comparação em nuvem ainda não foram executadas. O artigo e o teste final continuam reservados.

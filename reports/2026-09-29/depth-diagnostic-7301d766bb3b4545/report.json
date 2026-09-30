@@ -1,0 +1,930 @@
+{
+  "groups": [
+    {
+      "task": "arithmetic",
+      "depth": 1,
+      "count": 10,
+      "correct": 4,
+      "readable": 10
+    },
+    {
+      "task": "arithmetic",
+      "depth": 2,
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "task": "arithmetic",
+      "depth": 3,
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "task": "arithmetic",
+      "depth": 4,
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    },
+    {
+      "task": "deduction",
+      "depth": 1,
+      "count": 10,
+      "correct": 10,
+      "readable": 10
+    },
+    {
+      "task": "deduction",
+      "depth": 2,
+      "count": 10,
+      "correct": 7,
+      "readable": 10
+    },
+    {
+      "task": "deduction",
+      "depth": 3,
+      "count": 10,
+      "correct": 4,
+      "readable": 10
+    },
+    {
+      "task": "deduction",
+      "depth": 4,
+      "count": 10,
+      "correct": 2,
+      "readable": 10
+    },
+    {
+      "task": "tracking",
+      "depth": 1,
+      "count": 10,
+      "correct": 7,
+      "readable": 10
+    },
+    {
+      "task": "tracking",
+      "depth": 2,
+      "count": 10,
+      "correct": 4,
+      "readable": 10
+    },
+    {
+      "task": "tracking",
+      "depth": 3,
+      "count": 10,
+      "correct": 2,
+      "readable": 10
+    },
+    {
+      "task": "tracking",
+      "depth": 4,
+      "count": 10,
+      "correct": 0,
+      "readable": 10
+    }
+  ],
+  "decisions": [
+    {
+      "id": "depth-diagnostic-arithmetic-000:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-000:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-000:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-000:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-001:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-001:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-001:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-001:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-002:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-002:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-002:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-002:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-003:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-003:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-003:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-003:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-004:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-004:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-004:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-004:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-005:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-005:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-005:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-005:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-006:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-006:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-006:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-006:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-007:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-007:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-007:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-007:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-008:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-008:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-008:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-008:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-009:depth-1",
+      "task": "arithmetic",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-009:depth-2",
+      "task": "arithmetic",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-009:depth-3",
+      "task": "arithmetic",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-arithmetic-009:depth-4",
+      "task": "arithmetic",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-000:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-000:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-000:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-000:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-001:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-001:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-001:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-001:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-002:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-002:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-002:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-002:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-003:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-003:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-003:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-003:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-004:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-004:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-004:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-004:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-005:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-005:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-005:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-005:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-006:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-006:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-006:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-006:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-007:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-007:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-007:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-007:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-008:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-008:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-008:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-008:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-009:depth-1",
+      "task": "deduction",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-009:depth-2",
+      "task": "deduction",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-deduction-009:depth-3",
+      "task": "deduction",
+      "depth": 3,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-deduction-009:depth-4",
+      "task": "deduction",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-000:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-000:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-000:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-000:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-001:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-001:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-001:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-001:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-002:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-002:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-002:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-002:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-003:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-003:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-003:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-003:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-004:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-004:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-004:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-004:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-005:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-005:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-005:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-005:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-006:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-006:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-006:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-006:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-007:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-007:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-007:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-007:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-008:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": true
+    },
+    {
+      "id": "depth-diagnostic-tracking-008:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-008:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-008:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-009:depth-1",
+      "task": "tracking",
+      "depth": 1,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-009:depth-2",
+      "task": "tracking",
+      "depth": 2,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-009:depth-3",
+      "task": "tracking",
+      "depth": 3,
+      "readable": true,
+      "correct": false
+    },
+    {
+      "id": "depth-diagnostic-tracking-009:depth-4",
+      "task": "tracking",
+      "depth": 4,
+      "readable": true,
+      "correct": false
+    }
+  ]
+}
