@@ -1,0 +1,17 @@
+{
+  "attempted": 120,
+  "valid": 118,
+  "rejected": {
+    "v2-deduction-000068:numeric": "invalid_json_or_evidence",
+    "v2-deduction-000098:numeric": "invalid_json_or_evidence"
+  },
+  "generation_seconds": 184.03306590006105,
+  "output_tokens": 3633,
+  "peak_allocated_bytes": 3157906944,
+  "peak_reserved_bytes": 3370123264,
+  "stop_counts": {
+    "eos": 120,
+    "token_limit": 0,
+    "time_limit": 0
+  }
+}

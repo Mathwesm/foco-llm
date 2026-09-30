@@ -1,0 +1,22 @@
+{
+  "protocol": "content-envelope-v2",
+  "inputs": [
+    {
+      "file": "validation.json",
+      "source_sha256": "e0d31717afa5c30ef9e2a8754b291615abe84b6e61e3578d4011d5500c338557"
+    },
+    {
+      "file": "raw-responses.json",
+      "source_sha256": "23dbf3df91bd5a0540cd4f1d3001cc11b5ed21bbb5fd5005c916712a39ff437b"
+    },
+    {
+      "file": "predictions.json",
+      "source_sha256": "75feda43a1f34b8a62f0f1e0d5931aa0cb7f0229202a76648a55e8db356e069a"
+    },
+    {
+      "file": "report.json",
+      "source_sha256": "0eb2e582e265f8bb4ec03f71d5731c99b11db3c2767874b9a4b55a07b9cafd17"
+    }
+  ],
+  "analysis_type": "post_hoc_validation_diagnostic"
+}

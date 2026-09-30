@@ -1,0 +1,1041 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "prompt_version": "evidence-json-v1",
+  "seed": 42,
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 128
+  },
+  "predictions": [
+    {
+      "id": "v2-arithmetic-000008:clean",
+      "answer": "59",
+      "evidence": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000008:unrelated",
+      "answer": "59",
+      "evidence": [
+        "F3",
+        "F5",
+        "F7",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000008:numeric",
+      "answer": "65",
+      "evidence": [
+        "F1",
+        "F5",
+        "F7",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000008:similar",
+      "answer": "67",
+      "evidence": [
+        "F1",
+        "F3",
+        "F8",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000018:clean",
+      "answer": "77",
+      "evidence": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000018:unrelated",
+      "answer": "75",
+      "evidence": [
+        "F3",
+        "F4",
+        "F8",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000018:numeric",
+      "answer": "86",
+      "evidence": [
+        "F3",
+        "F4",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000028:clean",
+      "answer": "49",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000028:unrelated",
+      "answer": "55",
+      "evidence": [
+        "F5",
+        "F6",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000028:numeric",
+      "answer": "65",
+      "evidence": [
+        "F5",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000028:similar",
+      "answer": "45",
+      "evidence": [
+        "F2",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000038:clean",
+      "answer": "48",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000038:unrelated",
+      "answer": "48",
+      "evidence": [
+        "F1",
+        "F5",
+        "F6",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000038:numeric",
+      "answer": "51",
+      "evidence": [
+        "F1",
+        "F5",
+        "F6",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000038:similar",
+      "answer": "48",
+      "evidence": [
+        "F1",
+        "F5",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000048:clean",
+      "answer": "45",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000048:unrelated",
+      "answer": "47",
+      "evidence": [
+        "F1",
+        "F4",
+        "F6",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000048:numeric",
+      "answer": "45",
+      "evidence": [
+        "F1",
+        "F4",
+        "F6",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000048:similar",
+      "answer": "53",
+      "evidence": [
+        "F1",
+        "F4",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000058:clean",
+      "answer": "56",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000058:unrelated",
+      "answer": "49",
+      "evidence": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000058:numeric",
+      "answer": "55",
+      "evidence": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000058:similar",
+      "answer": "59",
+      "evidence": [
+        "F8",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000068:clean",
+      "answer": "48",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000068:unrelated",
+      "answer": "49",
+      "evidence": [
+        "F1",
+        "F5",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000068:numeric",
+      "answer": "49",
+      "evidence": [
+        "F1",
+        "F5",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000068:similar",
+      "answer": "56",
+      "evidence": [
+        "F1",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000078:clean",
+      "answer": "69",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000078:unrelated",
+      "answer": "63",
+      "evidence": [
+        "F1",
+        "F5",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000078:numeric",
+      "answer": "69",
+      "evidence": [
+        "F1",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000078:similar",
+      "answer": "67",
+      "evidence": [
+        "F1",
+        "F3",
+        "F5",
+        "F8",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000088:clean",
+      "answer": "69",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000088:unrelated",
+      "answer": "74",
+      "evidence": [
+        "F1",
+        "F6",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000088:numeric",
+      "answer": "66",
+      "evidence": [
+        "F1",
+        "F5",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000088:similar",
+      "answer": "68",
+      "evidence": [
+        "F1",
+        "F7",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000098:clean",
+      "answer": "58",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000098:unrelated",
+      "answer": "57",
+      "evidence": [
+        "F1",
+        "F2",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000098:numeric",
+      "answer": "75",
+      "evidence": [
+        "F1",
+        "F2",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000098:similar",
+      "answer": "43",
+      "evidence": [
+        "F1",
+        "F2",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000008:clean",
+      "answer": "P2134",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000008:unrelated",
+      "answer": "P1746",
+      "evidence": [
+        "F2",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000008:numeric",
+      "answer": "P21746",
+      "evidence": [
+        "F2",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-deduction-000008:similar",
+      "answer": "P4939",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-deduction-000018:clean",
+      "answer": "P3599",
+      "evidence": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-deduction-000018:unrelated",
+      "answer": "P3599",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-deduction-000018:numeric",
+      "answer": "P3599",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000018:similar",
+      "answer": "P8034",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000028:clean",
+      "answer": "P71",
+      "evidence": [
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000028:unrelated",
+      "answer": "P610",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000028:numeric",
+      "answer": "P610",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000028:similar",
+      "answer": "P610",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000038:clean",
+      "answer": "P8972",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-deduction-000038:unrelated",
+      "answer": "P6191",
+      "evidence": [
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000038:numeric",
+      "answer": "P6191",
+      "evidence": [
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000038:similar",
+      "answer": "P6191",
+      "evidence": [
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000048:clean",
+      "answer": "9958",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000048:unrelated",
+      "answer": "P9958",
+      "evidence": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-deduction-000048:numeric",
+      "answer": "P9958",
+      "evidence": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-deduction-000048:similar",
+      "answer": "P9002",
+      "evidence": [
+        "F1",
+        "F2",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-deduction-000058:clean",
+      "answer": "P9580",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000058:unrelated",
+      "answer": "P9580",
+      "evidence": [
+        "F1",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000058:numeric",
+      "answer": "P9580",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000058:similar",
+      "answer": "P9580",
+      "evidence": [
+        "F1",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000068:clean",
+      "answer": "P9532",
+      "evidence": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000068:unrelated",
+      "answer": "P8833",
+      "evidence": [
+        "F3",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-deduction-000068:numeric",
+      "answer": "P8833",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000068:similar",
+      "answer": "P617",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-deduction-000078:clean",
+      "answer": "P2227",
+      "evidence": [
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000078:unrelated",
+      "answer": "P4426",
+      "evidence": [
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-deduction-000078:numeric",
+      "answer": "P6664",
+      "evidence": [
+        "F8",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-deduction-000078:similar",
+      "answer": "P9275",
+      "evidence": [
+        "F1",
+        "F6",
+        "F8",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-deduction-000088:clean",
+      "answer": "P3209",
+      "evidence": [
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000088:unrelated",
+      "answer": "P7309",
+      "evidence": [
+        "F1",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-deduction-000088:numeric",
+      "answer": "P7309",
+      "evidence": [
+        "F1",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-deduction-000088:similar",
+      "answer": "P7309",
+      "evidence": [
+        "F6",
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-deduction-000098:clean",
+      "answer": "P3813",
+      "evidence": [
+        "F1",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000098:unrelated",
+      "answer": "P9026",
+      "evidence": [
+        "F2",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000098:numeric",
+      "answer": "P9026",
+      "evidence": [
+        "F2",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-deduction-000098:similar",
+      "answer": "P2483",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000008:clean",
+      "answer": "B3037",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000008:unrelated",
+      "answer": "F7",
+      "evidence": [
+        "F7"
+      ]
+    },
+    {
+      "id": "v2-tracking-000008:numeric",
+      "answer": "F7",
+      "evidence": [
+        "F7"
+      ]
+    },
+    {
+      "id": "v2-tracking-000008:similar",
+      "answer": "B3037",
+      "evidence": [
+        "F7"
+      ]
+    },
+    {
+      "id": "v2-tracking-000018:clean",
+      "answer": "B6981",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-tracking-000018:unrelated",
+      "answer": "B641",
+      "evidence": [
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000018:numeric",
+      "answer": "B641",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-tracking-000018:similar",
+      "answer": "B641",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-tracking-000028:clean",
+      "answer": "B8855",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000028:unrelated",
+      "answer": "F6",
+      "evidence": [
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-tracking-000028:numeric",
+      "answer": "F6",
+      "evidence": [
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-tracking-000028:similar",
+      "answer": "B8855",
+      "evidence": [
+        "F6",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-tracking-000038:clean",
+      "answer": "B9829",
+      "evidence": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000038:unrelated",
+      "answer": "B757",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000038:numeric",
+      "answer": "B757",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000038:similar",
+      "answer": "F4",
+      "evidence": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-tracking-000048:clean",
+      "answer": "B7076",
+      "evidence": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-tracking-000048:unrelated",
+      "answer": "B7479",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000048:numeric",
+      "answer": "B7479",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000048:similar",
+      "answer": "B7479",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000058:clean",
+      "answer": "B4359",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000058:unrelated",
+      "answer": "B4359",
+      "evidence": [
+        "F3",
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-tracking-000058:numeric",
+      "answer": "B4359",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-tracking-000058:similar",
+      "answer": "B4359",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-tracking-000068:clean",
+      "answer": "B7393",
+      "evidence": [
+        "F1",
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-tracking-000068:unrelated",
+      "answer": "B7393",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000068:numeric",
+      "answer": "B7393",
+      "evidence": [
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000068:similar",
+      "answer": "B7393",
+      "evidence": [
+        "F5"
+      ]
+    },
+    {
+      "id": "v2-tracking-000078:clean",
+      "answer": "B2843",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000078:unrelated",
+      "answer": "B2843",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000078:numeric",
+      "answer": "F2",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000078:similar",
+      "answer": "B2843",
+      "evidence": [
+        "F2"
+      ]
+    },
+    {
+      "id": "v2-tracking-000088:clean",
+      "answer": "B2973",
+      "evidence": [
+        "F3"
+      ]
+    },
+    {
+      "id": "v2-tracking-000088:unrelated",
+      "answer": "F8",
+      "evidence": [
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-tracking-000088:numeric",
+      "answer": "F8",
+      "evidence": [
+        "F8"
+      ]
+    },
+    {
+      "id": "v2-tracking-000088:similar",
+      "answer": "B2973",
+      "evidence": [
+        "F8",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-tracking-000098:clean",
+      "answer": "B8225",
+      "evidence": [
+        "F1",
+        "F4"
+      ]
+    },
+    {
+      "id": "v2-tracking-000098:unrelated",
+      "answer": "F6",
+      "evidence": [
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-tracking-000098:numeric",
+      "answer": "F6",
+      "evidence": [
+        "F1",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-tracking-000098:similar",
+      "answer": "B8225",
+      "evidence": [
+        "F6",
+        "F7"
+      ]
+    }
+  ]
+}

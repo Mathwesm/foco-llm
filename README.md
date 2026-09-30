@@ -4,6 +4,12 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Nova rodada exploratória — 30/09:** cinco ajustes dirigidos/balanceados
+foram avaliados na validação v2.1. O Qwen 1,5B misto alcançou **57/120**,
+o Qwen 0,5B misto **52/120** e o TinyLlama 1,1B misto **44/120**.
+Aritmética continuou fraca (respectivamente 1/40, 1/40 e 4/40).
+[Protocolo, resultados por tarefa e saídas brutas](docs/targeted-training-results-2026-09-30.md).
+
 **Rodada local encerrada — 30/09:** os nove treinos e a avaliação final
 congelada terminaram. No teste reservado de 120 casos, C0/C1/C2/C3
 acertaram respectivamente **6/16/26/9** respostas; C2 foi o melhor, mas

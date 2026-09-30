@@ -29,7 +29,7 @@ def run_pilot(dataset: Path, config: PilotConfig, output: Path) -> Path:
     )
     examples = tuple(backend.encode(p) for p in selected)
     manifest = {
-        "protocol": "source-task-pilot-v1",
+        "protocol": "balanced-task-pilot-v1" if config.tasks else "source-task-pilot-v1",
         "config": config.model_dump(mode="json"),
         "runtime": backend.metadata(),
         "source_sha256": _source_fingerprint(),

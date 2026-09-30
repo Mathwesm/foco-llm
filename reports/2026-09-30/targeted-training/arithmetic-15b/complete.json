@@ -1,0 +1,5 @@
+{
+  "training": "data\\targeted-training\\2026-09-30\\arithmetic-15b\\training\\169582b3ff53fbf9",
+  "validation": "data\\targeted-training\\2026-09-30\\arithmetic-15b\\validation\\f0af68ac6a597f86",
+  "root": "data\\targeted-training\\2026-09-30\\arithmetic-15b"
+}

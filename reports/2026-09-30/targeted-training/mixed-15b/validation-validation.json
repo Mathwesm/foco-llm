@@ -1,0 +1,6362 @@
+[
+  {
+    "id": "v2-arithmetic-000008:clean",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update G: For silver, 2 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of silver is 70."
+      },
+      {
+        "id": "F3",
+        "text": "Update W: For silver, 6 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update L: For silver, 8 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update N: For silver, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "47",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:unrelated",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update G: For silver, 2 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of silver is 70."
+      },
+      {
+        "id": "F4",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F5",
+        "text": "Update W: For silver, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F7",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F8",
+        "text": "Update L: For silver, 8 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F10",
+        "text": "Update N: For silver, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "47",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:numeric",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update G: For silver, 2 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "A distant library has 36 shelves."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of silver is 70."
+      },
+      {
+        "id": "F4",
+        "text": "A remote garden has 58 trees."
+      },
+      {
+        "id": "F5",
+        "text": "Update W: For silver, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "A street in another town has 41 buildings."
+      },
+      {
+        "id": "F7",
+        "text": "A distant office has 91 windows."
+      },
+      {
+        "id": "F8",
+        "text": "Update L: For silver, 8 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "A notebook in another room has 31 pages."
+      },
+      {
+        "id": "F10",
+        "text": "Update N: For silver, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "47",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:similar",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update G: For silver, 2 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update C: For amber, 8 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of silver is 70."
+      },
+      {
+        "id": "F4",
+        "text": "Update K: For amber, 1 marble is removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update W: For silver, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update R: For amber, 5 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "The initial marble count of amber is 66."
+      },
+      {
+        "id": "F8",
+        "text": "Update L: For silver, 8 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "Update G: For amber, 1 marble is removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update N: For silver, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "47",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:clean",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update N: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of copper is 79."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update A: For copper, 6 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update D: For copper, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "73",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:unrelated",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F2",
+        "text": "Update N: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of copper is 79."
+      },
+      {
+        "id": "F4",
+        "text": "Update I: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F6",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F8",
+        "text": "Update A: For copper, 6 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F10",
+        "text": "Update D: For copper, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "73",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:numeric",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A street in another town has 13 buildings."
+      },
+      {
+        "id": "F2",
+        "text": "Update N: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of copper is 79."
+      },
+      {
+        "id": "F4",
+        "text": "Update I: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has 94 shelves."
+      },
+      {
+        "id": "F6",
+        "text": "A remote garden has 80 trees."
+      },
+      {
+        "id": "F7",
+        "text": "A notebook in another room has 52 pages."
+      },
+      {
+        "id": "F8",
+        "text": "Update A: For copper, 6 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "A distant office has 50 windows."
+      },
+      {
+        "id": "F10",
+        "text": "Update D: For copper, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "73",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:similar",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update X: For azure, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update N: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of copper is 79."
+      },
+      {
+        "id": "F4",
+        "text": "Update I: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of azure is 78."
+      },
+      {
+        "id": "F6",
+        "text": "Update V: For azure, 9 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update T: For azure, 1 marble is added to it."
+      },
+      {
+        "id": "F8",
+        "text": "Update A: For copper, 6 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "Update O: For azure, 2 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update D: For copper, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "73",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:clean",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update P: For violet, 5 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update G: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For violet, 7 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of violet is 53."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "50",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:unrelated",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F2",
+        "text": "Update S: For violet, 3 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F5",
+        "text": "Update P: For violet, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "Update G: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F8",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F9",
+        "text": "Update M: For violet, 7 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of violet is 53."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "50",
+    "evidence": [
+      "F2",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:numeric",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A street in another town has 25 buildings."
+      },
+      {
+        "id": "F2",
+        "text": "Update S: For violet, 3 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "A distant office has 94 windows."
+      },
+      {
+        "id": "F4",
+        "text": "A notebook in another room has 98 pages."
+      },
+      {
+        "id": "F5",
+        "text": "Update P: For violet, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "Update G: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "A remote garden has 35 trees."
+      },
+      {
+        "id": "F8",
+        "text": "A distant library has 57 shelves."
+      },
+      {
+        "id": "F9",
+        "text": "Update M: For violet, 7 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of violet is 53."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "50",
+    "evidence": [
+      "F2",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:similar",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update N: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update S: For violet, 3 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update Z: For ivory, 5 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update U: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update P: For violet, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "Update G: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update X: For ivory, 1 marble is removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of ivory is 71."
+      },
+      {
+        "id": "F9",
+        "text": "Update M: For violet, 7 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of violet is 53."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "50",
+    "evidence": [
+      "F2",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:clean",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of copper is 51."
+      },
+      {
+        "id": "F2",
+        "text": "Update R: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update X: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update E: For copper, 8 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update P: For copper, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:unrelated",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of copper is 51."
+      },
+      {
+        "id": "F2",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F4",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F5",
+        "text": "Update R: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update X: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F8",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F9",
+        "text": "Update E: For copper, 8 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update P: For copper, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:numeric",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of copper is 51."
+      },
+      {
+        "id": "F2",
+        "text": "A distant library has 4 shelves."
+      },
+      {
+        "id": "F3",
+        "text": "A distant office has 70 windows."
+      },
+      {
+        "id": "F4",
+        "text": "A remote garden has 93 trees."
+      },
+      {
+        "id": "F5",
+        "text": "Update R: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update X: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "A street in another town has 57 buildings."
+      },
+      {
+        "id": "F8",
+        "text": "A notebook in another room has 91 pages."
+      },
+      {
+        "id": "F9",
+        "text": "Update E: For copper, 8 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update P: For copper, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:similar",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of copper is 51."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For amber, 7 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of amber is 69."
+      },
+      {
+        "id": "F4",
+        "text": "Update U: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update R: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update X: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update Y: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "Update J: For amber, 1 marble is removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "Update E: For copper, 8 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update P: For copper, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:clean",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update M: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update O: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 56."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:unrelated",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F6",
+        "text": "Update I: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F8",
+        "text": "Update O: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "The initial marble count of copper is 56."
+      },
+      {
+        "id": "F10",
+        "text": "A painter in another town likes quiet streets."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:numeric",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "A street in another town has 60 buildings."
+      },
+      {
+        "id": "F3",
+        "text": "A distant office has 24 windows."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has 23 shelves."
+      },
+      {
+        "id": "F6",
+        "text": "Update I: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "A notebook in another room has 65 pages."
+      },
+      {
+        "id": "F8",
+        "text": "Update O: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "The initial marble count of copper is 56."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has 22 trees."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:similar",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update A: For silver, 4 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of silver is 67."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update G: For silver, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update I: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update E: For silver, 4 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "Update O: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "The initial marble count of copper is 56."
+      },
+      {
+        "id": "F10",
+        "text": "Update M: For silver, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:clean",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update Z: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 59."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:unrelated",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F4",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F5",
+        "text": "Update I: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update Z: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of copper is 59."
+      },
+      {
+        "id": "F9",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has a narrow path."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:numeric",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "A notebook in another room has 38 pages."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has 4 shelves."
+      },
+      {
+        "id": "F5",
+        "text": "Update I: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update Z: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "A remote garden has 48 trees."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of copper is 59."
+      },
+      {
+        "id": "F9",
+        "text": "A street in another town has 76 buildings."
+      },
+      {
+        "id": "F10",
+        "text": "A distant office has 42 windows."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:similar",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update C: For violet, 5 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 75."
+      },
+      {
+        "id": "F5",
+        "text": "Update I: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update Z: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update S: For violet, 2 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of copper is 59."
+      },
+      {
+        "id": "F9",
+        "text": "Update H: For violet, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update O: For violet, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:clean",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 57."
+      },
+      {
+        "id": "F2",
+        "text": "Update T: For silver, 9 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For silver, 9 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update Y: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update A: For silver, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:unrelated",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 57."
+      },
+      {
+        "id": "F2",
+        "text": "Update T: For silver, 9 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For silver, 9 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F5",
+        "text": "Update Y: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F6",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F7",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F8",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F9",
+        "text": "Update A: For silver, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has wooden doors."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F5",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:numeric",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 57."
+      },
+      {
+        "id": "F2",
+        "text": "Update T: For silver, 9 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For silver, 9 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "A street in another town has 89 buildings."
+      },
+      {
+        "id": "F5",
+        "text": "Update Y: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F6",
+        "text": "A remote garden has 40 trees."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has 34 shelves."
+      },
+      {
+        "id": "F8",
+        "text": "A distant office has 33 windows."
+      },
+      {
+        "id": "F9",
+        "text": "Update A: For silver, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "A notebook in another room has 55 pages."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F5",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:similar",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 57."
+      },
+      {
+        "id": "F2",
+        "text": "Update T: For silver, 9 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For silver, 9 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update Y: For violet, 1 marble is added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update Y: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F6",
+        "text": "Update I: For violet, 4 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update D: For violet, 1 marble is removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of violet is 71."
+      },
+      {
+        "id": "F9",
+        "text": "Update A: For silver, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update K: For violet, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F5",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:clean",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update A: For violet, 1 marble is added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update H: For violet, 6 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 55."
+      },
+      {
+        "id": "F5",
+        "text": "Update T: For violet, 8 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:unrelated",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F3",
+        "text": "Update A: For violet, 1 marble is added to it."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F5",
+        "text": "Update H: For violet, 6 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F7",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of violet is 55."
+      },
+      {
+        "id": "F9",
+        "text": "Update T: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "A painter in another town likes quiet streets."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:numeric",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "A distant office has 29 windows."
+      },
+      {
+        "id": "F3",
+        "text": "Update A: For violet, 1 marble is added to it."
+      },
+      {
+        "id": "F4",
+        "text": "A notebook in another room has 70 pages."
+      },
+      {
+        "id": "F5",
+        "text": "Update H: For violet, 6 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "A distant library has 97 shelves."
+      },
+      {
+        "id": "F7",
+        "text": "A street in another town has 57 buildings."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of violet is 55."
+      },
+      {
+        "id": "F9",
+        "text": "Update T: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has 30 trees."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:similar",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of azure is 56."
+      },
+      {
+        "id": "F3",
+        "text": "Update A: For violet, 1 marble is added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update A: For azure, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update H: For violet, 6 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "Update B: For azure, 4 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update J: For azure, 7 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of violet is 55."
+      },
+      {
+        "id": "F9",
+        "text": "Update T: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update R: For azure, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:clean",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update N: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For ivory, 8 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of ivory is 67."
+      },
+      {
+        "id": "F5",
+        "text": "Update C: For ivory, 1 marble is added to it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:unrelated",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update N: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F3",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F4",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F5",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F6",
+        "text": "Update J: For ivory, 8 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update V: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of ivory is 67."
+      },
+      {
+        "id": "F9",
+        "text": "Update C: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F10",
+        "text": "The window in another building is closed."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:numeric",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update N: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "A notebook in another room has 28 pages."
+      },
+      {
+        "id": "F3",
+        "text": "A street in another town has 51 buildings."
+      },
+      {
+        "id": "F4",
+        "text": "A distant office has 98 windows."
+      },
+      {
+        "id": "F5",
+        "text": "A remote garden has 85 trees."
+      },
+      {
+        "id": "F6",
+        "text": "Update J: For ivory, 8 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update V: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of ivory is 67."
+      },
+      {
+        "id": "F9",
+        "text": "Update C: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has 68 shelves."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:similar",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update N: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update D: For violet, 1 marble is removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update R: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 65."
+      },
+      {
+        "id": "F5",
+        "text": "Update O: For violet, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update J: For ivory, 8 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update V: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of ivory is 67."
+      },
+      {
+        "id": "F9",
+        "text": "Update C: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update S: For violet, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:clean",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 8 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update B: For violet, 5 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update R: For violet, 6 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update D: For violet, 9 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of violet is 63."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "53",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:unrelated",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 8 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update B: For violet, 5 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F4",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F5",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F6",
+        "text": "Update R: For violet, 6 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update D: For violet, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F9",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of violet is 63."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "53",
+    "evidence": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:numeric",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 8 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update B: For violet, 5 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "A notebook in another room has 87 pages."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has 68 shelves."
+      },
+      {
+        "id": "F5",
+        "text": "A remote garden has 60 trees."
+      },
+      {
+        "id": "F6",
+        "text": "Update R: For violet, 6 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update D: For violet, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "A street in another town has 12 buildings."
+      },
+      {
+        "id": "F9",
+        "text": "A distant office has 56 windows."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of violet is 63."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "53",
+    "evidence": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:similar",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 8 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update B: For violet, 5 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update N: For azure, 8 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update H: For azure, 3 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update J: For azure, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update R: For violet, 6 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update D: For violet, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "Update K: For azure, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "The initial marble count of azure is 56."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of violet is 63."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "53",
+    "evidence": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000008:clean",
+    "base_id": "v2-deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object copper possesses property P4939."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P5909 entails property P6156."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P6156 entails property P1746."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1746 entails property P2134."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P4939 entails property P5909."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P2134",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000008:unrelated",
+    "base_id": "v2-deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F2",
+        "text": "The object copper possesses property P4939."
+      },
+      {
+        "id": "F3",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P5909 entails property P6156."
+      },
+      {
+        "id": "F5",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P6156 entails property P1746."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F8",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P1746 entails property P2134."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P4939 entails property P5909."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P2134",
+    "evidence": [
+      "F2",
+      "F4",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000008:numeric",
+    "base_id": "v2-deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A remote garden has 41 trees."
+      },
+      {
+        "id": "F2",
+        "text": "The object copper possesses property P4939."
+      },
+      {
+        "id": "F3",
+        "text": "A distant library has 75 shelves."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P5909 entails property P6156."
+      },
+      {
+        "id": "F5",
+        "text": "A distant office has 29 windows."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P6156 entails property P1746."
+      },
+      {
+        "id": "F7",
+        "text": "A notebook in another room has 53 pages."
+      },
+      {
+        "id": "F8",
+        "text": "A street in another town has 47 buildings."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P1746 entails property P2134."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P4939 entails property P5909."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P2134",
+    "evidence": [
+      "F2",
+      "F4",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000008:similar",
+    "base_id": "v2-deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P2956 entails property P6880."
+      },
+      {
+        "id": "F2",
+        "text": "The object copper possesses property P4939."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P8843 entails property P5417."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P5909 entails property P6156."
+      },
+      {
+        "id": "F5",
+        "text": "The object amber possesses property P9751."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P6156 entails property P1746."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P6880 entails property P8843."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P9751 entails property P2956."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P1746 entails property P2134."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P4939 entails property P5909."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P2134",
+    "evidence": [
+      "F2",
+      "F4",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000018:clean",
+    "base_id": "v2-deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P3599 entails property P4113."
+      },
+      {
+        "id": "F2",
+        "text": "The object amber possesses property P8034."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P353 entails property P325."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P325 entails property P3599."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P8034 entails property P353."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4113",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000018:unrelated",
+    "base_id": "v2-deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P3599 entails property P4113."
+      },
+      {
+        "id": "F3",
+        "text": "The object amber possesses property P8034."
+      },
+      {
+        "id": "F4",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F6",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P353 entails property P325."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P325 entails property P3599."
+      },
+      {
+        "id": "F9",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P8034 entails property P353."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4113",
+    "evidence": [
+      "F2",
+      "F3",
+      "F7",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000018:numeric",
+    "base_id": "v2-deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant office has 20 windows."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P3599 entails property P4113."
+      },
+      {
+        "id": "F3",
+        "text": "The object amber possesses property P8034."
+      },
+      {
+        "id": "F4",
+        "text": "A street in another town has 61 buildings."
+      },
+      {
+        "id": "F5",
+        "text": "A notebook in another room has 19 pages."
+      },
+      {
+        "id": "F6",
+        "text": "A remote garden has 18 trees."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P353 entails property P325."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P325 entails property P3599."
+      },
+      {
+        "id": "F9",
+        "text": "A distant library has 26 shelves."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P8034 entails property P353."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4113",
+    "evidence": [
+      "F2",
+      "F3",
+      "F7",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000018:similar",
+    "base_id": "v2-deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P2407 entails property P2768."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P3599 entails property P4113."
+      },
+      {
+        "id": "F3",
+        "text": "The object amber possesses property P8034."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1338 entails property P5196."
+      },
+      {
+        "id": "F5",
+        "text": "The object copper possesses property P1338."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P5196 entails property P3761."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P353 entails property P325."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P325 entails property P3599."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P3761 entails property P2407."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P8034 entails property P353."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4113",
+    "evidence": [
+      "F2",
+      "F3",
+      "F7",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000028:clean",
+    "base_id": "v2-deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P7956 entails property P3996."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4345 entails property P7956."
+      },
+      {
+        "id": "F3",
+        "text": "The object silver possesses property P610."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P610 entails property P4345."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P3996 entails property P71."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P71",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000028:unrelated",
+    "base_id": "v2-deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P7956 entails property P3996."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4345 entails property P7956."
+      },
+      {
+        "id": "F3",
+        "text": "The object silver possesses property P610."
+      },
+      {
+        "id": "F4",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F6",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F7",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F8",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P610 entails property P4345."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P3996 entails property P71."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P71",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000028:numeric",
+    "base_id": "v2-deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P7956 entails property P3996."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4345 entails property P7956."
+      },
+      {
+        "id": "F3",
+        "text": "The object silver possesses property P610."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has 36 shelves."
+      },
+      {
+        "id": "F5",
+        "text": "A notebook in another room has 18 pages."
+      },
+      {
+        "id": "F6",
+        "text": "A distant office has 47 windows."
+      },
+      {
+        "id": "F7",
+        "text": "A remote garden has 71 trees."
+      },
+      {
+        "id": "F8",
+        "text": "A street in another town has 10 buildings."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P610 entails property P4345."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P3996 entails property P71."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P71",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000028:similar",
+    "base_id": "v2-deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P7956 entails property P3996."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4345 entails property P7956."
+      },
+      {
+        "id": "F3",
+        "text": "The object silver possesses property P610."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1966 entails property P2048."
+      },
+      {
+        "id": "F5",
+        "text": "The object ivory possesses property P8838."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P3027 entails property P1966."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P3702 entails property P3027."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P8838 entails property P3702."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P610 entails property P4345."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P3996 entails property P71."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P71",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000038:clean",
+    "base_id": "v2-deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P3739 entails property P7447."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P6191 entails property P3739."
+      },
+      {
+        "id": "F3",
+        "text": "The object violet possesses property P6191."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8972 entails property P9239."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P7447 entails property P8972."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P9239",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000038:unrelated",
+    "base_id": "v2-deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F2",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3739 entails property P7447."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P6191 entails property P3739."
+      },
+      {
+        "id": "F5",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F6",
+        "text": "The object violet possesses property P6191."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P8972 entails property P9239."
+      },
+      {
+        "id": "F8",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F9",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P7447 entails property P8972."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P9239",
+    "evidence": [
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000038:numeric",
+    "base_id": "v2-deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A notebook in another room has 84 pages."
+      },
+      {
+        "id": "F2",
+        "text": "A remote garden has 37 trees."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3739 entails property P7447."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P6191 entails property P3739."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has 70 shelves."
+      },
+      {
+        "id": "F6",
+        "text": "The object violet possesses property P6191."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P8972 entails property P9239."
+      },
+      {
+        "id": "F8",
+        "text": "A distant office has 32 windows."
+      },
+      {
+        "id": "F9",
+        "text": "A street in another town has 79 buildings."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P7447 entails property P8972."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P9239",
+    "evidence": [
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000038:similar",
+    "base_id": "v2-deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P2237 entails property P6274."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P1631 entails property P4905."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3739 entails property P7447."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P6191 entails property P3739."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P4905 entails property P2237."
+      },
+      {
+        "id": "F6",
+        "text": "The object violet possesses property P6191."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P8972 entails property P9239."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P6274 entails property P9325."
+      },
+      {
+        "id": "F9",
+        "text": "The object amber possesses property P1631."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P7447 entails property P8972."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P9239",
+    "evidence": [
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000048:clean",
+    "base_id": "v2-deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object silver possesses property P9075."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9075 entails property P1734."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P1734 entails property P4514."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P4514 entails property P3529."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P3529 entails property P9958."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P9958",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000048:unrelated",
+    "base_id": "v2-deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object silver possesses property P9075."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9075 entails property P1734."
+      },
+      {
+        "id": "F3",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1734 entails property P4514."
+      },
+      {
+        "id": "F5",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F6",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P4514 entails property P3529."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P3529 entails property P9958."
+      },
+      {
+        "id": "F9",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F10",
+        "text": "The window in another building is closed."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P9958",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000048:numeric",
+    "base_id": "v2-deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object silver possesses property P9075."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9075 entails property P1734."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has 19 trees."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1734 entails property P4514."
+      },
+      {
+        "id": "F5",
+        "text": "A street in another town has 1 building."
+      },
+      {
+        "id": "F6",
+        "text": "A notebook in another room has 17 pages."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P4514 entails property P3529."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P3529 entails property P9958."
+      },
+      {
+        "id": "F9",
+        "text": "A distant office has 65 windows."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has 17 shelves."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P9958",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000048:similar",
+    "base_id": "v2-deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object silver possesses property P9075."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9075 entails property P1734."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P7835 entails property P539."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1734 entails property P4514."
+      },
+      {
+        "id": "F5",
+        "text": "The object violet possesses property P8342."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P8342 entails property P7835."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P4514 entails property P3529."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P3529 entails property P9958."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P9002 entails property P1639."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P539 entails property P9002."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P9958",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-deduction-000058:clean",
+    "base_id": "v2-deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4537."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8463 entails property P9984."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9580 entails property P8463."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P4537 entails property P3783."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P3783 entails property P9580."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9984",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000058:unrelated",
+    "base_id": "v2-deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4537."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8463 entails property P9984."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9580 entails property P8463."
+      },
+      {
+        "id": "F4",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F5",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P4537 entails property P3783."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F8",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P3783 entails property P9580."
+      },
+      {
+        "id": "F10",
+        "text": "A painter in another town likes quiet streets."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9984",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000058:numeric",
+    "base_id": "v2-deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4537."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8463 entails property P9984."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9580 entails property P8463."
+      },
+      {
+        "id": "F4",
+        "text": "A street in another town has 78 buildings."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has 78 shelves."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P4537 entails property P3783."
+      },
+      {
+        "id": "F7",
+        "text": "A notebook in another room has 65 pages."
+      },
+      {
+        "id": "F8",
+        "text": "A distant office has 99 windows."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P3783 entails property P9580."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has 38 trees."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9984",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000058:similar",
+    "base_id": "v2-deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4537."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8463 entails property P9984."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9580 entails property P8463."
+      },
+      {
+        "id": "F4",
+        "text": "The object copper possesses property P7537."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P7382 entails property P1217."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P4537 entails property P3783."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P5122 entails property P7382."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P7537 entails property P5122."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P3783 entails property P9580."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P1217 entails property P6938."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9984",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F6",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000068:clean",
+    "base_id": "v2-deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P8833 entails property P919."
+      },
+      {
+        "id": "F2",
+        "text": "The object amber possesses property P617."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P919 entails property P84."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P84 entails property P9532."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P617 entails property P8833."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9532",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000068:unrelated",
+    "base_id": "v2-deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8833 entails property P919."
+      },
+      {
+        "id": "F3",
+        "text": "The object amber possesses property P617."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P919 entails property P84."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P84 entails property P9532."
+      },
+      {
+        "id": "F6",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F7",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F8",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P617 entails property P8833."
+      },
+      {
+        "id": "F10",
+        "text": "The ceiling of a distant office is white."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9532",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000068:numeric",
+    "base_id": "v2-deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A notebook in another room has 14 pages."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8833 entails property P919."
+      },
+      {
+        "id": "F3",
+        "text": "The object amber possesses property P617."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P919 entails property P84."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P84 entails property P9532."
+      },
+      {
+        "id": "F6",
+        "text": "A distant office has 8 windows."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has 32 shelves."
+      },
+      {
+        "id": "F8",
+        "text": "A remote garden has 71 trees."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P617 entails property P8833."
+      },
+      {
+        "id": "F10",
+        "text": "A street in another town has 69 buildings."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9532",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000068:similar",
+    "base_id": "v2-deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P785 entails property P9081."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8833 entails property P919."
+      },
+      {
+        "id": "F3",
+        "text": "The object amber possesses property P617."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P919 entails property P84."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P84 entails property P9532."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P9081 entails property P7104."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P3681 entails property P7749."
+      },
+      {
+        "id": "F8",
+        "text": "The object ivory possesses property P785."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P617 entails property P8833."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P7104 entails property P3681."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9532",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000078:clean",
+    "base_id": "v2-deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P4426 entails property P6523."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P2227 entails property P5035."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P5035 entails property P6664."
+      },
+      {
+        "id": "F4",
+        "text": "The object silver possesses property P4426."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P6523 entails property P2227."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P6664",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000078:unrelated",
+    "base_id": "v2-deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F2",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P4426 entails property P6523."
+      },
+      {
+        "id": "F4",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F5",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P2227 entails property P5035."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P5035 entails property P6664."
+      },
+      {
+        "id": "F8",
+        "text": "The object silver possesses property P4426."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P6523 entails property P2227."
+      },
+      {
+        "id": "F10",
+        "text": "The ceiling of a distant office is white."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P6664",
+    "evidence": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000078:numeric",
+    "base_id": "v2-deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has 6 shelves."
+      },
+      {
+        "id": "F2",
+        "text": "A remote garden has 62 trees."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P4426 entails property P6523."
+      },
+      {
+        "id": "F4",
+        "text": "A distant office has 12 windows."
+      },
+      {
+        "id": "F5",
+        "text": "A notebook in another room has 74 pages."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P2227 entails property P5035."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P5035 entails property P6664."
+      },
+      {
+        "id": "F8",
+        "text": "The object silver possesses property P4426."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P6523 entails property P2227."
+      },
+      {
+        "id": "F10",
+        "text": "A street in another town has 51 buildings."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P6664",
+    "evidence": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000078:similar",
+    "base_id": "v2-deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P9275 entails property P4616."
+      },
+      {
+        "id": "F2",
+        "text": "The object azure possesses property P3199."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P4426 entails property P6523."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P4616 entails property P9391."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P3199 entails property P7523."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P2227 entails property P5035."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P5035 entails property P6664."
+      },
+      {
+        "id": "F8",
+        "text": "The object silver possesses property P4426."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P6523 entails property P2227."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P7523 entails property P9275."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P6664",
+    "evidence": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000088:clean",
+    "base_id": "v2-deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P7309 entails property P9575."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P3209 entails property P3148."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9575 entails property P6944."
+      },
+      {
+        "id": "F4",
+        "text": "The object ivory possesses property P7309."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P6944 entails property P3209."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P3148",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000088:unrelated",
+    "base_id": "v2-deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P7309 entails property P9575."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3209 entails property P3148."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P9575 entails property P6944."
+      },
+      {
+        "id": "F5",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F6",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F7",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F8",
+        "text": "The object ivory possesses property P7309."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P6944 entails property P3209."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has wooden doors."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P3148",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000088:numeric",
+    "base_id": "v2-deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has 85 shelves."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P7309 entails property P9575."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3209 entails property P3148."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P9575 entails property P6944."
+      },
+      {
+        "id": "F5",
+        "text": "A street in another town has 15 buildings."
+      },
+      {
+        "id": "F6",
+        "text": "A remote garden has 27 trees."
+      },
+      {
+        "id": "F7",
+        "text": "A distant office has 22 windows."
+      },
+      {
+        "id": "F8",
+        "text": "The object ivory possesses property P7309."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P6944 entails property P3209."
+      },
+      {
+        "id": "F10",
+        "text": "A notebook in another room has 52 pages."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P3148",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000088:similar",
+    "base_id": "v2-deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P4928 entails property P3999."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P7309 entails property P9575."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3209 entails property P3148."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P9575 entails property P6944."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P2537 entails property P4072."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P3999 entails property P2537."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P1805 entails property P4928."
+      },
+      {
+        "id": "F8",
+        "text": "The object ivory possesses property P7309."
+      },
+      {
+        "id": "F9",
+        "text": "Having property P6944 entails property P3209."
+      },
+      {
+        "id": "F10",
+        "text": "The object copper possesses property P1805."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P3148",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-deduction-000098:clean",
+    "base_id": "v2-deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object azure possesses property P2483."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8169 entails property P9011."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2483 entails property P9026."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P3813 entails property P8169."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P9026 entails property P3813."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P9011",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000098:unrelated",
+    "base_id": "v2-deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F2",
+        "text": "The object azure possesses property P2483."
+      },
+      {
+        "id": "F3",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8169 entails property P9011."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P2483 entails property P9026."
+      },
+      {
+        "id": "F6",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P3813 entails property P8169."
+      },
+      {
+        "id": "F8",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F9",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P9026 entails property P3813."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P9011",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000098:numeric",
+    "base_id": "v2-deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A notebook in another room has 35 pages."
+      },
+      {
+        "id": "F2",
+        "text": "The object azure possesses property P2483."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has 4 trees."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8169 entails property P9011."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P2483 entails property P9026."
+      },
+      {
+        "id": "F6",
+        "text": "A street in another town has 46 buildings."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P3813 entails property P8169."
+      },
+      {
+        "id": "F8",
+        "text": "A distant office has 41 windows."
+      },
+      {
+        "id": "F9",
+        "text": "A distant library has 26 shelves."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P9026 entails property P3813."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P9011",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-deduction-000098:similar",
+    "base_id": "v2-deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Having property P3329 entails property P1137."
+      },
+      {
+        "id": "F2",
+        "text": "The object azure possesses property P2483."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2028 entails property P3329."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8169 entails property P9011."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P2483 entails property P9026."
+      },
+      {
+        "id": "F6",
+        "text": "Having property P1137 entails property P748."
+      },
+      {
+        "id": "F7",
+        "text": "Having property P3813 entails property P8169."
+      },
+      {
+        "id": "F8",
+        "text": "Having property P748 entails property P6686."
+      },
+      {
+        "id": "F9",
+        "text": "The object copper possesses property P2028."
+      },
+      {
+        "id": "F10",
+        "text": "Having property P9026 entails property P3813."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P9011",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000008:clean",
+    "base_id": "v2-tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B7290 to box B7771."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B4576 to box B7290."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B3037 to box B7823."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B3037 contains ivory."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B7823 to box B4576."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B7771",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000008:unrelated",
+    "base_id": "v2-tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B7290 to box B7771."
+      },
+      {
+        "id": "F2",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B4576 to box B7290."
+      },
+      {
+        "id": "F4",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F5",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, transfer everything from box B3037 to box B7823."
+      },
+      {
+        "id": "F7",
+        "text": "At time 0, box B3037 contains ivory."
+      },
+      {
+        "id": "F8",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B7823 to box B4576."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has wooden doors."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B7771",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-tracking-000008:numeric",
+    "base_id": "v2-tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B7290 to box B7771."
+      },
+      {
+        "id": "F2",
+        "text": "A street in another town has 17 buildings."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B4576 to box B7290."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has 14 shelves."
+      },
+      {
+        "id": "F5",
+        "text": "A distant office has 65 windows."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, transfer everything from box B3037 to box B7823."
+      },
+      {
+        "id": "F7",
+        "text": "At time 0, box B3037 contains ivory."
+      },
+      {
+        "id": "F8",
+        "text": "A remote garden has 40 trees."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B7823 to box B4576."
+      },
+      {
+        "id": "F10",
+        "text": "A notebook in another room has 42 pages."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B7771",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-tracking-000008:similar",
+    "base_id": "v2-tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B7290 to box B7771."
+      },
+      {
+        "id": "F2",
+        "text": "At time 2, transfer everything from box B3231 to box B3241."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B4576 to box B7290."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B3241 to box B4147."
+      },
+      {
+        "id": "F5",
+        "text": "At time 1, transfer everything from box B9737 to box B3231."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, transfer everything from box B3037 to box B7823."
+      },
+      {
+        "id": "F7",
+        "text": "At time 0, box B3037 contains ivory."
+      },
+      {
+        "id": "F8",
+        "text": "At time 0, box B9737 contains silver."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B7823 to box B4576."
+      },
+      {
+        "id": "F10",
+        "text": "At time 4, transfer everything from box B4147 to box B5933."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B7771",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-tracking-000018:clean",
+    "base_id": "v2-tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B641 contains violet."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B641 to box B6981."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B4646 to box B5554."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, transfer everything from box B6981 to box B4646."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B5554 to box B5309."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5309",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000018:unrelated",
+    "base_id": "v2-tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F2",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B641 contains violet."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B641 to box B6981."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B4646 to box B5554."
+      },
+      {
+        "id": "F6",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F7",
+        "text": "At time 2, transfer everything from box B6981 to box B4646."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B5554 to box B5309."
+      },
+      {
+        "id": "F9",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has a narrow path."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5309",
+    "evidence": [
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000018:numeric",
+    "base_id": "v2-tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A remote garden has 85 trees."
+      },
+      {
+        "id": "F2",
+        "text": "A street in another town has 70 buildings."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B641 contains violet."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B641 to box B6981."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B4646 to box B5554."
+      },
+      {
+        "id": "F6",
+        "text": "A notebook in another room has 64 pages."
+      },
+      {
+        "id": "F7",
+        "text": "At time 2, transfer everything from box B6981 to box B4646."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B5554 to box B5309."
+      },
+      {
+        "id": "F9",
+        "text": "A distant library has 34 shelves."
+      },
+      {
+        "id": "F10",
+        "text": "A distant office has 15 windows."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5309",
+    "evidence": [
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000018:similar",
+    "base_id": "v2-tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B2144 contains silver."
+      },
+      {
+        "id": "F2",
+        "text": "At time 4, transfer everything from box B3831 to box B7809."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B641 contains violet."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B641 to box B6981."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B4646 to box B5554."
+      },
+      {
+        "id": "F6",
+        "text": "At time 2, transfer everything from box B8010 to box B284."
+      },
+      {
+        "id": "F7",
+        "text": "At time 2, transfer everything from box B6981 to box B4646."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B5554 to box B5309."
+      },
+      {
+        "id": "F9",
+        "text": "At time 3, transfer everything from box B284 to box B3831."
+      },
+      {
+        "id": "F10",
+        "text": "At time 1, transfer everything from box B2144 to box B8010."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5309",
+    "evidence": [
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000028:clean",
+    "base_id": "v2-tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B3824 to box B4839."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B8855 to box B436."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B436 to box B7292."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B8855 contains ivory."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B7292 to box B3824."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B4839",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000028:unrelated",
+    "base_id": "v2-tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F2",
+        "text": "At time 4, transfer everything from box B3824 to box B4839."
+      },
+      {
+        "id": "F3",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B8855 to box B436."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B436 to box B7292."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B8855 contains ivory."
+      },
+      {
+        "id": "F7",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F8",
+        "text": "At time 3, transfer everything from box B7292 to box B3824."
+      },
+      {
+        "id": "F9",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F10",
+        "text": "The window in another building is closed."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B4839",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000028:numeric",
+    "base_id": "v2-tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant office has 97 windows."
+      },
+      {
+        "id": "F2",
+        "text": "At time 4, transfer everything from box B3824 to box B4839."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has 36 trees."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B8855 to box B436."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B436 to box B7292."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B8855 contains ivory."
+      },
+      {
+        "id": "F7",
+        "text": "A street in another town has 77 buildings."
+      },
+      {
+        "id": "F8",
+        "text": "At time 3, transfer everything from box B7292 to box B3824."
+      },
+      {
+        "id": "F9",
+        "text": "A notebook in another room has 10 pages."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has 23 shelves."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B4839",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000028:similar",
+    "base_id": "v2-tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B787 contains copper."
+      },
+      {
+        "id": "F2",
+        "text": "At time 4, transfer everything from box B3824 to box B4839."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B787 to box B6646."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B8855 to box B436."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B436 to box B7292."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B8855 contains ivory."
+      },
+      {
+        "id": "F7",
+        "text": "At time 4, transfer everything from box B9028 to box B2967."
+      },
+      {
+        "id": "F8",
+        "text": "At time 3, transfer everything from box B7292 to box B3824."
+      },
+      {
+        "id": "F9",
+        "text": "At time 3, transfer everything from box B7417 to box B9028."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B6646 to box B7417."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B4839",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000038:clean",
+    "base_id": "v2-tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B757 to box B5031."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B757 contains silver."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B2376 to box B9829."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B9829 to box B7491."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B5031 to box B2376."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B7491",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000038:unrelated",
+    "base_id": "v2-tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F2",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B757 to box B5031."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B757 contains silver."
+      },
+      {
+        "id": "F5",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F6",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F7",
+        "text": "At time 3, transfer everything from box B2376 to box B9829."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B9829 to box B7491."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B5031 to box B2376."
+      },
+      {
+        "id": "F10",
+        "text": "A painter in another town likes quiet streets."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B7491",
+    "evidence": [
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-tracking-000038:numeric",
+    "base_id": "v2-tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has 2 shelves."
+      },
+      {
+        "id": "F2",
+        "text": "A distant office has 6 windows."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B757 to box B5031."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B757 contains silver."
+      },
+      {
+        "id": "F5",
+        "text": "A street in another town has 83 buildings."
+      },
+      {
+        "id": "F6",
+        "text": "A notebook in another room has 42 pages."
+      },
+      {
+        "id": "F7",
+        "text": "At time 3, transfer everything from box B2376 to box B9829."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B9829 to box B7491."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B5031 to box B2376."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has 7 trees."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B7491",
+    "evidence": [
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-tracking-000038:similar",
+    "base_id": "v2-tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B5151 to box B51."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3188 to box B1215."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B757 to box B5031."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B757 contains silver."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B1215 to box B5151."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B3188 contains amber."
+      },
+      {
+        "id": "F7",
+        "text": "At time 3, transfer everything from box B2376 to box B9829."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B9829 to box B7491."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B5031 to box B2376."
+      },
+      {
+        "id": "F10",
+        "text": "At time 4, transfer everything from box B51 to box B7208."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B7491",
+    "evidence": [
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-tracking-000048:clean",
+    "base_id": "v2-tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B3545 to box B2866."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B7479 contains violet."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B7479 to box B7554."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B2866 to box B7076."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B7554 to box B3545."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B7076",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000048:unrelated",
+    "base_id": "v2-tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B3545 to box B2866."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B7479 contains violet."
+      },
+      {
+        "id": "F3",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B7479 to box B7554."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B2866 to box B7076."
+      },
+      {
+        "id": "F6",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F8",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F9",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B7554 to box B3545."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B7076",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000048:numeric",
+    "base_id": "v2-tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B3545 to box B2866."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B7479 contains violet."
+      },
+      {
+        "id": "F3",
+        "text": "A distant office has 55 windows."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B7479 to box B7554."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B2866 to box B7076."
+      },
+      {
+        "id": "F6",
+        "text": "A distant library has 31 shelves."
+      },
+      {
+        "id": "F7",
+        "text": "A notebook in another room has 85 pages."
+      },
+      {
+        "id": "F8",
+        "text": "A street in another town has 64 buildings."
+      },
+      {
+        "id": "F9",
+        "text": "A remote garden has 96 trees."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B7554 to box B3545."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B7076",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000048:similar",
+    "base_id": "v2-tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B3545 to box B2866."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B7479 contains violet."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B3890 to box B9811."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B7479 to box B7554."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B2866 to box B7076."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B9932 contains copper."
+      },
+      {
+        "id": "F7",
+        "text": "At time 4, transfer everything from box B8562 to box B2794."
+      },
+      {
+        "id": "F8",
+        "text": "At time 3, transfer everything from box B9811 to box B8562."
+      },
+      {
+        "id": "F9",
+        "text": "At time 1, transfer everything from box B9932 to box B3890."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B7554 to box B3545."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B7076",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000058:clean",
+    "base_id": "v2-tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B4746 to box B9506."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B4359 contains violet."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B4359 to box B3147."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, transfer everything from box B3147 to box B4746."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B9506 to box B5113."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5113",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000058:unrelated",
+    "base_id": "v2-tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B4746 to box B9506."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B4359 contains violet."
+      },
+      {
+        "id": "F4",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F5",
+        "text": "At time 1, transfer everything from box B4359 to box B3147."
+      },
+      {
+        "id": "F6",
+        "text": "At time 2, transfer everything from box B3147 to box B4746."
+      },
+      {
+        "id": "F7",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B9506 to box B5113."
+      },
+      {
+        "id": "F9",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F10",
+        "text": "A remote garden has a narrow path."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5113",
+    "evidence": [
+      "F2",
+      "F3",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000058:numeric",
+    "base_id": "v2-tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant library has 40 shelves."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B4746 to box B9506."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B4359 contains violet."
+      },
+      {
+        "id": "F4",
+        "text": "A remote garden has 30 trees."
+      },
+      {
+        "id": "F5",
+        "text": "At time 1, transfer everything from box B4359 to box B3147."
+      },
+      {
+        "id": "F6",
+        "text": "At time 2, transfer everything from box B3147 to box B4746."
+      },
+      {
+        "id": "F7",
+        "text": "A street in another town has 97 buildings."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B9506 to box B5113."
+      },
+      {
+        "id": "F9",
+        "text": "A notebook in another room has 77 pages."
+      },
+      {
+        "id": "F10",
+        "text": "A distant office has 68 windows."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5113",
+    "evidence": [
+      "F2",
+      "F3",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000058:similar",
+    "base_id": "v2-tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B3999 to box B934."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B4746 to box B9506."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B4359 contains violet."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B4274 to box B5499."
+      },
+      {
+        "id": "F5",
+        "text": "At time 1, transfer everything from box B4359 to box B3147."
+      },
+      {
+        "id": "F6",
+        "text": "At time 2, transfer everything from box B3147 to box B4746."
+      },
+      {
+        "id": "F7",
+        "text": "At time 0, box B4274 contains azure."
+      },
+      {
+        "id": "F8",
+        "text": "At time 4, transfer everything from box B9506 to box B5113."
+      },
+      {
+        "id": "F9",
+        "text": "At time 3, transfer everything from box B115 to box B3999."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B5499 to box B115."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5113",
+    "evidence": [
+      "F2",
+      "F3",
+      "F5",
+      "F6",
+      "F8"
+    ]
+  },
+  {
+    "id": "v2-tracking-000068:clean",
+    "base_id": "v2-tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B7393 to box B8677."
+      },
+      {
+        "id": "F2",
+        "text": "At time 2, transfer everything from box B8677 to box B1174."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B7393 contains ivory."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B8401 to box B9196."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B1174 to box B8401."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B9196",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000068:unrelated",
+    "base_id": "v2-tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B7393 to box B8677."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8677 to box B1174."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B7393 contains ivory."
+      },
+      {
+        "id": "F5",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F6",
+        "text": "At time 4, transfer everything from box B8401 to box B9196."
+      },
+      {
+        "id": "F7",
+        "text": "At time 3, transfer everything from box B1174 to box B8401."
+      },
+      {
+        "id": "F8",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F9",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F10",
+        "text": "The window in another building is closed."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B9196",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-tracking-000068:numeric",
+    "base_id": "v2-tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A street in another town has 65 buildings."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B7393 to box B8677."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8677 to box B1174."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B7393 contains ivory."
+      },
+      {
+        "id": "F5",
+        "text": "A remote garden has 26 trees."
+      },
+      {
+        "id": "F6",
+        "text": "At time 4, transfer everything from box B8401 to box B9196."
+      },
+      {
+        "id": "F7",
+        "text": "At time 3, transfer everything from box B1174 to box B8401."
+      },
+      {
+        "id": "F8",
+        "text": "A notebook in another room has 37 pages."
+      },
+      {
+        "id": "F9",
+        "text": "A distant office has 9 windows."
+      },
+      {
+        "id": "F10",
+        "text": "A distant library has 42 shelves."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B9196",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-tracking-000068:similar",
+    "base_id": "v2-tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B8980 to box B502."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B7393 to box B8677."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8677 to box B1174."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B7393 contains ivory."
+      },
+      {
+        "id": "F5",
+        "text": "At time 0, box B8980 contains copper."
+      },
+      {
+        "id": "F6",
+        "text": "At time 4, transfer everything from box B8401 to box B9196."
+      },
+      {
+        "id": "F7",
+        "text": "At time 3, transfer everything from box B1174 to box B8401."
+      },
+      {
+        "id": "F8",
+        "text": "At time 2, transfer everything from box B502 to box B8511."
+      },
+      {
+        "id": "F9",
+        "text": "At time 4, transfer everything from box B3356 to box B2039."
+      },
+      {
+        "id": "F10",
+        "text": "At time 3, transfer everything from box B8511 to box B3356."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B9196",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F6",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-tracking-000078:clean",
+    "base_id": "v2-tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B6440 to box B7519."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B2843 contains azure."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B2843 to box B7566."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B7519 to box B1560."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B7566 to box B6440."
+      }
+    ],
+    "question": "Which box contains azure after all timed events? Return its code.",
+    "answer": "B1560",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000078:unrelated",
+    "base_id": "v2-tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B6440 to box B7519."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B2843 contains azure."
+      },
+      {
+        "id": "F3",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F4",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F5",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, transfer everything from box B2843 to box B7566."
+      },
+      {
+        "id": "F7",
+        "text": "At time 4, transfer everything from box B7519 to box B1560."
+      },
+      {
+        "id": "F8",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F9",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B7566 to box B6440."
+      }
+    ],
+    "question": "Which box contains azure after all timed events? Return its code.",
+    "answer": "B1560",
+    "evidence": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000078:numeric",
+    "base_id": "v2-tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B6440 to box B7519."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B2843 contains azure."
+      },
+      {
+        "id": "F3",
+        "text": "A distant library has 63 shelves."
+      },
+      {
+        "id": "F4",
+        "text": "A remote garden has 6 trees."
+      },
+      {
+        "id": "F5",
+        "text": "A distant office has 1 window."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, transfer everything from box B2843 to box B7566."
+      },
+      {
+        "id": "F7",
+        "text": "At time 4, transfer everything from box B7519 to box B1560."
+      },
+      {
+        "id": "F8",
+        "text": "A notebook in another room has 39 pages."
+      },
+      {
+        "id": "F9",
+        "text": "A street in another town has 35 buildings."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B7566 to box B6440."
+      }
+    ],
+    "question": "Which box contains azure after all timed events? Return its code.",
+    "answer": "B1560",
+    "evidence": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000078:similar",
+    "base_id": "v2-tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B6440 to box B7519."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B2843 contains azure."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B19 to box B7843."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B19 contains ivory."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B8415 to box B8129."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, transfer everything from box B2843 to box B7566."
+      },
+      {
+        "id": "F7",
+        "text": "At time 4, transfer everything from box B7519 to box B1560."
+      },
+      {
+        "id": "F8",
+        "text": "At time 2, transfer everything from box B7843 to box B8415."
+      },
+      {
+        "id": "F9",
+        "text": "At time 4, transfer everything from box B8129 to box B2671."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B7566 to box B6440."
+      }
+    ],
+    "question": "Which box contains azure after all timed events? Return its code.",
+    "answer": "B1560",
+    "evidence": [
+      "F1",
+      "F2",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000088:clean",
+    "base_id": "v2-tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B1642 to box B5688."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B2973 to box B1625."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B2973 contains silver."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, transfer everything from box B1625 to box B1642."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B5688 to box B4017."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B4017",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000088:unrelated",
+    "base_id": "v2-tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F2",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F3",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F4",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B1642 to box B5688."
+      },
+      {
+        "id": "F6",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F7",
+        "text": "At time 1, transfer everything from box B2973 to box B1625."
+      },
+      {
+        "id": "F8",
+        "text": "At time 0, box B2973 contains silver."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B1625 to box B1642."
+      },
+      {
+        "id": "F10",
+        "text": "At time 4, transfer everything from box B5688 to box B4017."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B4017",
+    "evidence": [
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000088:numeric",
+    "base_id": "v2-tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A distant office has 8 windows."
+      },
+      {
+        "id": "F2",
+        "text": "A remote garden has 53 trees."
+      },
+      {
+        "id": "F3",
+        "text": "A street in another town has 47 buildings."
+      },
+      {
+        "id": "F4",
+        "text": "A distant library has 68 shelves."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B1642 to box B5688."
+      },
+      {
+        "id": "F6",
+        "text": "A notebook in another room has 92 pages."
+      },
+      {
+        "id": "F7",
+        "text": "At time 1, transfer everything from box B2973 to box B1625."
+      },
+      {
+        "id": "F8",
+        "text": "At time 0, box B2973 contains silver."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B1625 to box B1642."
+      },
+      {
+        "id": "F10",
+        "text": "At time 4, transfer everything from box B5688 to box B4017."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B4017",
+    "evidence": [
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000088:similar",
+    "base_id": "v2-tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B1886 to box B9034."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B311 to box B1886."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B2773 to box B311."
+      },
+      {
+        "id": "F4",
+        "text": "At time 1, transfer everything from box B9481 to box B2773."
+      },
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B1642 to box B5688."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B9481 contains violet."
+      },
+      {
+        "id": "F7",
+        "text": "At time 1, transfer everything from box B2973 to box B1625."
+      },
+      {
+        "id": "F8",
+        "text": "At time 0, box B2973 contains silver."
+      },
+      {
+        "id": "F9",
+        "text": "At time 2, transfer everything from box B1625 to box B1642."
+      },
+      {
+        "id": "F10",
+        "text": "At time 4, transfer everything from box B5688 to box B4017."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B4017",
+    "evidence": [
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000098:clean",
+    "base_id": "v2-tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B8225 to box B3312."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B189 to box B4804."
+      },
+      {
+        "id": "F3",
+        "text": "At time 4, transfer everything from box B4804 to box B2044."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B8225 contains copper."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B3312 to box B189."
+      }
+    ],
+    "question": "Which box contains copper after all timed events? Return its code.",
+    "answer": "B2044",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000098:unrelated",
+    "base_id": "v2-tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B8225 to box B3312."
+      },
+      {
+        "id": "F2",
+        "text": "A remote garden has a narrow path."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B189 to box B4804."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B4804 to box B2044."
+      },
+      {
+        "id": "F5",
+        "text": "The ceiling of a distant office is white."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B8225 contains copper."
+      },
+      {
+        "id": "F7",
+        "text": "The window in another building is closed."
+      },
+      {
+        "id": "F8",
+        "text": "A distant library has wooden doors."
+      },
+      {
+        "id": "F9",
+        "text": "A painter in another town likes quiet streets."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B3312 to box B189."
+      }
+    ],
+    "question": "Which box contains copper after all timed events? Return its code.",
+    "answer": "B2044",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F6",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000098:numeric",
+    "base_id": "v2-tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B8225 to box B3312."
+      },
+      {
+        "id": "F2",
+        "text": "A distant office has 25 windows."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B189 to box B4804."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B4804 to box B2044."
+      },
+      {
+        "id": "F5",
+        "text": "A street in another town has 83 buildings."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B8225 contains copper."
+      },
+      {
+        "id": "F7",
+        "text": "A distant library has 22 shelves."
+      },
+      {
+        "id": "F8",
+        "text": "A notebook in another room has 81 pages."
+      },
+      {
+        "id": "F9",
+        "text": "A remote garden has 83 trees."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B3312 to box B189."
+      }
+    ],
+    "question": "Which box contains copper after all timed events? Return its code.",
+    "answer": "B2044",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F6",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-tracking-000098:similar",
+    "base_id": "v2-tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B8225 to box B3312."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6878 to box B4252."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B189 to box B4804."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B4804 to box B2044."
+      },
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B4252 to box B7224."
+      },
+      {
+        "id": "F6",
+        "text": "At time 0, box B8225 contains copper."
+      },
+      {
+        "id": "F7",
+        "text": "At time 4, transfer everything from box B8528 to box B9002."
+      },
+      {
+        "id": "F8",
+        "text": "At time 0, box B6878 contains violet."
+      },
+      {
+        "id": "F9",
+        "text": "At time 3, transfer everything from box B7224 to box B8528."
+      },
+      {
+        "id": "F10",
+        "text": "At time 2, transfer everything from box B3312 to box B189."
+      }
+    ],
+    "question": "Which box contains copper after all timed events? Return its code.",
+    "answer": "B2044",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F6",
+      "F10"
+    ]
+  }
+]

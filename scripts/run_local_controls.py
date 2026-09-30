@@ -67,6 +67,8 @@ def run_arm(dataset: Path, baseline: Path, root: Path, config: PilotConfig) -> d
             "foco_llm.evaluate_adapter",
             str(dataset),
             str(trained / f"step-{config.steps:04d}"),
+            "--model-id",
+            config.model_id,
             "--revision",
             config.revision,
             "--output",

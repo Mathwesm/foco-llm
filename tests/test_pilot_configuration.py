@@ -27,3 +27,26 @@ def test_missing_or_duplicate_sources_fail_instead_of_using_evaluation():
     selected = select_pilot(data, config)
     with pytest.raises(ValueError, match="Duplicate source"):
         select_pilot((*data, selected[0]), config)
+
+
+@pytest.mark.parametrize(
+    ("tasks", "examples"),
+    [((Task.ARITHMETIC, Task.DEDUCTION), 8), (tuple(Task), 12)],
+)
+def test_balanced_selection_uses_only_training_bases(tasks, examples):
+    data = generate_v21(GenerationConfig(problems_per_task=20))
+    config = PilotConfig(revision="a" * 40, tasks=tasks, examples=examples)
+    selected = select_pilot(data, config)
+    assert len(selected) == examples
+    assert all(p.split == Split.TRAIN and p.condition == Condition.SIMILAR for p in selected)
+    assert all(sum(p.task == task for p in selected) == examples // len(tasks) for task in tasks)
+    assert selected == select_pilot(tuple(reversed(data)), config)
+
+
+@pytest.mark.parametrize(
+    "tasks,examples",
+    [((), 8), ((Task.ARITHMETIC, Task.ARITHMETIC), 8), ((Task.ARITHMETIC, Task.DEDUCTION), 7)],
+)
+def test_invalid_balanced_selection_is_rejected(tasks, examples):
+    with pytest.raises(ValueError, match="Tasks must be unique"):
+        PilotConfig(revision="a" * 40, tasks=tasks, examples=examples)

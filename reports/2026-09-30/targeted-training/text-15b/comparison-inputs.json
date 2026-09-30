@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "before",
+    "file": "manifest.json",
+    "sha256": "145ba1dd1550430d2659e188939b23931f84c917a79c1bc50e68d169ee0e52cc"
+  },
+  {
+    "arm": "before",
+    "file": "raw-responses.json",
+    "sha256": "f91a294f560c4c34fc9ae259a8f81c313589eb21b5721cc6804815ac702b4668"
+  },
+  {
+    "arm": "before",
+    "file": "validation.json",
+    "sha256": "e0d31717afa5c30ef9e2a8754b291615abe84b6e61e3578d4011d5500c338557"
+  },
+  {
+    "arm": "after",
+    "file": "manifest.json",
+    "sha256": "4ddb4324d76966d77781d2d0b1e3330346689d3cfa84f2558472aa3bb6967945"
+  },
+  {
+    "arm": "after",
+    "file": "raw-responses.json",
+    "sha256": "0b9bc1669a3f52d418f0abab0d6859dcb2f7f6f006c7acf61d3275561f103d6c"
+  },
+  {
+    "arm": "after",
+    "file": "validation.json",
+    "sha256": "e0d31717afa5c30ef9e2a8754b291615abe84b6e61e3578d4011d5500c338557"
+  }
+]
