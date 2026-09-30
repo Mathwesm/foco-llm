@@ -66,3 +66,19 @@ def test_adapter_identity_binds_weights_and_training_manifest(adapter_files):
     updated = verify_adapter(checkpoint, config, dataset)
     assert identity["training_manifest_sha256"] != updated["training_manifest_sha256"]
     assert identity["adapter_sha256"] == updated["adapter_sha256"]
+
+
+def test_source_pilot_manifest_accepts_extended_budget_without_loosening_smoke(adapter_files):
+    from foco_llm.core.pilot_configuration import PilotConfig
+    from foco_llm.models.training import SmokeConfig
+
+    checkpoint, config, dataset = adapter_files
+    manifest_path = checkpoint.parent / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["config"] = PilotConfig(
+        revision=config.revision, model_id=config.model_id
+    ).model_dump()
+    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+    assert verify_adapter(checkpoint, config, dataset)["adapter_step"] == "1"
+    with pytest.raises(ValueError, match="less than or equal to 12"):
+        SmokeConfig(revision=config.revision, steps=64)

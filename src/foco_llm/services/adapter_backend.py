@@ -6,6 +6,7 @@ from pathlib import Path
 
 from pydantic import BaseModel
 
+from foco_llm.core.pilot_configuration import PilotConfig
 from foco_llm.models.inference import InferenceConfig
 from foco_llm.models.training import SmokeConfig
 from foco_llm.services.training_checkpoints import verify_checkpoint
@@ -15,7 +16,7 @@ from foco_llm.services.transformers_backend import TransformersBackend
 class TrainingManifest(BaseModel):
     """Required training provenance; additional recorded metadata is retained on disk."""
 
-    config: SmokeConfig
+    config: SmokeConfig | PilotConfig
     dataset_sha256: str
 
 
