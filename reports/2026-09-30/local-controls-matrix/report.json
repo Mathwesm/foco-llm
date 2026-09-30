@@ -1,0 +1,160 @@
+{
+  "protocol": "local-controls-matrix-v1",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "total_correct_by_seed": {
+    "C1": [
+      33,
+      30,
+      32
+    ],
+    "C2": [
+      35,
+      35,
+      33
+    ],
+    "C3": [
+      19,
+      18,
+      20
+    ]
+  },
+  "denominator_per_seed": 120,
+  "groups": {
+    "arithmetic:C1": {
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "mean_correct": 0.0,
+      "denominator_per_seed": 40
+    },
+    "arithmetic:C2": {
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "mean_correct": 0.0,
+      "denominator_per_seed": 40
+    },
+    "arithmetic:C3": {
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "mean_correct": 0.0,
+      "denominator_per_seed": 40
+    },
+    "deduction:C1": {
+      "scores": [
+        28,
+        27,
+        30
+      ],
+      "mean_correct": 28.333333333333332,
+      "denominator_per_seed": 40
+    },
+    "deduction:C2": {
+      "scores": [
+        30,
+        30,
+        29
+      ],
+      "mean_correct": 29.666666666666668,
+      "denominator_per_seed": 40
+    },
+    "deduction:C3": {
+      "scores": [
+        17,
+        17,
+        18
+      ],
+      "mean_correct": 17.333333333333332,
+      "denominator_per_seed": 40
+    },
+    "tracking:C1": {
+      "scores": [
+        5,
+        3,
+        2
+      ],
+      "mean_correct": 3.3333333333333335,
+      "denominator_per_seed": 40
+    },
+    "tracking:C2": {
+      "scores": [
+        5,
+        5,
+        4
+      ],
+      "mean_correct": 4.666666666666667,
+      "denominator_per_seed": 40
+    },
+    "tracking:C3": {
+      "scores": [
+        2,
+        1,
+        2
+      ],
+      "mean_correct": 1.6666666666666667,
+      "denominator_per_seed": 40
+    }
+  },
+  "contrasts": {
+    "arithmetic:C2-C1": {
+      "mean_percentage_points": 0.0,
+      "base_bootstrap_95_percentage_points": [
+        0.0,
+        0.0
+      ],
+      "problem_bases": 10
+    },
+    "arithmetic:C3-C2": {
+      "mean_percentage_points": 0.0,
+      "base_bootstrap_95_percentage_points": [
+        0.0,
+        0.0
+      ],
+      "problem_bases": 10
+    },
+    "deduction:C2-C1": {
+      "mean_percentage_points": 3.333333333333333,
+      "base_bootstrap_95_percentage_points": [
+        -1.6666666666666667,
+        8.333333333333332
+      ],
+      "problem_bases": 10
+    },
+    "deduction:C3-C2": {
+      "mean_percentage_points": -30.833333333333336,
+      "base_bootstrap_95_percentage_points": [
+        -46.666666666666664,
+        -16.666666666666664
+      ],
+      "problem_bases": 10
+    },
+    "tracking:C2-C1": {
+      "mean_percentage_points": 3.333333333333333,
+      "base_bootstrap_95_percentage_points": [
+        0.0,
+        6.666666666666667
+      ],
+      "problem_bases": 10
+    },
+    "tracking:C3-C2": {
+      "mean_percentage_points": -7.5,
+      "base_bootstrap_95_percentage_points": [
+        -14.166666666666666,
+        -1.6666666666666667
+      ],
+      "problem_bases": 10
+    }
+  },
+  "bootstrap_scope": "problem bases conditional on three fixed training seeds"
+}

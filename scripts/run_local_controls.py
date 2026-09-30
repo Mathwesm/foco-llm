@@ -18,7 +18,7 @@ from foco_llm.services.inference import _source_fingerprint
 
 def execute(arguments: list[str], log: Path) -> None:
     """Run one bounded child process, retaining its diagnostics on failure."""
-    environment = {**os.environ, "PYTHONUTF8": "1", "HF_HUB_OFFLINE": "1"}
+    environment = {**os.environ, "PYTHONUTF8": "1"}
     with log.open("a", encoding="utf-8") as handle:
         subprocess.run(  # noqa: S603 -- fixed Python entrypoints, argument list, no shell.
             [sys.executable, *arguments],

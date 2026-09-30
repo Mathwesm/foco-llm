@@ -9,18 +9,19 @@ Atualização: 30/09/2026. Não declarar a fase local concluída somente porque 
 - Comparação de dois tamanhos no piloto inicial; baseline do 1,5B na versão revisada.
 - LoRA funcional, integridade de checkpoints, retomada e recarga.
 - Validação após seis atualizações: sem ganho de acurácia.
+- Controles C1/C2/C3 concluídos com três sementes e validação completa; [resultados, respostas brutas e intervalos exploratórios](local-controls-2026-09-30.md).
 - Diagnóstico de ordem; documentação e figuras.
 
 ## Em execução ou pendente
 
 - Diagnóstico de formato concluído: original 3/30, JSON explícito 4/30, resposta simples 3/30; aritmética e acompanhamento seguem em zero. [Resultado](format-diagnostic-2026-09-29.md). Não alterado o prompt padrão.
 - Dificuldade/profundidade concluída: 120 casos novos com linguagem fixa; queda de acurácia com mais etapas, sem treino. [Resultado](depth-diagnostic-2026-09-29.md). O benchmark congelado não foi modificado.
-- Congelar dados, prompts, métricas e orçamento dos controles científicos.
+- Dados, prompts, métricas e orçamento dos nove controles congelados antes do lote; eventual controle de tokens adicional deve ser análise posterior.
 - Executor de piloto C3 concluído: tarefa-fonte, condição, seed e orçamento por arquivo; 64 passos em 32 exemplos, avaliação fixa ao final. [Resultado: 6/120 → 19/120](source-task-pilot-2026-09-30.md). Faltam seleção do objetivo C1/C2 e os demais controles.
-- C0 original, C1 treino limpo/resposta, C2 ruído/resposta, C3 ruído/resposta+evidências; controlar diferenças de formato e registrar tokens supervisionados.
-- Três sementes por braço ajustado e medição de tempo/memória antes da matriz completa.
+- C0 original, C1 treino limpo/resposta, C2 ruído/resposta, C3 ruído/resposta+evidências: nove execuções concluídas, diferenças de formato e tokens supervisionados registradas. Falta controle adicional de orçamento de tokens, se viável.
+- Três sementes por braço ajustado concluídas; duração dos passos, memória e resultados preservados.
 - Transferência para tarefas excluídas do treino; manter teste final reservado até congelar o protocolo.
-- Intervalos por reamostragem de problemas-base, relatório de transições, curvas de treino e matriz fonte/alvo.
+- Intervalos exploratórios por reamostragem de problemas-base, transições e curvas concluídos. Falta consolidar matriz fonte/alvo para o artigo e realizar auditoria manual de respostas.
 - Alertas de falha para execuções longas, configuração portátil e teste de instalação sem GPU.
 
 Os itens acima não são automaticamente concluídos pela execução dos diagnósticos. O orçamento do treinamento científico depende de medições locais; não há promessa de melhora.

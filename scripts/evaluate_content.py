@@ -45,8 +45,10 @@ def build_chart(result: ContentEvaluation) -> Figure:
 
 def analyze(source: Path, output: Path) -> ContentEvaluation:
     """Verify raw checkpoints and original scores before publishing a separate analysis."""
+    manifest = json.loads((source / "manifest.json").read_text(encoding="utf-8"))
+    case_file = f"{manifest['config']['split']}.json"
     problems = TypeAdapter(tuple[Problem, ...]).validate_json(
-        (source / "validation.json").read_text(encoding="utf-8")
+        (source / case_file).read_text(encoding="utf-8")
     )
     validate_dataset(problems)
     if any(p.split != Split.VALIDATION for p in problems):
@@ -65,7 +67,7 @@ def analyze(source: Path, output: Path) -> ContentEvaluation:
         raise ValueError("Replayed strict scores differ from the original report")
     inputs = [
         {"file": name, "source_sha256": hashlib.sha256((source / name).read_bytes()).hexdigest()}
-        for name in ("validation.json", "raw-responses.json", "predictions.json", "report.json")
+        for name in (case_file, "raw-responses.json", "predictions.json", "report.json")
     ]
     publish_text(
         output / "manifest.json",

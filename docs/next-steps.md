@@ -1,5 +1,11 @@
 # Próximas etapas e critérios de conclusão
 
+**Atualização — 30/09/2026, controles concluídos:** [nove treinos e resultados](local-controls-2026-09-30.md).
+C2 atingiu média 34,3/120, C1 31,7/120, C3 19,0/120. Antes do Kaggle,
+auditar uma amostra estratificada das respostas, revisar os artefatos,
+congelar a avaliação final e gerar a matriz fonte/alvo. Não ajustar
+hiperparâmetros retroativamente para selecionar o melhor braço.
+
 **Atualização — 30/09/2026:** [piloto C3 de dedução](source-task-pilot-2026-09-30.md)
 concluído, 64 passos/32 exemplos/seed 42; validação 6/120 → 19/120. Próxima
 etapa: implementar a supervisão de resposta para C1/C2, congelar a seleção dos

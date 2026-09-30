@@ -47,7 +47,8 @@ def verify_controls(before: Path, after: Path) -> None:
     for key, value in left["runtime"].items():
         if right["runtime"].get(key) != value:
             raise ValueError(f"Base runtime differs: {key}")
-    if (before / "validation.json").read_bytes() != (after / "validation.json").read_bytes():
+    case_file = f"{left['config']['split']}.json"
+    if (before / case_file).read_bytes() != (after / case_file).read_bytes():
         raise ValueError("Validation examples differ")
 
 
@@ -55,8 +56,10 @@ def verify_controls(before: Path, after: Path) -> None:
 def compare(before: Path, after: Path, output: Path) -> None:
     """Export per-example outcomes and grouped transitions without excluding failures."""
     verify_controls(before, after)
+    manifest = json.loads((before / "manifest.json").read_text(encoding="utf-8"))
+    case_file = f"{manifest['config']['split']}.json"
     problems = TypeAdapter(tuple[Problem, ...]).validate_json(
-        (before / "validation.json").read_text(encoding="utf-8")
+        (before / case_file).read_text(encoding="utf-8")
     )
     left, right = outcomes(before, problems), outcomes(after, problems)
     rows = [{"id": p.id, "before": left[p.id], "after": right[p.id]} for p in problems]
@@ -80,7 +83,7 @@ def compare(before: Path, after: Path, output: Path) -> None:
     inputs = [
         {"arm": arm, "file": name, "sha256": hashlib.sha256((p / name).read_bytes()).hexdigest()}
         for arm, p in (("before", before), ("after", after))
-        for name in ("manifest.json", "raw-responses.json", "validation.json")
+        for name in ("manifest.json", "raw-responses.json", case_file)
     ]
     publish_text(output / "inputs.json", json.dumps(inputs, indent=2))
     figure = Figure(figsize=(11, 4), layout="constrained")

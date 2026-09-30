@@ -50,9 +50,12 @@ def build_chart(report: EvaluationReport) -> Figure:
     return figure
 
 
-def export(dataset: Path, run_dir: Path, output: Path) -> None:
-    """Verify strict metrics against raw responses and export validation-only artifacts."""
-    problems = tuple(p for p in load_dataset(dataset) if p.split == Split.VALIDATION)
+def export(dataset: Path, run_dir: Path, output: Path, split: Split = Split.VALIDATION) -> None:
+    """Verify strict metrics against raw responses and export one requested split."""
+    problems = tuple(p for p in load_dataset(dataset) if p.split == split)
+    manifest = json.loads((run_dir / "manifest.json").read_text(encoding="utf-8"))
+    if manifest["config"]["split"] != split:
+        raise ValueError("Export split differs from inference manifest")
     run = ModelRun.model_validate_json((run_dir / "predictions.json").read_text(encoding="utf-8"))
     records = sorted(
         (
@@ -85,7 +88,7 @@ def export(dataset: Path, run_dir: Path, output: Path) -> None:
         TypeAdapter(list[Checkpoint]).dump_json(records, indent=2).decode("utf-8"),
     )
     publish_text(
-        output / "validation.json",
+        output / f"{split.value}.json",
         TypeAdapter(tuple[Problem, ...]).dump_json(problems, indent=2).decode("utf-8"),
     )
     format_counts = {
@@ -112,5 +115,6 @@ if __name__ == "__main__":
     parser.add_argument("dataset", type=Path)
     parser.add_argument("run_dir", type=Path)
     parser.add_argument("output", type=Path)
+    parser.add_argument("--split", choices=[s.value for s in Split], default="validation")
     args = parser.parse_args()
-    export(args.dataset, args.run_dir, args.output)
+    export(args.dataset, args.run_dir, args.output, Split(args.split))

@@ -39,7 +39,7 @@ def test_comparison_accepts_adapter_metadata_but_rejects_changed_examples(tmp_pa
     for index, path in enumerate(paths):
         path.mkdir()
         manifest = {
-            "config": {},
+            "config": {"split": "validation"},
             "dataset_sha256": "same",
             "examples": 120,
             "prompt_version": "same",
