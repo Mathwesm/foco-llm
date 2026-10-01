@@ -1,0 +1,14 @@
+{
+  "generator_version": "benchmark-v2.1-candidate",
+  "config": {
+    "seed": 20261001,
+    "problems_per_task": 100
+  },
+  "dataset_sha256": "8d2d5b5ffbf1c3bdb07c6e79960d5744582b5608c05bc3dc37ba73401d590d75",
+  "examples": 1200,
+  "split_counts": {
+    "train": 960,
+    "validation": 120,
+    "test": 120
+  }
+}

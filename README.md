@@ -4,6 +4,11 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Verificação em novos casos — 30/09:** o melhor ajuste local (`mixed-15b`)
+acertou **55/120** em novas instâncias sintéticas, contra **8/120** respostas
+legíveis corretas do modelo original. Aritmética permaneceu em **0/40**.
+[Protocolo, gráficos, respostas e limites](docs/fresh-instance-results-2026-09-30.md).
+
 **Currículo aritmético — 30/09:** dois novos treinos com subtotais derivados
 somente dos dados de treino deram 1/40 e 2/40 acertos aritméticos na validação.
 O braço misto caiu de 57/120 para 41/120 acertos estritos e perdeu validade

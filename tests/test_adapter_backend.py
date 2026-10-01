@@ -82,3 +82,23 @@ def test_source_pilot_manifest_accepts_extended_budget_without_loosening_smoke(a
     assert verify_adapter(checkpoint, config, dataset)["adapter_step"] == "1"
     with pytest.raises(ValueError, match="less than or equal to 12"):
         SmokeConfig(revision=config.revision, steps=64)
+
+
+def test_adapter_accepts_new_evaluation_instances_with_verified_training_source(adapter_files):
+    checkpoint, config, training_dataset = adapter_files
+    evaluation_dataset = training_dataset.parent / "fresh.json"
+    evaluation_dataset.write_text("[1]", encoding="utf-8")
+    with pytest.raises(ValueError, match="training dataset differs"):
+        verify_adapter(checkpoint, config, evaluation_dataset)
+    identity = verify_adapter(checkpoint, config, evaluation_dataset, training_dataset)
+    assert (
+        identity["training_dataset_sha256"]
+        == hashlib.sha256(training_dataset.read_bytes()).hexdigest()
+    )
+    assert (
+        identity["evaluation_dataset_sha256"]
+        == hashlib.sha256(evaluation_dataset.read_bytes()).hexdigest()
+    )
+    training_dataset.write_text("[2]", encoding="utf-8")
+    with pytest.raises(ValueError, match="training dataset differs"):
+        verify_adapter(checkpoint, config, evaluation_dataset, training_dataset)
