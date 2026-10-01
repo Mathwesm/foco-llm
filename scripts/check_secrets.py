@@ -16,7 +16,7 @@ EXCLUDED_PATHS = (
 # must be one JSON field; other keys and additional content remain scanned.
 PROVENANCE_LINES = (
     r'^\s*"(?:prompt|dataset|source|script|selection_scores)_sha256": "[a-f0-9]{64}",?\s*$'
-    r'|^\s*"(?:evaluation_dataset|training_dataset)_sha256": "[a-f0-9]{64}",?\s*$'
+    r'|^\s*"(?:evaluation_dataset|training_dataset|source_dataset)_sha256": "[a-f0-9]{64}",?\s*$'
     # Verified hashes of local adapter files and comparison input artifacts.
     r'|^\s*"(?:adapter_sha256|adapter_config_sha256|training_manifest_sha256|sha256)"'
     r': "[a-f0-9]{64}",?\s*$'

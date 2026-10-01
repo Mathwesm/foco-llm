@@ -1,5 +1,7 @@
 """Behavioral checks for independent relevance selection and execution."""
 
+import json
+import re
 import runpy
 from pathlib import Path
 from types import SimpleNamespace
@@ -135,3 +137,41 @@ def test_kaggle_resume_rejects_checkpoint_gap(tmp_path, monkeypatch):
     (tmp_path / "step-0121").mkdir()
     with pytest.raises(ValueError, match="interval was exceeded"):
         latest(tmp_path, 40)
+
+
+def test_paraphrase_stress_breaks_literal_target_shortcut(monkeypatch):
+    """Every rewritten case requires updates without the literal target name."""
+    root = Path(__file__).resolve().parents[1]
+    monkeypatch.syspath_prepend(str(root / "scripts"))
+    module = runpy.run_path(str(root / "scripts" / "run_paraphrase_stress.py"))
+    cases = module["make_cases"](root / "reports/2026-10-01/arithmetic-diagnostic/dataset.json")
+    assert len(cases) == 10
+    for case in cases:
+        literal_ids = set(lexical_select(case))
+        relevant_ids = set(case.evidence)
+        assert len(relevant_ids) == 5
+        assert len(literal_ids & relevant_ids) == 1
+        assert len(literal_ids - relevant_ids) == 1
+        assert sum("container named in the question" in fact.text for fact in case.facts) == 4
+        relevant_text = [fact.text for fact in case.facts if fact.id in relevant_ids]
+        initial = next(text for text in relevant_text if "At the start" in text)
+        count = int(re.search(r"held (\d+) marbles", initial).group(1))
+        for text in relevant_text:
+            if "received" in text:
+                count += int(re.search(r"received (\d+) marbles", text).group(1))
+            elif "lost" in text:
+                count -= int(re.search(r"lost (\d+) marbles", text).group(1))
+        assert str(count) == case.answer
+
+
+def test_paraphrase_stress_scores_selection_only(monkeypatch):
+    """A correct selection remains valid even when the calculator cannot parse prose."""
+    root = Path(__file__).resolve().parents[1]
+    monkeypatch.syspath_prepend(str(root / "scripts"))
+    module = runpy.run_path(str(root / "scripts" / "run_paraphrase_stress.py"))
+    case = module["make_cases"](root / "reports/2026-10-01/arithmetic-diagnostic/dataset.json")[0]
+    score = module["score"]
+    exact = score(case, json.dumps({"evidence": list(case.evidence)}))
+    invalid = score(case, '{"evidence":["F999"]}')
+    assert exact["exact"] and exact["true_positive"] == 5
+    assert not invalid["valid"] and invalid["false_negative"] == 5
