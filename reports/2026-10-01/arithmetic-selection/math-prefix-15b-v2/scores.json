@@ -1,0 +1,983 @@
+[
+  {
+    "id": "v2-arithmetic-000008:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F5"
+    ],
+    "expected_answer": "41",
+    "selected_ids": [
+      "F1",
+      "F5"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "41",
+    "answer_correct": true,
+    "error": "",
+    "expression": "50 - 9"
+  },
+  {
+    "id": "v2-arithmetic-000008:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F5"
+    ],
+    "expected_answer": "40",
+    "selected_ids": [
+      "F2",
+      "F1",
+      "F5"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 3,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "40",
+    "answer_correct": true,
+    "error": "",
+    "expression": "50 - 9 - 1"
+  },
+  {
+    "id": "v2-arithmetic-000008:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "51",
+    "selected_ids": [
+      "F5"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": true,
+    "calculated_answer": "50",
+    "answer_correct": false,
+    "error": "",
+    "expression": "50"
+  },
+  {
+    "id": "v2-arithmetic-000008:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "expected_answer": "51",
+    "selected_ids": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 5,
+    "false_positive": 4,
+    "false_negative": 0,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000018:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F3"
+    ],
+    "expected_answer": "74",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": true,
+    "calculated_answer": "71",
+    "answer_correct": false,
+    "error": "",
+    "expression": "71"
+  },
+  {
+    "id": "v2-arithmetic-000018:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "expected_answer": "76",
+    "selected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 3,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "76",
+    "answer_correct": true,
+    "error": "",
+    "expression": "71 + 3 + 2"
+  },
+  {
+    "id": "v2-arithmetic-000018:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "73",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": true,
+    "calculated_answer": "71",
+    "answer_correct": false,
+    "error": "",
+    "expression": "71"
+  },
+  {
+    "id": "v2-arithmetic-000018:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F4",
+      "F5",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "expected_answer": "73",
+    "selected_ids": [
+      "F3",
+      "F4",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 4,
+    "false_positive": 3,
+    "false_negative": 1,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000028:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F3"
+    ],
+    "expected_answer": "69",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68"
+  },
+  {
+    "id": "v2-arithmetic-000028:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "expected_answer": "77",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 2,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68"
+  },
+  {
+    "id": "v2-arithmetic-000028:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "80",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68"
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ],
+    "expected_answer": "80",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000038:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F2"
+    ],
+    "expected_answer": "69",
+    "selected_ids": [
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68"
+  },
+  {
+    "id": "v2-arithmetic-000038:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "expected_answer": "77",
+    "selected_ids": [
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 2,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68"
+  },
+  {
+    "id": "v2-arithmetic-000038:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "83",
+    "selected_ids": [
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68"
+  },
+  {
+    "id": "v2-arithmetic-000038:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F2",
+      "F4",
+      "F6",
+      "F9",
+      "F10"
+    ],
+    "expected_answer": "83",
+    "selected_ids": [
+      "F4",
+      "F6"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": true,
+    "calculated_answer": "76",
+    "answer_correct": false,
+    "error": "",
+    "expression": "68 + 8"
+  },
+  {
+    "id": "v2-arithmetic-000048:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F3"
+    ],
+    "expected_answer": "57",
+    "selected_ids": [
+      "F1"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000048:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "expected_answer": "62",
+    "selected_ids": [
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 2,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000048:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "64",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": true,
+    "calculated_answer": "60",
+    "answer_correct": false,
+    "error": "",
+    "expression": "60"
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F2",
+      "F3",
+      "F5",
+      "F9",
+      "F10"
+    ],
+    "expected_answer": "64",
+    "selected_ids": [
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000058:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F5"
+    ],
+    "expected_answer": "60",
+    "selected_ids": [
+      "F1"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000058:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F5"
+    ],
+    "expected_answer": "63",
+    "selected_ids": [],
+    "selection_valid": false,
+    "selection_exact": false,
+    "true_positive": 0,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selection contains missing, duplicate, or unknown fact IDs"
+  },
+  {
+    "id": "v2-arithmetic-000058:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "68",
+    "selected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 5,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "68",
+    "answer_correct": true,
+    "error": "",
+    "expression": "52 + 8 + 3 - 2 + 7"
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F1",
+      "F3",
+      "F4",
+      "F6",
+      "F10"
+    ],
+    "expected_answer": "68",
+    "selected_ids": [
+      "F1",
+      "F6"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000068:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F4"
+    ],
+    "expected_answer": "58",
+    "selected_ids": [
+      "F4"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": true,
+    "calculated_answer": "54",
+    "answer_correct": false,
+    "error": "",
+    "expression": "54"
+  },
+  {
+    "id": "v2-arithmetic-000068:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F4"
+    ],
+    "expected_answer": "54",
+    "selected_ids": [
+      "F4"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 2,
+    "calculation_valid": true,
+    "calculated_answer": "54",
+    "answer_correct": true,
+    "error": "",
+    "expression": "54"
+  },
+  {
+    "id": "v2-arithmetic-000068:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "54",
+    "selected_ids": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 4,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": true,
+    "calculated_answer": "50",
+    "answer_correct": false,
+    "error": "",
+    "expression": "54 - 4 + 8 - 8"
+  },
+  {
+    "id": "v2-arithmetic-000068:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F10"
+    ],
+    "expected_answer": "54",
+    "selected_ids": [
+      "F3",
+      "F6"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000078:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F5"
+    ],
+    "expected_answer": "64",
+    "selected_ids": [
+      "F1"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 1,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000078:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F5"
+    ],
+    "expected_answer": "71",
+    "selected_ids": [
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 2,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000078:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "70",
+    "selected_ids": [
+      "F2",
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000078:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F7"
+    ],
+    "expected_answer": "70",
+    "selected_ids": [
+      "F1",
+      "F4"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": false,
+    "calculated_answer": "",
+    "answer_correct": false,
+    "error": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000088:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F2"
+    ],
+    "expected_answer": "78",
+    "selected_ids": [
+      "F1",
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "78",
+    "answer_correct": true,
+    "error": "",
+    "expression": "76 + 2"
+  },
+  {
+    "id": "v2-arithmetic-000088:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "expected_answer": "84",
+    "selected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 3,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "84",
+    "answer_correct": true,
+    "error": "",
+    "expression": "76 + 2 + 6"
+  },
+  {
+    "id": "v2-arithmetic-000088:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "90",
+    "selected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 5,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "90",
+    "answer_correct": true,
+    "error": "",
+    "expression": "76 + 2 + 6 + 5 + 1"
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+    ],
+    "expected_answer": "90",
+    "selected_ids": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F9",
+      "F10"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 5,
+    "false_positive": 1,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "94",
+    "answer_correct": false,
+    "error": "",
+    "expression": "76 + 2 + 6 + 5 + 1 + 4"
+  },
+  {
+    "id": "v2-arithmetic-000098:text-1",
+    "form": "text-1",
+    "expected_ids": [
+      "F1",
+      "F2"
+    ],
+    "expected_answer": "77",
+    "selected_ids": [
+      "F1",
+      "F2"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "77",
+    "answer_correct": true,
+    "error": "",
+    "expression": "70 + 7"
+  },
+  {
+    "id": "v2-arithmetic-000098:text-2",
+    "form": "text-2",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "expected_answer": "74",
+    "selected_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "selection_valid": true,
+    "selection_exact": true,
+    "true_positive": 3,
+    "false_positive": 0,
+    "false_negative": 0,
+    "calculation_valid": true,
+    "calculated_answer": "74",
+    "answer_correct": true,
+    "error": "",
+    "expression": "70 + 7 - 3"
+  },
+  {
+    "id": "v2-arithmetic-000098:text-4",
+    "form": "text-4",
+    "expected_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "expected_answer": "81",
+    "selected_ids": [
+      "F1"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 4,
+    "calculation_valid": true,
+    "calculated_answer": "70",
+    "answer_correct": false,
+    "error": "",
+    "expression": "70"
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4",
+    "form": "similar-4",
+    "expected_ids": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ],
+    "expected_answer": "81",
+    "selected_ids": [
+      "F1",
+      "F4"
+    ],
+    "selection_valid": true,
+    "selection_exact": false,
+    "true_positive": 2,
+    "false_positive": 0,
+    "false_negative": 3,
+    "calculation_valid": true,
+    "calculated_answer": "77",
+    "answer_correct": false,
+    "error": "",
+    "expression": "70 + 7"
+  }
+]

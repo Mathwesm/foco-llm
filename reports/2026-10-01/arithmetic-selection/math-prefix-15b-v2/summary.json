@@ -1,0 +1,45 @@
+{
+  "cases": 40,
+  "groups": {
+    "text-1": {
+      "cases": 10,
+      "selection_valid": 10,
+      "selection_exact": 3,
+      "calculation_valid": 7,
+      "answer_correct": 3,
+      "true_positive": 13,
+      "false_positive": 0,
+      "false_negative": 7
+    },
+    "text-2": {
+      "cases": 10,
+      "selection_valid": 9,
+      "selection_exact": 4,
+      "calculation_valid": 7,
+      "answer_correct": 5,
+      "true_positive": 17,
+      "false_positive": 0,
+      "false_negative": 13
+    },
+    "text-4": {
+      "cases": 10,
+      "selection_valid": 10,
+      "selection_exact": 2,
+      "calculation_valid": 9,
+      "answer_correct": 2,
+      "true_positive": 22,
+      "false_positive": 0,
+      "false_negative": 28
+    },
+    "similar-4": {
+      "cases": 10,
+      "selection_valid": 10,
+      "selection_exact": 0,
+      "calculation_valid": 3,
+      "answer_correct": 0,
+      "true_positive": 26,
+      "false_positive": 8,
+      "false_negative": 24
+    }
+  }
+}
