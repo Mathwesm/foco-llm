@@ -12,13 +12,14 @@ from foco_llm.models.training import SmokeConfig
 class PilotConfig(SmokeConfig):
     """Development pilot using answer-and-evidence supervision, not a full sweep."""
 
-    steps: int = Field(default=64, ge=2, le=256)
+    steps: int = Field(default=64, ge=2, le=1024)
     source_task: Task | None = Task.DEDUCTION
     condition: Condition = Condition.SIMILAR
     examples: int = Field(default=32, ge=1, le=240)
     selection_seed: int = Field(default=42, ge=0)
     supervision: Literal["answer", "answer_and_evidence"] = "answer_and_evidence"
     tasks: tuple[Task, ...] | None = None
+    arithmetic_prefix_curriculum: bool = False
 
     @model_validator(mode="after")
     def validate_tasks(self) -> Self:
@@ -31,6 +32,12 @@ class PilotConfig(SmokeConfig):
             or self.examples % len(self.tasks) != 0
         ):
             raise ValueError("Tasks must be unique and divide the example budget evenly")
+        if self.arithmetic_prefix_curriculum and (
+            Task.ARITHMETIC not in self.tasks
+            if self.tasks is not None
+            else self.source_task != Task.ARITHMETIC
+        ):
+            raise ValueError("Arithmetic prefix curriculum requires arithmetic training")
         return self
 
 

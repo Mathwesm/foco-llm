@@ -8,6 +8,7 @@ from pathlib import Path
 from matplotlib.figure import Figure
 from pydantic import TypeAdapter
 
+from foco_llm.core.arithmetic_curriculum import with_arithmetic_prefixes
 from foco_llm.core.pilot_configuration import PilotConfig, select_pilot
 from foco_llm.models.experiment import Problem
 from foco_llm.models.training import StepResult
@@ -29,13 +30,19 @@ def plot_history(history: tuple[StepResult, ...]) -> Figure:
     return figure
 
 
+def training_selection(problems: tuple[Problem, ...], config: PilotConfig) -> tuple[Problem, ...]:
+    """Reconstruct the exact original or prefix-augmented training order."""
+    selected = select_pilot(problems, config)
+    return with_arithmetic_prefixes(selected) if config.arithmetic_prefix_curriculum else selected
+
+
 def export(dataset: Path, source: Path, output: Path) -> None:
     """Verify source selection and final checkpoint before immutable publication."""
     manifest = json.loads((source / "manifest.json").read_text(encoding="utf-8"))
     config = PilotConfig.model_validate(manifest["config"])
     if hashlib.sha256(dataset.read_bytes()).hexdigest() != manifest["dataset_sha256"]:
         raise ValueError("Pilot dataset differs from manifest")
-    selected = select_pilot(load_dataset(dataset), config)
+    selected = training_selection(load_dataset(dataset), config)
     if [p.id for p in selected] != manifest["example_ids"]:
         raise ValueError("Pilot selection differs from manifest")
     state = verify_checkpoint(source / f"step-{config.steps:04d}")

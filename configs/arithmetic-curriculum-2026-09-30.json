@@ -1,0 +1,33 @@
+{
+  "math-prefix-15b": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "seed": 42,
+    "steps": 400,
+    "max_tokens": 512,
+    "learning_rate": 0.0001,
+    "rank": 4,
+    "source_task": "arithmetic",
+    "condition": "similar",
+    "examples": 80,
+    "selection_seed": 42,
+    "supervision": "answer",
+    "arithmetic_prefix_curriculum": true
+  },
+  "mixed-prefix-15b": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "seed": 42,
+    "steps": 384,
+    "max_tokens": 512,
+    "learning_rate": 0.0001,
+    "rank": 4,
+    "source_task": null,
+    "tasks": ["arithmetic", "deduction", "tracking"],
+    "condition": "similar",
+    "examples": 96,
+    "selection_seed": 42,
+    "supervision": "answer",
+    "arithmetic_prefix_curriculum": true
+  }
+}

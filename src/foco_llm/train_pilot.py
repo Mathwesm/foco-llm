@@ -7,6 +7,7 @@ from pathlib import Path
 
 from loguru import logger
 
+from foco_llm.core.arithmetic_curriculum import with_arithmetic_prefixes
 from foco_llm.core.pilot_configuration import PilotConfig, select_pilot
 from foco_llm.models.training import StepResult, TrainingExample
 from foco_llm.services.answer_training import AnswerTrainingBackend
@@ -24,12 +25,20 @@ from foco_llm.utils.logger import setup_logging
 def run_pilot(dataset: Path, config: PilotConfig, output: Path) -> Path:
     """Train only source examples, checkpoint each update, and verify adapter reload."""
     selected = select_pilot(load_dataset(dataset), config)
+    if config.arithmetic_prefix_curriculum:
+        selected = with_arithmetic_prefixes(selected)
     backend = (
         AnswerTrainingBackend(config) if config.supervision == "answer" else TrainingBackend(config)
     )
     examples = tuple(backend.encode(p) for p in selected)
     manifest = {
-        "protocol": "balanced-task-pilot-v1" if config.tasks else "source-task-pilot-v1",
+        "protocol": (
+            "arithmetic-prefix-curriculum-v1"
+            if config.arithmetic_prefix_curriculum
+            else "balanced-task-pilot-v1"
+            if config.tasks
+            else "source-task-pilot-v1"
+        ),
         "config": config.model_dump(mode="json"),
         "runtime": backend.metadata(),
         "source_sha256": _source_fingerprint(),

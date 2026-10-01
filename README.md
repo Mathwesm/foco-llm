@@ -4,6 +4,11 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Currículo aritmético — 30/09:** dois novos treinos com subtotais derivados
+somente dos dados de treino deram 1/40 e 2/40 acertos aritméticos na validação.
+O braço misto caiu de 57/120 para 41/120 acertos estritos e perdeu validade
+de formato. [Resultados, custos e limites da comparação](docs/arithmetic-curriculum-results-2026-09-30.md).
+
 **Nova rodada exploratória — 30/09:** cinco ajustes dirigidos/balanceados
 foram avaliados na validação v2.1. O Qwen 1,5B misto alcançou **57/120**,
 o Qwen 0,5B misto **52/120** e o TinyLlama 1,1B misto **44/120**.
