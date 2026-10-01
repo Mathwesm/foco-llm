@@ -1,0 +1,419 @@
+[
+  {
+    "id": "v2-arithmetic-000008:similar-4",
+    "expected": "51",
+    "selection_exact": true,
+    "selected_ids": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "model_answer": "51",
+    "answer_correct": true,
+    "generated_steps": 4,
+    "reason": "",
+    "expression": "50 - 9 - 1 + 3 + 8",
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 50 - 9. Reply with only the integer.",
+        "observed": "41",
+        "expected_local": "41",
+        "expected_oracle": "41",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 41 - 1. Reply with only the integer.",
+        "observed": "40",
+        "expected_local": "40",
+        "expected_oracle": "40",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 40 + 3. Reply with only the integer.",
+        "observed": "43",
+        "expected_local": "43",
+        "expected_oracle": "43",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 43 + 8. Reply with only the integer.",
+        "observed": "51",
+        "expected_local": "51",
+        "expected_oracle": "51",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:similar-4",
+    "expected": "73",
+    "selection_exact": false,
+    "selected_ids": [
+      "F3",
+      "F4",
+      "F5",
+      "F7",
+      "F8",
+      "F9",
+      "F10"
+    ],
+    "model_answer": "",
+    "answer_correct": false,
+    "generated_steps": 0,
+    "reason": "Selected facts require exactly one initial count"
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4",
+    "expected": "80",
+    "selection_exact": true,
+    "selected_ids": [
+      "F3",
+      "F5",
+      "F9",
+      "F10",
+      "F6"
+    ],
+    "model_answer": "80",
+    "answer_correct": true,
+    "generated_steps": 4,
+    "reason": "",
+    "expression": "68 + 1 + 8 - 4 + 7",
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 68 + 1. Reply with only the integer.",
+        "observed": "69",
+        "expected_local": "69",
+        "expected_oracle": "69",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 69 + 8. Reply with only the integer.",
+        "observed": "77",
+        "expected_local": "77",
+        "expected_oracle": "77",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 77 - 4. Reply with only the integer.",
+        "observed": "73",
+        "expected_local": "73",
+        "expected_oracle": "73",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 73 + 7. Reply with only the integer.",
+        "observed": "80",
+        "expected_local": "80",
+        "expected_oracle": "80",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:similar-4",
+    "expected": "83",
+    "selection_exact": false,
+    "selected_ids": [
+      "F4",
+      "F6",
+      "F9",
+      "F10"
+    ],
+    "model_answer": "",
+    "answer_correct": false,
+    "generated_steps": 0,
+    "reason": "incomplete_expression"
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4",
+    "expected": "64",
+    "selection_exact": true,
+    "selected_ids": [
+      "F2",
+      "F3",
+      "F5",
+      "F9",
+      "F10"
+    ],
+    "model_answer": "64",
+    "answer_correct": true,
+    "generated_steps": 4,
+    "reason": "",
+    "expression": "60 - 3 + 5 + 8 - 6",
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 60 - 3. Reply with only the integer.",
+        "observed": "57",
+        "expected_local": "57",
+        "expected_oracle": "57",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 57 + 5. Reply with only the integer.",
+        "observed": "62",
+        "expected_local": "62",
+        "expected_oracle": "62",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 62 + 8. Reply with only the integer.",
+        "observed": "70",
+        "expected_local": "70",
+        "expected_oracle": "70",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 70 - 6. Reply with only the integer.",
+        "observed": "64",
+        "expected_local": "64",
+        "expected_oracle": "64",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4",
+    "expected": "68",
+    "selection_exact": true,
+    "selected_ids": [
+      "F1",
+      "F3",
+      "F4",
+      "F6",
+      "F10"
+    ],
+    "model_answer": "68",
+    "answer_correct": true,
+    "generated_steps": 4,
+    "reason": "",
+    "expression": "52 + 8 + 3 - 2 + 7",
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 52 + 8. Reply with only the integer.",
+        "observed": "60",
+        "expected_local": "60",
+        "expected_oracle": "60",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 60 + 3. Reply with only the integer.",
+        "observed": "63",
+        "expected_local": "63",
+        "expected_oracle": "63",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 63 - 2. Reply with only the integer.",
+        "observed": "61",
+        "expected_local": "61",
+        "expected_oracle": "61",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 61 + 7. Reply with only the integer.",
+        "observed": "68",
+        "expected_local": "68",
+        "expected_oracle": "68",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:similar-4",
+    "expected": "54",
+    "selection_exact": false,
+    "selected_ids": [
+      "F3",
+      "F6",
+      "F8",
+      "F10"
+    ],
+    "model_answer": "",
+    "answer_correct": false,
+    "generated_steps": 0,
+    "reason": "incomplete_expression"
+  },
+  {
+    "id": "v2-arithmetic-000078:similar-4",
+    "expected": "70",
+    "selection_exact": false,
+    "selected_ids": [
+      "F1",
+      "F4",
+      "F6",
+      "F7"
+    ],
+    "model_answer": "",
+    "answer_correct": false,
+    "generated_steps": 0,
+    "reason": "incomplete_expression"
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4",
+    "expected": "90",
+    "selection_exact": true,
+    "selected_ids": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+    ],
+    "model_answer": "91",
+    "answer_correct": false,
+    "generated_steps": 4,
+    "reason": "",
+    "expression": "76 + 2 + 6 + 5 + 1",
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 76 + 2. Reply with only the integer.",
+        "observed": "78",
+        "expected_local": "78",
+        "expected_oracle": "78",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 78 + 6. Reply with only the integer.",
+        "observed": "84",
+        "expected_local": "84",
+        "expected_oracle": "84",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 84 + 5. Reply with only the integer.",
+        "observed": "90",
+        "expected_local": "89",
+        "expected_oracle": "89",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 90 + 1. Reply with only the integer.",
+        "observed": "91",
+        "expected_local": "91",
+        "expected_oracle": "90",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4",
+    "expected": "81",
+    "selection_exact": true,
+    "selected_ids": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ],
+    "model_answer": "81",
+    "answer_correct": true,
+    "generated_steps": 4,
+    "reason": "",
+    "expression": "70 + 7 - 3 + 1 + 6",
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 70 + 7. Reply with only the integer.",
+        "observed": "77",
+        "expected_local": "77",
+        "expected_oracle": "77",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 77 - 3. Reply with only the integer.",
+        "observed": "74",
+        "expected_local": "74",
+        "expected_oracle": "74",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 74 + 1. Reply with only the integer.",
+        "observed": "75",
+        "expected_local": "75",
+        "expected_oracle": "75",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 75 + 6. Reply with only the integer.",
+        "observed": "81",
+        "expected_local": "81",
+        "expected_oracle": "81",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      }
+    ]
+  }
+]

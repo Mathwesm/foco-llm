@@ -4,6 +4,13 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Seleção + aritmética — 01/10:** após 320 passos de treino específico,
+o Qwen 1,5B selecionou todos os fatos relevantes em **6/10** problemas
+com distratores, ante **0/10** dos braços locais anteriores. Usando essa
+seleção, o cálculo por outro adaptador chegou a **5/10**; uma regra lexical
+simples fez **10/10** neste benchmark sintético, limite importante para
+as conclusões do TCC. [Resultados, gráfico e respostas](docs/arithmetic-selection-training-results-2026-10-01.md).
+
 **Diagnóstico aritmético — 01/10:** em dez novas bases de validação, o
 Qwen 1,5B treinado com subtotais acertou 10/10 expressões de uma operação,
 mas só 1/10 de quatro operações no contrato original. Ao decompor as
