@@ -7,13 +7,16 @@ import pytest
 
 from foco_llm.core.arithmetic_diagnostic import arithmetic_probes
 from foco_llm.core.arithmetic_selection import (
+    lexical_select,
     parse_selected_ids,
     parse_selected_ids_v2,
     selected_calculation,
     selection_prompt_v2,
 )
 from foco_llm.core.benchmark_v21 import generate_v21
+from foco_llm.core.pilot_configuration import PilotConfig
 from foco_llm.models.experiment import Condition, GenerationConfig, Split, Task
+from foco_llm.services.selection_training import selection_target
 
 
 def _similar_case():
@@ -77,3 +80,25 @@ def test_scoring_separates_selection_failure_from_arithmetic():
     invalid = score(problem, '{"evidence":["F999"]}')
     assert correct["selection_exact"] and correct["answer_correct"]
     assert not invalid["selection_valid"] and not invalid["answer_correct"]
+
+
+def test_evidence_only_training_target_excludes_answer():
+    problem = _similar_case()
+    target = selection_target(problem)
+    assert target.startswith('{"evidence":[')
+    assert '"answer"' not in target
+    assert target != problem.answer
+    config = PilotConfig(
+        revision="a" * 40,
+        source_task=Task.ARITHMETIC,
+        supervision="evidence_only",
+        examples=8,
+    )
+    assert config.supervision == "evidence_only"
+
+
+def test_lexical_control_uses_visible_target_only():
+    problem = _similar_case()
+    assert set(lexical_select(problem)) == set(problem.evidence)
+    changed = problem.model_copy(update={"question": "How many marbles remain in ivory?"})
+    assert set(lexical_select(changed)) != set(problem.evidence)

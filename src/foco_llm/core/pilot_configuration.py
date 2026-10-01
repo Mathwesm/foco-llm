@@ -17,7 +17,7 @@ class PilotConfig(SmokeConfig):
     condition: Condition = Condition.SIMILAR
     examples: int = Field(default=32, ge=1, le=240)
     selection_seed: int = Field(default=42, ge=0)
-    supervision: Literal["answer", "answer_and_evidence"] = "answer_and_evidence"
+    supervision: Literal["answer", "answer_and_evidence", "evidence_only"] = "answer_and_evidence"
     tasks: tuple[Task, ...] | None = None
     arithmetic_prefix_curriculum: bool = False
 

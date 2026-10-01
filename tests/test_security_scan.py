@@ -28,6 +28,8 @@ def test_secret_scan_excludes_dependencies_on_both_platforms(path, excluded):
         ("evaluation_dataset_sha256", 64, ",", True),
         ("training_dataset_sha256", 64, ",", True),
         ("script_sha256", 64, ",", True),
+        ("selection_scores_sha256", 64, ",", True),
+        ("selection_scores_sha256", 32, "", False),
         ("script_sha256", 32, "", False),
         ("adapter_sha256", 64, ",", True),
         ("adapter_config_sha256", 64, ",", True),

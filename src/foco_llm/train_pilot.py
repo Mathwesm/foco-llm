@@ -13,6 +13,7 @@ from foco_llm.models.training import StepResult, TrainingExample
 from foco_llm.services.answer_training import AnswerTrainingBackend
 from foco_llm.services.artifacts import load_dataset, publish_text
 from foco_llm.services.inference import _source_fingerprint
+from foco_llm.services.selection_training import SelectionTrainingBackend
 from foco_llm.services.training_backend import TrainingBackend, TrainingError
 from foco_llm.services.training_checkpoints import (
     latest_checkpoint,
@@ -27,13 +28,17 @@ def run_pilot(dataset: Path, config: PilotConfig, output: Path) -> Path:
     selected = select_pilot(load_dataset(dataset), config)
     if config.arithmetic_prefix_curriculum:
         selected = with_arithmetic_prefixes(selected)
-    backend = (
-        AnswerTrainingBackend(config) if config.supervision == "answer" else TrainingBackend(config)
-    )
+    backend = {
+        "answer": AnswerTrainingBackend,
+        "answer_and_evidence": TrainingBackend,
+        "evidence_only": SelectionTrainingBackend,
+    }[config.supervision](config)
     examples = tuple(backend.encode(p) for p in selected)
     manifest = {
         "protocol": (
-            "arithmetic-prefix-curriculum-v1"
+            "arithmetic-selection-training-v1"
+            if config.supervision == "evidence_only"
+            else "arithmetic-prefix-curriculum-v1"
             if config.arithmetic_prefix_curriculum
             else "balanced-task-pilot-v1"
             if config.tasks

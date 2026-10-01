@@ -98,6 +98,26 @@ def parse_selected_ids_v2(raw: str, facts: tuple[Fact, ...]) -> tuple[str, ...]:
     return parse_selected_ids(json.dumps(decoded["evidence"]), facts)
 
 
+def lexical_select(problem: Problem) -> tuple[str, ...]:
+    """Select synthetic facts by literal target mention without private labels.
+
+    Args:
+        problem: User-visible question and facts.
+
+    Returns:
+        IDs of sentences that mention the target container.
+
+    Raises:
+        ValueError: The question does not name a target container.
+    """
+    match = TARGET_PATTERN.search(problem.question)
+    if match is None:
+        raise ValueError("Question does not identify a target container")
+    return tuple(
+        fact.id for fact in problem.facts if re.search(rf"\b{re.escape(match[1])}\b", fact.text)
+    )
+
+
 def selected_calculation(facts: tuple[Fact, ...], selected_ids: tuple[str, ...]) -> tuple[str, str]:
     """Compute from selected sentences alone, without reference labels or answer.
 

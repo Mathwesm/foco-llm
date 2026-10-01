@@ -28,9 +28,12 @@ def export(source: Path, output: Path) -> None:
         for path in sorted((source / "responses").glob("*.json"))
     )
     record_ids = {record.id for record in records}
-    is_chained = manifest["protocol"].startswith("chained-arithmetic-v")
+    is_chained = (
+        manifest["protocol"].startswith("chained-arithmetic-v")
+        or manifest["protocol"] == "selected-chain-v1"
+    )
     score_ids = (
-        {f"{row['id']}:step-{step['step']}" for row in scores for step in row["steps"]}
+        {f"{row['id']}:step-{step['step']}" for row in scores for step in row.get("steps", [])}
         if is_chained
         else {row["id"] for row in scores}
     )
