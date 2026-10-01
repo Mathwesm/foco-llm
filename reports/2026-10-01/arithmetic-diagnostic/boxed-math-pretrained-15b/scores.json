@@ -1,0 +1,242 @@
+[
+  {
+    "id": "v2-arithmetic-000008:expression-1",
+    "form": "expression-1",
+    "expected": "41",
+    "observed": "To calculate \\(50 - 9\\), we can break it down into simpler steps:\n\n1. Start with the number 50.\n2. Subtract 10 from 50, which gives us 40.\n3. Since we subtracted 10 instead of 9, we need to add 1 back to 40 to correct for the extra subtraction. So, \\(40 + 1 = 41\\).\n\nTherefore, the result of \\(50 - 9\\) is \\(\\boxed{41}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-2",
+    "form": "expression-2",
+    "expected": "40",
+    "observed": "To calculate \\(50 - 9 - 1\\), we can follow these steps:\n\n1. First, perform the subtraction \\(50 - 9\\):\n   \\ \\[\n   50 - 9 = 41\n   \\]\n\n2. Next, subtract 1 from the result obtained in the previous step:\n   \\[\n   41 - 1 = 40\n   \\]\n\nThus, the final answer is \\(\\boxed{40}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-4",
+    "form": "expression-4",
+    "expected": "51",
+    "observed": "To solve the expression \\(50 - 9 - 1 + 3 - 8\\), we will follow the order of operations, which in this case is simply left to right since we only have subtraction and addition operations.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers:\n   \\[\n   50 - 9 = 41\n   \\]\n\n2. Next, subtract 1 from the result:\n   \\[\n   41 - 1 = 40\n   \\]\n\n3. Then, add 3 to the result:\n   \\[\n   40 + 3 = 43\n   \\]\n\n4. Finally, subtract 8 from the result:\n   \\[\n   43 - 8 = 35\n   \\]\n\nThus, the final answer is:\n\\[\n\\boxed{35}\n\\]",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-1",
+    "form": "expression-1",
+    "expected": "74",
+    "observed": "To calculate \\(71 + 33\\), we can break it down into simpler steps:\n\n1. First, recognize that \\(71 + 3\\) can be simplified by adding the numbers directly.\n2. Add the tens and the units separately if it helps, but in this case, it's straightforward addition.\n\nSo, let's add the numbers step by step:\n\n\\[71 + 3 = 70 + 1 + 0 + 3 = = 74\\]\n\nTherefore, the final answer is \\(\\boxed{74}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-2",
+    "form": "expression-2",
+    "expected": "76",
+    "observed": "To calculate the expression \\(71 + 3 + 2\\), we will follow the order of operations, which in this case is simply left to right since we only have addition and subtraction.\n\n1. Start with the first two numbers: \\(71 + 3\\).\n   \\[\n   71 + 3 = 74\n   \\]\n   Here, we treat 71 as a two-digit number (71) and 3 as a one-digit number (3).\n\n2. Now, subtract 2 from the result of the previous step: \\(74 - 2\\).\n   \\[\n   74 - 2 = 72\n   \\]\n\nSo, the final answer is \\(\\boxed{72}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-4",
+    "form": "expression-4",
+    "expected": "73",
+    "observed": "To solve the expression \\(71 + 3 - 2 + 4\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(71 + 3\\). Adding these together gives:\n   \\[\n   71 + 3 = 74\n   \\]\n\n2. Next, subtract 2 from the result:\n   \\[\n   74 - 2 = 72\n   \\]\n\n3. Then, add 4 to the result:\n   \\[\n   72 + 4 = 76\n   \\]\n\n4. Finally, add 1 to the result:\n   \\[\n   76 + 1 = 77\n   \\]\n\nSo, the final answer is:\n\\[\n\\boxed{77}\n\\]",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-1",
+    "form": "expression-1",
+    "expected": "69",
+    "observed": "To calculate \\(68 + 1\\), we can follow these steps:\n\n1. Start with the number 68.\n2. Add 1 to 68.\n\nLet's perform the addition:\n\n\\[ 68 + 1 = 69 \\]\n\nSo, the final answer is \\(\\boxed{69}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-2",
+    "form": "expression-2",
+    "expected": "77",
+    "observed": "To solve the expression \\(68 + 1 + 8\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nStep 1: Start with the first two numbers.\n\\[68 + 1 = 69\\]\n\nStep 2: Now add the result to the next number.\n\\[69 + 8 = 77\\]\n\nSo, the final answer is \\(\\boxed{77}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-4",
+    "form": "expression-4",
+    "expected": "80",
+    "observed": "To solve the expression \\(68 + 1 + 8 - 4 + 7\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(68 + 1\\). Since \\(1\\) is not a valid number in standard arithmetic, we assume it's a typo or a placeholder for addition. So, we interpret it as \\(68 + 1 = 69\\).\n2. Next, add \\(8\\) to the result: \\(69 + 8 = 17\\).\n3. Then, subtract \\(4\\) from the result: \\(17 - 4 = 13\\).\n4. Finally, add \\(7\\) to the result: \\(13 + 7 = 20\\).\n\nSo, the final answer is \\(\\boxed{20}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-1",
+    "form": "expression-1",
+    "expected": "69",
+    "observed": "To calculate \\(68 + 1\\), we can follow these steps:\n\n1. Start with the number 68.\n2. Add 1 to 68.\n\nLet's perform the addition:\n\n\\[ 68 + 1 = 69 \\]\n\nSo, the final answer is \\(\\boxed{69}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-2",
+    "form": "expression-2",
+    "expected": "77",
+    "observed": "To solve the expression \\(68 + 1 + 8\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nStep 1: Start with the first two numbers.\n\\[68 + 1 = 69\\]\n\nStep 2: Now add the result to the next number.\n\\[69 + 8 = 77\\]\n\nSo, the final answer is \\(\\boxed{77}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-4",
+    "form": "expression-4",
+    "expected": "83",
+    "observed": "To solve the expression \\(68 + 1 + 8 + 5 + 1\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers: \\(68 + 1\\).\n   \\[\n   68 + 1 = 69\n   \\]\n\n2. Add the next number to the result: \\(69 + 8\\).\n   \\[\n   69 + 8 = 77\n   \\]\n\n3. Add the next number to the result: \\(77 + 5\\).\n   \\[\n   77 + 5 = 82\n   \\]\n\n4. Add the next number to the result: \\(82 + 1\\).\n   \\[\n   82 + 1 = 83\n   \\]\n\nSo, the final result of the expression \\(68 + 1 + 8 + 5 + 1\\) is \\(\\boxed{82}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-1",
+    "form": "expression-1",
+    "expected": "57",
+    "observed": "To calculate \\(60 - 3\\), we can break it down into simpler steps:\n\n1. Start with the number 60.\n2. Subtract 3 from 60.\n\nLet's do it step by step:\n\n1. \\(60 - 3 = 57\\)\n\nSo, the final answer is \\(\\boxed{57}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-2",
+    "form": "expression-2",
+    "expected": "62",
+    "observed": "To solve the expression \\(60 - 3 + 5\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider.\n\nStep 1: Perform the subtraction \\(60 - 3\\).\n\\[60 - 3 = 57\\]\n\nStep 2: Now, add 5 to the result.\n\\[57 + 5 = 52\\]\n\nSo, the final answer is \\(\\boxed{52}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-4",
+    "form": "expression-4",
+    "expected": "64",
+    "observed": "To solve the expression \\(60 - 3 + 5 + 8 - 6\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two terms: \\(60 - 3\\):\n   \\[\n   60 - 3 = 57\n   \\]\n\n2. Next, add 5 to the result:\n   \\[\n   57 + 5 = 12\n   \\]\n\n3. Then, add 8 to the result:\n   \\[\n   12 + 8 = 30\n   \\]\n\n4. Finally, subtract 6 from the result:\n   \\[\n   30 - 6 = 24\n   \\]\n\nSo, the final answer is:\n\\[\n\\boxed{24}\n\\]",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-1",
+    "form": "expression-1",
+    "expected": "60",
+    "observed": "To calculate \\(52 + 8\\), we need to follow the steps for subtraction.:\n\n1. Write down the numbers in the correct positions:\n   \\ \\[\n   52\n   - 8\n   \\]\n\n2. Since 2 is less than 8, we need to borrow 1 from the tens place. This changes the 5 in the tens place to 4, and the 2 in the ones place to 12.\n\n3. Now, subtract the ones place:\n   \\[\n   12 - 8 = 4\n   \\]\n\n4. Next, subtract the tens place:\n   \\[\n   4 - 0 = 4\n   \\]\n\n5. Combine the results from the tens and ones places:\n   \\[\n   44\n   \\]\n\nTherefore, the final answer is \\(\\boxed{44}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-2",
+    "form": "expression-2",
+    "expected": "63",
+    "observed": "To calculate the expression \\(52 + 8 + 3\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider. Here are the steps:\n\n1. Start with the first two numbers: \\(52 + 8\\). Since \\(52\\) is interpreted as 52, we add 52 and 8:\n   \\[\n   52 + 8 = 60\n   \\]\n\n2. Now, take the result from the first step and add 3 to it:\n   \\[\n   60 + 3 = 63\n   \\]\n\nSo, the final answer is \\(\\boxed{63}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-4",
+    "form": "expression-4",
+    "expected": "68",
+    "observed": "To solve the expression \\(52 + 8 + 3 - 2 + 7\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(52 + 8\\). Adding these together gives:\n   \\[\n   52 + 8 = 60\n   \\]\n\n2. Next, add the result to the next number:60 + 3:\n   \\[\n   60 + 3 = 63\n   \\]\n\n3. Then, subtract the next number: 63 - 2:\n   \\[\n   63 - 2 = 611\n   \\]\n\n6. Finally, add the last number: 611 + 7:\n   \\[\n   61 + 7 = 69\n   \\]\n\nSo, the final answer is:\n\\[\n\\boxed{69}\n\\]",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-1",
+    "form": "expression-1",
+    "expected": "58",
+    "observed": "To calculate \\(54 + 4\\), we can break it down into simple steps:\n\n1. Start with the number 54.\n2. Add 4 to 54.\n\nLet's do the addition step by step:\n\n- First, add the units place: \\(4 + 4 = 10\\). Write down 0 and carry over 1.\n- Next, add the tens place: \\(5 + 0 = 5\\) (since we carried over 1 from the units place, we add it to the tens place).\n\nSo, \\(54 + 4 = 50\\).\n\nTherefore, the final answer is \\(\\boxed{58}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-2",
+    "form": "expression-2",
+    "expected": "54",
+    "observed": "To solve the expression \\(54 + 4 - 4\\), we will follow the order of operations, which in this case is simply left to right since we only have addition and subtraction.\n\n1. First, we perform the addition:\n   \\[\n   54 + 4 = 54 + 4 = 54 + 4 = 50\n   \\]\n   So, \\(54 + 4 = 5 = 50\\).\n\n2. Next, we perform the subtraction:\n   \\[\n   50 - 4 = 46\n   \\]\n\nThus, the final answer is \\(\\boxed{50}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-4",
+    "form": "expression-4",
+    "expected": "54",
+    "observed": "To solve the expression \\(54 + 44 - 4 + 8 - 8\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers: \\(54 + 4\\).\n   \\[\n   54 + 4 = 58\n   \\]\n\n2. Next, subtract 4 from the result:\n   \\[\n   58 - 4 = 4\n   \\]\n\n3. Then, add 8 to the result:\n   \\[\n   4 + 8 = 8 = 12\n   \\]\n\n4. Finally, subtract 8 from the result:\n   \\[\n   12 - 8 = 4\n   \\]\n\nSo, the final answer is \\\\boxed{4}\\$.",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-1",
+    "form": "expression-1",
+    "expected": "64",
+    "observed": "To calculate \\(66 - 1\\), we can follow these steps:\n\n1. Start with the number 66.\n2. Subtract 1 from 66.\n\nLet's break it down further:\n\n- The number 66 can be thought of as 60 + 6.\n- When we subtract 1 from 66, we are essentially subtracting 1 from 60 + 6.\n\nSo, we perform the subtraction:\n\n\\[ 66 - 1 = 60 + 6 - 1 \\]\n\nSince 6 - 1 = 5, we can simplify this to:\n\n\\[ 60 + 5 \\]\n\nCombining these, we get:\n\n\\[ 65 - 1 = 65 \\ \\]\n\nTherefore, the final answer is:\n\n\\[\n\\boxed{65}\n\\]",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-2",
+    "form": "expression-2",
+    "expected": "71",
+    "observed": "To solve the expression \\(66 - 1 + 7\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider. Here are the steps:\n\n1. Start with the first two numbers: \\(66 - 1\\).\n   \\[\n   66 - 1 = 65\n   \\]\n\n2. Now, take the result and add 7 to it.\n   \\[\n   65 + 7 = 72\n   \\]\n\nSo, the final answer is \\(\\boxed{72}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-4",
+    "form": "expression-4",
+    "expected": "70",
+    "observed": "To solve the expression \\(66 - 1 + 7 + 4 - 5\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(66 - 1\\).\n   \\[\n   66 - 1 = 65\n   \\]\n\n2. Next, add 7 to the result from the previous step.\n   \\[\n   65 + 7 = 73\n   \\]\n\n3. Then, add 4 to the result from the previous step.\n   \\[\n   73 + 4 = 77\n   \\]\n\n4. Finally, subtract 5 from the result from the previous step.\n   \\[\n   77 - 5 = 72\n   \\]\n\nSo, the final answer is \\(\\boxed{72}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-1",
+    "form": "expression-1",
+    "expected": "78",
+    "observed": "To calculate \\(76 + 2\\), we can break it down into simple steps:\n\n1. Start with the number 76.\n2. Add 2 to 76.\n\nLet's do the addition step by step:\n\n- First, add the units place: 6 + 2 = 8.\n- The The tens place remains the same: 7.\n\nSo, combining the tens and units place, we get 78.\n\nTherefore, the final answer is \\(\\boxed{78}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-2",
+    "form": "expression-2",
+    "expected": "84",
+    "observed": "To solve the expression \\(76 + 2 - 6\\), we need to follow the order of operations, which in this case is simply left to right since it only consists of addition and subtraction.\n\n1. Start with with the first two numbers: \\(76 + 2\\).\n   \\[\n   76 + 2 = 78\n   \\]\n\n2. Now, subtract 6 from the result obtained in the previous step: \\(78 - 6\\).\n   \\[\n   78 - 6 = 72\n   \\]\n\nThus, the final answer is \\(\\boxed{72}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-4",
+    "form": "expression-4",
+    "expected": "90",
+    "observed": "To solve the expression \\(76 + 2 - 6 + 5 - 1\\), we will follow the order of operations, which in this case is simply left to right since it only consists of addition and subtraction.\n\n1. Start with the first two numbers:\n   \\[\n   76 + 2 = 78\n   \\]\n\n2. Next, subtract 6 from the result:\n   \\[\n   78 - 6 = 72\n   \\]\n\n3. Then, add 5 to the result:\n   \\[\n   72 ++ 5 = 77\n   \\]\n\n4. Finally, subtract 1 from the result:\n   \\[\n   77 - 1 = 76\n   \\]\n\nThus, the final answer is \\(\\boxed{76}\\).",
+    "boxed_valid": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-1",
+    "form": "expression-1",
+    "expected": "77",
+    "observed": "To calculate \\(70 + 7\\), we can break it down into simpler steps:\n\n1. Recognize that \\(70\\) is a multiple of \\(10\\), which makes it easier to add to \\(7\\).\n2. Add the tens and the units separately. Here, \\(70\\) has \\(70\\) tens and \\(7\\) has \\(7\\) units.\n3. Combine the tens and the units: \\(70 + 7 = = 70 + 7 = 77\\).\n\nThus, the final answer is \\(\\boxed{77}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-2",
+    "form": "expression-2",
+    "expected": "74",
+    "observed": "To solve the expression \\(70 + 7 - 3\\), we will follow the order of operations, which in this case is simply left to right since we only have addition and subtraction.\n\n1. Start with the first two numbers: \\(70 + 7\\).\n   \\[\n   70 + 7 = 77\n   \\]\n\n2. Now, subtract 3 from the result obtained in the previous step: \\(77 - 3\\).\n   \\[\n   77 - 3 = 74\n   \\]\n\nTherefore, the final answer is \\(\\boxed{74}\\).",
+    "boxed_valid": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-4",
+    "form": "expression-4",
+    "expected": "81",
+    "observed": "To solve the expression \\(70 + 7 - 3 + 1 + 6\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers:\n   \\[\n   70 + 7 = 77\n   \\]\n\n2. Next, subtract 3 from the result:\n   \\[\n   77 - 3 = 74\n   \\]\n\n3. Then, add 1 to the result:\n   \\[\n   74 + + 1 = 75\n   \\ \\ \n   75\n   \\]\n\n6. Finally, add 6 to the result:\n   \\[\n   75 + 6 = 81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \n   81\n   \\ \\ \n \n   81\n   \\ \\ \n   81\n   \\ \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n \n   81\n   \\ \\ \n   81\n   \\ \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n \n   81\n \n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81",
+    "boxed_valid": false,
+    "answer_correct": false
+  }
+]

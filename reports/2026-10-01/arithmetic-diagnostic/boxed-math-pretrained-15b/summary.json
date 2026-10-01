@@ -1,0 +1,20 @@
+{
+  "cases": 30,
+  "groups": {
+    "expression-1": {
+      "cases": 10,
+      "boxed_valid": 10,
+      "answer_correct": 8
+    },
+    "expression-2": {
+      "cases": 10,
+      "boxed_valid": 10,
+      "answer_correct": 5
+    },
+    "expression-4": {
+      "cases": 10,
+      "boxed_valid": 9,
+      "answer_correct": 0
+    }
+  }
+}

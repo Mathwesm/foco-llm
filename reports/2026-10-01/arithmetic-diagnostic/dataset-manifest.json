@@ -1,0 +1,10 @@
+{
+  "protocol": "arithmetic-diagnostic-v1",
+  "generation_config": {
+    "seed": 20261002,
+    "problems_per_task": 100
+  },
+  "dataset_sha256": "78250b64a6a5cf295b9be4cb454a7c7215f9c8811d695f251bcf673791d65045",
+  "base_cases": 10,
+  "probes": 70
+}

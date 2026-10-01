@@ -1,0 +1,242 @@
+[
+  {
+    "id": "v2-arithmetic-000008:expression-1",
+    "form": "expression-1",
+    "expected": "41",
+    "observed": "41",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-2",
+    "form": "expression-2",
+    "expected": "40",
+    "observed": "36",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-4",
+    "form": "expression-4",
+    "expected": "51",
+    "observed": "60",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-1",
+    "form": "expression-1",
+    "expected": "74",
+    "observed": "74",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-2",
+    "form": "expression-2",
+    "expected": "76",
+    "observed": "76",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-4",
+    "form": "expression-4",
+    "expected": "73",
+    "observed": "2 + 2 = 4",
+    "integer_only": false,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-1",
+    "form": "expression-1",
+    "expected": "69",
+    "observed": "7",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-2",
+    "form": "expression-2",
+    "expected": "77",
+    "observed": "15",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-4",
+    "form": "expression-4",
+    "expected": "80",
+    "observed": "29",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-1",
+    "form": "expression-1",
+    "expected": "69",
+    "observed": "7",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-2",
+    "form": "expression-2",
+    "expected": "77",
+    "observed": "15",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-4",
+    "form": "expression-4",
+    "expected": "83",
+    "observed": "21",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-1",
+    "form": "expression-1",
+    "expected": "57",
+    "observed": "57",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-2",
+    "form": "expression-2",
+    "expected": "62",
+    "observed": "62",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-4",
+    "form": "expression-4",
+    "expected": "64",
+    "observed": "62",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-1",
+    "form": "expression-1",
+    "expected": "60",
+    "observed": "13",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-2",
+    "form": "expression-2",
+    "expected": "63",
+    "observed": "10",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-4",
+    "form": "expression-4",
+    "expected": "68",
+    "observed": "20",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-1",
+    "form": "expression-1",
+    "expected": "58",
+    "observed": "58",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-2",
+    "form": "expression-2",
+    "expected": "54",
+    "observed": "54",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-4",
+    "form": "expression-4",
+    "expected": "54",
+    "observed": "54",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-1",
+    "form": "expression-1",
+    "expected": "64",
+    "observed": "64",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-2",
+    "form": "expression-2",
+    "expected": "71",
+    "observed": "10",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-4",
+    "form": "expression-4",
+    "expected": "70",
+    "observed": "21",
+    "integer_only": true,
+    "answer_correct": false
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-1",
+    "form": "expression-1",
+    "expected": "78",
+    "observed": "78",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-2",
+    "form": "expression-2",
+    "expected": "84",
+    "observed": "84",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-4",
+    "form": "expression-4",
+    "expected": "90",
+    "observed": "90",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-1",
+    "form": "expression-1",
+    "expected": "77",
+    "observed": "77",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-2",
+    "form": "expression-2",
+    "expected": "74",
+    "observed": "74",
+    "integer_only": true,
+    "answer_correct": true
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-4",
+    "form": "expression-4",
+    "expected": "81",
+    "observed": "81",
+    "integer_only": true,
+    "answer_correct": true
+  }
+]

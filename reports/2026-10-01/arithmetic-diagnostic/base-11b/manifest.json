@@ -1,0 +1,25 @@
+{
+  "cases": 70,
+  "config": {
+    "device": "cuda",
+    "max_input_tokens": 1024,
+    "max_new_tokens": 128,
+    "max_seconds": 60.0,
+    "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "precision": "bfloat16",
+    "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+    "seed": 42,
+    "split": "validation"
+  },
+  "dataset_sha256": "78250b64a6a5cf295b9be4cb454a7c7215f9c8811d695f251bcf673791d65045",
+  "protocol": "arithmetic-diagnostic-v1",
+  "runtime": {
+    "attention": "eager",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "dtype": "torch.bfloat16",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.3"
+  },
+  "source_sha256": "df91818d30dd06511b2c93f7f9e2d145ed88ab1dbe66e6d087bbf2ca5a404b63"
+}

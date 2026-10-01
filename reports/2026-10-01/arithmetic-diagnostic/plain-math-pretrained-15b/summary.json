@@ -1,0 +1,20 @@
+{
+  "cases": 30,
+  "groups": {
+    "expression-1": {
+      "cases": 10,
+      "integer_only": 0,
+      "answer_correct": 0
+    },
+    "expression-2": {
+      "cases": 10,
+      "integer_only": 0,
+      "answer_correct": 0
+    },
+    "expression-4": {
+      "cases": 10,
+      "integer_only": 0,
+      "answer_correct": 0
+    }
+  }
+}

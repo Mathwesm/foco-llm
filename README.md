@@ -4,6 +4,13 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Diagnóstico aritmético — 01/10:** em dez novas bases de validação, o
+Qwen 1,5B treinado com subtotais acertou 10/10 expressões de uma operação,
+mas só 1/10 de quatro operações no contrato original. Ao decompor as
+mesmas expressões de quatro operações em chamadas curtas, acertou **9/10**
+resultados finais; os casos com distrator semelhante seguem em 0/10.
+[Método, respostas brutas, gráfico e limites](docs/arithmetic-diagnostic-results-2026-10-01.md).
+
 **Verificação em novos casos — 30/09:** o melhor ajuste local (`mixed-15b`)
 acertou **55/120** em novas instâncias sintéticas, contra **8/120** respostas
 legíveis corretas do modelo original. Aritmética permaneceu em **0/40**.

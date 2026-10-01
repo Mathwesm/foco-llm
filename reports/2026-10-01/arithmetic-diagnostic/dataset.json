@@ -1,0 +1,2012 @@
+[
+  {
+    "id": "v2-arithmetic-000008:expression-1",
+    "base_id": "v2-arithmetic-000008:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 50 - 9."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "41",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:text-1",
+    "base_id": "v2-arithmetic-000008:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update L: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 50."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "41",
+    "evidence": [
+      "F1",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-2",
+    "base_id": "v2-arithmetic-000008:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 50 - 9 - 1."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "40",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:text-2",
+    "base_id": "v2-arithmetic-000008:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update L: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Z: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 50."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "40",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-4",
+    "base_id": "v2-arithmetic-000008:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 50 - 9 - 1 + 3 + 8."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "51",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:text-4",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update L: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Z: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update C: For copper, 3 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update K: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 50."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000008:similar-4",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update L: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update L: For ivory, 5 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update Z: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update C: For copper, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update K: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "The initial marble count of copper is 50."
+      },
+      {
+        "id": "F7",
+        "text": "The initial marble count of ivory is 70."
+      },
+      {
+        "id": "F8",
+        "text": "Update Y: For ivory, 7 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "Update W: For ivory, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update A: For ivory, 9 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-1",
+    "base_id": "v2-arithmetic-000018:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 71 + 3."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "74",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:text-1",
+    "base_id": "v2-arithmetic-000018:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of ivory is 71."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "74",
+    "evidence": [
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-2",
+    "base_id": "v2-arithmetic-000018:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 71 + 3 + 2."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "76",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:text-2",
+    "base_id": "v2-arithmetic-000018:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update L: For ivory, 2 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of ivory is 71."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "76",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-4",
+    "base_id": "v2-arithmetic-000018:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 71 + 3 + 2 - 4 + 1."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "73",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:text-4",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update S: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update L: For ivory, 2 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of ivory is 71."
+      },
+      {
+        "id": "F4",
+        "text": "Update B: For ivory, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update T: For ivory, 1 marble is added to it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "73",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:similar-4",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update J: For amber, 5 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update O: For amber, 2 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of amber is 62."
+      },
+      {
+        "id": "F4",
+        "text": "Update S: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update L: For ivory, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "Update W: For amber, 9 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "The initial marble count of ivory is 71."
+      },
+      {
+        "id": "F8",
+        "text": "Update B: For ivory, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "Update T: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update D: For amber, 1 marble is added to it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "73",
+    "evidence": [
+      "F4",
+      "F5",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-1",
+    "base_id": "v2-arithmetic-000028:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 68 + 1."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "69",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:text-1",
+    "base_id": "v2-arithmetic-000028:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update H: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of copper is 68."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "69",
+    "evidence": [
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-2",
+    "base_id": "v2-arithmetic-000028:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 68 + 1 + 8."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "77",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:text-2",
+    "base_id": "v2-arithmetic-000028:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update H: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update L: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of copper is 68."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "77",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-4",
+    "base_id": "v2-arithmetic-000028:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 68 + 1 + 8 - 4 + 7."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "80",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:text-4",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update H: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update L: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of copper is 68."
+      },
+      {
+        "id": "F4",
+        "text": "Update T: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update J: For copper, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "80",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update Q: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For amber, 9 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update H: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update D: For amber, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update L: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "The initial marble count of copper is 68."
+      },
+      {
+        "id": "F7",
+        "text": "The initial marble count of amber is 54."
+      },
+      {
+        "id": "F8",
+        "text": "Update T: For amber, 8 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "Update T: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update J: For copper, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "80",
+    "evidence": [
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-1",
+    "base_id": "v2-arithmetic-000038:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 68 + 1."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "69",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:text-1",
+    "base_id": "v2-arithmetic-000038:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update C: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of copper is 68."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "69",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-2",
+    "base_id": "v2-arithmetic-000038:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 68 + 1 + 8."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "77",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:text-2",
+    "base_id": "v2-arithmetic-000038:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update C: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of copper is 68."
+      },
+      {
+        "id": "F3",
+        "text": "Update L: For copper, 8 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "77",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-4",
+    "base_id": "v2-arithmetic-000038:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 68 + 1 + 8 + 5 + 1."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "83",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:text-4",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update C: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of copper is 68."
+      },
+      {
+        "id": "F3",
+        "text": "Update L: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update H: For copper, 5 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update X: For copper, 1 marble is added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "83",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:similar-4",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 63."
+      },
+      {
+        "id": "F2",
+        "text": "Update C: For copper, 1 marble is added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update S: For silver, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of copper is 68."
+      },
+      {
+        "id": "F5",
+        "text": "Update Y: For silver, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update L: For copper, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update C: For silver, 1 marble is removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "Update R: For silver, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "Update H: For copper, 5 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update X: For copper, 1 marble is added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "83",
+    "evidence": [
+      "F2",
+      "F4",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-1",
+    "base_id": "v2-arithmetic-000048:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 60 - 3."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "57",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:text-1",
+    "base_id": "v2-arithmetic-000048:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of ivory is 60."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "57",
+    "evidence": [
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-2",
+    "base_id": "v2-arithmetic-000048:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 60 - 3 + 5."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "62",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:text-2",
+    "base_id": "v2-arithmetic-000048:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update V: For ivory, 5 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of ivory is 60."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "62",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-4",
+    "base_id": "v2-arithmetic-000048:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 60 - 3 + 5 + 8 - 6."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "64",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:text-4",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update E: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update V: For ivory, 5 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "The initial marble count of ivory is 60."
+      },
+      {
+        "id": "F4",
+        "text": "Update W: For ivory, 8 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update D: For ivory, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "64",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update M: For azure, 2 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update E: For ivory, 3 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For ivory, 5 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of azure is 68."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of ivory is 60."
+      },
+      {
+        "id": "F6",
+        "text": "Update L: For azure, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update D: For azure, 6 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "Update O: For azure, 6 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "Update W: For ivory, 8 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update D: For ivory, 6 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "64",
+    "evidence": [
+      "F2",
+      "F3",
+      "F5",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-1",
+    "base_id": "v2-arithmetic-000058:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 52 + 8."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "60",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:text-1",
+    "base_id": "v2-arithmetic-000058:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For ivory, 8 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of ivory is 52."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "60",
+    "evidence": [
+      "F1",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-2",
+    "base_id": "v2-arithmetic-000058:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 52 + 8 + 3."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "63",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:text-2",
+    "base_id": "v2-arithmetic-000058:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For ivory, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Q: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of ivory is 52."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "63",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-4",
+    "base_id": "v2-arithmetic-000058:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 52 + 8 + 3 - 2 + 7."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "68",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:text-4",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For ivory, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Q: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update O: For ivory, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update Z: For ivory, 7 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of ivory is 52."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "68",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update A: For ivory, 8 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Q: For silver, 6 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update Q: For ivory, 3 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update O: For ivory, 2 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of silver is 66."
+      },
+      {
+        "id": "F6",
+        "text": "Update Z: For ivory, 7 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update I: For silver, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "Update R: For silver, 9 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "Update C: For silver, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "The initial marble count of ivory is 52."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "68",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F6",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-1",
+    "base_id": "v2-arithmetic-000068:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 54 + 4."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "58",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:text-1",
+    "base_id": "v2-arithmetic-000068:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update M: For violet, 4 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 54."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-2",
+    "base_id": "v2-arithmetic-000068:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 54 + 4 - 4."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "54",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:text-2",
+    "base_id": "v2-arithmetic-000068:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update M: For violet, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update A: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 54."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "54",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-4",
+    "base_id": "v2-arithmetic-000068:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 54 + 4 - 4 + 8 - 8."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "54",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:text-4",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update M: For violet, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update A: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update Y: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 54."
+      },
+      {
+        "id": "F5",
+        "text": "Update R: For violet, 8 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "54",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:similar-4",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update H: For ivory, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update F: For ivory, 9 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update M: For violet, 4 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of ivory is 74."
+      },
+      {
+        "id": "F5",
+        "text": "Update U: For ivory, 1 marble is removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update A: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update Y: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of violet is 54."
+      },
+      {
+        "id": "F9",
+        "text": "Update E: For ivory, 7 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "Update R: For violet, 8 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "54",
+    "evidence": [
+      "F3",
+      "F6",
+      "F7",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-1",
+    "base_id": "v2-arithmetic-000078:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 65 - 1."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "64",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:text-1",
+    "base_id": "v2-arithmetic-000078:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update Q: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 65."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "64",
+    "evidence": [
+      "F1",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-2",
+    "base_id": "v2-arithmetic-000078:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 65 - 1 + 7."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "71",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:text-2",
+    "base_id": "v2-arithmetic-000078:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update Q: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update F: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 65."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "71",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-4",
+    "base_id": "v2-arithmetic-000078:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 65 - 1 + 7 + 4 - 5."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "70",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:text-4",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update Q: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update F: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update X: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update N: For copper, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 65."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "70",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:similar-4",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Update Q: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update F: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update N: For silver, 7 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update X: For copper, 4 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update N: For copper, 5 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update M: For silver, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "The initial marble count of copper is 65."
+      },
+      {
+        "id": "F8",
+        "text": "The initial marble count of silver is 74."
+      },
+      {
+        "id": "F9",
+        "text": "Update F: For silver, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update Z: For silver, 5 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "70",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4",
+      "F5",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-1",
+    "base_id": "v2-arithmetic-000088:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 76 + 2."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "78",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:text-1",
+    "base_id": "v2-arithmetic-000088:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 76."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For silver, 2 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-2",
+    "base_id": "v2-arithmetic-000088:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 76 + 2 + 6."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "84",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:text-2",
+    "base_id": "v2-arithmetic-000088:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 76."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For silver, 2 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update H: For silver, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "84",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-4",
+    "base_id": "v2-arithmetic-000088:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 76 + 2 + 6 + 5 + 1."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "90",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:text-4",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 76."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For silver, 2 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update H: For silver, 6 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update N: For silver, 5 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update R: For silver, 1 marble is added to it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "90",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 76."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of copper is 63."
+      },
+      {
+        "id": "F3",
+        "text": "Update G: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update I: For silver, 2 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update R: For copper, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "Update H: For silver, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "Update N: For silver, 5 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "Update H: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "Update R: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update P: For copper, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "90",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-1",
+    "base_id": "v2-arithmetic-000098:expression-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 70 + 7."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "77",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:text-1",
+    "base_id": "v2-arithmetic-000098:text-1",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 70."
+      },
+      {
+        "id": "F2",
+        "text": "Update S: For amber, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "77",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-2",
+    "base_id": "v2-arithmetic-000098:expression-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 70 + 7 - 3."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "74",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:text-2",
+    "base_id": "v2-arithmetic-000098:text-2",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 70."
+      },
+      {
+        "id": "F2",
+        "text": "Update S: For amber, 7 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update K: For amber, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "74",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-4",
+    "base_id": "v2-arithmetic-000098:expression-4",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "To answer the question, calculate 70 + 7 - 3 + 1 + 6."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "81",
+    "evidence": [
+      "F1"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:text-4",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 70."
+      },
+      {
+        "id": "F2",
+        "text": "Update S: For amber, 7 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update K: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update T: For amber, 1 marble is added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update J: For amber, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "81",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 70."
+      },
+      {
+        "id": "F2",
+        "text": "Update Y: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update K: For silver, 7 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update S: For amber, 7 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "The initial marble count of silver is 56."
+      },
+      {
+        "id": "F6",
+        "text": "Update K: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "Update M: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F8",
+        "text": "Update T: For amber, 1 marble is added to it."
+      },
+      {
+        "id": "F9",
+        "text": "Update V: For silver, 8 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "Update J: For amber, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "81",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  }
+]

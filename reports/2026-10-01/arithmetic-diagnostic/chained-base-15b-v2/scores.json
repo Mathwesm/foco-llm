@@ -1,0 +1,492 @@
+[
+  {
+    "id": "v2-arithmetic-000008:expression-4",
+    "expected": "51",
+    "final_observed": "12",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 50 - 9. Reply with only the integer.",
+        "observed": "41",
+        "expected_local": "41",
+        "expected_oracle": "41",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 41 - 1. Reply with only the integer.",
+        "observed": "40",
+        "expected_local": "40",
+        "expected_oracle": "40",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 40 + 3. Reply with only the integer.",
+        "observed": "43",
+        "expected_local": "43",
+        "expected_oracle": "43",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 43 + 8. Reply with only the integer.",
+        "observed": "12",
+        "expected_local": "51",
+        "expected_oracle": "51",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-4",
+    "expected": "73",
+    "final_observed": "9",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 71 + 3. Reply with only the integer.",
+        "observed": "74",
+        "expected_local": "74",
+        "expected_oracle": "74",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 74 + 2. Reply with only the integer.",
+        "observed": "76",
+        "expected_local": "76",
+        "expected_oracle": "76",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 76 - 4. Reply with only the integer.",
+        "observed": "72",
+        "expected_local": "72",
+        "expected_oracle": "72",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 72 + 1. Reply with only the integer.",
+        "observed": "9",
+        "expected_local": "73",
+        "expected_oracle": "73",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-4",
+    "expected": "80",
+    "final_observed": "8",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 68 + 1. Reply with only the integer.",
+        "observed": "7",
+        "expected_local": "69",
+        "expected_oracle": "69",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 7 + 8. Reply with only the integer.",
+        "observed": "15",
+        "expected_local": "15",
+        "expected_oracle": "77",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 15 - 4. Reply with only the integer.",
+        "observed": "1",
+        "expected_local": "11",
+        "expected_oracle": "73",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 1 + 7. Reply with only the integer.",
+        "observed": "8",
+        "expected_local": "8",
+        "expected_oracle": "80",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-4",
+    "expected": "83",
+    "final_observed": "11",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 68 + 1. Reply with only the integer.",
+        "observed": "7",
+        "expected_local": "69",
+        "expected_oracle": "69",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 7 + 8. Reply with only the integer.",
+        "observed": "15",
+        "expected_local": "15",
+        "expected_oracle": "77",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 15 + 5. Reply with only the integer.",
+        "observed": "10",
+        "expected_local": "20",
+        "expected_oracle": "82",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 10 + 1. Reply with only the integer.",
+        "observed": "11",
+        "expected_local": "11",
+        "expected_oracle": "83",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-4",
+    "expected": "64",
+    "final_observed": "20",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 60 - 3. Reply with only the integer.",
+        "observed": "57",
+        "expected_local": "57",
+        "expected_oracle": "57",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 57 + 5. Reply with only the integer.",
+        "observed": "62",
+        "expected_local": "62",
+        "expected_oracle": "62",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 62 + 8. Reply with only the integer.",
+        "observed": "26",
+        "expected_local": "70",
+        "expected_oracle": "70",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 26 - 6. Reply with only the integer.",
+        "observed": "20",
+        "expected_local": "20",
+        "expected_oracle": "64",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-4",
+    "expected": "68",
+    "final_observed": "21",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 52 + 8. Reply with only the integer.",
+        "observed": "13",
+        "expected_local": "60",
+        "expected_oracle": "60",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 13 + 3. Reply with only the integer.",
+        "observed": "16",
+        "expected_local": "16",
+        "expected_oracle": "63",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 16 - 2. Reply with only the integer.",
+        "observed": "14",
+        "expected_local": "14",
+        "expected_oracle": "61",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 14 + 7. Reply with only the integer.",
+        "observed": "21",
+        "expected_local": "21",
+        "expected_oracle": "68",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-4",
+    "expected": "54",
+    "final_observed": "5",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 54 + 4. Reply with only the integer.",
+        "observed": "58",
+        "expected_local": "58",
+        "expected_oracle": "58",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 58 - 4. Reply with only the integer.",
+        "observed": "5",
+        "expected_local": "54",
+        "expected_oracle": "54",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 5 + 8. Reply with only the integer.",
+        "observed": "13",
+        "expected_local": "13",
+        "expected_oracle": "62",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 13 - 8. Reply with only the integer.",
+        "observed": "5",
+        "expected_local": "5",
+        "expected_oracle": "54",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-4",
+    "expected": "70",
+    "final_observed": "20",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 65 - 1. Reply with only the integer.",
+        "observed": "64",
+        "expected_local": "64",
+        "expected_oracle": "64",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 64 + 7. Reply with only the integer.",
+        "observed": "71",
+        "expected_local": "71",
+        "expected_oracle": "71",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 71 + 4. Reply with only the integer.",
+        "observed": "75",
+        "expected_local": "75",
+        "expected_oracle": "75",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 75 - 5. Reply with only the integer.",
+        "observed": "20",
+        "expected_local": "70",
+        "expected_oracle": "70",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-4",
+    "expected": "90",
+    "final_observed": "9",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 76 + 2. Reply with only the integer.",
+        "observed": "78",
+        "expected_local": "78",
+        "expected_oracle": "78",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 78 + 6. Reply with only the integer.",
+        "observed": "13",
+        "expected_local": "84",
+        "expected_oracle": "84",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 13 + 5. Reply with only the integer.",
+        "observed": "8",
+        "expected_local": "18",
+        "expected_oracle": "89",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 8 + 1. Reply with only the integer.",
+        "observed": "9",
+        "expected_local": "9",
+        "expected_oracle": "90",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": false
+      }
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-4",
+    "expected": "81",
+    "final_observed": "13",
+    "final_correct": false,
+    "all_steps_correct": false,
+    "steps": [
+      {
+        "step": 1,
+        "prompt": "Calculate 70 + 7. Reply with only the integer.",
+        "observed": "77",
+        "expected_local": "77",
+        "expected_oracle": "77",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 2,
+        "prompt": "Calculate 77 - 3. Reply with only the integer.",
+        "observed": "74",
+        "expected_local": "74",
+        "expected_oracle": "74",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 3,
+        "prompt": "Calculate 74 + 1. Reply with only the integer.",
+        "observed": "75",
+        "expected_local": "75",
+        "expected_oracle": "75",
+        "integer_only": true,
+        "operation_correct": true,
+        "subtotal_correct": true
+      },
+      {
+        "step": 4,
+        "prompt": "Calculate 75 + 6. Reply with only the integer.",
+        "observed": "13",
+        "expected_local": "81",
+        "expected_oracle": "81",
+        "integer_only": true,
+        "operation_correct": false,
+        "subtotal_correct": false
+      }
+    ]
+  }
+]
