@@ -40,6 +40,7 @@ optional = true
 torch = {version = "2.8.0", python = ">=3.12,<3.14", source = "pytorch-cu128"}
 transformers = {version = "4.57.3", python = ">=3.12,<3.14"}
 peft = {version = "0.17.1", python = ">=3.12,<3.14"}
+bitsandbytes = {version = "0.48.1", python = ">=3.12,<3.14"}
 
 [[tool.poetry.source]]
 name = "pytorch-cu128"
@@ -91,6 +92,8 @@ ignore = [
 # that security tests need by definition.
 "tests/**" = ["S101", "S105", "S106", "D100", "D103", "D104", "PLR2004", "ARG001"]
 "scripts/**" = ["T20"]
+# Notebook commands are fixed project setup calls; displayed values are interactive output.
+"notebooks/**" = ["S603", "S607", "T201"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"

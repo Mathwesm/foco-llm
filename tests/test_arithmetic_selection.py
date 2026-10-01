@@ -2,6 +2,7 @@
 
 import runpy
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
@@ -16,6 +17,7 @@ from foco_llm.core.arithmetic_selection import (
 from foco_llm.core.benchmark_v21 import generate_v21
 from foco_llm.core.pilot_configuration import PilotConfig
 from foco_llm.models.experiment import Condition, GenerationConfig, Split, Task
+from foco_llm.services.artifacts import load_dataset
 from foco_llm.services.selection_training import selection_target
 
 
@@ -102,3 +104,34 @@ def test_lexical_control_uses_visible_target_only():
     assert set(lexical_select(problem)) == set(problem.evidence)
     changed = problem.model_copy(update={"question": "How many marbles remain in ivory?"})
     assert set(lexical_select(changed)) != set(problem.evidence)
+
+
+def test_kaggle_training_data_matches_original_pool(tmp_path, monkeypatch):
+    """Catch a generator edit that would silently change the cloud training set."""
+    script_directory = Path(__file__).resolve().parents[1] / "scripts"
+    monkeypatch.syspath_prepend(str(script_directory))
+    prepare = runpy.run_path(str(script_directory / "run_kaggle_selection.py"))["prepare_dataset"]
+    first = prepare(tmp_path)
+    second = prepare(tmp_path)
+    assert first == second
+    assert len(load_dataset(first)) == 1200
+
+
+def test_kaggle_resume_rejects_checkpoint_gap(tmp_path, monkeypatch):
+    """A missing intermediate save must not silently change the resumed schedule."""
+    script_directory = Path(__file__).resolve().parents[1] / "scripts"
+    monkeypatch.syspath_prepend(str(script_directory))
+    latest = runpy.run_path(str(script_directory / "run_kaggle_selection.py"))[
+        "latest_sparse_checkpoint"
+    ]
+    monkeypatch.setitem(
+        latest.__globals__,
+        "verify_checkpoint",
+        lambda path: SimpleNamespace(history=[None] * int(path.name.rsplit("-", 1)[-1])),
+    )
+    (tmp_path / "step-0040").mkdir()
+    (tmp_path / "step-0080").mkdir()
+    assert latest(tmp_path, 40).name == "step-0080"
+    (tmp_path / "step-0121").mkdir()
+    with pytest.raises(ValueError, match="interval was exceeded"):
+        latest(tmp_path, 40)
