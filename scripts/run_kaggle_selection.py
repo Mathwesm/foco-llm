@@ -1,4 +1,4 @@
-"""Train or evaluate a pinned 3B arithmetic selector on one Kaggle T4."""
+"""Train or evaluate pinned Qwen arithmetic selectors on one Kaggle T4."""
 
 import argparse
 import hashlib
@@ -30,6 +30,13 @@ MODEL_ID = "Qwen/Qwen2.5-3B-Instruct"
 REVISION = (
     "aa8e72537993ba99e69dfaafa59ed015b17504d1"  # pragma: allowlist secret -- public model revision
 )
+MODELS = {
+    "3b": (MODEL_ID, REVISION),
+    "7b": (
+        "Qwen/Qwen2.5-7B-Instruct",
+        "a09a35458c702b33eeacc393d103063234e8bc28",  # pragma: allowlist secret -- public revision
+    ),
+}
 # This is the public SHA-256 of the original generated training pool.
 TRAIN_SHA256 = (
     "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e"  # pragma: allowlist secret
@@ -161,13 +168,13 @@ def latest_sparse_checkpoint(destination: Path, interval: int) -> Path | None:
     return paths[-1] if paths else None
 
 
-def train(dataset: Path, config: PilotConfig, output: Path, interval: int) -> Path:
+def train(dataset: Path, config: PilotConfig, output: Path, interval: int, model_size: str) -> Path:
     """Train the evidence selector, saving resumable immutable checkpoints."""
     selected = select_pilot(load_dataset(dataset), config)
     backend = KaggleSelectionBackend(config)
     examples = tuple(backend.encode(problem) for problem in selected)
     manifest = {
-        "protocol": "arithmetic-selection-qlora-3b-v1",
+        "protocol": f"arithmetic-selection-qlora-{model_size}-v1",
         "config": config.model_dump(mode="json"),
         "dataset_sha256": hashlib.sha256(dataset.read_bytes()).hexdigest(),
         "diagnostic_sha256": hashlib.sha256(DIAGNOSTIC.read_bytes()).hexdigest(),
@@ -215,16 +222,18 @@ def evaluate(
     training_dataset: Path,
     output: Path,
     adapter: Path | None,
+    model_size: str,
 ) -> Path:
     """Score the frozen 40 examples, retaining unedited model generations."""
     all_cases = TypeAdapter(tuple[Problem, ...]).validate_json(dataset.read_text(encoding="utf-8"))
     cases = tuple(problem for problem in all_cases if problem.id.rsplit(":", 1)[-1] in FORMS)
     if len(cases) != EXPECTED_CASES or len({problem.id for problem in cases}) != EXPECTED_CASES:
         raise ValueError("Expected 40 unique held-out arithmetic selection cases")
-    config = InferenceConfig(model_id=MODEL_ID, revision=REVISION, precision="float16")
+    model_id, revision = MODELS[model_size]
+    config = InferenceConfig(model_id=model_id, revision=revision, precision="float16")
     backend = KaggleInferenceBackend(config, adapter, dataset, training_dataset)
     manifest = {
-        "protocol": "arithmetic-selection-qlora-3b-evaluation-v1",
+        "protocol": f"arithmetic-selection-qlora-{model_size}-evaluation-v1",
         "config": config.model_dump(mode="json"),
         "dataset_sha256": hashlib.sha256(dataset.read_bytes()).hexdigest(),
         "source_sha256": _source_fingerprint(),
@@ -255,6 +264,7 @@ def main() -> None:
     parser.add_argument("--steps", type=int, default=320)
     parser.add_argument("--checkpoint-every", type=int, default=40)
     parser.add_argument("--adapter", type=Path)
+    parser.add_argument("--model-size", choices=tuple(MODELS), default="3b")
     args = parser.parse_args()
     setup_logging(log_dir=Path("logs"), serialize=True)
     dataset = args.output / "training-dataset.json"
@@ -264,28 +274,32 @@ def main() -> None:
     if not dataset.exists():
         raise FileNotFoundError("Run prepare before baseline, train, or adapted")
     require_t4()
+    model_id, revision = MODELS[args.model_size]
     if args.mode == "train":
         if not MIN_STEPS <= args.steps <= MAX_STEPS or args.checkpoint_every < 1:
             raise ValueError("Steps must be 2..1024 and checkpoint interval must be positive")
         config_path = Path("configs/arithmetic-selection-2026-10-01.json")
         config = PilotConfig.model_validate_json(config_path.read_text(encoding="utf-8"))
         config = PilotConfig.model_validate(
-            {**config.model_dump(), "model_id": MODEL_ID, "revision": REVISION, "steps": args.steps}
+            {**config.model_dump(), "model_id": model_id, "revision": revision, "steps": args.steps}
         )
         logger.info(
             "Training output: {}",
-            train(dataset, config, args.output / "training", args.checkpoint_every),
+            train(
+                dataset, config, args.output / "training", args.checkpoint_every, args.model_size
+            ),
         )
     elif args.mode == "adapted":
         if args.adapter is None:
             raise ValueError("Adapted evaluation requires --adapter")
         logger.info(
             "Adapted evaluation: {}",
-            evaluate(DIAGNOSTIC, dataset, args.output / "adapted", args.adapter),
+            evaluate(DIAGNOSTIC, dataset, args.output / "adapted", args.adapter, args.model_size),
         )
     else:
         logger.info(
-            "Baseline evaluation: {}", evaluate(DIAGNOSTIC, dataset, args.output / "baseline", None)
+            "Baseline evaluation: {}",
+            evaluate(DIAGNOSTIC, dataset, args.output / "baseline", None, args.model_size),
         )
 
 
