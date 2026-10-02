@@ -46,13 +46,18 @@ MIN_STEPS = 2
 MAX_STEPS = 1024
 
 
-def quantization(transformers: Any, torch: Any) -> Any:
-    """Use NF4 QLoRA with FP16 compute, supported by the T4."""
+def compute_dtype(torch: Any, model_id: str) -> Any:
+    """Use FP32 arithmetic for the 7B model to avoid FP16 logit overflow."""
+    return torch.float32 if model_id == MODELS["7b"][0] else torch.float16
+
+
+def quantization(transformers: Any, torch: Any, model_id: str) -> Any:
+    """Use NF4 QLoRA with model-specific compute precision on the T4."""
     return transformers.BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
-        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_compute_dtype=compute_dtype(torch, model_id),
     )
 
 
@@ -86,8 +91,8 @@ class KaggleSelectionBackend(SelectionTrainingBackend):
             revision=self.config.revision,
             trust_remote_code=False,
             use_safetensors=True,
-            dtype=self.torch.float16,
-            quantization_config=quantization(self.transformers, self.torch),
+            dtype=compute_dtype(self.torch, self.config.model_id),
+            quantization_config=quantization(self.transformers, self.torch, self.config.model_id),
             device_map={"": 0},
             attn_implementation="eager",
         )
@@ -99,7 +104,7 @@ class KaggleSelectionBackend(SelectionTrainingBackend):
         return {
             **super().metadata(),
             "quantization": "nf4-double-quant",
-            "compute_dtype": "float16",
+            "compute_dtype": str(compute_dtype(self.torch, self.config.model_id)),
             "bitsandbytes": importlib.import_module("bitsandbytes").__version__,
         }
 
@@ -128,8 +133,8 @@ class KaggleInferenceBackend(TransformersBackend):
             revision=config.revision,
             trust_remote_code=False,
             use_safetensors=True,
-            dtype=self.torch.float16,
-            quantization_config=quantization(self.transformers, self.torch),
+            dtype=compute_dtype(self.torch, config.model_id),
+            quantization_config=quantization(self.transformers, self.torch, config.model_id),
             device_map={"": 0},
             attn_implementation="eager",
         )
@@ -230,7 +235,8 @@ def evaluate(
     if len(cases) != EXPECTED_CASES or len({problem.id for problem in cases}) != EXPECTED_CASES:
         raise ValueError("Expected 40 unique held-out arithmetic selection cases")
     model_id, revision = MODELS[model_size]
-    config = InferenceConfig(model_id=model_id, revision=revision, precision="float16")
+    precision = "float32" if model_size == "7b" else "float16"
+    config = InferenceConfig(model_id=model_id, revision=revision, precision=precision)
     backend = KaggleInferenceBackend(config, adapter, dataset, training_dataset)
     manifest = {
         "protocol": f"arithmetic-selection-qlora-{model_size}-evaluation-v1",
