@@ -40,7 +40,7 @@ optional = true
 torch = {version = "2.8.0", python = ">=3.12,<3.14", source = "pytorch-cu128"}
 transformers = {version = "4.57.3", python = ">=3.12,<3.14"}
 peft = {version = "0.17.1", python = ">=3.12,<3.14"}
-bitsandbytes = {version = "0.48.1", python = ">=3.12,<3.14"}
+bitsandbytes = {version = "0.50.2", python = ">=3.12,<3.14"}
 
 [[tool.poetry.source]]
 name = "pytorch-cu128"
