@@ -7,7 +7,7 @@ concluído.
 
 | Prazo interno | Entrega verificável | Critério de fechamento |
 | --- | --- | --- |
-| 10/10 | Repetição 7B com semente 43 no Kaggle | Versão salva, manifesto, respostas brutas, pontuações e resumo baixados; falhas documentadas se ocorrerem. |
+| 10/10 | Repetição 7B com semente 43 no Kaggle — concluída em 7/10 | Versão 2 salva; manifesto, respostas brutas, pontuações e resumo conferidos e preservados em pacote auditável. |
 | 17/10 | Análise científica congelada | Comparações por problema-base, auditoria de erros, controles simbólico e lexical, variação entre sementes e limites das inferências conferidos contra os arquivos de resultado. |
 | 24/10 | Artigos em inglês e português revisados | Mesmo conjunto de números nas duas versões; figuras legíveis, exemplos das três tarefas, referências verificadas e identificação dos autores confirmada. |
 | 29/10 | Entrega final | Arquivos no formato pedido pela instituição, revisão do orientador incorporada e PDF final conferido página por página. |
@@ -32,9 +32,10 @@ editor LaTeX embutido apresentou erro de ambiente (`Unable to find standard
 directories for platform`) em 7/10; ela precisa voltar a funcionar para a
 verificação visual final, mas esse erro não prova falha no conteúdo do `.tex`.
 
-Em 7/10, a [repetição 7B com semente 43](https://www.kaggle.com/code/matheusdsousaribeiro/foco-llm-qwen-7b-seed-43-replication)
-foi salva como versão 2 e estava em execução na última verificação. A versão 1
-parou antes do treino porque o ambiente padrão do Kaggle havia mudado para
-Python 3.13 e o notebook exigia 3.12. A versão 2 aceita ambas as versões
-suportadas pelo projeto, concluiu a instalação via Poetry e carregou os pesos
-do modelo. Ainda não há resultado experimental dessa repetição.
+Em 7/10, a [repetição 7B com semente 43](kaggle-7b-seed-stability-2026-10-07.md)
+terminou na versão 2 do Kaggle. A seleção com apelidos passou de 46/60 na
+semente 42 para 48/60 na 43; a condição explícita e a ablação mantiveram suas
+contagens. Os 180 escores, respostas brutas e manifestos foram auditados. A
+versão 1 parou antes do treino porque o ambiente padrão do Kaggle mudou para
+Python 3.13; a versão 2 corrigiu a compatibilidade. O próximo marco é conferir
+a coerência dos artigos com essa análise pós-hoc e validar sua diagramação.
