@@ -1,0 +1,178 @@
+{
+  "baseline": {
+    "groups": {
+      "full": {
+        "cases": 20,
+        "exact": 18,
+        "malformed": 0,
+        "cases_with_inclusion": 1,
+        "cases_with_omission": 1,
+        "included_facts": 1,
+        "omitted_facts": 1
+      },
+      "remove_relevant": {
+        "cases": 20,
+        "exact": 17,
+        "malformed": 0,
+        "cases_with_inclusion": 2,
+        "cases_with_omission": 1,
+        "included_facts": 2,
+        "omitted_facts": 1
+      },
+      "remove_irrelevant": {
+        "cases": 20,
+        "exact": 17,
+        "malformed": 0,
+        "cases_with_inclusion": 1,
+        "cases_with_omission": 2,
+        "included_facts": 1,
+        "omitted_facts": 2
+      }
+    },
+    "errors": [
+      {
+        "id": "replication-arithmetic-0000:full",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0008:full",
+        "included_ids": [],
+        "omitted_ids": [
+          "F8"
+        ],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_relevant",
+        "included_ids": [],
+        "omitted_ids": [
+          "F5"
+        ],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_relevant",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_relevant",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_irrelevant",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_irrelevant",
+        "included_ids": [],
+        "omitted_ids": [
+          "F5"
+        ],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_irrelevant",
+        "included_ids": [],
+        "omitted_ids": [
+          "F8"
+        ],
+        "error": ""
+      }
+    ],
+    "transitions": {
+      "remove_relevant": {
+        "0->1": 2,
+        "1->0": 3,
+        "1->1": 15
+      },
+      "remove_irrelevant": {
+        "0->0": 2,
+        "1->0": 1,
+        "1->1": 17
+      }
+    }
+  },
+  "adapted-0320": {
+    "groups": {
+      "full": {
+        "cases": 20,
+        "exact": 20,
+        "malformed": 0,
+        "cases_with_inclusion": 0,
+        "cases_with_omission": 0,
+        "included_facts": 0,
+        "omitted_facts": 0
+      },
+      "remove_relevant": {
+        "cases": 20,
+        "exact": 18,
+        "malformed": 0,
+        "cases_with_inclusion": 2,
+        "cases_with_omission": 0,
+        "included_facts": 2,
+        "omitted_facts": 0
+      },
+      "remove_irrelevant": {
+        "cases": 20,
+        "exact": 19,
+        "malformed": 0,
+        "cases_with_inclusion": 1,
+        "cases_with_omission": 0,
+        "included_facts": 1,
+        "omitted_facts": 0
+      }
+    },
+    "errors": [
+      {
+        "id": "replication-arithmetic-0011:remove_relevant",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_relevant",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_irrelevant",
+        "included_ids": [
+          "F10"
+        ],
+        "omitted_ids": [],
+        "error": ""
+      }
+    ],
+    "transitions": {
+      "remove_relevant": {
+        "1->0": 2,
+        "1->1": 18
+      },
+      "remove_irrelevant": {
+        "1->0": 1,
+        "1->1": 19
+      }
+    }
+  }
+}

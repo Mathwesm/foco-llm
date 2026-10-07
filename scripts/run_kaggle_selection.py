@@ -268,6 +268,7 @@ def main() -> None:
     parser.add_argument("mode", choices=("prepare", "baseline", "train", "adapted"))
     parser.add_argument("--output", type=Path, default=Path("/kaggle/working/foco-output"))
     parser.add_argument("--steps", type=int, default=320)
+    parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--checkpoint-every", type=int, default=40)
     parser.add_argument("--adapter", type=Path)
     parser.add_argument("--model-size", choices=tuple(MODELS), default="3b")
@@ -284,10 +285,18 @@ def main() -> None:
     if args.mode == "train":
         if not MIN_STEPS <= args.steps <= MAX_STEPS or args.checkpoint_every < 1:
             raise ValueError("Steps must be 2..1024 and checkpoint interval must be positive")
+        if args.seed < 0:
+            raise ValueError("Training seed must be nonnegative")
         config_path = Path("configs/arithmetic-selection-2026-10-01.json")
         config = PilotConfig.model_validate_json(config_path.read_text(encoding="utf-8"))
         config = PilotConfig.model_validate(
-            {**config.model_dump(), "model_id": model_id, "revision": revision, "steps": args.steps}
+            {
+                **config.model_dump(),
+                "model_id": model_id,
+                "revision": revision,
+                "steps": args.steps,
+                "seed": args.seed,
+            }
         )
         logger.info(
             "Training output: {}",

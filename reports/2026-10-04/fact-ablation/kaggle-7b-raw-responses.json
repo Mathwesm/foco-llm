@@ -1,0 +1,493 @@
+{
+  "source": "Transcribed from the rendered Kaggle scores.json for version 355774583; original files remain on Kaggle.",
+  "notebook_url": "https://www.kaggle.com/code/matheusdsousaribeiro/kaggle-fact-ablation-7b/output?scriptVersionId=355774583",
+  "dataset_sha256": "fa18508efd00462969a1ae5185a656e011b9bf1d664fb75be5c09dee6a17eef5",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "adapter_sha256": "e5912f975b7df0930dbe44bd5a6a898f87cafaed884358f3bd37aa261cba1023",
+  "arms": {
+    "baseline": [
+      {
+        "id": "replication-arithmetic-0000:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      }
+    ],
+    "adapted-0320": [
+      {
+        "id": "replication-arithmetic-0000:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:full",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:remove_relevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:remove_irrelevant",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      }
+    ]
+  }
+}

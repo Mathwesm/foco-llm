@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "replication-arithmetic-0000:full",
+    "base_id": "replication-arithmetic-0000",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 56."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 28."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 8 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "77",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0000:remove_relevant",
+    "base_id": "replication-arithmetic-0000",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 56."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 28."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 8 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "83",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0000:remove_irrelevant",
+    "base_id": "replication-arithmetic-0000",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 56."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 8 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "77",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0001:full",
+    "base_id": "replication-arithmetic-0001",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 60."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 78."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 8 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 5 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 2 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 12 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0001:remove_relevant",
+    "base_id": "replication-arithmetic-0001",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 60."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 78."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 8 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 5 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 2 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 12 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "49",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0001:remove_irrelevant",
+    "base_id": "replication-arithmetic-0001",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 60."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 8 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 5 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 2 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 12 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0002:full",
+    "base_id": "replication-arithmetic-0002",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 63."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of red is 59."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 11 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 2 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "39",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0002:remove_relevant",
+    "base_id": "replication-arithmetic-0002",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 63."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of red is 59."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 2 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "50",
+    "evidence": [
+      "F1",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0002:remove_irrelevant",
+    "base_id": "replication-arithmetic-0002",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 63."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 11 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 2 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "39",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0003:full",
+    "base_id": "replication-arithmetic-0003",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 79."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of green is 58."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 6 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 10 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 9 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 8 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 10 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "86",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0003:remove_relevant",
+    "base_id": "replication-arithmetic-0003",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 79."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of green is 58."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 10 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 9 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 8 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 10 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "92",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0003:remove_irrelevant",
+    "base_id": "replication-arithmetic-0003",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 79."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 6 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 10 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 9 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 8 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 10 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "86",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0004:full",
+    "base_id": "replication-arithmetic-0004",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 65."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of yellow is 47."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 8 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For yellow, 8 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 11 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 5 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For yellow, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "38",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0004:remove_relevant",
+    "base_id": "replication-arithmetic-0004",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 65."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of yellow is 47."
+      },
+      {
+        "id": "F4",
+        "text": "For yellow, 8 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 11 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 5 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For yellow, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "46",
+    "evidence": [
+      "F1",
+      "F5",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0004:remove_irrelevant",
+    "base_id": "replication-arithmetic-0004",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 65."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 8 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For yellow, 8 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 5 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 11 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 5 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For yellow, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "38",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F7",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0005:full",
+    "base_id": "replication-arithmetic-0005",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 80."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of purple is 68."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For yellow, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 12 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 12 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "96",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0005:remove_relevant",
+    "base_id": "replication-arithmetic-0005",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 80."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of purple is 68."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 2 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 12 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 12 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "101",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0005:remove_irrelevant",
+    "base_id": "replication-arithmetic-0005",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 80."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For yellow, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 2 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 12 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 12 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 7 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 4 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "96",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0006:full",
+    "base_id": "replication-arithmetic-0006",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 66."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 70."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 11 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 11 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 5 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "80",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0006:remove_relevant",
+    "base_id": "replication-arithmetic-0006",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 66."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 70."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 9 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 11 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 11 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 5 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "77",
+    "evidence": [
+      "F1",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0006:remove_irrelevant",
+    "base_id": "replication-arithmetic-0006",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 66."
+      },
+      {
+        "id": "F3",
+        "text": "For orange, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 11 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 11 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 5 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "80",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0007:full",
+    "base_id": "replication-arithmetic-0007",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 66."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 51."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 3 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 2 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0007:remove_relevant",
+    "base_id": "replication-arithmetic-0007",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 66."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 51."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 2 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "54",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0007:remove_irrelevant",
+    "base_id": "replication-arithmetic-0007",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 66."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 3 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For blue, 6 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 2 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0008:full",
+    "base_id": "replication-arithmetic-0008",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 62."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of red is 50."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 4 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 4 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 3 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "74",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0008:remove_relevant",
+    "base_id": "replication-arithmetic-0008",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 62."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of red is 50."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 4 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 3 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "70",
+    "evidence": [
+      "F1",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0008:remove_irrelevant",
+    "base_id": "replication-arithmetic-0008",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 62."
+      },
+      {
+        "id": "F3",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For blue, 4 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 7 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 4 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 3 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 10 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For blue, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "74",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0009:full",
+    "base_id": "replication-arithmetic-0009",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 57."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of green is 33."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 9 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 9 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0009:remove_relevant",
+    "base_id": "replication-arithmetic-0009",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 57."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of green is 33."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 2 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 9 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 9 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0009:remove_irrelevant",
+    "base_id": "replication-arithmetic-0009",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 57."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For red, 9 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For red, 9 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 12 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0010:full",
+    "base_id": "replication-arithmetic-0010",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 60."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of yellow is 29."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 11 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 4 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 11 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 8 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "68",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0010:remove_relevant",
+    "base_id": "replication-arithmetic-0010",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 60."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of yellow is 29."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 2 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 4 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 11 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 8 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "79",
+    "evidence": [
+      "F1",
+      "F5",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0010:remove_irrelevant",
+    "base_id": "replication-arithmetic-0010",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 60."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 11 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 4 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 11 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 8 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "68",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0011:full",
+    "base_id": "replication-arithmetic-0011",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 61."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of purple is 34."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 5 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 12 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 12 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 10 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 10 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 11 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 10 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "23",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0011:remove_relevant",
+    "base_id": "replication-arithmetic-0011",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 61."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of purple is 34."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 12 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 12 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 10 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 10 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 11 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 10 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "28",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0011:remove_irrelevant",
+    "base_id": "replication-arithmetic-0011",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 61."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 5 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 12 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 12 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 10 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 10 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 11 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 10 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "23",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0012:full",
+    "base_id": "replication-arithmetic-0012",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 82."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 50."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For purple, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 2 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 7 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 12 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0012:remove_relevant",
+    "base_id": "replication-arithmetic-0012",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 82."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 50."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For purple, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 2 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 7 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 12 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "69",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0012:remove_irrelevant",
+    "base_id": "replication-arithmetic-0012",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 82."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For purple, 2 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 2 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 7 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 12 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0013:full",
+    "base_id": "replication-arithmetic-0013",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 68."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 53."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 7 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 6 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "69",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0013:remove_relevant",
+    "base_id": "replication-arithmetic-0013",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 68."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 53."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 7 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 6 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "73",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0013:remove_irrelevant",
+    "base_id": "replication-arithmetic-0013",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 68."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 7 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 4 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 6 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "69",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0014:full",
+    "base_id": "replication-arithmetic-0014",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 59."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of red is 76."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 10 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For red, 11 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 10 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0014:remove_relevant",
+    "base_id": "replication-arithmetic-0014",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 59."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of red is 76."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For red, 11 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 10 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "61",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0014:remove_irrelevant",
+    "base_id": "replication-arithmetic-0014",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of blue is 59."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 10 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 5 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For blue, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For red, 11 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For red, 12 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For blue, 10 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 5 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in blue?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0015:full",
+    "base_id": "replication-arithmetic-0015",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 53."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of green is 65."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For red, 12 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 8 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0015:remove_relevant",
+    "base_id": "replication-arithmetic-0015",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 53."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of green is 65."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 2 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For red, 12 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 8 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "39",
+    "evidence": [
+      "F1",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0015:remove_irrelevant",
+    "base_id": "replication-arithmetic-0015",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of red is 53."
+      },
+      {
+        "id": "F3",
+        "text": "For green, 2 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For red, 10 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For green, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For red, 12 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 9 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For red, 8 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For green, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For red, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in red?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0016:full",
+    "base_id": "replication-arithmetic-0016",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 73."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of yellow is 57."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 3 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 4 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 11 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 12 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 4 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0016:remove_relevant",
+    "base_id": "replication-arithmetic-0016",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 73."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of yellow is 57."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 4 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 11 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 12 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 4 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "84",
+    "evidence": [
+      "F1",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0016:remove_irrelevant",
+    "base_id": "replication-arithmetic-0016",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of green is 73."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 3 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "For green, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For yellow, 4 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For green, 4 marbles are removed from it."
+      },
+      {
+        "id": "F7",
+        "text": "For green, 11 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 12 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For yellow, 4 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For green, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in green?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F4",
+      "F6",
+      "F7",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0017:full",
+    "base_id": "replication-arithmetic-0017",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 74."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of purple is 47."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 4 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 2 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For purple, 4 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For purple, 11 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For yellow, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "75",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0017:remove_relevant",
+    "base_id": "replication-arithmetic-0017",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 74."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of purple is 47."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 2 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For purple, 4 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For purple, 11 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For yellow, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "79",
+    "evidence": [
+      "F1",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0017:remove_irrelevant",
+    "base_id": "replication-arithmetic-0017",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of yellow is 74."
+      },
+      {
+        "id": "F3",
+        "text": "For yellow, 4 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For purple, 2 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For purple, 4 marbles are removed from it."
+      },
+      {
+        "id": "F6",
+        "text": "For yellow, 8 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For yellow, 9 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For purple, 11 marbles are added to it."
+      },
+      {
+        "id": "F10",
+        "text": "For yellow, 6 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in yellow?",
+    "answer": "75",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0018:full",
+    "base_id": "replication-arithmetic-0018",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 79."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 26."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 12 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 10 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 11 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "96",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0018:remove_relevant",
+    "base_id": "replication-arithmetic-0018",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 79."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of orange is 26."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 12 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 10 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 11 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "105",
+    "evidence": [
+      "F1",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0018:remove_irrelevant",
+    "base_id": "replication-arithmetic-0018",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of purple is 79."
+      },
+      {
+        "id": "F3",
+        "text": "For purple, 9 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 12 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For purple, 6 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For orange, 4 marbles are added to it."
+      },
+      {
+        "id": "F8",
+        "text": "For purple, 9 marbles are added to it."
+      },
+      {
+        "id": "F9",
+        "text": "For orange, 10 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For purple, 11 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in purple?",
+    "answer": "96",
+    "evidence": [
+      "F1",
+      "F3",
+      "F6",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0019:full",
+    "base_id": "replication-arithmetic-0019",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 68."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 72."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 10 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For blue, 11 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 11 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "54",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0019:remove_relevant",
+    "base_id": "replication-arithmetic-0019",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 68."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of blue is 72."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 10 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For blue, 11 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 11 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "60",
+    "evidence": [
+      "F1",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  },
+  {
+    "id": "replication-arithmetic-0019:remove_irrelevant",
+    "base_id": "replication-arithmetic-0019",
+    "task": "arithmetic",
+    "split": "test",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of orange is 68."
+      },
+      {
+        "id": "F3",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "For orange, 6 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "For orange, 7 marbles are added to it."
+      },
+      {
+        "id": "F6",
+        "text": "For blue, 10 marbles are added to it."
+      },
+      {
+        "id": "F7",
+        "text": "For blue, 11 marbles are removed from it."
+      },
+      {
+        "id": "F8",
+        "text": "For orange, 4 marbles are removed from it."
+      },
+      {
+        "id": "F9",
+        "text": "For blue, 3 marbles are removed from it."
+      },
+      {
+        "id": "F10",
+        "text": "For orange, 11 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in orange?",
+    "answer": "54",
+    "evidence": [
+      "F1",
+      "F4",
+      "F5",
+      "F8",
+      "F10"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "protocol": "cross-task-evidence-transfer-v1",
+  "seed": 20261004,
+  "tasks": [
+    "deduction",
+    "tracking"
+  ],
+  "conditions": [
+    "unrelated",
+    "similar"
+  ],
+  "bases_per_task": 30,
+  "cases": 120,
+  "dataset_sha256": "2c082036fbf11e2c2bcdd268c2c8759b4441abfc3a695c36d2859483b33c274b",
+  "prompt_version": "cross_task_selection_v1",
+  "primary_metric": "selection_exact_by_task_and_condition",
+  "note": "Freeze before inference; no prompt or adapter tuning on these items."
+}

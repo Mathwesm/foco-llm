@@ -1,0 +1,12 @@
+{
+  "protocol": "fact-removal-ablation-v1",
+  "source": "blind-arithmetic-replication-v2",
+  "base_problems": 20,
+  "forms": [
+    "full",
+    "remove_relevant",
+    "remove_irrelevant"
+  ],
+  "dataset_sha256": "fa18508efd00462969a1ae5185a656e011b9bf1d664fb75be5c09dee6a17eef5",
+  "note": "The removed relevant update changes the context-derived answer."
+}

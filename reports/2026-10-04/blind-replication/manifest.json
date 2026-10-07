@@ -1,0 +1,18 @@
+{
+  "protocol": "blind-arithmetic-replication-v2",
+  "seed": 20261004,
+  "base_problems": 60,
+  "forms": [
+    "explicit",
+    "alias"
+  ],
+  "dataset_sha256": "478f1a18b7eac35fcc8f727dc7629f10886ec03f075082d67902625c3f9275d5",
+  "model_prompt": "selection_prompt_v2",
+  "primary_metric": "selection_exact_by_form",
+  "secondary_metrics": [
+    "answer_correct",
+    "false_positive",
+    "false_negative"
+  ],
+  "note": "Freeze before inference; do not tune prompts or adapters on this set."
+}

@@ -4,6 +4,30 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+**Robustez — 07/10:** repetimos o seletor aritmético local de 1,5B com
+sementes 42, 43 e 44, mantendo os 80 exemplos e as 320 atualizações. Na
+replicação com 60 bases, a condição com apelidos ficou em **0/60, 2/60 e
+3/60**: o ganho local continua pequeno em todas as repetições. A auditoria
+por caso do 7B identificou três erros do adaptado na ablação de fatos,
+todos por inclusão de uma atualização de outro recipiente. São análises
+pós-hoc dos conjuntos já conhecidos, não novos testes cegos.
+[Sensibilidade às sementes](docs/local-seed-stability-2026-10-07.md) e
+[auditoria dos erros](docs/fact-ablation-error-audit-2026-10-07.md).
+
+**Testes cegos e ablação — 04/10:** na replicação aritmética com 60 bases,
+o Qwen 7B passou de **36/60 para 46/60** seleções exatas com apelidos após
+ajuste; um resolvedor simbólico obteve **60/60**. Na avaliação congelada de
+dedução e acompanhamento, o adaptado obteve somente **4/120**, contra
+**0/120** da base, e nenhum acerto com cadeia distratora semelhante.
+Uma ablação local com 20 bases aritméticas em três contextos mostrou que
+retirar um fato irrelevante reduziu as seleções exatas do 1,5B adaptado de
+**9/20 para 6/20**. Na mesma ablação executada no Kaggle, o 7B adaptado
+passou de **20/20 para 19/20** após a mesma remoção. Esses resultados medem
+saída observável e limitam
+afirmações de transferência ou mecanismo interno. [Replicação](docs/blind-replication-protocol-2026-10-04.md),
+[transferência](docs/cross-task-transfer-2026-10-04.md) e
+[ablação](docs/fact-ablation-2026-10-04.md).
+
 **Seleção + aritmética — 01/10:** após 320 passos de treino específico,
 o Qwen 1,5B selecionou todos os fatos relevantes em **6/10** problemas
 com distratores, ante **0/10** dos braços locais anteriores. Usando essa
@@ -39,8 +63,8 @@ congelada terminaram. No teste reservado de 120 casos, C0/C1/C2/C3
 acertaram respectivamente **6/16/26/9** respostas; C2 foi o melhor, mas
 aritmética permaneceu em 0/40 e a transferência para acompanhamento foi
 pequena. [Relatório final, limitações e artefatos auditáveis](docs/final-local-results-2026-09-30.md).
-O próximo ambiente experimental é Kaggle; ajustes de parâmetros são uma
-rodada opcional posterior, separada deste teste.
+A avaliação posterior no Kaggle está documentada acima; ela é separada deste
+teste local de 30/09.
 
 **Controles locais de 30/09:** nove treinos (C1/C2/C3 × três sementes) concluídos. Médias de acertos na validação: **31,7/120** com contexto limpo e supervisão da resposta, **34,3/120** com ruído similar e supervisão da resposta, **19,0/120** com ruído similar e supervisão de resposta + evidências; modelo original **6/120**. Aritmética segue em 0/40. [Resultados, figura e limitações](docs/local-controls-2026-09-30.md).
 
@@ -173,7 +197,7 @@ data/          # saídas locais; não versionadas
 
 O piloto original usa inglês nos enunciados, dificuldade fixa e templates compartilhados entre splits. A versão candidata v2 separa templates e comprimentos de cadeia, mas muda ambos ao mesmo tempo e ainda precisa de auditoria ampliada. Os dados não sustentam afirmações de generalização estrutural ampla ou de relevância semântica em texto livre. Os validadores reconhecem a gramática controlada do gerador.
 
-O ajuste funcional e os checkpoints já foram verificados. Ainda faltam treinamentos de eficácia, avaliação dos adaptadores, alertas de execuções longas, auditoria ampliada dos dados revisados, intervalos de confiança e repetição por sementes. Não há agendamento nem consumo de serviços pagos nesta etapa.
+O ajuste funcional, os treinos locais e as avaliações dos adaptadores já foram verificados. Ainda faltam auditoria ampliada dos dados sintéticos, intervalos de confiança, repetição de cada adaptação por sementes e avaliação em linguagem natural mais variada. Não há agendamento nem consumo de serviços pagos nesta etapa.
 
 - [Plano e referências](docs/research-plan.md)
 - [Diário e registro de treinamentos](docs/experiment-log.md)
