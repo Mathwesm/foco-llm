@@ -1,0 +1,5614 @@
+{
+  "protocol": "post-hoc-7b-seed-sensitivity-v1",
+  "kaggle_run": "https://www.kaggle.com/code/matheusdsousaribeiro/foco-llm-qwen-7b-seed-43-replication?scriptVersionId=356099017",
+  "seed_42_counts": {
+    "replication": {
+      "explicit": 60,
+      "alias": 46
+    },
+    "ablation": {
+      "full": 20,
+      "remove_relevant": 18,
+      "remove_irrelevant": 19
+    }
+  },
+  "seed_42_sources": [
+    "docs/blind-replication-protocol-2026-10-04.md",
+    "docs/fact-ablation-2026-10-04.md"
+  ],
+  "training": {
+    "manifest": {
+      "checkpoint_interval": 80,
+      "config": {
+        "arithmetic_prefix_curriculum": false,
+        "condition": "similar",
+        "examples": 80,
+        "learning_rate": 0.0001,
+        "max_tokens": 512,
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "rank": 4,
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "seed": 43,
+        "selection_seed": 42,
+        "source_task": "arithmetic",
+        "steps": 320,
+        "supervision": "evidence_only",
+        "tasks": null
+      },
+      "dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+      "example_ids": [
+        "v2-arithmetic-000044:similar",
+        "v2-arithmetic-000042:similar",
+        "v2-arithmetic-000096:similar",
+        "v2-arithmetic-000032:similar",
+        "v2-arithmetic-000082:similar",
+        "v2-arithmetic-000072:similar",
+        "v2-arithmetic-000043:similar",
+        "v2-arithmetic-000056:similar",
+        "v2-arithmetic-000092:similar",
+        "v2-arithmetic-000064:similar",
+        "v2-arithmetic-000027:similar",
+        "v2-arithmetic-000000:similar",
+        "v2-arithmetic-000067:similar",
+        "v2-arithmetic-000014:similar",
+        "v2-arithmetic-000033:similar",
+        "v2-arithmetic-000005:similar",
+        "v2-arithmetic-000002:similar",
+        "v2-arithmetic-000057:similar",
+        "v2-arithmetic-000070:similar",
+        "v2-arithmetic-000065:similar",
+        "v2-arithmetic-000021:similar",
+        "v2-arithmetic-000034:similar",
+        "v2-arithmetic-000046:similar",
+        "v2-arithmetic-000085:similar",
+        "v2-arithmetic-000003:similar",
+        "v2-arithmetic-000097:similar",
+        "v2-arithmetic-000015:similar",
+        "v2-arithmetic-000040:similar",
+        "v2-arithmetic-000063:similar",
+        "v2-arithmetic-000094:similar",
+        "v2-arithmetic-000054:similar",
+        "v2-arithmetic-000080:similar",
+        "v2-arithmetic-000074:similar",
+        "v2-arithmetic-000036:similar",
+        "v2-arithmetic-000073:similar",
+        "v2-arithmetic-000004:similar",
+        "v2-arithmetic-000051:similar",
+        "v2-arithmetic-000023:similar",
+        "v2-arithmetic-000017:similar",
+        "v2-arithmetic-000091:similar",
+        "v2-arithmetic-000061:similar",
+        "v2-arithmetic-000071:similar",
+        "v2-arithmetic-000016:similar",
+        "v2-arithmetic-000007:similar",
+        "v2-arithmetic-000076:similar",
+        "v2-arithmetic-000013:similar",
+        "v2-arithmetic-000095:similar",
+        "v2-arithmetic-000055:similar",
+        "v2-arithmetic-000030:similar",
+        "v2-arithmetic-000075:similar",
+        "v2-arithmetic-000026:similar",
+        "v2-arithmetic-000035:similar",
+        "v2-arithmetic-000047:similar",
+        "v2-arithmetic-000022:similar",
+        "v2-arithmetic-000052:similar",
+        "v2-arithmetic-000053:similar",
+        "v2-arithmetic-000020:similar",
+        "v2-arithmetic-000006:similar",
+        "v2-arithmetic-000001:similar",
+        "v2-arithmetic-000011:similar",
+        "v2-arithmetic-000025:similar",
+        "v2-arithmetic-000045:similar",
+        "v2-arithmetic-000060:similar",
+        "v2-arithmetic-000090:similar",
+        "v2-arithmetic-000077:similar",
+        "v2-arithmetic-000083:similar",
+        "v2-arithmetic-000024:similar",
+        "v2-arithmetic-000087:similar",
+        "v2-arithmetic-000066:similar",
+        "v2-arithmetic-000031:similar",
+        "v2-arithmetic-000081:similar",
+        "v2-arithmetic-000050:similar",
+        "v2-arithmetic-000041:similar",
+        "v2-arithmetic-000084:similar",
+        "v2-arithmetic-000010:similar",
+        "v2-arithmetic-000062:similar",
+        "v2-arithmetic-000093:similar",
+        "v2-arithmetic-000086:similar",
+        "v2-arithmetic-000012:similar",
+        "v2-arithmetic-000037:similar"
+      ],
+      "protocol": "arithmetic-selection-qlora-7b-v1",
+      "runtime": {
+        "attention": "eager",
+        "base_dtype": "torch.float32",
+        "bitsandbytes": "0.48.1",
+        "compute_dtype": "torch.float32",
+        "cuda": "12.8",
+        "device": "Tesla T4",
+        "gradient_checkpointing": "non-reentrant",
+        "peft": "0.17.1",
+        "quantization": "nf4-double-quant",
+        "torch": "2.8.0+cu128",
+        "total_parameters": 4354233856,
+        "trainable_parameters": 1261568,
+        "transformers": "4.57.3"
+      },
+      "schedule": "fixed seeded base order, repeated cyclically; batch size one",
+      "source_sha256": "ab1bdc62bf8de211a3cfa0139f2b49b2ddcd2ef48e87f892ae2838f4d816e042"
+    },
+    "summary": {
+      "experiment_type": "exploratory_larger_model_not_confirmatory_evidence",
+      "completed_steps": 320,
+      "unique_training_examples": 80,
+      "initial_train_probe_loss": 0.9670323133468628,
+      "final_train_probe_loss": 7.136692147469148e-05,
+      "training_seconds": 1890.9079623249986,
+      "peak_reserved_bytes": 9395240960
+    }
+  },
+  "replication": {
+    "manifest": {
+      "protocol": "blind-arithmetic-replication-v2",
+      "dataset_sha256": "478f1a18b7eac35fcc8f727dc7629f10886ec03f075082d67902625c3f9275d5",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "config": {
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "split": "test",
+        "seed": 42,
+        "max_new_tokens": 128,
+        "max_input_tokens": 1024,
+        "max_seconds": 60.0,
+        "device": "cuda",
+        "precision": "float32"
+      },
+      "runtime": {
+        "torch": "2.8.0+cu128",
+        "transformers": "4.57.3",
+        "cuda": "12.8",
+        "device": "Tesla T4",
+        "dtype": "torch.float32",
+        "attention": "eager",
+        "adapter_sha256": "f0b72eeaf6d7c2b5d7a9beac6c69ff1dd235580f544a486a3c590ca444245409",
+        "adapter_config_sha256": "8fd249b7215129df21cdc2837676822fc8de510363146600641255b273a1256b",
+        "training_manifest_sha256": "149e15b9f6e4865e32f1954847dc3a795641446d1dd75b5f654f542e20873061",
+        "training_dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+        "evaluation_dataset_sha256": "478f1a18b7eac35fcc8f727dc7629f10886ec03f075082d67902625c3f9275d5",
+        "adapter_step": "320",
+        "quantization": "nf4-double-quant",
+        "bitsandbytes": "0.48.1"
+      },
+      "cases": 120
+    },
+    "summary": {
+      "base_problems": 60,
+      "cases": 120,
+      "groups": {
+        "explicit": {
+          "cases": 60,
+          "selection_exact": 60,
+          "answer_correct": 60,
+          "selection_valid": 60,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "alias": {
+          "cases": 60,
+          "selection_exact": 48,
+          "answer_correct": 48,
+          "selection_valid": 60,
+          "false_positive": 0,
+          "false_negative": 15
+        }
+      }
+    },
+    "scores": [
+      {
+        "id": "replication-arithmetic-0000:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "77",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "77",
+        "answer_correct": true,
+        "error": "",
+        "expression": "56 - 6 + 6 + 12 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "77",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "77",
+        "answer_correct": true,
+        "error": "",
+        "expression": "56 - 6 + 6 + 12 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 3 - 8 - 5 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 3 - 8 - 5 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "39",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 - 11 + 3 - 4 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "39",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 - 11 + 3 - 4 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "86",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "86",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 6 - 5 + 8 + 10",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "86",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "86",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 6 - 5 + 8 + 10",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "38",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "38",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 - 8 + 5 - 12 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "38",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "38",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 - 8 + 5 - 12 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 - 5 + 2 + 12 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 - 5 + 2 + 12 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "80",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "80",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 + 3 + 11 - 3 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "80",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "83",
+        "answer_correct": false,
+        "error": "",
+        "expression": "66 + 3 + 11 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 3 - 2 + 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 3 - 2 + 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "74",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "74",
+        "answer_correct": true,
+        "error": "",
+        "expression": "62 + 4 + 4 - 3 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "74",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "74",
+        "answer_correct": true,
+        "error": "",
+        "expression": "62 + 4 + 4 - 3 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "55",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "55",
+        "answer_correct": true,
+        "error": "",
+        "expression": "57 + 3 - 9 - 5 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "55",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "60",
+        "answer_correct": false,
+        "error": "",
+        "expression": "57 + 3 - 9 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "68",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 - 11 + 4 + 12 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "68",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 - 11 + 4 + 12 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "23",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "23",
+        "answer_correct": true,
+        "error": "",
+        "expression": "61 - 5 - 12 - 10 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "23",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "23",
+        "answer_correct": true,
+        "error": "",
+        "expression": "61 - 5 - 12 - 10 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 + 9 - 2 - 9 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 + 9 - 2 - 9 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 4 + 3 + 4 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 4 + 3 + 4 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "59 - 10 + 7 - 10 + 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "59 - 10 + 7 - 10 + 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "29",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "29",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 10 - 12 - 8 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "29",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 2,
+        "calculation_valid": true,
+        "calculated_answer": "49",
+        "answer_correct": false,
+        "error": "",
+        "expression": "53 - 10 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 6 - 4 + 11 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 6 - 4 + 11 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "75",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "75",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 - 4 + 8 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "75",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "75",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 - 4 + 8 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 9 + 6 + 9 + 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 9 + 6 + 9 + 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "54",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "54",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 6 + 7 - 4 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "54",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "58",
+        "answer_correct": false,
+        "error": "",
+        "expression": "68 - 6 + 7 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0020:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "42",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "42",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 - 7 + 3 - 11 - 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0020:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "42",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "42",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 - 7 + 3 - 11 - 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0021:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "71",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "71",
+        "answer_correct": true,
+        "error": "",
+        "expression": "47 - 3 + 11 + 8 + 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0021:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "71",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "63",
+        "answer_correct": false,
+        "error": "",
+        "expression": "47 - 3 + 11 + 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0022:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "50 + 4 + 10 - 4 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0022:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "50 + 4 + 10 - 4 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0023:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "84",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "84",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 6 + 11 + 10 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0023:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "84",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "84",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 6 + 11 + 10 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0024:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "47",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "47",
+        "answer_correct": true,
+        "error": "",
+        "expression": "57 - 3 - 5 - 10 + 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0024:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "47",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "57",
+        "answer_correct": false,
+        "error": "",
+        "expression": "57 - 3 - 5 + 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0025:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "40",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "40",
+        "answer_correct": true,
+        "error": "",
+        "expression": "47 - 8 + 2 - 4 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0025:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "40",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "40",
+        "answer_correct": true,
+        "error": "",
+        "expression": "47 - 8 + 2 - 4 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0026:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "38",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "38",
+        "answer_correct": true,
+        "error": "",
+        "expression": "72 - 11 - 12 - 8 - 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0026:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "38",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "38",
+        "answer_correct": true,
+        "error": "",
+        "expression": "72 - 11 - 12 - 8 - 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0027:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "39",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 2 - 11 - 10 - 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0027:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 2,
+        "calculation_valid": true,
+        "calculated_answer": "53",
+        "answer_correct": false,
+        "error": "",
+        "expression": "66 - 2 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0028:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "64",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "64",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 12 + 11 + 7 + 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0028:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "64",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "64",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 12 + 11 + 7 + 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0029:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "55",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "55",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 8 - 7 + 5 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0029:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "55",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "55",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 8 - 7 + 5 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0030:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "46 - 5 - 7 + 10 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0030:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "46 - 5 - 7 + 10 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0031:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "74",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "74",
+        "answer_correct": true,
+        "error": "",
+        "expression": "78 + 6 - 10 + 7 - 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0031:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "74",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "84",
+        "answer_correct": false,
+        "error": "",
+        "expression": "78 + 6 + 7 - 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0032:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 - 7 - 4 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0032:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 - 7 - 4 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0033:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "58",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "58",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 4 + 3 + 4 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0033:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "58",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "58",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 4 + 3 + 4 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0034:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "56",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "56",
+        "answer_correct": true,
+        "error": "",
+        "expression": "55 + 3 - 3 + 10 - 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0034:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "56",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "56",
+        "answer_correct": true,
+        "error": "",
+        "expression": "55 + 3 - 3 + 10 - 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0035:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "66",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "66",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 - 10 + 8 - 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0035:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "66",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "66",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 - 10 + 8 - 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0036:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "89",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "89",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 + 12 + 10 + 7 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0036:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "89",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "97",
+        "answer_correct": false,
+        "error": "",
+        "expression": "68 + 12 + 10 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0037:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 - 10 - 7 - 10 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0037:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 2,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": false,
+        "error": "",
+        "expression": "74 - 10 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0038:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "73",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "73",
+        "answer_correct": true,
+        "error": "",
+        "expression": "45 + 8 + 11 + 12 - 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0038:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "73",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "73",
+        "answer_correct": true,
+        "error": "",
+        "expression": "45 + 8 + 11 + 12 - 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0039:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "83",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "83",
+        "answer_correct": true,
+        "error": "",
+        "expression": "75 - 3 + 7 - 8 + 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0039:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "83",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "83",
+        "answer_correct": true,
+        "error": "",
+        "expression": "75 - 3 + 7 - 8 + 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0040:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "68",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": true,
+        "error": "",
+        "expression": "64 - 3 + 4 + 5 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0040:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "68",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": true,
+        "error": "",
+        "expression": "64 - 3 + 4 + 5 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0041:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "64",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "64",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 + 9 - 2 - 11 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0041:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "64",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "64",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 + 9 - 2 - 11 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0042:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "47",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "47",
+        "answer_correct": true,
+        "error": "",
+        "expression": "52 + 8 - 12 + 8 - 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0042:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "47",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "47",
+        "answer_correct": true,
+        "error": "",
+        "expression": "52 + 8 - 12 + 8 - 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0043:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "75",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "75",
+        "answer_correct": true,
+        "error": "",
+        "expression": "70 + 5 + 11 - 6 - 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0043:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "75",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "75",
+        "answer_correct": true,
+        "error": "",
+        "expression": "70 + 5 + 11 - 6 - 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0044:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "79",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "79",
+        "answer_correct": true,
+        "error": "",
+        "expression": "61 + 7 - 4 + 7 + 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0044:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "79",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "79",
+        "answer_correct": true,
+        "error": "",
+        "expression": "61 + 7 - 4 + 7 + 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0045:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "76 - 12 + 2 + 5 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0045:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "76 - 12 + 2 + 5 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0046:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "76 - 7 + 9 - 2 - 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0046:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "76 - 7 + 9 - 2 - 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0047:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "69 - 6 + 9 - 12 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0047:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "69 - 6 + 9 - 12 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0048:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "80",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "80",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 - 8 + 12 + 10 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0048:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "80",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "70",
+        "answer_correct": false,
+        "error": "",
+        "expression": "74 - 8 + 12 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0049:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "79",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "79",
+        "answer_correct": true,
+        "error": "",
+        "expression": "71 - 10 + 7 + 9 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0049:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "79",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "79",
+        "answer_correct": true,
+        "error": "",
+        "expression": "71 - 10 + 7 + 9 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0050:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "56",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "56",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 4 - 7 + 8 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0050:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "56",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "56",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 4 - 7 + 8 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0051:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "45",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "45",
+        "answer_correct": true,
+        "error": "",
+        "expression": "47 + 9 - 6 + 4 - 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0051:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "45",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "45",
+        "answer_correct": true,
+        "error": "",
+        "expression": "47 + 9 - 6 + 4 - 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0052:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "73",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "73",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 + 11 - 7 + 12 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0052:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "73",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "73",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 + 11 - 7 + 12 - 8",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0053:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "92",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "92",
+        "answer_correct": true,
+        "error": "",
+        "expression": "77 + 10 + 3 + 5 - 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0053:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "92",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "92",
+        "answer_correct": true,
+        "error": "",
+        "expression": "77 + 10 + 3 + 5 - 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0054:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "63",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "63",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 11 - 4 + 9 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0054:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "63",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "63",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 11 - 4 + 9 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0055:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "61",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "61",
+        "answer_correct": true,
+        "error": "",
+        "expression": "56 + 12 - 4 - 6 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0055:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "61",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "calculation_valid": true,
+        "calculated_answer": "67",
+        "answer_correct": false,
+        "error": "",
+        "expression": "56 + 12 - 4 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0056:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "64",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "64",
+        "answer_correct": true,
+        "error": "",
+        "expression": "51 - 5 + 3 + 8 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0056:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "64",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "64",
+        "answer_correct": true,
+        "error": "",
+        "expression": "51 - 5 + 3 + 8 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0057:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "67",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "67",
+        "answer_correct": true,
+        "error": "",
+        "expression": "83 - 10 - 10 + 10 - 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0057:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "67",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "67",
+        "answer_correct": true,
+        "error": "",
+        "expression": "83 - 10 - 10 + 10 - 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0058:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "35",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "35",
+        "answer_correct": true,
+        "error": "",
+        "expression": "48 - 5 + 6 - 3 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0058:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "35",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "35",
+        "answer_correct": true,
+        "error": "",
+        "expression": "48 - 5 + 6 - 3 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0059:explicit",
+        "form": "explicit",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "53",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "53",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 10 + 6 - 9 - 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0059:alias",
+        "form": "alias",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "53",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "53",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 10 + 6 - 9 - 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      }
+    ]
+  },
+  "ablation": {
+    "manifest": {
+      "protocol": "fact-removal-ablation-v1",
+      "dataset_sha256": "fa18508efd00462969a1ae5185a656e011b9bf1d664fb75be5c09dee6a17eef5",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "runtime": {
+        "torch": "2.8.0+cu128",
+        "transformers": "4.57.3",
+        "cuda": "12.8",
+        "device": "Tesla T4",
+        "dtype": "torch.float32",
+        "attention": "eager",
+        "adapter_sha256": "f0b72eeaf6d7c2b5d7a9beac6c69ff1dd235580f544a486a3c590ca444245409",
+        "adapter_config_sha256": "8fd249b7215129df21cdc2837676822fc8de510363146600641255b273a1256b",
+        "training_manifest_sha256": "149e15b9f6e4865e32f1954847dc3a795641446d1dd75b5f654f542e20873061",
+        "training_dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+        "evaluation_dataset_sha256": "fa18508efd00462969a1ae5185a656e011b9bf1d664fb75be5c09dee6a17eef5",
+        "adapter_step": "320",
+        "quantization": "nf4-double-quant",
+        "bitsandbytes": "0.48.1"
+      }
+    },
+    "summary": {
+      "base_problems": 20,
+      "cases": 60,
+      "groups": {
+        "full": {
+          "cases": 20,
+          "selection_valid": 20,
+          "selection_exact": 20,
+          "answer_correct": 20,
+          "false_positive": 0,
+          "false_negative": 0
+        },
+        "remove_relevant": {
+          "cases": 20,
+          "selection_valid": 20,
+          "selection_exact": 18,
+          "answer_correct": 18,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "remove_irrelevant": {
+          "cases": 20,
+          "selection_valid": 20,
+          "selection_exact": 19,
+          "answer_correct": 19,
+          "false_positive": 1,
+          "false_negative": 0
+        }
+      }
+    },
+    "scores": [
+      {
+        "id": "replication-arithmetic-0000:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "77",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "77",
+        "answer_correct": true,
+        "error": "",
+        "expression": "56 - 6 + 6 + 12 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "83",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "83",
+        "answer_correct": true,
+        "error": "",
+        "expression": "56 + 6 + 12 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0000:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "77",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F9",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 5,
+        "false_positive": 1,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "73",
+        "answer_correct": false,
+        "error": "",
+        "expression": "56 - 6 + 6 + 12 + 9 - 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 3 - 8 - 5 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "49",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "49",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 - 8 - 5 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0001:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 3 - 8 - 5 + 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "39",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 - 11 + 3 - 4 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "50",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "50",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 + 3 - 4 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0002:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "39",
+        "answer_correct": true,
+        "error": "",
+        "expression": "63 - 11 + 3 - 4 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "86",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "86",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 6 - 5 + 8 + 10",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "92",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "92",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 5 + 8 + 10",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0003:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "86",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "86",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 6 - 5 + 8 + 10",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "38",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "38",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 - 8 + 5 - 12 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "46",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "46",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 + 5 - 12 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0004:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "expected_answer": "38",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F7",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "38",
+        "answer_correct": true,
+        "error": "",
+        "expression": "65 - 8 + 5 - 12 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F7\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 - 5 + 2 + 12 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "101",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "101",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 + 2 + 12 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0005:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "80 - 5 + 2 + 12 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "80",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "80",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 + 3 + 11 - 3 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "77",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "77",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 + 11 - 3 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0006:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "80",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "80",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 + 3 + 11 - 3 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 3 - 2 + 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "54",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "54",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 2 + 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0007:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "66 - 3 - 2 + 2 - 12",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "74",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "74",
+        "answer_correct": true,
+        "error": "",
+        "expression": "62 + 4 + 4 - 3 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "70",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "70",
+        "answer_correct": true,
+        "error": "",
+        "expression": "62 + 4 - 3 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0008:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "74",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "74",
+        "answer_correct": true,
+        "error": "",
+        "expression": "62 + 4 + 4 - 3 + 7",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "55",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "55",
+        "answer_correct": true,
+        "error": "",
+        "expression": "57 + 3 - 9 - 5 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "52",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "52",
+        "answer_correct": true,
+        "error": "",
+        "expression": "57 - 9 - 5 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0009:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "55",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "55",
+        "answer_correct": true,
+        "error": "",
+        "expression": "57 + 3 - 9 - 5 + 9",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "68",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 - 11 + 4 + 12 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "79",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "79",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 + 4 + 12 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0010:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "68",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "68",
+        "answer_correct": true,
+        "error": "",
+        "expression": "60 - 11 + 4 + 12 + 3",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "23",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "23",
+        "answer_correct": true,
+        "error": "",
+        "expression": "61 - 5 - 12 - 10 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "28",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 1,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "18",
+        "answer_correct": false,
+        "error": "",
+        "expression": "61 - 12 - 10 - 11 - 10",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0011:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "23",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "23",
+        "answer_correct": true,
+        "error": "",
+        "expression": "61 - 5 - 12 - 10 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 + 9 - 2 - 9 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 - 2 - 9 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0012:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "82 + 9 - 2 - 9 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 4 + 3 + 4 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "73",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "73",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 + 3 + 4 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0013:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "69",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "69",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 4 + 3 + 4 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "59 - 10 + 7 - 10 + 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "61",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F9",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": false,
+        "true_positive": 4,
+        "false_positive": 1,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "59",
+        "answer_correct": false,
+        "error": "",
+        "expression": "59 + 7 - 10 + 5 - 2",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F9\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0014:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "expected_answer": "51",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F5",
+          "F8",
+          "F9"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "51",
+        "answer_correct": true,
+        "error": "",
+        "expression": "59 - 10 + 7 - 10 + 5",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F5\",\"F8\",\"F9\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "29",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "29",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 10 - 12 - 8 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "39",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "39",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 12 - 8 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0015:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "29",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "29",
+        "answer_correct": true,
+        "error": "",
+        "expression": "53 - 10 - 12 - 8 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 6 - 4 + 11 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "84",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "84",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 4 + 11 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0016:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "expected_answer": "78",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F6",
+          "F7",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "78",
+        "answer_correct": true,
+        "error": "",
+        "expression": "73 - 6 - 4 + 11 + 4",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F7\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "75",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "75",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 - 4 + 8 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "79",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "79",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 + 8 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0017:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "75",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "75",
+        "answer_correct": true,
+        "error": "",
+        "expression": "74 - 4 + 8 - 9 + 6",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 9 + 6 + 9 + 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "105",
+        "selected_ids": [
+          "F1",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "105",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 + 6 + 9 + 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0018:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "96",
+        "selected_ids": [
+          "F1",
+          "F3",
+          "F6",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "96",
+        "answer_correct": true,
+        "error": "",
+        "expression": "79 - 9 + 6 + 9 + 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F3\",\"F6\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:full",
+        "form": "full",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "54",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "54",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 6 + 7 - 4 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:remove_relevant",
+        "form": "remove_relevant",
+        "expected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "60",
+        "selected_ids": [
+          "F1",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "60",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 + 7 - 4 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F5\",\"F8\",\"F10\"]}"
+      },
+      {
+        "id": "replication-arithmetic-0019:remove_irrelevant",
+        "form": "remove_irrelevant",
+        "expected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "expected_answer": "54",
+        "selected_ids": [
+          "F1",
+          "F4",
+          "F5",
+          "F8",
+          "F10"
+        ],
+        "selection_valid": true,
+        "selection_exact": true,
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "calculation_valid": true,
+        "calculated_answer": "54",
+        "answer_correct": true,
+        "error": "",
+        "expression": "68 - 6 + 7 - 4 - 11",
+        "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F5\",\"F8\",\"F10\"]}"
+      }
+    ]
+  }
+}
