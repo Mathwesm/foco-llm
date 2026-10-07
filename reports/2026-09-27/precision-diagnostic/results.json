@@ -1,0 +1,24 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "example": "arithmetic-000008:clean",
+  "results": [
+    {
+      "dtype": "torch.float16",
+      "finite": false,
+      "nan_count": 151936,
+      "vocabulary_size": 151936,
+      "guard_raised": true,
+      "eight_token_preview": ""
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "finite": true,
+      "nan_count": 0,
+      "vocabulary_size": 151936,
+      "guard_raised": false,
+      "eight_token_preview": "```json\n{\n  \"answer\":"
+    }
+  ],
+  "scope": "One-prompt numerical diagnostic; BF16 converted from FP16 in memory."
+}

@@ -1,0 +1,34 @@
+name: Qualidade
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality-gate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
+    env:
+      PYTHONUTF8: '1'
+      MPLBACKEND: Agg
+      POETRY_VIRTUALENVS_IN_PROJECT: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Poetry
+        run: pipx install poetry==2.4.1
+      - name: Instalar dependências
+        run: poetry install --no-interaction
+      - name: Executar o mesmo portão local
+        run: poetry run poe gate

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "device": "cuda",
+    "max_input_tokens": 1024,
+    "max_new_tokens": 128,
+    "max_seconds": 60.0,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "precision": "bfloat16",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "seed": 42,
+    "split": "validation"
+  },
+  "dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+  "examples": 120,
+  "prompt_version": "evidence-json-v1",
+  "runtime": {
+    "adapter_config_sha256": "80f713cc79307c6e67967d0c7c1bffdf4c8ac5af6d8e9ed6d01b20425e710c8e",
+    "adapter_sha256": "ebe6a5ea1e746cec75cfdd653a342c01c8ad414fa647295b27157fb9376a7f6b",
+    "adapter_step": "64",
+    "attention": "eager",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "dtype": "torch.bfloat16",
+    "peft": "0.17.1",
+    "torch": "2.8.0+cu128",
+    "training_manifest_sha256": "d0e6fbefe36029f8a913e1858c1a8129f5a311b87a7572654e7c8fbd1ae4ff1d",
+    "transformers": "4.57.3"
+  },
+  "source_sha256": "99b503d4c9e3056b1c53b4581a2ecd7c1d6fe7372d4812dd7b26d60e82264ebb"
+}

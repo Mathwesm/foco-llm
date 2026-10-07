@@ -1,0 +1,28 @@
+{
+  "attempted": 120,
+  "valid": 107,
+  "rejected": {
+    "v2-arithmetic-000029:unrelated": "invalid_json_or_evidence",
+    "v2-arithmetic-000049:clean": "invalid_json_or_evidence",
+    "v2-arithmetic-000059:similar": "invalid_json_or_evidence",
+    "v2-arithmetic-000079:numeric": "invalid_json_or_evidence",
+    "v2-arithmetic-000099:similar": "invalid_json_or_evidence",
+    "v2-deduction-000019:similar": "invalid_json_or_evidence",
+    "v2-deduction-000069:numeric": "invalid_json_or_evidence",
+    "v2-tracking-000019:similar": "invalid_json_or_evidence",
+    "v2-tracking-000049:similar": "invalid_json_or_evidence",
+    "v2-tracking-000069:similar": "invalid_json_or_evidence",
+    "v2-tracking-000079:similar": "invalid_json_or_evidence",
+    "v2-tracking-000089:numeric": "invalid_json_or_evidence",
+    "v2-tracking-000089:similar": "invalid_json_or_evidence"
+  },
+  "generation_seconds": 241.99812569993082,
+  "output_tokens": 4717,
+  "peak_allocated_bytes": 3167192576,
+  "peak_reserved_bytes": 3370123264,
+  "stop_counts": {
+    "eos": 112,
+    "token_limit": 8,
+    "time_limit": 0
+  }
+}

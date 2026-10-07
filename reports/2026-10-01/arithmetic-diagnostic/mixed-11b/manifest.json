@@ -1,0 +1,32 @@
+{
+  "cases": 70,
+  "config": {
+    "device": "cuda",
+    "max_input_tokens": 1024,
+    "max_new_tokens": 128,
+    "max_seconds": 60.0,
+    "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "precision": "bfloat16",
+    "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+    "seed": 42,
+    "split": "validation"
+  },
+  "dataset_sha256": "78250b64a6a5cf295b9be4cb454a7c7215f9c8811d695f251bcf673791d65045",
+  "protocol": "arithmetic-diagnostic-v1",
+  "runtime": {
+    "adapter_config_sha256": "dacd333fbca58d9e8f0e095af52dd5fa1185dc553c9b7f148087e4c36f9bb9f4",
+    "adapter_sha256": "5f48b21c0cacc1ab57efb09f5496ae93a8da4e688f18487aa369ee4fe32098d4",
+    "adapter_step": "192",
+    "attention": "eager",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "dtype": "torch.bfloat16",
+    "evaluation_dataset_sha256": "78250b64a6a5cf295b9be4cb454a7c7215f9c8811d695f251bcf673791d65045",
+    "peft": "0.17.1",
+    "torch": "2.8.0+cu128",
+    "training_dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+    "training_manifest_sha256": "15d3b1c61fbe6cbfee1c4e3c182e19da9420603a807957b3538a9089358e31c2",
+    "transformers": "4.57.3"
+  },
+  "source_sha256": "df91818d30dd06511b2c93f7f9e2d145ed88ab1dbe66e6d087bbf2ca5a404b63"
+}

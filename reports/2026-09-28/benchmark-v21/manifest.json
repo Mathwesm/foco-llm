@@ -1,0 +1,28 @@
+{
+  "generator_version": "benchmark-v2.1-candidate",
+  "dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+  "config": {
+    "seed": 42,
+    "problems_per_task": 100
+  },
+  "examples": 1200,
+  "split_counts": {
+    "train": 960,
+    "validation": 120,
+    "test": 120
+  },
+  "checked_invariants": [
+    "reference_answers",
+    "necessary_evidence",
+    "paired_splits",
+    "paired_relevant_order",
+    "matched_distracted_evidence_positions",
+    "matched_distractor_sentence_counts"
+  ],
+  "limitations": [
+    "Token lengths not exactly matched",
+    "Joint template/depth shift",
+    "One template per split and task",
+    "Small validation pilot"
+  ]
+}

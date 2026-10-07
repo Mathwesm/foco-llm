@@ -1,0 +1,1351 @@
+{
+  "protocol": "posthoc-paraphrase-selection-stress-v1",
+  "created_at": "2026-10-01T19:08:09.823468+00:00",
+  "source_dataset_sha256": "78250b64a6a5cf295b9be4cb454a7c7215f9c8811d695f251bcf673791d65045",
+  "dataset_sha256": "af30137eec359d6861898ac0691d45451cbeaefdb67c68b034dddd0eef6f5f76",
+  "source_sha256": "ab1bdc62bf8de211a3cfa0139f2b49b2ddcd2ef48e87f892ae2838f4d816e042",
+  "training_dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+  "config": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "split": "validation",
+    "seed": 42,
+    "max_new_tokens": 128,
+    "max_input_tokens": 1024,
+    "max_seconds": 60.0,
+    "device": "cuda",
+    "precision": "bfloat16"
+  },
+  "cases": [
+    {
+      "id": "v2-arithmetic-000008:paraphrase-4",
+      "base_id": "v2-arithmetic-000008",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update L: the container named in the question lost 9 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update L: ivory received 5 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update Z: the container named in the question lost 1 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update C: the container named in the question received 3 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update K: the container named in the question received 8 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "At the start, copper held 50 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "At the start, ivory held 70 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update Y: ivory received 7 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update W: ivory received 7 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update A: ivory received 9 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on copper shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in copper?",
+      "answer": "51",
+      "evidence": [
+        "F1",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000018:paraphrase-4",
+      "base_id": "v2-arithmetic-000018",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update J: amber received 5 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update O: amber received 2 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "At the start, amber held 62 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update S: the container named in the question received 3 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update L: the container named in the question received 2 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update W: amber lost 9 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "At the start, ivory held 71 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update B: the container named in the question lost 4 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update T: the container named in the question received 1 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update D: amber received 1 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on ivory shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in ivory?",
+      "answer": "73",
+      "evidence": [
+        "F4",
+        "F5",
+        "F7",
+        "F8",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000028:paraphrase-4",
+      "base_id": "v2-arithmetic-000028",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update Q: amber lost 4 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update I: amber lost 9 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update H: the container named in the question received 1 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update D: amber lost 5 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update L: the container named in the question received 8 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "At the start, copper held 68 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "At the start, amber held 54 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update T: amber received 8 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update T: the container named in the question lost 4 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update J: the container named in the question received 7 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on copper shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in copper?",
+      "answer": "80",
+      "evidence": [
+        "F3",
+        "F5",
+        "F6",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000038:paraphrase-4",
+      "base_id": "v2-arithmetic-000038",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "At the start, silver held 63 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update C: the container named in the question received 1 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update S: silver lost 3 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "At the start, copper held 68 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update Y: silver lost 2 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update L: the container named in the question received 8 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "Update C: silver lost 1 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update R: silver lost 3 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update H: the container named in the question received 5 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update X: the container named in the question received 1 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on copper shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in copper?",
+      "answer": "83",
+      "evidence": [
+        "F2",
+        "F4",
+        "F6",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000048:paraphrase-4",
+      "base_id": "v2-arithmetic-000048",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update M: azure received 2 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update E: the container named in the question lost 3 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update V: the container named in the question received 5 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "At the start, azure held 68 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "At the start, ivory held 60 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update L: azure received 6 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "Update D: azure received 6 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update O: azure lost 6 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update W: the container named in the question received 8 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update D: the container named in the question lost 6 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on ivory shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in ivory?",
+      "answer": "64",
+      "evidence": [
+        "F2",
+        "F3",
+        "F5",
+        "F9",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000058:paraphrase-4",
+      "base_id": "v2-arithmetic-000058",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update A: the container named in the question received 8 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update Q: silver received 6 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update Q: the container named in the question received 3 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update O: the container named in the question lost 2 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "At the start, silver held 66 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update Z: the container named in the question received 7 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "Update I: silver received 4 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update R: silver received 9 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update C: silver received 7 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "At the start, ivory held 52 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on ivory shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in ivory?",
+      "answer": "68",
+      "evidence": [
+        "F1",
+        "F3",
+        "F4",
+        "F6",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000068:paraphrase-4",
+      "base_id": "v2-arithmetic-000068",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update H: ivory received 4 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update F: ivory received 9 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update M: the container named in the question received 4 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "At the start, ivory held 74 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update U: ivory lost 1 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update A: the container named in the question lost 4 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "Update Y: the container named in the question received 8 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "At the start, violet held 54 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update E: ivory lost 7 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update R: the container named in the question lost 8 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on violet shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in violet?",
+      "answer": "54",
+      "evidence": [
+        "F3",
+        "F6",
+        "F7",
+        "F8",
+        "F10"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000078:paraphrase-4",
+      "base_id": "v2-arithmetic-000078",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "Update Q: the container named in the question lost 1 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update F: the container named in the question received 7 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update N: silver lost 7 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update X: the container named in the question received 4 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update N: the container named in the question lost 5 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update M: silver lost 4 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "At the start, copper held 65 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "At the start, silver held 74 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update F: silver received 7 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update Z: silver lost 5 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on copper shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in copper?",
+      "answer": "70",
+      "evidence": [
+        "F1",
+        "F2",
+        "F4",
+        "F5",
+        "F7"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000088:paraphrase-4",
+      "base_id": "v2-arithmetic-000088",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "At the start, silver held 76 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "At the start, copper held 63 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update G: copper lost 7 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update I: the container named in the question received 2 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "Update R: copper lost 2 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update H: the container named in the question received 6 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "Update N: the container named in the question received 5 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update H: copper lost 4 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update R: the container named in the question received 1 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update P: copper received 4 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on silver shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in silver?",
+      "answer": "90",
+      "evidence": [
+        "F1",
+        "F4",
+        "F6",
+        "F7",
+        "F9"
+      ]
+    },
+    {
+      "id": "v2-arithmetic-000098:paraphrase-4",
+      "base_id": "v2-arithmetic-000098",
+      "task": "arithmetic",
+      "split": "validation",
+      "condition": "similar",
+      "facts": [
+        {
+          "id": "F1",
+          "text": "At the start, amber held 70 marbles."
+        },
+        {
+          "id": "F2",
+          "text": "Update Y: silver received 1 marbles."
+        },
+        {
+          "id": "F3",
+          "text": "Update K: silver received 7 marbles."
+        },
+        {
+          "id": "F4",
+          "text": "Update S: the container named in the question received 7 marbles."
+        },
+        {
+          "id": "F5",
+          "text": "At the start, silver held 56 marbles."
+        },
+        {
+          "id": "F6",
+          "text": "Update K: the container named in the question lost 3 marbles."
+        },
+        {
+          "id": "F7",
+          "text": "Update M: silver received 1 marbles."
+        },
+        {
+          "id": "F8",
+          "text": "Update T: the container named in the question received 1 marbles."
+        },
+        {
+          "id": "F9",
+          "text": "Update V: silver received 8 marbles."
+        },
+        {
+          "id": "F10",
+          "text": "Update J: the container named in the question received 6 marbles."
+        },
+        {
+          "id": "F11",
+          "text": "The painted label on amber shows the number 27."
+        }
+      ],
+      "question": "How many marbles remain in amber?",
+      "answer": "81",
+      "evidence": [
+        "F1",
+        "F4",
+        "F6",
+        "F8",
+        "F10"
+      ]
+    }
+  ],
+  "arms": {
+    "lexical": {
+      "summary": {
+        "cases": 10,
+        "valid": 10,
+        "exact": 0,
+        "true_positive": 10,
+        "false_positive": 10,
+        "false_negative": 40
+      },
+      "scores": [
+        {
+          "id": "v2-arithmetic-000008:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F3",
+            "F4",
+            "F5",
+            "F6"
+          ],
+          "raw_response": "{\"evidence\": [\"F6\", \"F11\"]}",
+          "selected_ids": [
+            "F6",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000018:paraphrase-4",
+          "expected_ids": [
+            "F4",
+            "F5",
+            "F7",
+            "F8",
+            "F9"
+          ],
+          "raw_response": "{\"evidence\": [\"F7\", \"F11\"]}",
+          "selected_ids": [
+            "F7",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000028:paraphrase-4",
+          "expected_ids": [
+            "F3",
+            "F5",
+            "F6",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\": [\"F6\", \"F11\"]}",
+          "selected_ids": [
+            "F6",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000038:paraphrase-4",
+          "expected_ids": [
+            "F2",
+            "F4",
+            "F6",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\": [\"F4\", \"F11\"]}",
+          "selected_ids": [
+            "F4",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000048:paraphrase-4",
+          "expected_ids": [
+            "F2",
+            "F3",
+            "F5",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\": [\"F5\", \"F11\"]}",
+          "selected_ids": [
+            "F5",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000058:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F3",
+            "F4",
+            "F6",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\": [\"F10\", \"F11\"]}",
+          "selected_ids": [
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000068:paraphrase-4",
+          "expected_ids": [
+            "F3",
+            "F6",
+            "F7",
+            "F8",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\": [\"F8\", \"F11\"]}",
+          "selected_ids": [
+            "F8",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000078:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F2",
+            "F4",
+            "F5",
+            "F7"
+          ],
+          "raw_response": "{\"evidence\": [\"F7\", \"F11\"]}",
+          "selected_ids": [
+            "F7",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000088:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F4",
+            "F6",
+            "F7",
+            "F9"
+          ],
+          "raw_response": "{\"evidence\": [\"F1\", \"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000098:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F4",
+            "F6",
+            "F8",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\": [\"F1\", \"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        }
+      ]
+    },
+    "baseline": {
+      "runtime": {
+        "torch": "2.8.0+cu128",
+        "transformers": "4.57.3",
+        "cuda": "12.8",
+        "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "dtype": "torch.bfloat16",
+        "attention": "eager"
+      },
+      "summary": {
+        "cases": 10,
+        "valid": 9,
+        "exact": 0,
+        "true_positive": 13,
+        "false_positive": 6,
+        "false_negative": 37
+      },
+      "scores": [
+        {
+          "id": "v2-arithmetic-000008:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F3",
+            "F4",
+            "F5",
+            "F6"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F2\",\"F3\",\"F4\",\"F5\",\"F6\",\"F7\",\"F8\",\"F9\",\"F10\",\"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8",
+            "F9",
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 5,
+          "false_positive": 6,
+          "false_negative": 0,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000018:paraphrase-4",
+          "expected_ids": [
+            "F4",
+            "F5",
+            "F7",
+            "F8",
+            "F9"
+          ],
+          "raw_response": "{\"evidence\":[\"F7\"]}",
+          "selected_ids": [
+            "F7"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000028:paraphrase-4",
+          "expected_ids": [
+            "F3",
+            "F5",
+            "F6",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F6\"]}",
+          "selected_ids": [
+            "F6"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000038:paraphrase-4",
+          "expected_ids": [
+            "F2",
+            "F4",
+            "F6",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F4\"]}",
+          "selected_ids": [
+            "F4"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000048:paraphrase-4",
+          "expected_ids": [
+            "F2",
+            "F3",
+            "F5",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F5\"]}",
+          "selected_ids": [
+            "F5"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000058:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F3",
+            "F4",
+            "F6",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F10\"]}",
+          "selected_ids": [
+            "F10"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000068:paraphrase-4",
+          "expected_ids": [
+            "F3",
+            "F6",
+            "F7",
+            "F8",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F4\",\"F6\",\"F7\",\"F11\",\"F10\",\"F11\"]}",
+          "selected_ids": [],
+          "valid": false,
+          "exact": false,
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 5,
+          "error": "Selection contains missing, duplicate, or unknown fact IDs"
+        },
+        {
+          "id": "v2-arithmetic-000078:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F2",
+            "F4",
+            "F5",
+            "F7"
+          ],
+          "raw_response": "{\"evidence\":[\"F7\"]}",
+          "selected_ids": [
+            "F7"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000088:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F4",
+            "F6",
+            "F7",
+            "F9"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\"]}",
+          "selected_ids": [
+            "F1"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000098:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F4",
+            "F6",
+            "F8",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\"]}",
+          "selected_ids": [
+            "F1"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 0,
+          "false_negative": 4,
+          "error": ""
+        }
+      ]
+    },
+    "adapted": {
+      "runtime": {
+        "torch": "2.8.0+cu128",
+        "transformers": "4.57.3",
+        "cuda": "12.8",
+        "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+        "dtype": "torch.bfloat16",
+        "attention": "eager",
+        "adapter_sha256": "419576aa4b6ae5bf5f68acafb3f098eb2c451c3e1ae10be6ba6d98765075790d",
+        "adapter_config_sha256": "604abbafc3d926425fc8921f967190f5742f192c4e3808850e6234049b62513f",
+        "training_manifest_sha256": "78ce609fc85f07f40abae3b473763da23bc3830514bf98506dc70c6883a4ac13",
+        "training_dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+        "evaluation_dataset_sha256": "af30137eec359d6861898ac0691d45451cbeaefdb67c68b034dddd0eef6f5f76",
+        "adapter_step": "320",
+        "peft": "0.17.1"
+      },
+      "summary": {
+        "cases": 10,
+        "valid": 9,
+        "exact": 0,
+        "true_positive": 20,
+        "false_positive": 16,
+        "false_negative": 30
+      },
+      "scores": [
+        {
+          "id": "v2-arithmetic-000008:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F3",
+            "F4",
+            "F5",
+            "F6"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F2\",\"F3\",\"F4\",\"F10\",\"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 3,
+          "false_positive": 3,
+          "false_negative": 2,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000018:paraphrase-4",
+          "expected_ids": [
+            "F4",
+            "F5",
+            "F7",
+            "F8",
+            "F9"
+          ],
+          "raw_response": "{\"evidence\":[\"F3\",\"F7\",\"F8\",\"F9\",\"F10\"]}",
+          "selected_ids": [
+            "F3",
+            "F7",
+            "F8",
+            "F9",
+            "F10"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 3,
+          "false_positive": 2,
+          "false_negative": 2,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000028:paraphrase-4",
+          "expected_ids": [
+            "F3",
+            "F5",
+            "F6",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F9\",\"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F6",
+            "F9",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 2,
+          "false_positive": 2,
+          "false_negative": 3,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000038:paraphrase-4",
+          "expected_ids": [
+            "F2",
+            "F4",
+            "F6",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F4\",\"F9\",\"F10\",\"F11\"]}",
+          "selected_ids": [
+            "F4",
+            "F9",
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 3,
+          "false_positive": 1,
+          "false_negative": 2,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000048:paraphrase-4",
+          "expected_ids": [
+            "F2",
+            "F3",
+            "F5",
+            "F9",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F5\",\"F6\",\"F9\",\"F10\",\"F11\"]}",
+          "selected_ids": [
+            "F5",
+            "F6",
+            "F9",
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 3,
+          "false_positive": 2,
+          "false_negative": 2,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000058:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F3",
+            "F4",
+            "F6",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F10\",\"F11\"]}",
+          "selected_ids": [
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 1,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000068:paraphrase-4",
+          "expected_ids": [
+            "F3",
+            "F6",
+            "F7",
+            "F8",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F4\",\"F6\",\"F8\",\"F11\",\"F10\",\"F11\",\"F111\"]}",
+          "selected_ids": [],
+          "valid": false,
+          "exact": false,
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 5,
+          "error": "Selection contains missing, duplicate, or unknown fact IDs"
+        },
+        {
+          "id": "v2-arithmetic-000078:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F2",
+            "F4",
+            "F5",
+            "F7"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F7\",\"F9\"]}",
+          "selected_ids": [
+            "F1",
+            "F7",
+            "F9"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 2,
+          "false_positive": 1,
+          "false_negative": 3,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000088:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F4",
+            "F6",
+            "F7",
+            "F9"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F8\",\"F10\",\"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F8",
+            "F10",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 1,
+          "false_positive": 3,
+          "false_negative": 4,
+          "error": ""
+        },
+        {
+          "id": "v2-arithmetic-000098:paraphrase-4",
+          "expected_ids": [
+            "F1",
+            "F4",
+            "F6",
+            "F8",
+            "F10"
+          ],
+          "raw_response": "{\"evidence\":[\"F1\",\"F6\",\"F11\"]}",
+          "selected_ids": [
+            "F1",
+            "F6",
+            "F11"
+          ],
+          "valid": true,
+          "exact": false,
+          "true_positive": 2,
+          "false_positive": 1,
+          "false_negative": 3,
+          "error": ""
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Post-hoc rewrites of ten previously explored validation bases",
+    "Explicit reference to the question makes the rewrite artificial",
+    "Lexical decoy is deliberately adversarial to the literal-match rule",
+    "Selection only; paraphrased arithmetic is not passed to the template calculator"
+  ]
+}

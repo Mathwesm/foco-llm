@@ -1,0 +1,715 @@
+{
+  "protocol": "content-envelope-v2",
+  "groups": [
+    {
+      "task": "arithmetic",
+      "condition": "clean",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "arithmetic",
+      "condition": "unrelated",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "arithmetic",
+      "condition": "numeric",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "arithmetic",
+      "condition": "similar",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "deduction",
+      "condition": "clean",
+      "count": 10,
+      "before_correct": 1,
+      "after_correct": 2,
+      "correct_to_wrong": 1,
+      "wrong_to_correct": 2
+    },
+    {
+      "task": "deduction",
+      "condition": "unrelated",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "deduction",
+      "condition": "numeric",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "deduction",
+      "condition": "similar",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "tracking",
+      "condition": "clean",
+      "count": 10,
+      "before_correct": 3,
+      "after_correct": 5,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 2
+    },
+    {
+      "task": "tracking",
+      "condition": "unrelated",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 2,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 2
+    },
+    {
+      "task": "tracking",
+      "condition": "numeric",
+      "count": 10,
+      "before_correct": 0,
+      "after_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 0
+    },
+    {
+      "task": "tracking",
+      "condition": "similar",
+      "count": 10,
+      "before_correct": 2,
+      "after_correct": 0,
+      "correct_to_wrong": 2,
+      "wrong_to_correct": 0
+    }
+  ],
+  "examples": [
+    {
+      "id": "v2-arithmetic-000009:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000009:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000009:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000009:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000019:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000019:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000019:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000019:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000029:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000029:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000029:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000029:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000039:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000039:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000039:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000039:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000049:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000049:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000049:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000049:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000059:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000059:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000059:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000059:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000069:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000069:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000069:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000069:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000079:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000079:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000079:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000079:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000089:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000089:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000089:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000089:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000099:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000099:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000099:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-arithmetic-000099:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000009:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000009:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000009:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000009:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000019:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000019:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000019:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000019:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000029:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000029:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000029:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000029:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000039:clean",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000039:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000039:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000039:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000049:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000049:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000049:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000049:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000059:clean",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "v2-deduction-000059:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000059:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000059:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000069:clean",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "v2-deduction-000069:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000069:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000069:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000079:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000079:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000079:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000079:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000089:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000089:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000089:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000089:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000099:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000099:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000099:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-deduction-000099:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000009:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000009:unrelated",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000009:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000009:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000019:clean",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000019:unrelated",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000019:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000019:similar",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000029:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000029:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000029:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000029:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000039:clean",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000039:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000039:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000039:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000049:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000049:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000049:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000049:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000059:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000059:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000059:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000059:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000069:clean",
+      "before": true,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000069:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000069:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000069:similar",
+      "before": true,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000079:clean",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000079:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000079:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000079:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000089:clean",
+      "before": true,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000089:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000089:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000089:similar",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000099:clean",
+      "before": true,
+      "after": true
+    },
+    {
+      "id": "v2-tracking-000099:unrelated",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000099:numeric",
+      "before": false,
+      "after": false
+    },
+    {
+      "id": "v2-tracking-000099:similar",
+      "before": false,
+      "after": false
+    }
+  ]
+}

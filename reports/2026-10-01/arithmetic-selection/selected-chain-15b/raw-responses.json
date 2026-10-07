@@ -1,0 +1,338 @@
+[
+  {
+    "id": "v2-arithmetic-000008:similar-4:step-2",
+    "prompt_sha256": "55a0bba31818adb816c76f3e682315599ddd797def0f7d9a25b8aa53177411a2",
+    "finished_at": "2026-10-01T10:21:46.571059Z",
+    "generation": {
+      "text": "40",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15746680001029745,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4:step-1",
+    "prompt_sha256": "7e789e451cf71e9dcd2b22f4ca87377a38bc10c3de46aa5fbadaba91f805ffe5",
+    "finished_at": "2026-10-01T10:21:47.057247Z",
+    "generation": {
+      "text": "69",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15260410000337288,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4:step-4",
+    "prompt_sha256": "a9174e7c11f4992691e3bd7417858355f86fe5dac82e0dbe23b40197cf8b3c86",
+    "finished_at": "2026-10-01T10:21:47.504795Z",
+    "generation": {
+      "text": "80",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14154559999587946,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4:step-4",
+    "prompt_sha256": "7e93108158a2fe610415d086606a59e032bba8796d02afd91186e4184face627",
+    "finished_at": "2026-10-01T10:21:48.102746Z",
+    "generation": {
+      "text": "64",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14482220000354573,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4:step-4",
+    "prompt_sha256": "557fe954773dcb98ff908f2ee4f71cb1b05c4c019d93f5ef118ec553668db8c4",
+    "finished_at": "2026-10-01T10:21:49.291316Z",
+    "generation": {
+      "text": "91",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15735309998854063,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4:step-3",
+    "prompt_sha256": "cf5821f031773cc0d47a4f29f1fb8054ab395538d95fd2b4fb49ba2e1656083e",
+    "finished_at": "2026-10-01T10:21:48.555399Z",
+    "generation": {
+      "text": "61",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14728639999520965,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4:step-2",
+    "prompt_sha256": "92843acc70e9f7ff38875b7d7478948ff4b61cda179cac907e7dbaa332112931",
+    "finished_at": "2026-10-01T10:21:49.000979Z",
+    "generation": {
+      "text": "84",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.13722239999333397,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4:step-1",
+    "prompt_sha256": "c4e9f4d9491a19c691dff952809ff4dee7f014641f5e51acc921bf6d33a8cf12",
+    "finished_at": "2026-10-01T10:21:48.852723Z",
+    "generation": {
+      "text": "78",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14581719998386689,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000008:similar-4:step-1",
+    "prompt_sha256": "7bde7ec755357b4f341634e0e18288112de14f8bb01a761bed218a1955f1ede6",
+    "finished_at": "2026-10-01T10:21:46.014931Z",
+    "generation": {
+      "text": "41",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.5436357999860775,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:similar-4:step-3",
+    "prompt_sha256": "0c8fbc8d71f6f99e9591727265846f5efd3162d82dea5bc43e1b239623e7fa4c",
+    "finished_at": "2026-10-01T10:21:49.139496Z",
+    "generation": {
+      "text": "90",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14904729998670518,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4:step-4",
+    "prompt_sha256": "f86f82af9b1502d04ac0933be58a2a7c1597fc1cfd7a7cba7d972abb58c7d96a",
+    "finished_at": "2026-10-01T10:21:48.705292Z",
+    "generation": {
+      "text": "68",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14559099997859448,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4:step-2",
+    "prompt_sha256": "b459dad2d145cc463dbaab68a10c2dae630306ae261329f4b9240de8e4e51d05",
+    "finished_at": "2026-10-01T10:21:47.211583Z",
+    "generation": {
+      "text": "77",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14636939999763854,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4:step-1",
+    "prompt_sha256": "200e2c6c3609c04e25a91c7c899743a25d3eff0c7e6168f189f56501c8b5b33d",
+    "finished_at": "2026-10-01T10:21:47.648310Z",
+    "generation": {
+      "text": "57",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.1494916999945417,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4:step-3",
+    "prompt_sha256": "febe888e4967662483aa3ab0f40e7cef190cb3e2d8786d43809eb26c08aee46f",
+    "finished_at": "2026-10-01T10:21:47.943065Z",
+    "generation": {
+      "text": "70",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15762250000261702,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:similar-4:step-3",
+    "prompt_sha256": "39f2b19eeb4913cdbaf53924bee86a6d1374921aee65bef29b300ddb516ee638",
+    "finished_at": "2026-10-01T10:21:47.361001Z",
+    "generation": {
+      "text": "73",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14222619999782182,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000008:similar-4:step-4",
+    "prompt_sha256": "61523ddf2471f8b411dfaf3f1df387e8924d290cbf75ed0e9b2e1e216a7bf413",
+    "finished_at": "2026-10-01T10:21:46.896889Z",
+    "generation": {
+      "text": "51",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15811210000538267,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:similar-4:step-2",
+    "prompt_sha256": "b1b5f8a5490e520c7d003f439e43ee7752e281ffeba081e381bec9f95f2399fe",
+    "finished_at": "2026-10-01T10:21:47.799698Z",
+    "generation": {
+      "text": "62",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14091119999648072,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4:step-1",
+    "prompt_sha256": "5d9b091e208833e6522daaf4a0b78f456c8fb7ffad613b09b82e3fd317bf8db5",
+    "finished_at": "2026-10-01T10:21:48.250512Z",
+    "generation": {
+      "text": "60",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15861949999816716,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4:step-4",
+    "prompt_sha256": "695827e9b1154590c4108ce2cd838db8c7062331d4bf206cea3cdd5d2165c5de",
+    "finished_at": "2026-10-01T10:21:49.924624Z",
+    "generation": {
+      "text": "81",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15158659999724478,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:similar-4:step-2",
+    "prompt_sha256": "217b8923fcf95b06675464120b3bec85e92313f300abf1755629e783c8c4cd65",
+    "finished_at": "2026-10-01T10:21:48.410868Z",
+    "generation": {
+      "text": "63",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.14175999999861233,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4:step-2",
+    "prompt_sha256": "0af10e0272605909acdd4978363b4620cb9aa470e9cfbda10e616935ac076478",
+    "finished_at": "2026-10-01T10:21:49.617869Z",
+    "generation": {
+      "text": "74",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.148737000010442,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4:step-1",
+    "prompt_sha256": "2ab0da40e952136d5288b7be4a55f19e2f4a3e2efe2978d08faae69eedefd477",
+    "finished_at": "2026-10-01T10:21:49.451842Z",
+    "generation": {
+      "text": "77",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.16420600001583807,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000008:similar-4:step-3",
+    "prompt_sha256": "353151eac8e71ef1ea6dc24748b76b2645890913977a68cf3b5399ec21282ffc",
+    "finished_at": "2026-10-01T10:21:46.730738Z",
+    "generation": {
+      "text": "43",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.164192299998831,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:similar-4:step-3",
+    "prompt_sha256": "ca0aa5bd9af60753e790bfed2c4cd4e2160a2ab8181f9732edea8bde1ab5242d",
+    "finished_at": "2026-10-01T10:21:49.769650Z",
+    "generation": {
+      "text": "75",
+      "input_tokens": 43,
+      "output_tokens": 3,
+      "elapsed_seconds": 0.15294100000755861,
+      "peak_allocated_bytes": 3128228864,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  }
+]

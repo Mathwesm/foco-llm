@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "v2-arithmetic-000008:clean",
+    "base_id": "v2-arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update N: For silver, 7 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update L: For silver, 8 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update W: For silver, 6 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of silver is 70."
+      },
+      {
+        "id": "F1",
+        "text": "Update G: For silver, 2 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "47",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000018:clean",
+    "base_id": "v2-arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update D: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update A: For copper, 6 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For copper, 9 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "The initial marble count of copper is 79."
+      },
+      {
+        "id": "F1",
+        "text": "Update N: For copper, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "73",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000028:clean",
+    "base_id": "v2-arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "The initial marble count of violet is 53."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For violet, 7 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update G: For violet, 4 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update P: For violet, 5 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 3 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "50",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000038:clean",
+    "base_id": "v2-arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update P: For copper, 6 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update E: For copper, 8 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update X: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update R: For copper, 7 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of copper is 51."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "29",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000048:clean",
+    "base_id": "v2-arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 56."
+      },
+      {
+        "id": "F4",
+        "text": "Update O: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For copper, 1 marble is removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update M: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "Update S: For copper, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "52",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000058:clean",
+    "base_id": "v2-arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "The initial marble count of copper is 59."
+      },
+      {
+        "id": "F4",
+        "text": "Update Z: For copper, 7 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For copper, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For copper, 4 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "Update A: For copper, 1 marble is removed from it."
+      }
+    ],
+    "question": "How many marbles remain in copper?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000068:clean",
+    "base_id": "v2-arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update A: For silver, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update Y: For silver, 1 marble is added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For silver, 9 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update T: For silver, 9 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of silver is 57."
+      }
+    ],
+    "question": "How many marbles remain in silver?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000078:clean",
+    "base_id": "v2-arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update T: For violet, 8 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of violet is 55."
+      },
+      {
+        "id": "F3",
+        "text": "Update H: For violet, 6 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update A: For violet, 1 marble is added to it."
+      },
+      {
+        "id": "F1",
+        "text": "Update E: For violet, 8 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "78",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000088:clean",
+    "base_id": "v2-arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update C: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F4",
+        "text": "The initial marble count of ivory is 67."
+      },
+      {
+        "id": "F3",
+        "text": "Update V: For ivory, 1 marble is added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For ivory, 8 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "Update N: For ivory, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in ivory?",
+    "answer": "58",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000098:clean",
+    "base_id": "v2-arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "The initial marble count of violet is 63."
+      },
+      {
+        "id": "F4",
+        "text": "Update D: For violet, 9 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update R: For violet, 6 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update B: For violet, 5 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "Update S: For violet, 8 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in violet?",
+    "answer": "53",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000008:clean",
+    "base_id": "v2-deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P4939 entails property P5909."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1746 entails property P2134."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P6156 entails property P1746."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P5909 entails property P6156."
+      },
+      {
+        "id": "F1",
+        "text": "The object copper possesses property P4939."
+      }
+    ],
+    "question": "What terminal property follows for copper? Return its code.",
+    "answer": "P2134",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000018:clean",
+    "base_id": "v2-deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P8034 entails property P353."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P325 entails property P3599."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P353 entails property P325."
+      },
+      {
+        "id": "F2",
+        "text": "The object amber possesses property P8034."
+      },
+      {
+        "id": "F1",
+        "text": "Having property P3599 entails property P4113."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4113",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000028:clean",
+    "base_id": "v2-deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P3996 entails property P71."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P610 entails property P4345."
+      },
+      {
+        "id": "F3",
+        "text": "The object silver possesses property P610."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4345 entails property P7956."
+      },
+      {
+        "id": "F1",
+        "text": "Having property P7956 entails property P3996."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P71",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000038:clean",
+    "base_id": "v2-deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P7447 entails property P8972."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8972 entails property P9239."
+      },
+      {
+        "id": "F3",
+        "text": "The object violet possesses property P6191."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P6191 entails property P3739."
+      },
+      {
+        "id": "F1",
+        "text": "Having property P3739 entails property P7447."
+      }
+    ],
+    "question": "What terminal property follows for violet? Return its code.",
+    "answer": "P9239",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000048:clean",
+    "base_id": "v2-deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P3529 entails property P9958."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P4514 entails property P3529."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P1734 entails property P4514."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9075 entails property P1734."
+      },
+      {
+        "id": "F1",
+        "text": "The object silver possesses property P9075."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P9958",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000058:clean",
+    "base_id": "v2-deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P3783 entails property P9580."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P4537 entails property P3783."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9580 entails property P8463."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8463 entails property P9984."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4537."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9984",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000068:clean",
+    "base_id": "v2-deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P617 entails property P8833."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P84 entails property P9532."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P919 entails property P84."
+      },
+      {
+        "id": "F2",
+        "text": "The object amber possesses property P617."
+      },
+      {
+        "id": "F1",
+        "text": "Having property P8833 entails property P919."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9532",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000078:clean",
+    "base_id": "v2-deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P6523 entails property P2227."
+      },
+      {
+        "id": "F4",
+        "text": "The object silver possesses property P4426."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P5035 entails property P6664."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P2227 entails property P5035."
+      },
+      {
+        "id": "F1",
+        "text": "Having property P4426 entails property P6523."
+      }
+    ],
+    "question": "What terminal property follows for silver? Return its code.",
+    "answer": "P6664",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000088:clean",
+    "base_id": "v2-deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P6944 entails property P3209."
+      },
+      {
+        "id": "F4",
+        "text": "The object ivory possesses property P7309."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P9575 entails property P6944."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P3209 entails property P3148."
+      },
+      {
+        "id": "F1",
+        "text": "Having property P7309 entails property P9575."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P3148",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-deduction-000098:clean",
+    "base_id": "v2-deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P9026 entails property P3813."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P3813 entails property P8169."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2483 entails property P9026."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8169 entails property P9011."
+      },
+      {
+        "id": "F1",
+        "text": "The object azure possesses property P2483."
+      }
+    ],
+    "question": "What terminal property follows for azure? Return its code.",
+    "answer": "P9011",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000008:clean",
+    "base_id": "v2-tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B7823 to box B4576."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B3037 contains ivory."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B3037 to box B7823."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B4576 to box B7290."
+      },
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B7290 to box B7771."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B7771",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000018:clean",
+    "base_id": "v2-tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B5554 to box B5309."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, transfer everything from box B6981 to box B4646."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B4646 to box B5554."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B641 to box B6981."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B641 contains violet."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5309",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000028:clean",
+    "base_id": "v2-tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B7292 to box B3824."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B8855 contains ivory."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B436 to box B7292."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B8855 to box B436."
+      },
+      {
+        "id": "F1",
+        "text": "At time 4, transfer everything from box B3824 to box B4839."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B4839",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000038:clean",
+    "base_id": "v2-tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B5031 to box B2376."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B9829 to box B7491."
+      },
+      {
+        "id": "F3",
+        "text": "At time 3, transfer everything from box B2376 to box B9829."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B757 contains silver."
+      },
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B757 to box B5031."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B7491",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000048:clean",
+    "base_id": "v2-tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B7554 to box B3545."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B2866 to box B7076."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B7479 to box B7554."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B7479 contains violet."
+      },
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B3545 to box B2866."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B7076",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000058:clean",
+    "base_id": "v2-tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B9506 to box B5113."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, transfer everything from box B3147 to box B4746."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B4359 to box B3147."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B4359 contains violet."
+      },
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B4746 to box B9506."
+      }
+    ],
+    "question": "Which box contains violet after all timed events? Return its code.",
+    "answer": "B5113",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000068:clean",
+    "base_id": "v2-tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 3, transfer everything from box B1174 to box B8401."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B8401 to box B9196."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B7393 contains ivory."
+      },
+      {
+        "id": "F2",
+        "text": "At time 2, transfer everything from box B8677 to box B1174."
+      },
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B7393 to box B8677."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B9196",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000078:clean",
+    "base_id": "v2-tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B7566 to box B6440."
+      },
+      {
+        "id": "F4",
+        "text": "At time 4, transfer everything from box B7519 to box B1560."
+      },
+      {
+        "id": "F3",
+        "text": "At time 1, transfer everything from box B2843 to box B7566."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, box B2843 contains azure."
+      },
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B6440 to box B7519."
+      }
+    ],
+    "question": "Which box contains azure after all timed events? Return its code.",
+    "answer": "B1560",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000088:clean",
+    "base_id": "v2-tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B5688 to box B4017."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, transfer everything from box B1625 to box B1642."
+      },
+      {
+        "id": "F3",
+        "text": "At time 0, box B2973 contains silver."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B2973 to box B1625."
+      },
+      {
+        "id": "F1",
+        "text": "At time 3, transfer everything from box B1642 to box B5688."
+      }
+    ],
+    "question": "Which box contains silver after all timed events? Return its code.",
+    "answer": "B4017",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "v2-tracking-000098:clean",
+    "base_id": "v2-tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "At time 2, transfer everything from box B3312 to box B189."
+      },
+      {
+        "id": "F4",
+        "text": "At time 0, box B8225 contains copper."
+      },
+      {
+        "id": "F3",
+        "text": "At time 4, transfer everything from box B4804 to box B2044."
+      },
+      {
+        "id": "F2",
+        "text": "At time 3, transfer everything from box B189 to box B4804."
+      },
+      {
+        "id": "F1",
+        "text": "At time 1, transfer everything from box B8225 to box B3312."
+      }
+    ],
+    "question": "Which box contains copper after all timed events? Return its code.",
+    "answer": "B2044",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ]
+  }
+]

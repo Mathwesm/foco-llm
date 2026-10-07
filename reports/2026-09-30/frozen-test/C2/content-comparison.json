@@ -1,0 +1,1552 @@
+{
+  "protocol": "content-envelope-v2",
+  "analysis_type": "post_hoc_final_test",
+  "examples": 120,
+  "strict_accepted": 110,
+  "content_accepted": 110,
+  "answer_readable": 116,
+  "decisions": [
+    {
+      "id": "v2-arithmetic-000009:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000009:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000009:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000009:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000019:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000019:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000019:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000019:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000029:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000029:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000029:similar",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": true,
+      "content_error": "duplicate_evidence"
+    },
+    {
+      "id": "v2-arithmetic-000029:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000039:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000039:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000039:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000039:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000049:clean",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": true,
+      "content_error": "unknown_evidence"
+    },
+    {
+      "id": "v2-arithmetic-000049:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000049:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000049:unrelated",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": true,
+      "content_error": "unknown_evidence"
+    },
+    {
+      "id": "v2-arithmetic-000059:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000059:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000059:similar",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": true,
+      "content_error": "unknown_evidence"
+    },
+    {
+      "id": "v2-arithmetic-000059:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000069:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000069:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000069:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000069:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000079:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000079:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000079:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000079:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000089:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000089:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000089:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000089:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000099:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000099:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000099:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-arithmetic-000099:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000009:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000009:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000009:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000009:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000019:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000019:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000019:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000019:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000029:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000029:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000029:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000029:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000039:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000039:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000039:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000039:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000049:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000049:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000049:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000049:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000059:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000059:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000059:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000059:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000069:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000069:numeric",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": true,
+      "content_error": "unknown_evidence"
+    },
+    {
+      "id": "v2-deduction-000069:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000069:unrelated",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": true,
+      "content_error": "unknown_evidence"
+    },
+    {
+      "id": "v2-deduction-000079:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000079:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000079:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000079:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000089:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000089:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000089:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000089:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000099:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000099:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000099:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-deduction-000099:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000009:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000009:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000009:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000009:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000019:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000019:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000019:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000019:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000029:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000029:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000029:similar",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": false,
+      "content_error": "invalid_json_or_schema"
+    },
+    {
+      "id": "v2-tracking-000029:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000039:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000039:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000039:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000039:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000049:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000049:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000049:similar",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": false,
+      "content_error": "invalid_json_or_schema"
+    },
+    {
+      "id": "v2-tracking-000049:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000059:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000059:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000059:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000059:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000069:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000069:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000069:similar",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": false,
+      "content_error": "invalid_json_or_schema"
+    },
+    {
+      "id": "v2-tracking-000069:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000079:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000079:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000079:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000079:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000089:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000089:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000089:similar",
+      "strict_accepted": false,
+      "content_accepted": false,
+      "answer_readable": false,
+      "content_error": "invalid_json_or_schema"
+    },
+    {
+      "id": "v2-tracking-000089:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000099:clean",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000099:numeric",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000099:similar",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    },
+    {
+      "id": "v2-tracking-000099:unrelated",
+      "strict_accepted": true,
+      "content_accepted": true,
+      "answer_readable": true,
+      "content_error": null
+    }
+  ],
+  "strict": {
+    "schema_version": "1",
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_version": "evidence-json-v1",
+    "seed": 42,
+    "decoding": {
+      "do_sample": false,
+      "max_new_tokens": 128
+    },
+    "groups": [
+      {
+        "task": "arithmetic",
+        "condition": "clean",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.0,
+        "evidence_precision": 0.9,
+        "evidence_recall": 0.85,
+        "evidence_exact": 0.6
+      },
+      {
+        "task": "arithmetic",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.0,
+        "evidence_precision": 0.8833333333333334,
+        "evidence_recall": 0.5,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.8378787878787879,
+        "evidence_recall": 0.5666666666666667,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "similar",
+        "count": 10,
+        "answered": 8,
+        "accuracy": 0.0,
+        "evidence_precision": 0.5845238095238096,
+        "evidence_recall": 0.41666666666666663,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.7,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.75,
+        "evidence_exact": 0.4
+      },
+      {
+        "task": "deduction",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.3,
+        "evidence_precision": 0.9,
+        "evidence_recall": 0.24999999999999994,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.4,
+        "evidence_precision": 0.825,
+        "evidence_recall": 0.30000000000000004,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "similar",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.4,
+        "evidence_precision": 0.7166666666666666,
+        "evidence_recall": 0.3166666666666666,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.5,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5666666666666667,
+        "evidence_exact": 0.2
+      },
+      {
+        "task": "tracking",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.1,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.2333333333333333,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.7200757575757576,
+        "evidence_recall": 0.4,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "similar",
+        "count": 10,
+        "answered": 6,
+        "accuracy": 0.1,
+        "evidence_precision": 0.355,
+        "evidence_recall": 0.16666666666666669,
+        "evidence_exact": 0.0
+      }
+    ],
+    "paired": [
+      {
+        "task": "arithmetic",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "arithmetic",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "arithmetic",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "deduction",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.3,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 1,
+        "conditional_failure_rate": 0.7142857142857143
+      },
+      {
+        "task": "deduction",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 2,
+        "conditional_failure_rate": 0.7142857142857143
+      },
+      {
+        "task": "deduction",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 3,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.42857142857142855
+      },
+      {
+        "task": "tracking",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.1,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.8
+      },
+      {
+        "task": "tracking",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 50.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 1.0
+      },
+      {
+        "task": "tracking",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.1,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.8
+      }
+    ]
+  },
+  "content": {
+    "schema_version": "1",
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_version": "evidence-json-v1",
+    "seed": 42,
+    "decoding": {
+      "do_sample": false,
+      "max_new_tokens": 128
+    },
+    "groups": [
+      {
+        "task": "arithmetic",
+        "condition": "clean",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.0,
+        "evidence_precision": 0.9,
+        "evidence_recall": 0.85,
+        "evidence_exact": 0.6
+      },
+      {
+        "task": "arithmetic",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.0,
+        "evidence_precision": 0.8833333333333334,
+        "evidence_recall": 0.5,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.8378787878787879,
+        "evidence_recall": 0.5666666666666667,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "similar",
+        "count": 10,
+        "answered": 8,
+        "accuracy": 0.0,
+        "evidence_precision": 0.5845238095238096,
+        "evidence_recall": 0.41666666666666663,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.7,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.75,
+        "evidence_exact": 0.4
+      },
+      {
+        "task": "deduction",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.3,
+        "evidence_precision": 0.9,
+        "evidence_recall": 0.24999999999999994,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 9,
+        "accuracy": 0.4,
+        "evidence_precision": 0.825,
+        "evidence_recall": 0.30000000000000004,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "similar",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.4,
+        "evidence_precision": 0.7166666666666666,
+        "evidence_recall": 0.3166666666666666,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.5,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.5666666666666667,
+        "evidence_exact": 0.2
+      },
+      {
+        "task": "tracking",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.1,
+        "evidence_precision": 1.0,
+        "evidence_recall": 0.2333333333333333,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.7200757575757576,
+        "evidence_recall": 0.4,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "similar",
+        "count": 10,
+        "answered": 6,
+        "accuracy": 0.1,
+        "evidence_precision": 0.355,
+        "evidence_recall": 0.16666666666666669,
+        "evidence_exact": 0.0
+      }
+    ],
+    "paired": [
+      {
+        "task": "arithmetic",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "arithmetic",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "arithmetic",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "deduction",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.3,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 1,
+        "conditional_failure_rate": 0.7142857142857143
+      },
+      {
+        "task": "deduction",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 2,
+        "conditional_failure_rate": 0.7142857142857143
+      },
+      {
+        "task": "deduction",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 3,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.42857142857142855
+      },
+      {
+        "task": "tracking",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.1,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.8
+      },
+      {
+        "task": "tracking",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 50.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 1.0
+      },
+      {
+        "task": "tracking",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.1,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.8
+      }
+    ]
+  },
+  "answer_only": {
+    "schema_version": "1",
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_version": "evidence-json-v1",
+    "seed": 42,
+    "decoding": {
+      "do_sample": false,
+      "max_new_tokens": 128
+    },
+    "groups": [
+      {
+        "task": "arithmetic",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "arithmetic",
+        "condition": "similar",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.7,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.4,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.4,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "deduction",
+        "condition": "similar",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.4,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "clean",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.5,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "unrelated",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.1,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "numeric",
+        "count": 10,
+        "answered": 10,
+        "accuracy": 0.0,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      },
+      {
+        "task": "tracking",
+        "condition": "similar",
+        "count": 10,
+        "answered": 6,
+        "accuracy": 0.1,
+        "evidence_precision": 0.0,
+        "evidence_recall": 0.0,
+        "evidence_exact": 0.0
+      }
+    ],
+    "paired": [
+      {
+        "task": "arithmetic",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "arithmetic",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "arithmetic",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.0,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 0.0,
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": null
+      },
+      {
+        "task": "deduction",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 1,
+        "conditional_failure_rate": 0.5714285714285714
+      },
+      {
+        "task": "deduction",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 2,
+        "conditional_failure_rate": 0.7142857142857143
+      },
+      {
+        "task": "deduction",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.7,
+        "distracted_accuracy": 0.4,
+        "penalty_percentage_points": 30.0,
+        "correct_to_wrong": 3,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.42857142857142855
+      },
+      {
+        "task": "tracking",
+        "condition": "unrelated",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.1,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.8
+      },
+      {
+        "task": "tracking",
+        "condition": "numeric",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.0,
+        "penalty_percentage_points": 50.0,
+        "correct_to_wrong": 5,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 1.0
+      },
+      {
+        "task": "tracking",
+        "condition": "similar",
+        "pairs": 10,
+        "clean_accuracy": 0.5,
+        "distracted_accuracy": 0.1,
+        "penalty_percentage_points": 40.0,
+        "correct_to_wrong": 4,
+        "wrong_to_correct": 0,
+        "conditional_failure_rate": 0.8
+      }
+    ]
+  }
+}

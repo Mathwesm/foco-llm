@@ -1,0 +1,10 @@
+# Usa o ambiente Poetry e as mesmas versões do portão local/CI.
+repos:
+  - repo: local
+    hooks:
+      - id: quality-gate
+        name: Qualidade (Poetry)
+        entry: poetry run poe gate
+        language: system
+        pass_filenames: false
+        always_run: true

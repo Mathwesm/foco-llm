@@ -1,0 +1,5 @@
+{
+  "adapter_tensors_equal": true,
+  "optimizer_tensors_equal": true,
+  "losses_equal": true
+}

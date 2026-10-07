@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-1",
+    "prompt_sha256": "a1f6484ca2c8b54c321a420d20c403b360691e32c176eab8a9a6a69596819a09",
+    "finished_at": "2026-09-30T02:11:02.164277Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"3\",\n  \"evidence\": [\"F2\", \"F1\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.7057628000038676,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-2",
+    "prompt_sha256": "0845c83fdb9d9239906d3bd781a454b6baad69c04005fb3512a40ddf7781a777",
+    "finished_at": "2026-09-30T02:11:03.512826Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"12\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.3428428999905009,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-3",
+    "prompt_sha256": "2befdf02878f800956cad55cacdc9c505e35b76cc31bade991c726af2690d560",
+    "finished_at": "2026-09-30T02:11:05.288762Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"14\",\n  \"evidence\": [\"F2\", \"F4\", \"F3\", \"F1\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 36,
+      "elapsed_seconds": 1.7710867999994662,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3344957440,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-4",
+    "prompt_sha256": "626e341cbedfbae23ef8dbceb1cbd0ed8709065f4af5863437dadb54981acbec",
+    "finished_at": "2026-09-30T02:11:07.132241Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F2\", \"F5\", \"F4\", \"F3\", \"F1\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 40,
+      "elapsed_seconds": 1.8399605999875348,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-1",
+    "prompt_sha256": "2d0a6a60ff9ce5679a2aba72e69c17aecde64625abd47531dcb59f3dbb10fa2b",
+    "finished_at": "2026-09-30T02:11:08.210301Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"22\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.0749389999982668,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-2",
+    "prompt_sha256": "0e30c0e200de2385c1354e8007408a0e4b1354a930c78a5704a9ee9a9652d93a",
+    "finished_at": "2026-09-30T02:11:09.542850Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"44\",\n  \"evidence\": [\"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.3288988999993308,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-3",
+    "prompt_sha256": "7aac9841307450e77f18a105614193ea8483ad984954696252e692dff7c98dbc",
+    "finished_at": "2026-09-30T02:11:10.859963Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F4\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.3142323000065517,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-4",
+    "prompt_sha256": "0f8d6da4f89b95c06cc90b396014b160b9d4c0a43524673e012623a36ca3b731",
+    "finished_at": "2026-09-30T02:11:12.111091Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"3\",\n  \"evidence\": [\"F3\", \"F5\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.2472084000037285,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-1",
+    "prompt_sha256": "44516ccab7d5b0b5965eab7b8b3ded666e806122d6ee2374abe5f7663f5135d8",
+    "finished_at": "2026-09-30T02:11:13.567847Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"43\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.449935299999197,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-2",
+    "prompt_sha256": "d6aca709e1f0c925acd71e6714006ce46b12e8c5e911ddfa49c6a60ade3961eb",
+    "finished_at": "2026-09-30T02:11:17.280657Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"28\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 32,
+      "elapsed_seconds": 3.7098390000028303,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-3",
+    "prompt_sha256": "52d498f3d4ff95ceae7f2377efaf2b4273ef19f99ec08cbe9931772a3fd272c0",
+    "finished_at": "2026-09-30T02:11:21.424365Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"40\",\n  \"evidence\": [\"F4\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 32,
+      "elapsed_seconds": 4.134994499996537,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-4",
+    "prompt_sha256": "764bcddd81ae44f0aed03ae69dc9dabfb8e03a4792606dce3f80be069925206c",
+    "finished_at": "2026-09-30T02:11:24.961525Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F1\", \"F5\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 36,
+      "elapsed_seconds": 3.5294728000008035,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-1",
+    "prompt_sha256": "a137d7fa6bbb3848ffa0d2367ca819f7e3ded9f6a873fe37b28c6aab3da33763",
+    "finished_at": "2026-09-30T02:11:26.061817Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"79\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 117,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.0976491999899736,
+      "peak_allocated_bytes": 3133408768,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-2",
+    "prompt_sha256": "5a313eaa04c78dda080a97391b664fc5f83ebf80073c256d68c0d857755f8fea",
+    "finished_at": "2026-09-30T02:11:27.337843Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"35\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 135,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.2730510999972466,
+      "peak_allocated_bytes": 3135242240,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-3",
+    "prompt_sha256": "ac6431c9f524e78ec18198b151f244c92556b65c22c3281b0cc74edf3600884e",
+    "finished_at": "2026-09-30T02:11:28.524161Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"35\",\n  \"evidence\": [\"F4\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 153,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.1845292000070913,
+      "peak_allocated_bytes": 3137091072,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-4",
+    "prompt_sha256": "6aa7750c1d99d54aaca71feacc353d742bf7fbbea815767fa7659666aa0b667b",
+    "finished_at": "2026-09-30T02:11:29.604179Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"36\",\n  \"evidence\": [\"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 171,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.0769428000057815,
+      "peak_allocated_bytes": 3138956800,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-1",
+    "prompt_sha256": "7338446cde9fa804fe6bc289c07701143beb7f77e5beb3b4bc5d88a51c6e06d8",
+    "finished_at": "2026-09-30T02:11:30.681683Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"2\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0744599999889033,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-2",
+    "prompt_sha256": "ffe5e17346cd75ad1e15b723c42085185193f71a1dbdf5f8df3c51a1104f5ff9",
+    "finished_at": "2026-09-30T02:11:31.799305Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"2\",\n  \"evidence\": [\"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.1151088000042364,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-3",
+    "prompt_sha256": "8f23a1e33ad28392587b420c34a596ac7fdfc695ed5b0ce52628281de65dedbf",
+    "finished_at": "2026-09-30T02:11:33.058871Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"2\",\n  \"evidence\": [\"F3\", \"F4\", \"F2\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2561702999955742,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-4",
+    "prompt_sha256": "72d77a20e6bb056c501d43bb3a63131229d38810d5b837dff8f71a90b2754187",
+    "finished_at": "2026-09-30T02:11:34.185036Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F1\", \"F5\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.1236694999970496,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-1",
+    "prompt_sha256": "9cbe107216ebccc9410f7b85b0708e2ce9a4f00b0e6ed3b8a5f045964c4f7c0e",
+    "finished_at": "2026-09-30T02:11:35.102603Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"73\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 24,
+      "elapsed_seconds": 0.9150189000065438,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-2",
+    "prompt_sha256": "6ea39f0bbfd7e55802fc61ab87111abe3ea78cdff99caf6be5514fbe9230cfae",
+    "finished_at": "2026-09-30T02:11:36.251503Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"135\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 29,
+      "elapsed_seconds": 1.1462686000013491,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-3",
+    "prompt_sha256": "3a7438b68cc81f4108c35e2aa957217cd5f91a35f901a77623690e598acf83d6",
+    "finished_at": "2026-09-30T02:11:37.501675Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"85\",\n  \"evidence\": [\"F2\", \"F4\", \"F3\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.246704300006968,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-4",
+    "prompt_sha256": "8e88f74d46afdcf217f21ea2ccaae4e941f3ab1647401ec5322e12481e7292c7",
+    "finished_at": "2026-09-30T02:11:38.938240Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F2\", \"F4\", \"F3\", \"F5\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 36,
+      "elapsed_seconds": 1.434632500007865,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-1",
+    "prompt_sha256": "2a4cf8d496be66da3a008b59581178dc8d2a5ac0323ed276ed4781b4f90b8182",
+    "finished_at": "2026-09-30T02:11:39.971351Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"108\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 25,
+      "elapsed_seconds": 1.0305630000075325,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-2",
+    "prompt_sha256": "cc2fa0ab821139cf95a8c8f1d583ad9889670445835ec8b12555b9080ea2ab26",
+    "finished_at": "2026-09-30T02:11:41.330235Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"137\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 33,
+      "elapsed_seconds": 1.3551507999945898,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-3",
+    "prompt_sha256": "085424761aa95be3058f0098a313cc675c5f71113b7f6449d4d3430973f1b76d",
+    "finished_at": "2026-09-30T02:11:42.760390Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"13\",\n  \"evidence\": [\"F4\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 153,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.427145699999528,
+      "peak_allocated_bytes": 3137091072,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-4",
+    "prompt_sha256": "091a291b5df32ab7c73eceb3ff8dba043582ab6a0f96ab6550d46e46e1b05710",
+    "finished_at": "2026-09-30T02:11:43.694896Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F2\"]\n}\n```",
+      "input_tokens": 171,
+      "output_tokens": 24,
+      "elapsed_seconds": 0.9323208999994677,
+      "peak_allocated_bytes": 3138956800,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-1",
+    "prompt_sha256": "4d2ff57b809b2fea7740048271872a7e1759294abffd8e2d4ce0f23a96882b26",
+    "finished_at": "2026-09-30T02:11:44.736524Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"54\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.0378811999980826,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-2",
+    "prompt_sha256": "43f13f08fd186badb6753b68fd4acee932d2a6754cdad0fab7f39e9fb29e4f45",
+    "finished_at": "2026-09-30T02:11:46.093508Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"103\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 29,
+      "elapsed_seconds": 1.355350500001805,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-3",
+    "prompt_sha256": "9a5af4f42789600f60cd9a72af2f8e7b10e69aa5b87570aab4d36e8eafa43159",
+    "finished_at": "2026-09-30T02:11:47.740139Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"49\",\n  \"evidence\": [\"F4\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 32,
+      "elapsed_seconds": 1.6436854000057792,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-4",
+    "prompt_sha256": "7d54dd93f593ebd7c4a5919152ccb9d5962fcc15d90bd898804aab909ace4639",
+    "finished_at": "2026-09-30T02:11:49.913300Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"14\",\n  \"evidence\": [\"F4\", \"F2\", \"F5\", \"F3\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 36,
+      "elapsed_seconds": 2.170392100000754,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-1",
+    "prompt_sha256": "25a0215f107e8a714a24e5d487099410a0568b0d97fb0f6e5bf0a54da9bdcaee",
+    "finished_at": "2026-09-30T02:11:51.041817Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"51\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.1251642999995966,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-2",
+    "prompt_sha256": "3b447504c201a220efd7ca7cb63f276746a73a21320a3080031e9a74e00eee63",
+    "finished_at": "2026-09-30T02:11:52.250701Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"3\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2058625999925425,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-3",
+    "prompt_sha256": "4aee10c1c6a0d0fa62e7c0ca0e09077b8e24433e0364faa48e986049af996a2d",
+    "finished_at": "2026-09-30T02:11:53.576010Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"6\",\n  \"evidence\": [\"F1\", \"F4\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.3228761000063969,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-4",
+    "prompt_sha256": "35b8ba9dc329ce267df8fd655900b96db3e6a4ef7f243ed72b89f014d3885323",
+    "finished_at": "2026-09-30T02:11:55.066977Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"10\",\n  \"evidence\": [\"F1\", \"F4\", \"F3\", \"F2\", \"F5\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 40,
+      "elapsed_seconds": 1.4882390999991912,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-1",
+    "prompt_sha256": "a3eb8486388360db36b31f3082487dcac626ef0dfa8135b5d33ebe974ab25edf",
+    "finished_at": "2026-09-30T02:11:55.984991Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"64\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 118,
+      "output_tokens": 24,
+      "elapsed_seconds": 0.9155650999891805,
+      "peak_allocated_bytes": 3133508096,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-2",
+    "prompt_sha256": "b7326346dbd18dcaf2a0d62836d496a6e7ab5fac2870a8c6c36a63f1f9ef664e",
+    "finished_at": "2026-09-30T02:11:57.028700Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"20\",\n  \"evidence\": [\"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 136,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.0400717000011355,
+      "peak_allocated_bytes": 3135343616,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-3",
+    "prompt_sha256": "dad2e369b8a47f392f5945188d4c172bf8e217e9f4533e2b848b4a109f9bd1d0",
+    "finished_at": "2026-09-30T02:11:58.454112Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"11\",\n  \"evidence\": [\"F4\", \"F3\", \"F2\", \"F1\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 36,
+      "elapsed_seconds": 1.4227043999999296,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-4",
+    "prompt_sha256": "652f4f43c331cda1001a49f0b7be43ad5bb07d95689c7acaecfe2e703db6fae7",
+    "finished_at": "2026-09-30T02:12:02.635170Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"1\",\n  \"evidence\": [\"F5\", \"F4\", \"F3\", \"F2\", \"F1\"]\n}\n```",
+      "input_tokens": 172,
+      "output_tokens": 39,
+      "elapsed_seconds": 4.177875599998515,
+      "peak_allocated_bytes": 3139060224,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-1",
+    "prompt_sha256": "79d2d1cc90f381674093713240f9603bbbec7574fdef5f1c9e7d2a493c5df4bf",
+    "finished_at": "2026-09-30T02:12:05.004618Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P3028\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 31,
+      "elapsed_seconds": 2.3622842999902787,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-2",
+    "prompt_sha256": "97c6a2a5bfd21d0f7557d071e6d451e5eef98670ee0b9071b2134ccb30486765",
+    "finished_at": "2026-09-30T02:12:06.337904Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P1856\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.330240999988746,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-3",
+    "prompt_sha256": "e7bb4edf9e10d134bb22db3385bba140ff130c190fde65ff3a7bff80f56d614a",
+    "finished_at": "2026-09-30T02:12:07.867992Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P1856\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.527118199999677,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-4",
+    "prompt_sha256": "c4c357ec6dac45eec80da444bd1bb810b37006b8c916330a7b9ffaeb04586fdd",
+    "finished_at": "2026-09-30T02:12:08.981311Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P3028\",\n  \"evidence\": [\"F2\"]\n}\n```",
+      "input_tokens": 175,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.109995799997705,
+      "peak_allocated_bytes": 3139373568,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-1",
+    "prompt_sha256": "1468f4254f7b51d49b14301a74a9016d9aa771b176ccfa7ac95757b2275888bf",
+    "finished_at": "2026-09-30T02:12:10.207815Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P2626\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2242463000002317,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-2",
+    "prompt_sha256": "8eb109f5e572aa016c1743f3a1cad994d3dddfc30d265f95f044673c010d089e",
+    "finished_at": "2026-09-30T02:12:11.620065Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8365\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.4088973999896552,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-3",
+    "prompt_sha256": "d795a5751d00f60285b49ab2987ca19b87cc9ab6c3a9eddfc89109e84841a3cc",
+    "finished_at": "2026-09-30T02:12:13.253446Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8059\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 39,
+      "elapsed_seconds": 1.63052369999059,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-4",
+    "prompt_sha256": "9278b47415ae16cf5f9a1d4441cbf8df16d2a1c863c3c402822279c3e2d24484",
+    "finished_at": "2026-09-30T02:12:14.850453Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8059\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 175,
+      "output_tokens": 39,
+      "elapsed_seconds": 1.594262600003276,
+      "peak_allocated_bytes": 3139373568,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-1",
+    "prompt_sha256": "6879677c772dc9061f671c3640affa444aa00befe63c4038fbfc0e216dec2a3b",
+    "finished_at": "2026-09-30T02:12:16.122086Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P5924\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.268181999999797,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-2",
+    "prompt_sha256": "54f28527243ed7342a73e2ace73b166ad3c6b00fab868396e4c5ad8beebfa47d",
+    "finished_at": "2026-09-30T02:12:17.887640Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P7627\",\n  \"evidence\": [\"P8369\", \"P5924\", \"P7627\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 44,
+      "elapsed_seconds": 1.7630502999963937,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-3",
+    "prompt_sha256": "82516cc3cfbf0bc9d41ca3e04ea64f05f96d889fe31b4470621ab5693ca56ef2",
+    "finished_at": "2026-09-30T02:12:19.208588Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P5924\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.3188378999911947,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-4",
+    "prompt_sha256": "a2c87abb6e8f3aefcff3c68c3e4c9a3a7f6a52ea92aacdd668b0b4d272c7a1ec",
+    "finished_at": "2026-09-30T02:12:20.575720Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P5924\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 175,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.3635926999995718,
+      "peak_allocated_bytes": 3139373568,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-1",
+    "prompt_sha256": "de0146dd6c7e3118536a1b54848a7082f4c7128baed7643d992c0b8766ab1728",
+    "finished_at": "2026-09-30T02:12:21.580524Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P2144\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0009276000055252,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-2",
+    "prompt_sha256": "d36694a6c983f721a8f5fcda7a6a9710867295af28c1f24ae6c510e83a935151",
+    "finished_at": "2026-09-30T02:12:22.768586Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8643\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.1857060000038473,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-3",
+    "prompt_sha256": "3eaca952355336aa687b7fc458228a40d168230ead44d8ebc3fafe2731f7b4b1",
+    "finished_at": "2026-09-30T02:12:23.780219Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8643\",\n  \"evidence\": [\"F3\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0090708000061568,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-4",
+    "prompt_sha256": "96729a3399de387b98d8d5b45f71831e3e9e73bf8b49e0ae3887e70d95ad5e51",
+    "finished_at": "2026-09-30T02:12:24.978291Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P4452\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 175,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.1951678000041284,
+      "peak_allocated_bytes": 3139373568,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-1",
+    "prompt_sha256": "261c1075b8ff81df313dbbdbdc36f4f151dd198c5eca36d8b3444c3294cac8c9",
+    "finished_at": "2026-09-30T02:12:26.136755Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P9213\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.155577399986214,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-2",
+    "prompt_sha256": "a29c69e1ef44e0f3f97e2c178a7d953e4b92cea4e6ea8eb2678f3c58d2295665",
+    "finished_at": "2026-09-30T02:12:27.170448Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P5968\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0302843999961624,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-3",
+    "prompt_sha256": "e0947ad645f63b439f413a5927e4993d289fc60a17ed5efca93ca9c2eccc031d",
+    "finished_at": "2026-09-30T02:12:28.315038Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P5004\",\n  \"evidence\": [\"F1\", \"F4\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.142406300001312,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-4",
+    "prompt_sha256": "8f3c347ee9bfc47d5bd747abdf35513257b9c0d54783206ce7bfe8dd081f17ca",
+    "finished_at": "2026-09-30T02:12:29.347692Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P9\",\n  \"evidence\": [\"F1\", \"F4\"]\n}\n```",
+      "input_tokens": 169,
+      "output_tokens": 28,
+      "elapsed_seconds": 1.0302323999931104,
+      "peak_allocated_bytes": 3138748416,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-1",
+    "prompt_sha256": "8dd96f67bc92dda14267a62018e96186271d776c3359dc78b852b34984bc3fe0",
+    "finished_at": "2026-09-30T02:12:30.505940Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P6955\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.154831899999408,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-2",
+    "prompt_sha256": "835ce01be786ede160f93fd718c92f56f86af294b252e92351ff2ed64d3f317a",
+    "finished_at": "2026-09-30T02:12:31.712881Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P1014\",\n  \"evidence\": [\"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.205091000010725,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-3",
+    "prompt_sha256": "de3c32956ccd08e08b89edfa74726ae746fcd20dbfee202f7d0ed29aaa0dc1ef",
+    "finished_at": "2026-09-30T02:12:33.678287Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P3027\",\n  \"evidence\": [\"P6944\", \"P6955\", \"P1014\", \"P3027\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 51,
+      "elapsed_seconds": 1.9628748999966774,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-4",
+    "prompt_sha256": "a20e3490d55ed4ee1f6df383fd9f1ac39f213074ec4db296ce8db8b05f5dddd3",
+    "finished_at": "2026-09-30T02:12:34.985467Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P1014\",\n  \"evidence\": [\"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 175,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.3035628000070574,
+      "peak_allocated_bytes": 3139373568,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-1",
+    "prompt_sha256": "c0cdac21f08d23bfa25ee4f5f075646c0f84a5d4d9f08e3ce9308896edd6bdc1",
+    "finished_at": "2026-09-30T02:12:36.024393Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P989\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 120,
+      "output_tokens": 26,
+      "elapsed_seconds": 1.0359693000063999,
+      "peak_allocated_bytes": 3133710848,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-2",
+    "prompt_sha256": "f20e0af5b499e4fdbf9033eef050d2e13314b8327eab62338541c55b827739a6",
+    "finished_at": "2026-09-30T02:12:37.247383Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P7346\",\n  \"evidence\": [\"F1\", \"F3\"]\n}\n```",
+      "input_tokens": 137,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2201311999961035,
+      "peak_allocated_bytes": 3135446528,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-3",
+    "prompt_sha256": "86aab891dde69c534af854d76a88c51b8dd0d26a98b963a432cb2bf2f7f856c7",
+    "finished_at": "2026-09-30T02:12:38.463853Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P7346\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 155,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2140976999944542,
+      "peak_allocated_bytes": 3137297408,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-4",
+    "prompt_sha256": "5fd5b8628933abff055e61d90f96ae33435be624afcaf25c4a277be7d9d1fcbf",
+    "finished_at": "2026-09-30T02:12:39.718268Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P5447\",\n  \"evidence\": [\"F1\", \"F3\"]\n}\n```",
+      "input_tokens": 173,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2517009000002872,
+      "peak_allocated_bytes": 3139164672,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-1",
+    "prompt_sha256": "f4f4058d86f2b980c7fe003f6adf510f69fcc9ed0715cbf132bd89f4c13eff21",
+    "finished_at": "2026-09-30T02:12:40.757635Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P7086\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0365881000034278,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-2",
+    "prompt_sha256": "79819ebe4c0024ed6cf2938ae8a758e4ac13e5c224ea74f2a3135500b7be8895",
+    "finished_at": "2026-09-30T02:12:41.794495Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8129\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0337446000048658,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-3",
+    "prompt_sha256": "51fe2a493b1a19b6cc31f223de03f7e743177343f0781196444b90c3f263ce87",
+    "finished_at": "2026-09-30T02:12:42.792439Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8129\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 27,
+      "elapsed_seconds": 0.9954967999947257,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-4",
+    "prompt_sha256": "bac5b210d2a7bc4ae0e2496c3c9f2740d4702121e7b53e2b30b7c37cac958c30",
+    "finished_at": "2026-09-30T02:12:43.858425Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P8129\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 174,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0621241000044392,
+      "peak_allocated_bytes": 3139269120,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-1",
+    "prompt_sha256": "492f3eb3184aed46fcff2765d7ee46760556419cfdcebf7a2d74a2866ed4e748",
+    "finished_at": "2026-09-30T02:12:45.052513Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P4929\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 121,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.1917784999968717,
+      "peak_allocated_bytes": 3133813248,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-2",
+    "prompt_sha256": "5d530927ba4c70d4e600d94f09b0aa1637dca7e8885ac4612557f253d3134b47",
+    "finished_at": "2026-09-30T02:12:46.688024Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P6061\",\n  \"evidence\": [\"F1\", \"F3\"]\n}\n```",
+      "input_tokens": 139,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.6325326000078348,
+      "peak_allocated_bytes": 3135651328,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-3",
+    "prompt_sha256": "fb0b239808f2131fc34cb7e71fc724bac1cec65e6869976d9c3d7f165501beba",
+    "finished_at": "2026-09-30T02:12:50.779157Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P2657\",\n  \"evidence\": [\"F1\", \"F4\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 31,
+      "elapsed_seconds": 4.083035899995593,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-4",
+    "prompt_sha256": "bc14943a0248dafdc438cab0c029bb0dd3c3175d32802f92c51d491940a6157b",
+    "finished_at": "2026-09-30T02:12:54.844891Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P3339\",\n  \"evidence\": [\"F2\", \"F5\"]\n}\n```",
+      "input_tokens": 175,
+      "output_tokens": 31,
+      "elapsed_seconds": 4.0605227000050945,
+      "peak_allocated_bytes": 3139373568,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-1",
+    "prompt_sha256": "9001233447b73e5c3402cff1fee37857a137c7941aca0893b5ef05d10f46f03e",
+    "finished_at": "2026-09-30T02:12:58.675339Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P447\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 120,
+      "output_tokens": 30,
+      "elapsed_seconds": 3.8234640000009676,
+      "peak_allocated_bytes": 3133710848,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-2",
+    "prompt_sha256": "e5a4ab65402d9d5c5b05b92ad5dedd8ef42579be9694828dc7d68e91456d6bb4",
+    "finished_at": "2026-09-30T02:13:02.524944Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P447\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 137,
+      "output_tokens": 30,
+      "elapsed_seconds": 3.8430210999940755,
+      "peak_allocated_bytes": 3135446528,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-3",
+    "prompt_sha256": "00e41663598885e5c7fa6d82e36c9f0adde27151a8fae7f83dd845f0d8e93a65",
+    "finished_at": "2026-09-30T02:13:06.217868Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P673\",\n  \"evidence\": [\"F2\", \"F4\"]\n}\n```",
+      "input_tokens": 154,
+      "output_tokens": 30,
+      "elapsed_seconds": 3.686230899998918,
+      "peak_allocated_bytes": 3137193472,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-4",
+    "prompt_sha256": "228936da2acc6b33ad8fd8e46290cae0fd9172ba9d99892eb931a01e6dc96e9a",
+    "finished_at": "2026-09-30T02:13:10.016538Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"P447\",\n  \"evidence\": [\"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 171,
+      "output_tokens": 30,
+      "elapsed_seconds": 3.792804500000784,
+      "peak_allocated_bytes": 3138956800,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-1",
+    "prompt_sha256": "14b52418609fa9c35ada4b4651ac1c90b0953c9b1a1772e29e0c6df3d04ff432",
+    "finished_at": "2026-09-30T02:13:13.845568Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B7339\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 3.824460599993472,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-2",
+    "prompt_sha256": "d5a9d3d26d982b39040d650547e21f6f2521251c9b4bb63fe2b304674b905fb5",
+    "finished_at": "2026-09-30T02:13:17.065100Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B4296\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 27,
+      "elapsed_seconds": 3.2145682999980636,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3347054592,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-3",
+    "prompt_sha256": "b313e497695de08ceba4f0b5cc0176ae02e97ee9bb06127b2a8ec7c6bd631fa6",
+    "finished_at": "2026-09-30T02:13:20.393580Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 24,
+      "elapsed_seconds": 3.322267700001248,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-4",
+    "prompt_sha256": "1c8473cfc6d3f344091793eb1b0e5793fd9d787645f3ba08527ac245700d7f63",
+    "finished_at": "2026-09-30T02:13:22.331762Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.9318266000045696,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-1",
+    "prompt_sha256": "a7757ec10e9db4cfa8eab34bfffe9e93a7449a692c93d8eeaa20a57dc04385ab",
+    "finished_at": "2026-09-30T02:13:23.408672Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B3579\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0737522999988869,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-2",
+    "prompt_sha256": "95cd6e9f2f5302912d8926d6c27b07cda5ea1edeb76eb6af19d5d157ec7b9db8",
+    "finished_at": "2026-09-30T02:13:24.535154Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B3579\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.1239532000035979,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-3",
+    "prompt_sha256": "aaf6a0ada6a16ff163a0a4862a4754f1463d73ec3076998ba1dfa37ce076ae9c",
+    "finished_at": "2026-09-30T02:13:25.671639Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.1336045999923954,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-4",
+    "prompt_sha256": "2bdb36d4ea12c0425fa1a4996787a5ca541206ea0f0ad8eaac4726871ec60b10",
+    "finished_at": "2026-09-30T02:13:26.828735Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.1549817000050098,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-1",
+    "prompt_sha256": "95126fcf1b0a15e2cb0ff06fec093fc00a76cc409bc94ca7fc716f148526f10e",
+    "finished_at": "2026-09-30T02:13:28.353785Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B5644\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.5216249000077369,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-2",
+    "prompt_sha256": "cd8a8321dfcad2e33be5b4255015046eba1c724b60f089c2de5e19e1acb39f49",
+    "finished_at": "2026-09-30T02:13:29.818676Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B1988\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.4620750000030966,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-3",
+    "prompt_sha256": "85367105d7eb27ab2d5552d80429e20d70b1c1bd680c9c3b75d612a3c4156eb2",
+    "finished_at": "2026-09-30T02:13:30.791890Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 24,
+      "elapsed_seconds": 0.9697053999989294,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-4",
+    "prompt_sha256": "4a78753a4366d16c4348a6d15c4220a6f134c8c6b629f25aec3ce4c292cd77c7",
+    "finished_at": "2026-09-30T02:13:31.823896Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B6803\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.0293084000004455,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-1",
+    "prompt_sha256": "217acd42da8ac23388fb122fd6b6e54ffe4d51fa947b237afc693115e0937efb",
+    "finished_at": "2026-09-30T02:13:33.205793Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B4472\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.3791150999895763,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-2",
+    "prompt_sha256": "0fb1fafda1b37c9bfee49a5e55bd24f40d2549fc254d54e419c1421040af54a3",
+    "finished_at": "2026-09-30T02:13:34.780341Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B7189\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.5715299000003142,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-3",
+    "prompt_sha256": "03f3d054b95c54ce40062d376d925fe7dfc6c2a31b24c1dc4cdbdf54834aff7c",
+    "finished_at": "2026-09-30T02:13:36.424389Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B4350\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 39,
+      "elapsed_seconds": 1.640692200002377,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-4",
+    "prompt_sha256": "b24a673ddaf38d6966cc2b986aeec61d98798bd99c9e148d5a7630b86ca28749",
+    "finished_at": "2026-09-30T02:13:38.028961Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B4350\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 39,
+      "elapsed_seconds": 1.6011804000008851,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-1",
+    "prompt_sha256": "d6558c0b9e67a43c9eccc1882d9c47483198b90f0efddc4d28deb9a9e691f4ac",
+    "finished_at": "2026-09-30T02:13:39.147699Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8703\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 27,
+      "elapsed_seconds": 1.115622199999052,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-2",
+    "prompt_sha256": "19d1d42b74db83ce9862980e3e40f8d5828e36a3a91325f175fe7a479da21b6a",
+    "finished_at": "2026-09-30T02:13:40.193716Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 157,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.0433188999886625,
+      "peak_allocated_bytes": 3137504256,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-3",
+    "prompt_sha256": "e2f7c2ebfebf248d8a7fcb5d24a8d6cd2bcc283e79752d8e0e6f174b8161385a",
+    "finished_at": "2026-09-30T02:13:41.199097Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 180,
+      "output_tokens": 24,
+      "elapsed_seconds": 1.0024320999946212,
+      "peak_allocated_bytes": 3139895296,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-4",
+    "prompt_sha256": "28acbd715dde5c6a51dd3b6bb9cc13fd8c4c67edc3a34caafe101559552dc3b6",
+    "finished_at": "2026-09-30T02:13:42.182607Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 204,
+      "output_tokens": 24,
+      "elapsed_seconds": 0.9797626000072341,
+      "peak_allocated_bytes": 3142423040,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-1",
+    "prompt_sha256": "db071295c7868ccf96d95cf18008e9b5958665684c3d7d5e268bd744879ba43b",
+    "finished_at": "2026-09-30T02:13:43.436459Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B1520\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.251111799996579,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-2",
+    "prompt_sha256": "d84d0b2e580877be7b43d3dc9529063aaa8dd3a9d6915ef36d41f124aeacb716",
+    "finished_at": "2026-09-30T02:13:45.331689Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B1356\",\n  \"evidence\": [\"F1\", \"F3\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.8920963999989908,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-3",
+    "prompt_sha256": "b393b33aaeaaf28aecd53b5dcfab227fe5306396bf53022986f8771cebd2e179",
+    "finished_at": "2026-09-30T02:13:49.317241Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B9940\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 31,
+      "elapsed_seconds": 3.9788812000042526,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-4",
+    "prompt_sha256": "2c53a06c40e7e4431d81965ce07d68311e681aae52fa085540870d027c8b4598",
+    "finished_at": "2026-09-30T02:13:52.596493Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B9940\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 27,
+      "elapsed_seconds": 3.2725059000076726,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-1",
+    "prompt_sha256": "b5b1153f884c9e37c9d46e929e118ec86a6b895a32ba4667e06dc25ccc1d95ee",
+    "finished_at": "2026-09-30T02:13:56.310801Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B7380\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 3.7069066999974893,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-2",
+    "prompt_sha256": "670662b0cc93c5ad036236d0b159eaba262b47a392da30dfb947d7bb74ae7553",
+    "finished_at": "2026-09-30T02:14:01.060337Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B6904\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 35,
+      "elapsed_seconds": 4.742183299997123,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-3",
+    "prompt_sha256": "222c250126aa238fa14c8c52625b0f1ff3125720292034d5940eeb93e383efb3",
+    "finished_at": "2026-09-30T02:14:06.318551Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8466\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 39,
+      "elapsed_seconds": 5.25117930000124,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-4",
+    "prompt_sha256": "a345a4e909a067b7301a0fb5c3ab5690c1007b471c34dd85158def2b38a9862b",
+    "finished_at": "2026-09-30T02:14:11.096867Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B4528\",\n  \"evidence\": [\"F1\", \"F2\", \"F3\", \"F4\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 39,
+      "elapsed_seconds": 4.771685799991246,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-1",
+    "prompt_sha256": "885d2e5900bdc66779becc293cbae67ec03844358c3ed89b7bc4c5f0fccbacb4",
+    "finished_at": "2026-09-30T02:14:15.218250Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8477\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 4.115341999990051,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-2",
+    "prompt_sha256": "4930dd90f8325d08602d9e13f4c5094af7ab77842170a933c6a59e0c64cc64ec",
+    "finished_at": "2026-09-30T02:14:19.609373Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8477\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 35,
+      "elapsed_seconds": 4.387622999987798,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-3",
+    "prompt_sha256": "67bdc5be5df70a0a955b1b4de2501b973280537fbe7be9e2db593003cfe57126",
+    "finished_at": "2026-09-30T02:14:24.416896Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8477\",\n  \"evidence\": [\"F1\", \"F3\", \"F4\", \"F2\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 39,
+      "elapsed_seconds": 4.801873799995519,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-4",
+    "prompt_sha256": "f028b3808fe2138e1b7af0be65e0795b9baf3ef11322e4368e547895e38b1a22",
+    "finished_at": "2026-09-30T02:14:28.432349Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B6436\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 27,
+      "elapsed_seconds": 4.009615999995731,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-1",
+    "prompt_sha256": "31dd9f931aaac61bafa671f479ba254705ea6d7a078efabd69532c043ab5aceb",
+    "finished_at": "2026-09-30T02:14:30.906440Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8891\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 133,
+      "output_tokens": 31,
+      "elapsed_seconds": 2.4688088000111748,
+      "peak_allocated_bytes": 3135037952,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-2",
+    "prompt_sha256": "43059af33ed7e3bee347a52b96e768276ce49a7cd6e03157223f3324142e8c40",
+    "finished_at": "2026-09-30T02:14:32.237278Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B8891\",\n  \"evidence\": [\"F1\", \"F3\", \"F2\"]\n}\n```",
+      "input_tokens": 158,
+      "output_tokens": 35,
+      "elapsed_seconds": 1.3273353000113275,
+      "peak_allocated_bytes": 3137607168,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-3",
+    "prompt_sha256": "08f8074285d66584310e12037a55c240d3fe5110bcbee00d6aac7fe4a1231182",
+    "finished_at": "2026-09-30T02:14:33.467734Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B2986\",\n  \"evidence\": [\"F1\", \"F2\"]\n}\n```",
+      "input_tokens": 183,
+      "output_tokens": 31,
+      "elapsed_seconds": 1.2274877000018023,
+      "peak_allocated_bytes": 3140209664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-4",
+    "prompt_sha256": "8069a4ea208a44c2a81fa9d7ef4d8312afeff6c8b677ece0315db1a7b3bf3c2e",
+    "finished_at": "2026-09-30T02:14:37.150373Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B2986\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 208,
+      "output_tokens": 27,
+      "elapsed_seconds": 3.677424699999392,
+      "peak_allocated_bytes": 3142846464,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-1",
+    "prompt_sha256": "b489a9f29431e27eb0c65abe91c107c50669c5d0040e6668a01b88fe54920de2",
+    "finished_at": "2026-09-30T02:14:40.991450Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B830\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 131,
+      "output_tokens": 26,
+      "elapsed_seconds": 3.833711700004642,
+      "peak_allocated_bytes": 3134833664,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-2",
+    "prompt_sha256": "5f0011c4e248ea0c8afcdddff17ff0d07542ec4ae6780b0179c8ddb40be085a1",
+    "finished_at": "2026-09-30T02:14:46.489982Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B830\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 156,
+      "output_tokens": 26,
+      "elapsed_seconds": 5.487966400003643,
+      "peak_allocated_bytes": 3137400320,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-3",
+    "prompt_sha256": "b6d1ca2e1ab06c7cd8ffdd1c870dca1ed6c67bea513722fb2bf4018e9afcbfab",
+    "finished_at": "2026-09-30T02:14:49.398573Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"F1\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 181,
+      "output_tokens": 24,
+      "elapsed_seconds": 2.9030565000139177,
+      "peak_allocated_bytes": 3140000256,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-4",
+    "prompt_sha256": "67b04726142b6bd4f2b982a20348af145115f4296f8125ea8b2a933feecbe81b",
+    "finished_at": "2026-09-30T02:14:52.522167Z",
+    "generation": {
+      "text": "```json\n{\n  \"answer\": \"B830\",\n  \"evidence\": [\"F1\"]\n}\n```",
+      "input_tokens": 206,
+      "output_tokens": 26,
+      "elapsed_seconds": 3.1158940000022994,
+      "peak_allocated_bytes": 3142635008,
+      "peak_reserved_bytes": 3349151744,
+      "stop_reason": "eos"
+    }
+  }
+]

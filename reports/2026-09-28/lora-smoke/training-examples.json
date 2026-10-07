@@ -1,0 +1,220 @@
+[
+  {
+    "id": "v2-arithmetic-000000:clean",
+    "base_id": "v2-arithmetic-000000",
+    "task": "arithmetic",
+    "split": "train",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "6 marbles are removed from azure."
+      },
+      {
+        "id": "F2",
+        "text": "azure initially contains 58 marbles."
+      },
+      {
+        "id": "F3",
+        "text": "9 marbles are removed from azure."
+      },
+      {
+        "id": "F4",
+        "text": "1 marbles are added to azure."
+      }
+    ],
+    "question": "How many marbles remain in azure?",
+    "answer": "44",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "v2-arithmetic-000000:similar",
+    "base_id": "v2-arithmetic-000000",
+    "task": "arithmetic",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "3 marbles are removed from violet."
+      },
+      {
+        "id": "F2",
+        "text": "1 marbles are added to azure."
+      },
+      {
+        "id": "F3",
+        "text": "violet initially contains 60 marbles."
+      },
+      {
+        "id": "F4",
+        "text": "9 marbles are removed from azure."
+      },
+      {
+        "id": "F5",
+        "text": "6 marbles are removed from azure."
+      },
+      {
+        "id": "F6",
+        "text": "8 marbles are removed from violet."
+      },
+      {
+        "id": "F7",
+        "text": "azure initially contains 58 marbles."
+      },
+      {
+        "id": "F8",
+        "text": "4 marbles are added to violet."
+      }
+    ],
+    "question": "How many marbles remain in azure?",
+    "answer": "44",
+    "evidence": [
+      "F2",
+      "F4",
+      "F5",
+      "F7"
+    ]
+  },
+  {
+    "id": "v2-deduction-000000:clean",
+    "base_id": "v2-deduction-000000",
+    "task": "deduction",
+    "split": "train",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P5366 implies property P5753."
+      },
+      {
+        "id": "F2",
+        "text": "ivory has property P5366."
+      },
+      {
+        "id": "F3",
+        "text": "Property P5753 implies property P8100."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P8100",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-deduction-000000:similar",
+    "base_id": "v2-deduction-000000",
+    "task": "deduction",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Property P5366 implies property P5753."
+      },
+      {
+        "id": "F2",
+        "text": "Property P5753 implies property P8100."
+      },
+      {
+        "id": "F3",
+        "text": "ivory has property P5366."
+      },
+      {
+        "id": "F4",
+        "text": "Property P5297 implies property P7982."
+      },
+      {
+        "id": "F5",
+        "text": "Property P8478 implies property P5297."
+      },
+      {
+        "id": "F6",
+        "text": "violet has property P8478."
+      }
+    ],
+    "question": "What terminal property follows for ivory? Return its code.",
+    "answer": "P8100",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-tracking-000000:clean",
+    "base_id": "v2-tracking-000000",
+    "task": "tracking",
+    "split": "train",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 1, the contents of box B7981 move to box B6653."
+      },
+      {
+        "id": "F2",
+        "text": "At time 0, ivory starts in box B7981."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, the contents of box B6653 move to box B5623."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B5623",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "v2-tracking-000000:similar",
+    "base_id": "v2-tracking-000000",
+    "task": "tracking",
+    "split": "train",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, silver starts in box B5863."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, the contents of box B5863 move to box B4889."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, the contents of box B4889 move to box B5222."
+      },
+      {
+        "id": "F4",
+        "text": "At time 2, the contents of box B6653 move to box B5623."
+      },
+      {
+        "id": "F5",
+        "text": "At time 0, ivory starts in box B7981."
+      },
+      {
+        "id": "F6",
+        "text": "At time 1, the contents of box B7981 move to box B6653."
+      }
+    ],
+    "question": "Which box contains ivory after all timed events? Return its code.",
+    "answer": "B5623",
+    "evidence": [
+      "F4",
+      "F5",
+      "F6"
+    ]
+  }
+]

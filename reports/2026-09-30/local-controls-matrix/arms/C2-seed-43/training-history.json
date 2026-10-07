@@ -1,0 +1,578 @@
+[
+  {
+    "step": 1,
+    "example_id": "v2-deduction-000072:similar",
+    "loss": 1.4123669862747192,
+    "elapsed_seconds": 1.1605001999996603,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3590109696,
+    "peak_reserved_bytes": 3900702720
+  },
+  {
+    "step": 2,
+    "example_id": "v2-deduction-000001:similar",
+    "loss": 1.5521634817123413,
+    "elapsed_seconds": 0.7008751999819651,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3590109696,
+    "peak_reserved_bytes": 4026531840
+  },
+  {
+    "step": 3,
+    "example_id": "v2-deduction-000005:similar",
+    "loss": 1.9093124866485596,
+    "elapsed_seconds": 0.7532584999862593,
+    "supervised_tokens": 8,
+    "peak_allocated_bytes": 3628022272,
+    "peak_reserved_bytes": 4175429632
+  },
+  {
+    "step": 4,
+    "example_id": "v2-deduction-000084:similar",
+    "loss": 0.80423903465271,
+    "elapsed_seconds": 0.9812713999999687,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3628022272,
+    "peak_reserved_bytes": 4175429632
+  },
+  {
+    "step": 5,
+    "example_id": "v2-deduction-000093:similar",
+    "loss": 1.728956699371338,
+    "elapsed_seconds": 0.7776652000029571,
+    "supervised_tokens": 8,
+    "peak_allocated_bytes": 3628022272,
+    "peak_reserved_bytes": 4175429632
+  },
+  {
+    "step": 6,
+    "example_id": "v2-deduction-000097:similar",
+    "loss": 1.1340259313583374,
+    "elapsed_seconds": 0.7936143999977503,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3628022272,
+    "peak_reserved_bytes": 4175429632
+  },
+  {
+    "step": 7,
+    "example_id": "v2-deduction-000080:similar",
+    "loss": 0.9854435324668884,
+    "elapsed_seconds": 0.7899834999989253,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 8,
+    "example_id": "v2-deduction-000006:similar",
+    "loss": 1.4951081275939941,
+    "elapsed_seconds": 0.8113155999744777,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 9,
+    "example_id": "v2-deduction-000013:similar",
+    "loss": 0.6466928124427795,
+    "elapsed_seconds": 0.8242594999901485,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 10,
+    "example_id": "v2-deduction-000074:similar",
+    "loss": 0.875308096408844,
+    "elapsed_seconds": 0.7616524999903049,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 11,
+    "example_id": "v2-deduction-000020:similar",
+    "loss": 0.875769853591919,
+    "elapsed_seconds": 0.8200471000163816,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 12,
+    "example_id": "v2-deduction-000073:similar",
+    "loss": 1.0816799402236938,
+    "elapsed_seconds": 0.6865160999877844,
+    "supervised_tokens": 8,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 13,
+    "example_id": "v2-deduction-000022:similar",
+    "loss": 1.2068921327590942,
+    "elapsed_seconds": 0.8163556999934372,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 14,
+    "example_id": "v2-deduction-000024:similar",
+    "loss": 0.44806188344955444,
+    "elapsed_seconds": 0.8106903999869246,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 15,
+    "example_id": "v2-deduction-000075:similar",
+    "loss": 1.0892380475997925,
+    "elapsed_seconds": 0.8577116999949794,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 16,
+    "example_id": "v2-deduction-000040:similar",
+    "loss": 0.45315229892730713,
+    "elapsed_seconds": 0.8360826999996789,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 17,
+    "example_id": "v2-deduction-000051:similar",
+    "loss": 0.2547593116760254,
+    "elapsed_seconds": 0.7466196999885142,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 18,
+    "example_id": "v2-deduction-000000:similar",
+    "loss": 0.2806277275085449,
+    "elapsed_seconds": 0.782304499996826,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 19,
+    "example_id": "v2-deduction-000092:similar",
+    "loss": 0.24316120147705078,
+    "elapsed_seconds": 0.8320637999859173,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 20,
+    "example_id": "v2-deduction-000055:similar",
+    "loss": 0.45080628991127014,
+    "elapsed_seconds": 0.9083110000065062,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 21,
+    "example_id": "v2-deduction-000050:similar",
+    "loss": 0.8909595012664795,
+    "elapsed_seconds": 0.8518574000045191,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 22,
+    "example_id": "v2-deduction-000086:similar",
+    "loss": 0.5027216672897339,
+    "elapsed_seconds": 0.7928539999993518,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 23,
+    "example_id": "v2-deduction-000052:similar",
+    "loss": 0.7452189326286316,
+    "elapsed_seconds": 0.9155523000226822,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 24,
+    "example_id": "v2-deduction-000046:similar",
+    "loss": 0.47964048385620117,
+    "elapsed_seconds": 0.9146776999987196,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 25,
+    "example_id": "v2-deduction-000012:similar",
+    "loss": 0.3440505564212799,
+    "elapsed_seconds": 0.8765567999798805,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 26,
+    "example_id": "v2-deduction-000065:similar",
+    "loss": 0.5940544605255127,
+    "elapsed_seconds": 0.8369182999886107,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 27,
+    "example_id": "v2-deduction-000031:similar",
+    "loss": 0.11420146375894547,
+    "elapsed_seconds": 0.8419078000006266,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 28,
+    "example_id": "v2-deduction-000057:similar",
+    "loss": 0.6181086897850037,
+    "elapsed_seconds": 0.7674047999898903,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 29,
+    "example_id": "v2-deduction-000017:similar",
+    "loss": 0.30369916558265686,
+    "elapsed_seconds": 0.8627953999966849,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 30,
+    "example_id": "v2-deduction-000014:similar",
+    "loss": 0.17766998708248138,
+    "elapsed_seconds": 0.8233880999905523,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 31,
+    "example_id": "v2-deduction-000041:similar",
+    "loss": 0.2169075906276703,
+    "elapsed_seconds": 1.0028407000063453,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 32,
+    "example_id": "v2-deduction-000037:similar",
+    "loss": 0.2191612869501114,
+    "elapsed_seconds": 0.716794599982677,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 33,
+    "example_id": "v2-deduction-000072:similar",
+    "loss": 0.37165138125419617,
+    "elapsed_seconds": 0.8707075999991503,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 34,
+    "example_id": "v2-deduction-000001:similar",
+    "loss": 0.049932703375816345,
+    "elapsed_seconds": 0.8433394999883603,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 35,
+    "example_id": "v2-deduction-000005:similar",
+    "loss": 0.443237841129303,
+    "elapsed_seconds": 0.8077112000028137,
+    "supervised_tokens": 8,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 36,
+    "example_id": "v2-deduction-000084:similar",
+    "loss": 0.024369269609451294,
+    "elapsed_seconds": 0.6419343000161462,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 37,
+    "example_id": "v2-deduction-000093:similar",
+    "loss": 0.4515843987464905,
+    "elapsed_seconds": 0.8697991999797523,
+    "supervised_tokens": 8,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 38,
+    "example_id": "v2-deduction-000097:similar",
+    "loss": 0.07974918186664581,
+    "elapsed_seconds": 0.7838895999884699,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 39,
+    "example_id": "v2-deduction-000080:similar",
+    "loss": 0.13019220530986786,
+    "elapsed_seconds": 0.826823899988085,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 40,
+    "example_id": "v2-deduction-000006:similar",
+    "loss": 0.4599262475967407,
+    "elapsed_seconds": 0.8273413999995682,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 41,
+    "example_id": "v2-deduction-000013:similar",
+    "loss": 0.03690701350569725,
+    "elapsed_seconds": 0.9011834000120871,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 42,
+    "example_id": "v2-deduction-000074:similar",
+    "loss": 0.11390377581119537,
+    "elapsed_seconds": 0.8425769000023138,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 43,
+    "example_id": "v2-deduction-000020:similar",
+    "loss": 0.12523671984672546,
+    "elapsed_seconds": 0.8216497999965213,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 44,
+    "example_id": "v2-deduction-000073:similar",
+    "loss": 0.1665661484003067,
+    "elapsed_seconds": 0.8512661999848206,
+    "supervised_tokens": 8,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 45,
+    "example_id": "v2-deduction-000022:similar",
+    "loss": 0.16763710975646973,
+    "elapsed_seconds": 0.9445941000012681,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 46,
+    "example_id": "v2-deduction-000024:similar",
+    "loss": 0.06587059050798416,
+    "elapsed_seconds": 0.8764811000146437,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 47,
+    "example_id": "v2-deduction-000075:similar",
+    "loss": 0.20843234658241272,
+    "elapsed_seconds": 0.8556392999889795,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 48,
+    "example_id": "v2-deduction-000040:similar",
+    "loss": 0.15900331735610962,
+    "elapsed_seconds": 0.853242399985902,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 49,
+    "example_id": "v2-deduction-000051:similar",
+    "loss": 0.12973594665527344,
+    "elapsed_seconds": 0.998040000005858,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 50,
+    "example_id": "v2-deduction-000000:similar",
+    "loss": 0.10929163545370102,
+    "elapsed_seconds": 0.9554662999871653,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 51,
+    "example_id": "v2-deduction-000092:similar",
+    "loss": 0.15206918120384216,
+    "elapsed_seconds": 0.8673220000055153,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 52,
+    "example_id": "v2-deduction-000055:similar",
+    "loss": 0.0762551948428154,
+    "elapsed_seconds": 0.8849400999897625,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 53,
+    "example_id": "v2-deduction-000050:similar",
+    "loss": 0.15665806829929352,
+    "elapsed_seconds": 0.9210382000019308,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 54,
+    "example_id": "v2-deduction-000086:similar",
+    "loss": 0.17443157732486725,
+    "elapsed_seconds": 0.969381600007182,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 55,
+    "example_id": "v2-deduction-000052:similar",
+    "loss": 0.4035836160182953,
+    "elapsed_seconds": 0.7844401000184007,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 56,
+    "example_id": "v2-deduction-000046:similar",
+    "loss": 0.302085816860199,
+    "elapsed_seconds": 0.7206538000027649,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 57,
+    "example_id": "v2-deduction-000012:similar",
+    "loss": 0.03735955432057381,
+    "elapsed_seconds": 0.8018442000029609,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 58,
+    "example_id": "v2-deduction-000065:similar",
+    "loss": 0.08110687136650085,
+    "elapsed_seconds": 0.8325891999993473,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 59,
+    "example_id": "v2-deduction-000031:similar",
+    "loss": 0.10995063930749893,
+    "elapsed_seconds": 0.7868530999985524,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 60,
+    "example_id": "v2-deduction-000057:similar",
+    "loss": 0.31595176458358765,
+    "elapsed_seconds": 0.9039672999933828,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 61,
+    "example_id": "v2-deduction-000017:similar",
+    "loss": 0.3542604446411133,
+    "elapsed_seconds": 0.8290745999838691,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 62,
+    "example_id": "v2-deduction-000014:similar",
+    "loss": 0.12000392377376556,
+    "elapsed_seconds": 0.7755902000062633,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 63,
+    "example_id": "v2-deduction-000041:similar",
+    "loss": 0.06699591130018234,
+    "elapsed_seconds": 0.9075791999930516,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  },
+  {
+    "step": 64,
+    "example_id": "v2-deduction-000037:similar",
+    "loss": 0.06951142102479935,
+    "elapsed_seconds": 0.6795723999966867,
+    "supervised_tokens": 9,
+    "peak_allocated_bytes": 3638311936,
+    "peak_reserved_bytes": 4628414464
+  }
+]

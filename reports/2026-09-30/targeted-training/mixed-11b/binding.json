@@ -1,0 +1,23 @@
+{
+  "config": {
+    "condition": "similar",
+    "examples": 96,
+    "learning_rate": 0.0001,
+    "max_tokens": 512,
+    "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "rank": 4,
+    "revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+    "seed": 42,
+    "selection_seed": 42,
+    "source_task": null,
+    "steps": 192,
+    "supervision": "answer",
+    "tasks": [
+      "arithmetic",
+      "deduction",
+      "tracking"
+    ]
+  },
+  "dataset_sha256": "b142fe60ba9cd6a5a6f95f1a1ac7adfc7fff8717d1ec5789639397966b7d789e",
+  "source_sha256": "fc93f238d2f961d89262bf0e508de0d0662e57c7d0fcd8aa075318058cda5d68"
+}

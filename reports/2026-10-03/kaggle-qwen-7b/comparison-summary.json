@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "cases": 40,
+    "groups": {
+      "text-1": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 20, "false_positive": 0, "false_negative": 0},
+      "text-2": {"cases": 10, "selection_valid": 10, "selection_exact": 9, "calculation_valid": 10, "answer_correct": 9, "true_positive": 29, "false_positive": 0, "false_negative": 1},
+      "text-4": {"cases": 10, "selection_valid": 10, "selection_exact": 7, "calculation_valid": 10, "answer_correct": 7, "true_positive": 47, "false_positive": 0, "false_negative": 3},
+      "similar-4": {"cases": 10, "selection_valid": 10, "selection_exact": 4, "calculation_valid": 10, "answer_correct": 4, "true_positive": 42, "false_positive": 0, "false_negative": 8}
+    }
+  },
+  "step-0320": {
+    "cases": 40,
+    "groups": {
+      "text-1": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 20, "false_positive": 0, "false_negative": 0},
+      "text-2": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 30, "false_positive": 0, "false_negative": 0},
+      "text-4": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 50, "false_positive": 0, "false_negative": 0},
+      "similar-4": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 50, "false_positive": 0, "false_negative": 0}
+    }
+  },
+  "step-0640": {
+    "cases": 40,
+    "groups": {
+      "text-1": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 20, "false_positive": 0, "false_negative": 0},
+      "text-2": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 30, "false_positive": 0, "false_negative": 0},
+      "text-4": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 50, "false_positive": 0, "false_negative": 0},
+      "similar-4": {"cases": 10, "selection_valid": 10, "selection_exact": 10, "calculation_valid": 10, "answer_correct": 10, "true_positive": 50, "false_positive": 0, "false_negative": 0}
+    }
+  }
+}

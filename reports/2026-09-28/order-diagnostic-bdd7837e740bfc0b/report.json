@@ -1,0 +1,210 @@
+{
+  "groups": [
+    {
+      "task": "arithmetic",
+      "count": 10,
+      "original_correct": 0,
+      "reversed_correct": 0,
+      "gained": 0,
+      "lost": 0
+    },
+    {
+      "task": "deduction",
+      "count": 10,
+      "original_correct": 3,
+      "reversed_correct": 2,
+      "gained": 2,
+      "lost": 3
+    },
+    {
+      "task": "tracking",
+      "count": 10,
+      "original_correct": 0,
+      "reversed_correct": 0,
+      "gained": 0,
+      "lost": 0
+    }
+  ],
+  "pairs": [
+    {
+      "id": "v2-arithmetic-000008:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000018:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000028:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000038:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000048:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000058:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000068:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000078:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000088:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-arithmetic-000098:clean",
+      "task": "arithmetic",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000008:clean",
+      "task": "deduction",
+      "original_correct": true,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000018:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000028:clean",
+      "task": "deduction",
+      "original_correct": true,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000038:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000048:clean",
+      "task": "deduction",
+      "original_correct": true,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000058:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000068:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-deduction-000078:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": true
+    },
+    {
+      "id": "v2-deduction-000088:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": true
+    },
+    {
+      "id": "v2-deduction-000098:clean",
+      "task": "deduction",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000008:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000018:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000028:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000038:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000048:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000058:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000068:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000078:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000088:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    },
+    {
+      "id": "v2-tracking-000098:clean",
+      "task": "tracking",
+      "original_correct": false,
+      "reversed_correct": false
+    }
+  ]
+}

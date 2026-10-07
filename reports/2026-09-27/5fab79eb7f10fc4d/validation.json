@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "arithmetic-000008:clean",
+    "base_id": "arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-8 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "29 more token-8 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "15 token-8 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-8 tokens remain in container A?",
+    "answer": "48",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000008:unrelated",
+    "base_id": "arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-8 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "29 more token-8 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "15 token-8 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-8 tokens remain in container A?",
+    "answer": "48",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000008:numeric",
+    "base_id": "arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-8 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 10 pages."
+      },
+      {
+        "id": "F3",
+        "text": "29 more token-8 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "15 token-8 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-8 tokens remain in container A?",
+    "answer": "48",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000008:similar",
+    "base_id": "arithmetic-000008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-8 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "Container B initially holds 24 different tokens and gains 7."
+      },
+      {
+        "id": "F3",
+        "text": "29 more token-8 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "15 token-8 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-8 tokens remain in container A?",
+    "answer": "48",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000018:clean",
+    "base_id": "arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 42 token-18 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "7 more token-18 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "7 token-18 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-18 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000018:unrelated",
+    "base_id": "arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 42 token-18 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "7 more token-18 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "7 token-18 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-18 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000018:numeric",
+    "base_id": "arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 42 token-18 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 47 pages."
+      },
+      {
+        "id": "F3",
+        "text": "7 more token-18 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "7 token-18 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-18 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000018:similar",
+    "base_id": "arithmetic-000018",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 42 token-18 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "7 more token-18 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "7 token-18 tokens are removed from container A."
+      },
+      {
+        "id": "F4",
+        "text": "Container B initially holds 51 different tokens and gains 7."
+      }
+    ],
+    "question": "How many token-18 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000028:clean",
+    "base_id": "arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-28 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "20 more token-28 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "18 token-28 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-28 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000028:unrelated",
+    "base_id": "arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-28 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "20 more token-28 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "18 token-28 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-28 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000028:numeric",
+    "base_id": "arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A closed notebook in another room has 76 pages."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 34 token-28 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "20 more token-28 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "18 token-28 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-28 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000028:similar",
+    "base_id": "arithmetic-000028",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-28 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "20 more token-28 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "18 token-28 tokens are removed from container A."
+      },
+      {
+        "id": "F4",
+        "text": "Container B initially holds 74 different tokens and gains 7."
+      }
+    ],
+    "question": "How many token-28 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000038:clean",
+    "base_id": "arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 45 token-38 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "45 more token-38 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "3 token-38 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-38 tokens remain in container A?",
+    "answer": "87",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000038:unrelated",
+    "base_id": "arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 45 token-38 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "45 more token-38 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "3 token-38 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-38 tokens remain in container A?",
+    "answer": "87",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000038:numeric",
+    "base_id": "arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 45 token-38 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 26 pages."
+      },
+      {
+        "id": "F3",
+        "text": "45 more token-38 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "3 token-38 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-38 tokens remain in container A?",
+    "answer": "87",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000038:similar",
+    "base_id": "arithmetic-000038",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 45 token-38 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "Container B initially holds 4 different tokens and gains 7."
+      },
+      {
+        "id": "F3",
+        "text": "45 more token-38 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "3 token-38 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-38 tokens remain in container A?",
+    "answer": "87",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000048:clean",
+    "base_id": "arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 47 token-48 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "44 more token-48 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "8 token-48 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-48 tokens remain in container A?",
+    "answer": "83",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000048:unrelated",
+    "base_id": "arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 47 token-48 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "44 more token-48 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "8 token-48 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-48 tokens remain in container A?",
+    "answer": "83",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000048:numeric",
+    "base_id": "arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 47 token-48 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "44 more token-48 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 8 pages."
+      },
+      {
+        "id": "F4",
+        "text": "8 token-48 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-48 tokens remain in container A?",
+    "answer": "83",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000048:similar",
+    "base_id": "arithmetic-000048",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 47 token-48 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "Container B initially holds 82 different tokens and gains 7."
+      },
+      {
+        "id": "F3",
+        "text": "44 more token-48 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "8 token-48 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-48 tokens remain in container A?",
+    "answer": "83",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000058:clean",
+    "base_id": "arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-58 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "20 more token-58 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "38 token-58 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-58 tokens remain in container A?",
+    "answer": "16",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000058:unrelated",
+    "base_id": "arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-58 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "20 more token-58 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "38 token-58 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-58 tokens remain in container A?",
+    "answer": "16",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000058:numeric",
+    "base_id": "arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 34 token-58 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "20 more token-58 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 4 pages."
+      },
+      {
+        "id": "F4",
+        "text": "38 token-58 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-58 tokens remain in container A?",
+    "answer": "16",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000058:similar",
+    "base_id": "arithmetic-000058",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container B initially holds 2 different tokens and gains 7."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 34 token-58 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "20 more token-58 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "38 token-58 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-58 tokens remain in container A?",
+    "answer": "16",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000068:clean",
+    "base_id": "arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 40 token-68 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "45 more token-68 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "49 token-68 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-68 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000068:unrelated",
+    "base_id": "arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 40 token-68 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "45 more token-68 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "49 token-68 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-68 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000068:numeric",
+    "base_id": "arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A closed notebook in another room has 55 pages."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 40 token-68 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "45 more token-68 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "49 token-68 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-68 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000068:similar",
+    "base_id": "arithmetic-000068",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 40 token-68 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "45 more token-68 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "49 token-68 tokens are removed from container A."
+      },
+      {
+        "id": "F4",
+        "text": "Container B initially holds 58 different tokens and gains 7."
+      }
+    ],
+    "question": "How many token-68 tokens remain in container A?",
+    "answer": "36",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000078:clean",
+    "base_id": "arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 25 token-78 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "37 more token-78 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "49 token-78 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-78 tokens remain in container A?",
+    "answer": "13",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000078:unrelated",
+    "base_id": "arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 25 token-78 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "37 more token-78 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "49 token-78 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-78 tokens remain in container A?",
+    "answer": "13",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000078:numeric",
+    "base_id": "arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 25 token-78 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "37 more token-78 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 66 pages."
+      },
+      {
+        "id": "F4",
+        "text": "49 token-78 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-78 tokens remain in container A?",
+    "answer": "13",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000078:similar",
+    "base_id": "arithmetic-000078",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 25 token-78 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "37 more token-78 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "49 token-78 tokens are removed from container A."
+      },
+      {
+        "id": "F4",
+        "text": "Container B initially holds 43 different tokens and gains 7."
+      }
+    ],
+    "question": "How many token-78 tokens remain in container A?",
+    "answer": "13",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000088:clean",
+    "base_id": "arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 46 token-88 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "27 more token-88 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "31 token-88 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-88 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000088:unrelated",
+    "base_id": "arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 46 token-88 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "27 more token-88 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "31 token-88 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-88 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000088:numeric",
+    "base_id": "arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 46 token-88 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "27 more token-88 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "31 token-88 tokens are removed from container A."
+      },
+      {
+        "id": "F4",
+        "text": "A closed notebook in another room has 97 pages."
+      }
+    ],
+    "question": "How many token-88 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000088:similar",
+    "base_id": "arithmetic-000088",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container B initially holds 24 different tokens and gains 7."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 46 token-88 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "27 more token-88 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "31 token-88 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-88 tokens remain in container A?",
+    "answer": "42",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000098:clean",
+    "base_id": "arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 48 token-98 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "28 more token-98 tokens are added to container A."
+      },
+      {
+        "id": "F3",
+        "text": "12 token-98 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-98 tokens remain in container A?",
+    "answer": "64",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "arithmetic-000098:unrelated",
+    "base_id": "arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 48 token-98 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "28 more token-98 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "12 token-98 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-98 tokens remain in container A?",
+    "answer": "64",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000098:numeric",
+    "base_id": "arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container A initially holds 48 token-98 tokens."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 15 pages."
+      },
+      {
+        "id": "F3",
+        "text": "28 more token-98 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "12 token-98 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-98 tokens remain in container A?",
+    "answer": "64",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "arithmetic-000098:similar",
+    "base_id": "arithmetic-000098",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "Container B initially holds 57 different tokens and gains 7."
+      },
+      {
+        "id": "F2",
+        "text": "Container A initially holds 48 token-98 tokens."
+      },
+      {
+        "id": "F3",
+        "text": "28 more token-98 tokens are added to container A."
+      },
+      {
+        "id": "F4",
+        "text": "12 token-98 tokens are removed from container A."
+      }
+    ],
+    "question": "How many token-98 tokens remain in container A?",
+    "answer": "64",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000008:clean",
+    "base_id": "deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-8 has property P197."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P197 has property P541."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P541 has final category C615."
+      }
+    ],
+    "question": "What final category is implied for object-8? Give the category code.",
+    "answer": "C615",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000008:unrelated",
+    "base_id": "deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-8 has property P197."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P197 has property P541."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P541 has final category C615."
+      }
+    ],
+    "question": "What final category is implied for object-8? Give the category code.",
+    "answer": "C615",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000008:numeric",
+    "base_id": "deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-8 has property P197."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P197 has property P541."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 74 pages."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P541 has final category C615."
+      }
+    ],
+    "question": "What final category is implied for object-8? Give the category code.",
+    "answer": "C615",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000008:similar",
+    "base_id": "deduction-000008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-8 has property P197."
+      },
+      {
+        "id": "F2",
+        "text": "A different object has property Q197. Property Q197 implies category D615."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P197 has property P541."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P541 has final category C615."
+      }
+    ],
+    "question": "What final category is implied for object-8? Give the category code.",
+    "answer": "C615",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000018:clean",
+    "base_id": "deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-18 has property P815."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P815 has property P40."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P40 has final category C571."
+      }
+    ],
+    "question": "What final category is implied for object-18? Give the category code.",
+    "answer": "C571",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000018:unrelated",
+    "base_id": "deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-18 has property P815."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P815 has property P40."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P40 has final category C571."
+      }
+    ],
+    "question": "What final category is implied for object-18? Give the category code.",
+    "answer": "C571",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000018:numeric",
+    "base_id": "deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-18 has property P815."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P815 has property P40."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P40 has final category C571."
+      },
+      {
+        "id": "F4",
+        "text": "A closed notebook in another room has 40 pages."
+      }
+    ],
+    "question": "What final category is implied for object-18? Give the category code.",
+    "answer": "C571",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000018:similar",
+    "base_id": "deduction-000018",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-18 has property P815."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P815 has property P40."
+      },
+      {
+        "id": "F3",
+        "text": "A different object has property Q815. Property Q815 implies category D571."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P40 has final category C571."
+      }
+    ],
+    "question": "What final category is implied for object-18? Give the category code.",
+    "answer": "C571",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000028:clean",
+    "base_id": "deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-28 has property P958."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P958 has property P247."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P247 has final category C184."
+      }
+    ],
+    "question": "What final category is implied for object-28? Give the category code.",
+    "answer": "C184",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000028:unrelated",
+    "base_id": "deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "object-28 has property P958."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P958 has property P247."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P247 has final category C184."
+      }
+    ],
+    "question": "What final category is implied for object-28? Give the category code.",
+    "answer": "C184",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000028:numeric",
+    "base_id": "deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-28 has property P958."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P958 has property P247."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 29 pages."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P247 has final category C184."
+      }
+    ],
+    "question": "What final category is implied for object-28? Give the category code.",
+    "answer": "C184",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000028:similar",
+    "base_id": "deduction-000028",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-28 has property P958."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P958 has property P247."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P247 has final category C184."
+      },
+      {
+        "id": "F4",
+        "text": "A different object has property Q958. Property Q958 implies category D184."
+      }
+    ],
+    "question": "What final category is implied for object-28? Give the category code.",
+    "answer": "C184",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000038:clean",
+    "base_id": "deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-38 has property P296."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P296 has property P453."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P453 has final category C390."
+      }
+    ],
+    "question": "What final category is implied for object-38? Give the category code.",
+    "answer": "C390",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000038:unrelated",
+    "base_id": "deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "object-38 has property P296."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P296 has property P453."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P453 has final category C390."
+      }
+    ],
+    "question": "What final category is implied for object-38? Give the category code.",
+    "answer": "C390",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000038:numeric",
+    "base_id": "deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-38 has property P296."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P296 has property P453."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P453 has final category C390."
+      },
+      {
+        "id": "F4",
+        "text": "A closed notebook in another room has 60 pages."
+      }
+    ],
+    "question": "What final category is implied for object-38? Give the category code.",
+    "answer": "C390",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000038:similar",
+    "base_id": "deduction-000038",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-38 has property P296."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P296 has property P453."
+      },
+      {
+        "id": "F3",
+        "text": "A different object has property Q296. Property Q296 implies category D390."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P453 has final category C390."
+      }
+    ],
+    "question": "What final category is implied for object-38? Give the category code.",
+    "answer": "C390",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000048:clean",
+    "base_id": "deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-48 has property P786."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P786 has property P802."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P802 has final category C932."
+      }
+    ],
+    "question": "What final category is implied for object-48? Give the category code.",
+    "answer": "C932",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000048:unrelated",
+    "base_id": "deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-48 has property P786."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P786 has property P802."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P802 has final category C932."
+      }
+    ],
+    "question": "What final category is implied for object-48? Give the category code.",
+    "answer": "C932",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000048:numeric",
+    "base_id": "deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-48 has property P786."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P786 has property P802."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 33 pages."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P802 has final category C932."
+      }
+    ],
+    "question": "What final category is implied for object-48? Give the category code.",
+    "answer": "C932",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000048:similar",
+    "base_id": "deduction-000048",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-48 has property P786."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P786 has property P802."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P802 has final category C932."
+      },
+      {
+        "id": "F4",
+        "text": "A different object has property Q786. Property Q786 implies category D932."
+      }
+    ],
+    "question": "What final category is implied for object-48? Give the category code.",
+    "answer": "C932",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000058:clean",
+    "base_id": "deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-58 has property P165."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P165 has property P293."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P293 has final category C684."
+      }
+    ],
+    "question": "What final category is implied for object-58? Give the category code.",
+    "answer": "C684",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000058:unrelated",
+    "base_id": "deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-58 has property P165."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P165 has property P293."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P293 has final category C684."
+      }
+    ],
+    "question": "What final category is implied for object-58? Give the category code.",
+    "answer": "C684",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000058:numeric",
+    "base_id": "deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A closed notebook in another room has 17 pages."
+      },
+      {
+        "id": "F2",
+        "text": "object-58 has property P165."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P165 has property P293."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P293 has final category C684."
+      }
+    ],
+    "question": "What final category is implied for object-58? Give the category code.",
+    "answer": "C684",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000058:similar",
+    "base_id": "deduction-000058",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-58 has property P165."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P165 has property P293."
+      },
+      {
+        "id": "F3",
+        "text": "A different object has property Q165. Property Q165 implies category D684."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P293 has final category C684."
+      }
+    ],
+    "question": "What final category is implied for object-58? Give the category code.",
+    "answer": "C684",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000068:clean",
+    "base_id": "deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-68 has property P354."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P354 has property P438."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P438 has final category C20."
+      }
+    ],
+    "question": "What final category is implied for object-68? Give the category code.",
+    "answer": "C20",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000068:unrelated",
+    "base_id": "deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "object-68 has property P354."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P354 has property P438."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P438 has final category C20."
+      }
+    ],
+    "question": "What final category is implied for object-68? Give the category code.",
+    "answer": "C20",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000068:numeric",
+    "base_id": "deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A closed notebook in another room has 31 pages."
+      },
+      {
+        "id": "F2",
+        "text": "object-68 has property P354."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P354 has property P438."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P438 has final category C20."
+      }
+    ],
+    "question": "What final category is implied for object-68? Give the category code.",
+    "answer": "C20",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000068:similar",
+    "base_id": "deduction-000068",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A different object has property Q354. Property Q354 implies category D20."
+      },
+      {
+        "id": "F2",
+        "text": "object-68 has property P354."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P354 has property P438."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P438 has final category C20."
+      }
+    ],
+    "question": "What final category is implied for object-68? Give the category code.",
+    "answer": "C20",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000078:clean",
+    "base_id": "deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-78 has property P738."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P738 has property P193."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P193 has final category C902."
+      }
+    ],
+    "question": "What final category is implied for object-78? Give the category code.",
+    "answer": "C902",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000078:unrelated",
+    "base_id": "deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "object-78 has property P738."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P738 has property P193."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P193 has final category C902."
+      }
+    ],
+    "question": "What final category is implied for object-78? Give the category code.",
+    "answer": "C902",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000078:numeric",
+    "base_id": "deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-78 has property P738."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P738 has property P193."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P193 has final category C902."
+      },
+      {
+        "id": "F4",
+        "text": "A closed notebook in another room has 12 pages."
+      }
+    ],
+    "question": "What final category is implied for object-78? Give the category code.",
+    "answer": "C902",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000078:similar",
+    "base_id": "deduction-000078",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-78 has property P738."
+      },
+      {
+        "id": "F2",
+        "text": "A different object has property Q738. Property Q738 implies category D902."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P738 has property P193."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P193 has final category C902."
+      }
+    ],
+    "question": "What final category is implied for object-78? Give the category code.",
+    "answer": "C902",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000088:clean",
+    "base_id": "deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-88 has property P762."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P762 has property P661."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P661 has final category C155."
+      }
+    ],
+    "question": "What final category is implied for object-88? Give the category code.",
+    "answer": "C155",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000088:unrelated",
+    "base_id": "deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "object-88 has property P762."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P762 has property P661."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P661 has final category C155."
+      }
+    ],
+    "question": "What final category is implied for object-88? Give the category code.",
+    "answer": "C155",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000088:numeric",
+    "base_id": "deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-88 has property P762."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P762 has property P661."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 6 pages."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P661 has final category C155."
+      }
+    ],
+    "question": "What final category is implied for object-88? Give the category code.",
+    "answer": "C155",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000088:similar",
+    "base_id": "deduction-000088",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-88 has property P762."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P762 has property P661."
+      },
+      {
+        "id": "F3",
+        "text": "A different object has property Q762. Property Q762 implies category D155."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P661 has final category C155."
+      }
+    ],
+    "question": "What final category is implied for object-88? Give the category code.",
+    "answer": "C155",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000098:clean",
+    "base_id": "deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-98 has property P100."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P100 has property P271."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P271 has final category C54."
+      }
+    ],
+    "question": "What final category is implied for object-98? Give the category code.",
+    "answer": "C54",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000098:unrelated",
+    "base_id": "deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "object-98 has property P100."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P100 has property P271."
+      },
+      {
+        "id": "F4",
+        "text": "Any object with property P271 has final category C54."
+      }
+    ],
+    "question": "What final category is implied for object-98? Give the category code.",
+    "answer": "C54",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "deduction-000098:numeric",
+    "base_id": "deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-98 has property P100."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P100 has property P271."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P271 has final category C54."
+      },
+      {
+        "id": "F4",
+        "text": "A closed notebook in another room has 86 pages."
+      }
+    ],
+    "question": "What final category is implied for object-98? Give the category code.",
+    "answer": "C54",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "deduction-000098:similar",
+    "base_id": "deduction-000098",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "object-98 has property P100."
+      },
+      {
+        "id": "F2",
+        "text": "Any object with property P100 has property P271."
+      },
+      {
+        "id": "F3",
+        "text": "Any object with property P271 has final category C54."
+      },
+      {
+        "id": "F4",
+        "text": "A different object has property Q100. Property Q100 implies category D54."
+      }
+    ],
+    "question": "What final category is implied for object-98? Give the category code.",
+    "answer": "C54",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000008:clean",
+    "base_id": "tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-8 starts in box B614. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B614 are moved into box B576."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B576 are then moved into box B110."
+      }
+    ],
+    "question": "Which box contains marker-8 after these events? Give the box code.",
+    "answer": "B110",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000008:unrelated",
+    "base_id": "tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-8 starts in box B614. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B614 are moved into box B576."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B576 are then moved into box B110."
+      }
+    ],
+    "question": "Which box contains marker-8 after these events? Give the box code.",
+    "answer": "B110",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000008:numeric",
+    "base_id": "tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-8 starts in box B614. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 4 pages."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B614 are moved into box B576."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B576 are then moved into box B110."
+      }
+    ],
+    "question": "Which box contains marker-8 after these events? Give the box code.",
+    "answer": "B110",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000008:similar",
+    "base_id": "tracking-000008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-8 starts in box B614. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B614 are moved into box B576."
+      },
+      {
+        "id": "F3",
+        "text": "After these events, a separate bead is placed in box B254."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B576 are then moved into box B110."
+      }
+    ],
+    "question": "Which box contains marker-8 after these events? Give the box code.",
+    "answer": "B110",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000018:clean",
+    "base_id": "tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-18 starts in box B113. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B113 are moved into box B656."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B656 are then moved into box B711."
+      }
+    ],
+    "question": "Which box contains marker-18 after these events? Give the box code.",
+    "answer": "B711",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000018:unrelated",
+    "base_id": "tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-18 starts in box B113. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B113 are moved into box B656."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B656 are then moved into box B711."
+      },
+      {
+        "id": "F4",
+        "text": "The outside of the room's door is green."
+      }
+    ],
+    "question": "Which box contains marker-18 after these events? Give the box code.",
+    "answer": "B711",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000018:numeric",
+    "base_id": "tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-18 starts in box B113. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B113 are moved into box B656."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 77 pages."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B656 are then moved into box B711."
+      }
+    ],
+    "question": "Which box contains marker-18 after these events? Give the box code.",
+    "answer": "B711",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000018:similar",
+    "base_id": "tracking-000018",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-18 starts in box B113. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B113 are moved into box B656."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B656 are then moved into box B711."
+      },
+      {
+        "id": "F4",
+        "text": "After these events, a separate bead is placed in box B330."
+      }
+    ],
+    "question": "Which box contains marker-18 after these events? Give the box code.",
+    "answer": "B711",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000028:clean",
+    "base_id": "tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-28 starts in box B775. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B775 are moved into box B562."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B562 are then moved into box B563."
+      }
+    ],
+    "question": "Which box contains marker-28 after these events? Give the box code.",
+    "answer": "B563",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000028:unrelated",
+    "base_id": "tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-28 starts in box B775. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B775 are moved into box B562."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B562 are then moved into box B563."
+      },
+      {
+        "id": "F4",
+        "text": "The outside of the room's door is green."
+      }
+    ],
+    "question": "Which box contains marker-28 after these events? Give the box code.",
+    "answer": "B563",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000028:numeric",
+    "base_id": "tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-28 starts in box B775. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B775 are moved into box B562."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 44 pages."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B562 are then moved into box B563."
+      }
+    ],
+    "question": "Which box contains marker-28 after these events? Give the box code.",
+    "answer": "B563",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000028:similar",
+    "base_id": "tracking-000028",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-28 starts in box B775. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "After these events, a separate bead is placed in box B499."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B775 are moved into box B562."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B562 are then moved into box B563."
+      }
+    ],
+    "question": "Which box contains marker-28 after these events? Give the box code.",
+    "answer": "B563",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000038:clean",
+    "base_id": "tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-38 starts in box B11. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B11 are moved into box B838."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B838 are then moved into box B832."
+      }
+    ],
+    "question": "Which box contains marker-38 after these events? Give the box code.",
+    "answer": "B832",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000038:unrelated",
+    "base_id": "tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "A marker named marker-38 starts in box B11. All other boxes are empty."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B11 are moved into box B838."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B838 are then moved into box B832."
+      }
+    ],
+    "question": "Which box contains marker-38 after these events? Give the box code.",
+    "answer": "B832",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000038:numeric",
+    "base_id": "tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-38 starts in box B11. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B11 are moved into box B838."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 57 pages."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B838 are then moved into box B832."
+      }
+    ],
+    "question": "Which box contains marker-38 after these events? Give the box code.",
+    "answer": "B832",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000038:similar",
+    "base_id": "tracking-000038",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-38 starts in box B11. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "After these events, a separate bead is placed in box B271."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B11 are moved into box B838."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B838 are then moved into box B832."
+      }
+    ],
+    "question": "Which box contains marker-38 after these events? Give the box code.",
+    "answer": "B832",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000048:clean",
+    "base_id": "tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-48 starts in box B539. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B539 are moved into box B236."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B236 are then moved into box B125."
+      }
+    ],
+    "question": "Which box contains marker-48 after these events? Give the box code.",
+    "answer": "B125",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000048:unrelated",
+    "base_id": "tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-48 starts in box B539. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B539 are moved into box B236."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B236 are then moved into box B125."
+      }
+    ],
+    "question": "Which box contains marker-48 after these events? Give the box code.",
+    "answer": "B125",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000048:numeric",
+    "base_id": "tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A closed notebook in another room has 23 pages."
+      },
+      {
+        "id": "F2",
+        "text": "A marker named marker-48 starts in box B539. All other boxes are empty."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B539 are moved into box B236."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B236 are then moved into box B125."
+      }
+    ],
+    "question": "Which box contains marker-48 after these events? Give the box code.",
+    "answer": "B125",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000048:similar",
+    "base_id": "tracking-000048",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-48 starts in box B539. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B539 are moved into box B236."
+      },
+      {
+        "id": "F3",
+        "text": "After these events, a separate bead is placed in box B837."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B236 are then moved into box B125."
+      }
+    ],
+    "question": "Which box contains marker-48 after these events? Give the box code.",
+    "answer": "B125",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000058:clean",
+    "base_id": "tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-58 starts in box B255. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B255 are moved into box B899."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B899 are then moved into box B69."
+      }
+    ],
+    "question": "Which box contains marker-58 after these events? Give the box code.",
+    "answer": "B69",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000058:unrelated",
+    "base_id": "tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-58 starts in box B255. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B255 are moved into box B899."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B899 are then moved into box B69."
+      }
+    ],
+    "question": "Which box contains marker-58 after these events? Give the box code.",
+    "answer": "B69",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000058:numeric",
+    "base_id": "tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A closed notebook in another room has 22 pages."
+      },
+      {
+        "id": "F2",
+        "text": "A marker named marker-58 starts in box B255. All other boxes are empty."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B255 are moved into box B899."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B899 are then moved into box B69."
+      }
+    ],
+    "question": "Which box contains marker-58 after these events? Give the box code.",
+    "answer": "B69",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000058:similar",
+    "base_id": "tracking-000058",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "After these events, a separate bead is placed in box B701."
+      },
+      {
+        "id": "F2",
+        "text": "A marker named marker-58 starts in box B255. All other boxes are empty."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B255 are moved into box B899."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B899 are then moved into box B69."
+      }
+    ],
+    "question": "Which box contains marker-58 after these events? Give the box code.",
+    "answer": "B69",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000068:clean",
+    "base_id": "tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-68 starts in box B720. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B720 are moved into box B532."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B532 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-68 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000068:unrelated",
+    "base_id": "tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-68 starts in box B720. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B720 are moved into box B532."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B532 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-68 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000068:numeric",
+    "base_id": "tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-68 starts in box B720. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 16 pages."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B720 are moved into box B532."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B532 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-68 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000068:similar",
+    "base_id": "tracking-000068",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-68 starts in box B720. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B720 are moved into box B532."
+      },
+      {
+        "id": "F3",
+        "text": "After these events, a separate bead is placed in box B978."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B532 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-68 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000078:clean",
+    "base_id": "tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-78 starts in box B450. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B450 are moved into box B348."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B348 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-78 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000078:unrelated",
+    "base_id": "tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-78 starts in box B450. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B450 are moved into box B348."
+      },
+      {
+        "id": "F3",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B348 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-78 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000078:numeric",
+    "base_id": "tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-78 starts in box B450. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B450 are moved into box B348."
+      },
+      {
+        "id": "F3",
+        "text": "A closed notebook in another room has 22 pages."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B348 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-78 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000078:similar",
+    "base_id": "tracking-000078",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-78 starts in box B450. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "After these events, a separate bead is placed in box B476."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B450 are moved into box B348."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B348 are then moved into box B544."
+      }
+    ],
+    "question": "Which box contains marker-78 after these events? Give the box code.",
+    "answer": "B544",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000088:clean",
+    "base_id": "tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-88 starts in box B195. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B195 are moved into box B593."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B593 are then moved into box B714."
+      }
+    ],
+    "question": "Which box contains marker-88 after these events? Give the box code.",
+    "answer": "B714",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000088:unrelated",
+    "base_id": "tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The outside of the room's door is green."
+      },
+      {
+        "id": "F2",
+        "text": "A marker named marker-88 starts in box B195. All other boxes are empty."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B195 are moved into box B593."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B593 are then moved into box B714."
+      }
+    ],
+    "question": "Which box contains marker-88 after these events? Give the box code.",
+    "answer": "B714",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000088:numeric",
+    "base_id": "tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-88 starts in box B195. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 98 pages."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B195 are moved into box B593."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B593 are then moved into box B714."
+      }
+    ],
+    "question": "Which box contains marker-88 after these events? Give the box code.",
+    "answer": "B714",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000088:similar",
+    "base_id": "tracking-000088",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "After these events, a separate bead is placed in box B263."
+      },
+      {
+        "id": "F2",
+        "text": "A marker named marker-88 starts in box B195. All other boxes are empty."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B195 are moved into box B593."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B593 are then moved into box B714."
+      }
+    ],
+    "question": "Which box contains marker-88 after these events? Give the box code.",
+    "answer": "B714",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000098:clean",
+    "base_id": "tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-98 starts in box B464. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B464 are moved into box B483."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B483 are then moved into box B128."
+      }
+    ],
+    "question": "Which box contains marker-98 after these events? Give the box code.",
+    "answer": "B128",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000098:unrelated",
+    "base_id": "tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "unrelated",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-98 starts in box B464. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B464 are moved into box B483."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B483 are then moved into box B128."
+      },
+      {
+        "id": "F4",
+        "text": "The outside of the room's door is green."
+      }
+    ],
+    "question": "Which box contains marker-98 after these events? Give the box code.",
+    "answer": "B128",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "tracking-000098:numeric",
+    "base_id": "tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "numeric",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-98 starts in box B464. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "A closed notebook in another room has 97 pages."
+      },
+      {
+        "id": "F3",
+        "text": "The contents of box B464 are moved into box B483."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B483 are then moved into box B128."
+      }
+    ],
+    "question": "Which box contains marker-98 after these events? Give the box code.",
+    "answer": "B128",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "tracking-000098:similar",
+    "base_id": "tracking-000098",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "similar",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "A marker named marker-98 starts in box B464. All other boxes are empty."
+      },
+      {
+        "id": "F2",
+        "text": "The contents of box B464 are moved into box B483."
+      },
+      {
+        "id": "F3",
+        "text": "After these events, a separate bead is placed in box B741."
+      },
+      {
+        "id": "F4",
+        "text": "The contents of box B483 are then moved into box B128."
+      }
+    ],
+    "question": "Which box contains marker-98 after these events? Give the box code.",
+    "answer": "B128",
+    "evidence": [
+      "F1",
+      "F2",
+      "F4"
+    ]
+  }
+]

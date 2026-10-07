@@ -1,0 +1,3662 @@
+[
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-000",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update A: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 72."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "69",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-000",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update A: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update B: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 72."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "78",
+    "evidence": [
+      "F2",
+      "F3",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-000",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update A: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update J: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update B: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 72."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "82",
+    "evidence": [
+      "F2",
+      "F4",
+      "F3",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-000:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-000",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update A: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F5",
+        "text": "Update H: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update J: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update B: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 72."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "86",
+    "evidence": [
+      "F2",
+      "F5",
+      "F4",
+      "F3",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-001",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update X: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 55."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "52",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-001",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Update P: For amber, 7 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update X: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 55."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "59",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-001",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update F: For amber, 2 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update P: For amber, 7 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update X: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 55."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "57",
+    "evidence": [
+      "F4",
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-001:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-001",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update F: For amber, 2 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update P: For amber, 7 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update X: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 55."
+      },
+      {
+        "id": "F5",
+        "text": "Update A: For amber, 2 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "59",
+    "evidence": [
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-002",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 50."
+      },
+      {
+        "id": "F2",
+        "text": "Update H: For amber, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "43",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-002",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 50."
+      },
+      {
+        "id": "F3",
+        "text": "Update S: For amber, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update H: For amber, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "46",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-002",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update Z: For amber, 8 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 50."
+      },
+      {
+        "id": "F3",
+        "text": "Update S: For amber, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update H: For amber, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "54",
+    "evidence": [
+      "F4",
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-002:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-002",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update Z: For amber, 8 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 50."
+      },
+      {
+        "id": "F5",
+        "text": "Update T: For amber, 9 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update S: For amber, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update H: For amber, 7 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "45",
+    "evidence": [
+      "F4",
+      "F1",
+      "F5",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-003",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 80."
+      },
+      {
+        "id": "F2",
+        "text": "Update G: For amber, 1 marble is removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "79",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-003",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 80."
+      },
+      {
+        "id": "F3",
+        "text": "Update U: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update G: For amber, 1 marble is removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "83",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-003",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update R: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 80."
+      },
+      {
+        "id": "F3",
+        "text": "Update U: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update G: For amber, 1 marble is removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "80",
+    "evidence": [
+      "F4",
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-003:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-003",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update N: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update R: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 80."
+      },
+      {
+        "id": "F3",
+        "text": "Update U: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update G: For amber, 1 marble is removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "84",
+    "evidence": [
+      "F5",
+      "F4",
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-004",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 52."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For amber, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "49",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-004",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Update S: For amber, 2 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 52."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For amber, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "51",
+    "evidence": [
+      "F3",
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-004",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Update S: For amber, 2 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update L: For amber, 5 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 52."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For amber, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "46",
+    "evidence": [
+      "F3",
+      "F4",
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-004:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-004",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Update S: For amber, 2 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update L: For amber, 5 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 52."
+      },
+      {
+        "id": "F5",
+        "text": "Update Z: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update I: For amber, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "55",
+    "evidence": [
+      "F3",
+      "F4",
+      "F1",
+      "F5",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-005",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update U: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 67."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "73",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-005",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update U: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 67."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For amber, 8 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "81",
+    "evidence": [
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-005",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update U: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update R: For amber, 2 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 67."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For amber, 8 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "79",
+    "evidence": [
+      "F2",
+      "F4",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-005:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-005",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update U: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F4",
+        "text": "Update R: For amber, 2 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 67."
+      },
+      {
+        "id": "F3",
+        "text": "Update I: For amber, 8 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update C: For amber, 4 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "83",
+    "evidence": [
+      "F2",
+      "F4",
+      "F1",
+      "F3",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-006",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update Z: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 69."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "78",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-006",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Update N: For amber, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Z: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 69."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "81",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-006",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update R: For amber, 1 marble is removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update N: For amber, 3 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Z: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 69."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "80",
+    "evidence": [
+      "F4",
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-006:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-006",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update R: For amber, 1 marble is removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update N: For amber, 3 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update T: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update Z: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 69."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "76",
+    "evidence": [
+      "F4",
+      "F3",
+      "F5",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-007",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update J: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 60."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "64",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-007",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update J: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 60."
+      },
+      {
+        "id": "F3",
+        "text": "Update W: For amber, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "71",
+    "evidence": [
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-007",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update E: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 60."
+      },
+      {
+        "id": "F3",
+        "text": "Update W: For amber, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "68",
+    "evidence": [
+      "F4",
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-007:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-007",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update E: For amber, 3 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update J: For amber, 4 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update O: For amber, 5 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 60."
+      },
+      {
+        "id": "F3",
+        "text": "Update W: For amber, 7 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "63",
+    "evidence": [
+      "F4",
+      "F2",
+      "F5",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 53."
+      },
+      {
+        "id": "F2",
+        "text": "Update W: For amber, 2 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "55",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 53."
+      },
+      {
+        "id": "F3",
+        "text": "Update O: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update W: For amber, 2 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "51",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 53."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update O: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update W: For amber, 2 marbles are added to it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "57",
+    "evidence": [
+      "F1",
+      "F4",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-008:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-008",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 53."
+      },
+      {
+        "id": "F4",
+        "text": "Update M: For amber, 6 marbles are added to it."
+      },
+      {
+        "id": "F3",
+        "text": "Update O: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F2",
+        "text": "Update W: For amber, 2 marbles are added to it."
+      },
+      {
+        "id": "F5",
+        "text": "Update C: For amber, 3 marbles are removed from it."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "54",
+    "evidence": [
+      "F1",
+      "F4",
+      "F3",
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-1",
+    "base_id": "depth-diagnostic-arithmetic-009",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Update R: For amber, 7 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 71."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "64",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-2",
+    "base_id": "depth-diagnostic-arithmetic-009",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Update B: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update R: For amber, 7 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 71."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "73",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-3",
+    "base_id": "depth-diagnostic-arithmetic-009",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Update C: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update B: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update R: For amber, 7 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 71."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "69",
+    "evidence": [
+      "F4",
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-arithmetic-009:depth-4",
+    "base_id": "depth-diagnostic-arithmetic-009",
+    "task": "arithmetic",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Update Y: For amber, 6 marbles are removed from it."
+      },
+      {
+        "id": "F4",
+        "text": "Update C: For amber, 4 marbles are removed from it."
+      },
+      {
+        "id": "F3",
+        "text": "Update B: For amber, 9 marbles are added to it."
+      },
+      {
+        "id": "F2",
+        "text": "Update R: For amber, 7 marbles are removed from it."
+      },
+      {
+        "id": "F1",
+        "text": "The initial marble count of amber is 71."
+      }
+    ],
+    "question": "How many marbles remain in amber?",
+    "answer": "63",
+    "evidence": [
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-1",
+    "base_id": "depth-diagnostic-deduction-000",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4058."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4058 entails property P3028."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P3028",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-2",
+    "base_id": "depth-diagnostic-deduction-000",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4058."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4058 entails property P3028."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3028 entails property P1856."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P1856",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-3",
+    "base_id": "depth-diagnostic-deduction-000",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Having property P1856 entails property P3428."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4058."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4058 entails property P3028."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3028 entails property P1856."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P3428",
+    "evidence": [
+      "F4",
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-000:depth-4",
+    "base_id": "depth-diagnostic-deduction-000",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P3428 entails property P7413."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1856 entails property P3428."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4058."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P4058 entails property P3028."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P3028 entails property P1856."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P7413",
+    "evidence": [
+      "F5",
+      "F4",
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-1",
+    "base_id": "depth-diagnostic-deduction-001",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8357."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8357 entails property P2626."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2626",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-2",
+    "base_id": "depth-diagnostic-deduction-001",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8357."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8357 entails property P2626."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2626 entails property P8365."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P8365",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-3",
+    "base_id": "depth-diagnostic-deduction-001",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8357."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8357 entails property P2626."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2626 entails property P8365."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8365 entails property P8059."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P8059",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-001:depth-4",
+    "base_id": "depth-diagnostic-deduction-001",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8357."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P8059 entails property P2058."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8357 entails property P2626."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2626 entails property P8365."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8365 entails property P8059."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2058",
+    "evidence": [
+      "F1",
+      "F5",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-1",
+    "base_id": "depth-diagnostic-deduction-002",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8369."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8369 entails property P5924."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5924",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-2",
+    "base_id": "depth-diagnostic-deduction-002",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8369."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8369 entails property P5924."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P5924 entails property P7627."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P7627",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-3",
+    "base_id": "depth-diagnostic-deduction-002",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Having property P7627 entails property P1791."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8369."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8369 entails property P5924."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P5924 entails property P7627."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P1791",
+    "evidence": [
+      "F4",
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-002:depth-4",
+    "base_id": "depth-diagnostic-deduction-002",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "Having property P7627 entails property P1791."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8369."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8369 entails property P5924."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P1791 entails property P5359."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P5924 entails property P7627."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5359",
+    "evidence": [
+      "F4",
+      "F1",
+      "F2",
+      "F5",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-1",
+    "base_id": "depth-diagnostic-deduction-003",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P4802 entails property P2144."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4802."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2144",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-2",
+    "base_id": "depth-diagnostic-deduction-003",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P4802 entails property P2144."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2144 entails property P8643."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4802."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P8643",
+    "evidence": [
+      "F2",
+      "F3",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-3",
+    "base_id": "depth-diagnostic-deduction-003",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P4802 entails property P2144."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8643 entails property P2707."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2144 entails property P8643."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4802."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2707",
+    "evidence": [
+      "F2",
+      "F4",
+      "F3",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-003:depth-4",
+    "base_id": "depth-diagnostic-deduction-003",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P4802 entails property P2144."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P8643 entails property P2707."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P2144 entails property P8643."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P4802."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P2707 entails property P4452."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4452",
+    "evidence": [
+      "F2",
+      "F4",
+      "F3",
+      "F1",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-1",
+    "base_id": "depth-diagnostic-deduction-004",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P5968 entails property P9213."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P5968."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9213",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-2",
+    "base_id": "depth-diagnostic-deduction-004",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P9213 entails property P5004."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P5968 entails property P9213."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P5968."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5004",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-3",
+    "base_id": "depth-diagnostic-deduction-004",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P9213 entails property P5004."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P5968 entails property P9213."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P5968."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P5004 entails property P9."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-004:depth-4",
+    "base_id": "depth-diagnostic-deduction-004",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P9213 entails property P5004."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P5968 entails property P9213."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P5968."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P5004 entails property P9."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P9 entails property P4244."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4244",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1",
+      "F4",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-1",
+    "base_id": "depth-diagnostic-deduction-005",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P6944."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P6944 entails property P6955."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P6955",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-2",
+    "base_id": "depth-diagnostic-deduction-005",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P6944."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P6944 entails property P6955."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P6955 entails property P1014."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P1014",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-3",
+    "base_id": "depth-diagnostic-deduction-005",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P6944."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P6944 entails property P6955."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P6955 entails property P1014."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1014 entails property P3027."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P3027",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-005:depth-4",
+    "base_id": "depth-diagnostic-deduction-005",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P3027 entails property P9763."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P6944."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P6944 entails property P6955."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P6955 entails property P1014."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P1014 entails property P3027."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P9763",
+    "evidence": [
+      "F5",
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-1",
+    "base_id": "depth-diagnostic-deduction-006",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P9507 entails property P989."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9507."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P989",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-2",
+    "base_id": "depth-diagnostic-deduction-006",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P9507 entails property P989."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P989 entails property P7346."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9507."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P7346",
+    "evidence": [
+      "F2",
+      "F3",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-3",
+    "base_id": "depth-diagnostic-deduction-006",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P9507 entails property P989."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P989 entails property P7346."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P7346 entails property P5447."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9507."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5447",
+    "evidence": [
+      "F2",
+      "F3",
+      "F4",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-006:depth-4",
+    "base_id": "depth-diagnostic-deduction-006",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P9507 entails property P989."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P5447 entails property P5831."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P989 entails property P7346."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P7346 entails property P5447."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9507."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5831",
+    "evidence": [
+      "F2",
+      "F5",
+      "F3",
+      "F4",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-1",
+    "base_id": "depth-diagnostic-deduction-007",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "Having property P8129 entails property P7086."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8129."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P7086",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-2",
+    "base_id": "depth-diagnostic-deduction-007",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P7086 entails property P2218."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8129 entails property P7086."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8129."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2218",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-3",
+    "base_id": "depth-diagnostic-deduction-007",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P7086 entails property P2218."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8129 entails property P7086."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P2218 entails property P5727."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8129."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P5727",
+    "evidence": [
+      "F3",
+      "F2",
+      "F4",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-007:depth-4",
+    "base_id": "depth-diagnostic-deduction-007",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P5727 entails property P556."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P7086 entails property P2218."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P8129 entails property P7086."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P2218 entails property P5727."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P8129."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P556",
+    "evidence": [
+      "F5",
+      "F3",
+      "F2",
+      "F4",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-1",
+    "base_id": "depth-diagnostic-deduction-008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9201."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9201 entails property P4929."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P4929",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-2",
+    "base_id": "depth-diagnostic-deduction-008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9201."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P4929 entails property P6061."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9201 entails property P4929."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P6061",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-3",
+    "base_id": "depth-diagnostic-deduction-008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9201."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P4929 entails property P6061."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P6061 entails property P2657."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9201 entails property P4929."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2657",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-008:depth-4",
+    "base_id": "depth-diagnostic-deduction-008",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P9201."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P4929 entails property P6061."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P6061 entails property P2657."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P9201 entails property P4929."
+      },
+      {
+        "id": "F5",
+        "text": "Having property P2657 entails property P3339."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P3339",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-1",
+    "base_id": "depth-diagnostic-deduction-009",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P2979."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P2979 entails property P447."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P447",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-2",
+    "base_id": "depth-diagnostic-deduction-009",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P447 entails property P2706."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P2979."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P2979 entails property P447."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P2706",
+    "evidence": [
+      "F3",
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-3",
+    "base_id": "depth-diagnostic-deduction-009",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "Having property P447 entails property P2706."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P2979."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P2979 entails property P447."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P2706 entails property P673."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P673",
+    "evidence": [
+      "F3",
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-deduction-009:depth-4",
+    "base_id": "depth-diagnostic-deduction-009",
+    "task": "deduction",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F5",
+        "text": "Having property P673 entails property P1774."
+      },
+      {
+        "id": "F3",
+        "text": "Having property P447 entails property P2706."
+      },
+      {
+        "id": "F1",
+        "text": "The object amber possesses property P2979."
+      },
+      {
+        "id": "F2",
+        "text": "Having property P2979 entails property P447."
+      },
+      {
+        "id": "F4",
+        "text": "Having property P2706 entails property P673."
+      }
+    ],
+    "question": "What terminal property follows for amber? Return its code.",
+    "answer": "P1774",
+    "evidence": [
+      "F5",
+      "F3",
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-1",
+    "base_id": "depth-diagnostic-tracking-000",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B4296 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4296 to box B7339."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7339",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-2",
+    "base_id": "depth-diagnostic-tracking-000",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7339 to box B5245."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B4296 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4296 to box B7339."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B5245",
+    "evidence": [
+      "F3",
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-3",
+    "base_id": "depth-diagnostic-tracking-000",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7339 to box B5245."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B4296 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4296 to box B7339."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B5245 to box B2830."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B2830",
+    "evidence": [
+      "F3",
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-000:depth-4",
+    "base_id": "depth-diagnostic-tracking-000",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7339 to box B5245."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B2830 to box B1724."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B4296 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4296 to box B7339."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B5245 to box B2830."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1724",
+    "evidence": [
+      "F3",
+      "F5",
+      "F1",
+      "F2",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-1",
+    "base_id": "depth-diagnostic-tracking-001",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3579 to box B9058."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B3579 contains amber."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B9058",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-2",
+    "base_id": "depth-diagnostic-tracking-001",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3579 to box B9058."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B3579 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B9058 to box B8796."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B8796",
+    "evidence": [
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-3",
+    "base_id": "depth-diagnostic-tracking-001",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B8796 to box B5199."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3579 to box B9058."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B3579 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B9058 to box B8796."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B5199",
+    "evidence": [
+      "F4",
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-001:depth-4",
+    "base_id": "depth-diagnostic-tracking-001",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B8796 to box B5199."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B5199 to box B6291."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3579 to box B9058."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B3579 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B9058 to box B8796."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B6291",
+    "evidence": [
+      "F4",
+      "F5",
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-1",
+    "base_id": "depth-diagnostic-tracking-002",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B6803 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6803 to box B5644."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B5644",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-2",
+    "base_id": "depth-diagnostic-tracking-002",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B6803 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B5644 to box B1988."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6803 to box B5644."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1988",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-3",
+    "base_id": "depth-diagnostic-tracking-002",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B1988 to box B1839."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B6803 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B5644 to box B1988."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6803 to box B5644."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1839",
+    "evidence": [
+      "F4",
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-002:depth-4",
+    "base_id": "depth-diagnostic-tracking-002",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B1988 to box B1839."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B6803 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B5644 to box B1988."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6803 to box B5644."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B1839 to box B7780."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7780",
+    "evidence": [
+      "F4",
+      "F1",
+      "F3",
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-1",
+    "base_id": "depth-diagnostic-tracking-003",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B3097 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3097 to box B4472."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B4472",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-2",
+    "base_id": "depth-diagnostic-tracking-003",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B3097 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3097 to box B4472."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B4472 to box B7189."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7189",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-3",
+    "base_id": "depth-diagnostic-tracking-003",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B3097 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3097 to box B4472."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B4472 to box B7189."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B7189 to box B4350."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B4350",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-003:depth-4",
+    "base_id": "depth-diagnostic-tracking-003",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B3097 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B3097 to box B4472."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B4350 to box B4343."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B4472 to box B7189."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B7189 to box B4350."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B4343",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-1",
+    "base_id": "depth-diagnostic-tracking-004",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B8703 to box B9212."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B8703 contains amber."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B9212",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-2",
+    "base_id": "depth-diagnostic-tracking-004",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B9212 to box B158."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B8703 to box B9212."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B8703 contains amber."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B158",
+    "evidence": [
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-3",
+    "base_id": "depth-diagnostic-tracking-004",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B158 to box B459."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B9212 to box B158."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B8703 to box B9212."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B8703 contains amber."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B459",
+    "evidence": [
+      "F4",
+      "F3",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-004:depth-4",
+    "base_id": "depth-diagnostic-tracking-004",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B158 to box B459."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B9212 to box B158."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B459 to box B7542."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B8703 to box B9212."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B8703 contains amber."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7542",
+    "evidence": [
+      "F4",
+      "F3",
+      "F5",
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-1",
+    "base_id": "depth-diagnostic-tracking-005",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B9940 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B9940 to box B1520."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1520",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-2",
+    "base_id": "depth-diagnostic-tracking-005",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B9940 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B1520 to box B1356."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B9940 to box B1520."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1356",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-3",
+    "base_id": "depth-diagnostic-tracking-005",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B9940 contains amber."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B1356 to box B3715."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B1520 to box B1356."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B9940 to box B1520."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B3715",
+    "evidence": [
+      "F1",
+      "F4",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-005:depth-4",
+    "base_id": "depth-diagnostic-tracking-005",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B9940 contains amber."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B1356 to box B3715."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B1520 to box B1356."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B3715 to box B7429."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B9940 to box B1520."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7429",
+    "evidence": [
+      "F1",
+      "F4",
+      "F3",
+      "F5",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-1",
+    "base_id": "depth-diagnostic-tracking-006",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B4528 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4528 to box B7380."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7380",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-2",
+    "base_id": "depth-diagnostic-tracking-006",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B4528 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4528 to box B7380."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7380 to box B6904."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B6904",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-3",
+    "base_id": "depth-diagnostic-tracking-006",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B4528 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4528 to box B7380."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7380 to box B6904."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B6904 to box B8466."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B8466",
+    "evidence": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-006:depth-4",
+    "base_id": "depth-diagnostic-tracking-006",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B4528 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B4528 to box B7380."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B8466 to box B6730."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7380 to box B6904."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B6904 to box B8466."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B6730",
+    "evidence": [
+      "F1",
+      "F2",
+      "F5",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-1",
+    "base_id": "depth-diagnostic-tracking-007",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B6436 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6436 to box B8477."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B8477",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-2",
+    "base_id": "depth-diagnostic-tracking-007",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B6436 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8477 to box B7738."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6436 to box B8477."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7738",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-3",
+    "base_id": "depth-diagnostic-tracking-007",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B6436 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8477 to box B7738."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B7738 to box B7601."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6436 to box B8477."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7601",
+    "evidence": [
+      "F1",
+      "F3",
+      "F4",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-007:depth-4",
+    "base_id": "depth-diagnostic-tracking-007",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B6436 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8477 to box B7738."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B7601 to box B1625."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B7738 to box B7601."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B6436 to box B8477."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1625",
+    "evidence": [
+      "F1",
+      "F3",
+      "F5",
+      "F4",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-1",
+    "base_id": "depth-diagnostic-tracking-008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B2986 contains amber."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B2986 to box B8891."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B8891",
+    "evidence": [
+      "F1",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-2",
+    "base_id": "depth-diagnostic-tracking-008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B2986 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8891 to box B5501."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B2986 to box B8891."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B5501",
+    "evidence": [
+      "F1",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-3",
+    "base_id": "depth-diagnostic-tracking-008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B2986 contains amber."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B5501 to box B1114."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8891 to box B5501."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B2986 to box B8891."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B1114",
+    "evidence": [
+      "F1",
+      "F4",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-008:depth-4",
+    "base_id": "depth-diagnostic-tracking-008",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F1",
+        "text": "At time 0, box B2986 contains amber."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B1114 to box B9710."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B5501 to box B1114."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B8891 to box B5501."
+      },
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B2986 to box B8891."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B9710",
+    "evidence": [
+      "F1",
+      "F5",
+      "F4",
+      "F3",
+      "F2"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-1",
+    "base_id": "depth-diagnostic-tracking-009",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B830 to box B7818."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B830 contains amber."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7818",
+    "evidence": [
+      "F2",
+      "F1"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-2",
+    "base_id": "depth-diagnostic-tracking-009",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B830 to box B7818."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B830 contains amber."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7818 to box B7874."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B7874",
+    "evidence": [
+      "F2",
+      "F1",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-3",
+    "base_id": "depth-diagnostic-tracking-009",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B830 to box B7818."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B830 contains amber."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B7874 to box B8821."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7818 to box B7874."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B8821",
+    "evidence": [
+      "F2",
+      "F1",
+      "F4",
+      "F3"
+    ]
+  },
+  {
+    "id": "depth-diagnostic-tracking-009:depth-4",
+    "base_id": "depth-diagnostic-tracking-009",
+    "task": "tracking",
+    "split": "validation",
+    "condition": "clean",
+    "facts": [
+      {
+        "id": "F2",
+        "text": "At time 1, transfer everything from box B830 to box B7818."
+      },
+      {
+        "id": "F5",
+        "text": "At time 4, transfer everything from box B8821 to box B5153."
+      },
+      {
+        "id": "F1",
+        "text": "At time 0, box B830 contains amber."
+      },
+      {
+        "id": "F4",
+        "text": "At time 3, transfer everything from box B7874 to box B8821."
+      },
+      {
+        "id": "F3",
+        "text": "At time 2, transfer everything from box B7818 to box B7874."
+      }
+    ],
+    "question": "Which box contains amber after all timed events? Return its code.",
+    "answer": "B5153",
+    "evidence": [
+      "F2",
+      "F5",
+      "F1",
+      "F4",
+      "F3"
+    ]
+  }
+]

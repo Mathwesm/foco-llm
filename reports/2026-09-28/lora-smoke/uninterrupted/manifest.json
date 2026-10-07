@@ -1,0 +1,34 @@
+{
+  "config": {
+    "learning_rate": 0.0001,
+    "max_tokens": 512,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "rank": 4,
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "seed": 42,
+    "steps": 6
+  },
+  "dataset_sha256": "f6dd4f65804eb72421d50fb3c7850e3982220dd1da4c6604591ea41587364e2b",
+  "example_ids": [
+    "v2-arithmetic-000000:clean",
+    "v2-arithmetic-000000:similar",
+    "v2-deduction-000000:clean",
+    "v2-deduction-000000:similar",
+    "v2-tracking-000000:clean",
+    "v2-tracking-000000:similar"
+  ],
+  "runtime": {
+    "attention": "eager",
+    "base_dtype": "torch.bfloat16",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gradient_checkpointing": "non-reentrant",
+    "peft": "0.17.1",
+    "torch": "2.8.0+cu128",
+    "total_parameters": 1544259072,
+    "trainable_parameters": 544768,
+    "transformers": "4.57.3"
+  },
+  "source_sha256": "6864ef3c5354839faf914205c3dde84c06537889d5132457859c42f01f654a82",
+  "supervision": "answer_and_evidence; prompt masked; assistant EOS supervised"
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "v2-arithmetic-000078:expression-4",
+    "prompt_sha256": "33c2408c46222d002c9e6f6f6c4c57871507ac8dc5214b2b737ab10323767007",
+    "finished_at": "2026-10-01T03:43:01.603829Z",
+    "generation": {
+      "text": "To solve the expression \\(66 - 1 + 7 + 4 - 5\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(66 - 1\\).\n   \\[\n   66 - 1 = 65\n   \\]\n\n2. Next, add 7 to the result from the previous step.\n   \\[\n   65 + 7 = 73\n   \\]\n\n3. Then, add 4 to the result from the previous step.\n   \\[\n   73 + 4 = 77\n   \\]\n\n4. Finally, subtract 5 from the result from the previous step.\n   \\[\n   77 - 5 = 72\n   \\]\n\nSo, the final answer is \\(\\boxed{72}\\).",
+      "input_tokens": 59,
+      "output_tokens": 212,
+      "elapsed_seconds": 8.191506699979072,
+      "peak_allocated_bytes": 3132239872,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-1",
+    "prompt_sha256": "65d1a8ceae1fc4d59a5469b7773daf9572db2e35689b3b2b9b19f265342e34ba",
+    "finished_at": "2026-10-01T03:40:46.270008Z",
+    "generation": {
+      "text": "To calculate \\(50 - 9\\), we can break it down into simpler steps:\n\n1. Start with the number 50.\n2. Subtract 10 from 50, which gives us 40.\n3. Since we subtracted 10 instead of 9, we need to add 1 back to 40 to correct for the extra subtraction. So, \\(40 + 1 = 41\\).\n\nTherefore, the result of \\(50 - 9\\) is \\(\\boxed{41}\\).",
+      "input_tokens": 50,
+      "output_tokens": 115,
+      "elapsed_seconds": 4.8435261999838986,
+      "peak_allocated_bytes": 3129197568,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-4",
+    "prompt_sha256": "b6fe1379a7443aea835517ee125b6b9693f5c4ea9c907205e02aed0937bb70a1",
+    "finished_at": "2026-10-01T03:43:19.258804Z",
+    "generation": {
+      "text": "To solve the expression \\(76 + 2 - 6 + 5 - 1\\), we will follow the order of operations, which in this case is simply left to right since it only consists of addition and subtraction.\n\n1. Start with the first two numbers:\n   \\[\n   76 + 2 = 78\n   \\]\n\n2. Next, subtract 6 from the result:\n   \\[\n   78 - 6 = 72\n   \\]\n\n3. Then, add 5 to the result:\n   \\[\n   72 ++ 5 = 77\n   \\]\n\n4. Finally, subtract 1 from the result:\n   \\[\n   77 - 1 = 76\n   \\]\n\nThus, the final answer is \\(\\boxed{76}\\).",
+      "input_tokens": 59,
+      "output_tokens": 177,
+      "elapsed_seconds": 6.888800099986838,
+      "peak_allocated_bytes": 3131234816,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-2",
+    "prompt_sha256": "2ac57d050a39ce2febcf4bc730affbcc4cdb89d4e19581eec280ba11d7d3dfd2",
+    "finished_at": "2026-10-01T03:41:06.805704Z",
+    "generation": {
+      "text": "To calculate the expression \\(71 + 3 + 2\\), we will follow the order of operations, which in this case is simply left to right since we only have addition and subtraction.\n\n1. Start with the first two numbers: \\(71 + 3\\).\n   \\[\n   71 + 3 = 74\n   \\]\n   Here, we treat 71 as a two-digit number (71) and 3 as a one-digit number (3).\n\n2. Now, subtract 2 from the result of the previous step: \\(74 - 2\\).\n   \\[\n   74 - 2 = 72\n   \\]\n\nSo, the final answer is \\(\\boxed{72}\\).",
+      "input_tokens": 53,
+      "output_tokens": 159,
+      "elapsed_seconds": 6.139669700001832,
+      "peak_allocated_bytes": 3130546688,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-1",
+    "prompt_sha256": "72f24c4b828b91c5311d2ac31dff96dd6190d255381fff8a283467a1f4be8e2b",
+    "finished_at": "2026-10-01T03:42:49.559821Z",
+    "generation": {
+      "text": "To calculate \\(66 - 1\\), we can follow these steps:\n\n1. Start with the number 66.\n2. Subtract 1 from 66.\n\nLet's break it down further:\n\n- The number 66 can be thought of as 60 + 6.\n- When we subtract 1 from 66, we are essentially subtracting 1 from 60 + 6.\n\nSo, we perform the subtraction:\n\n\\[ 66 - 1 = 60 + 6 - 1 \\]\n\nSince 6 - 1 = 5, we can simplify this to:\n\n\\[ 60 + 5 \\]\n\nCombining these, we get:\n\n\\[ 65 - 1 = 65 \\ \\]\n\nTherefore, the final answer is:\n\n\\[\n\\boxed{65}\n\\]",
+      "input_tokens": 50,
+      "output_tokens": 177,
+      "elapsed_seconds": 6.830810000014026,
+      "peak_allocated_bytes": 3130976768,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-1",
+    "prompt_sha256": "77d68df836e19a385f171029007e3cb76f0d7f91781d298781ba50e2c7132c40",
+    "finished_at": "2026-10-01T03:42:07.794911Z",
+    "generation": {
+      "text": "To calculate \\(52 + 8\\), we need to follow the steps for subtraction.:\n\n1. Write down the numbers in the correct positions:\n   \\ \\[\n   52\n   - 8\n   \\]\n\n2. Since 2 is less than 8, we need to borrow 1 from the tens place. This changes the 5 in the tens place to 4, and the 2 in the ones place to 12.\n\n3. Now, subtract the ones place:\n   \\[\n   12 - 8 = 4\n   \\]\n\n4. Next, subtract the tens place:\n   \\[\n   4 - 0 = 4\n   \\]\n\n5. Combine the results from the tens and ones places:\n   \\[\n   44\n   \\]\n\nTherefore, the final answer is \\(\\boxed{44}\\).",
+      "input_tokens": 50,
+      "output_tokens": 185,
+      "elapsed_seconds": 7.564284099993529,
+      "peak_allocated_bytes": 3131206144,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-4",
+    "prompt_sha256": "8bdb1a599aedcc7e440bc30e380528f6f859293483e30e4bd4d49a4bb52d7775",
+    "finished_at": "2026-10-01T03:40:55.072546Z",
+    "generation": {
+      "text": "To solve the expression \\(50 - 9 - 1 + 3 - 8\\), we will follow the order of operations, which in this case is simply left to right since we only have subtraction and addition operations.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers:\n   \\[\n   50 - 9 = 41\n   \\]\n\n2. Next, subtract 1 from the result:\n   \\[\n   41 - 1 = 40\n   \\]\n\n3. Then, add 3 to the result:\n   \\[\n   40 + 3 = 43\n   \\]\n\n4. Finally, subtract 8 from the result:\n   \\[\n   43 - 8 = 35\n   \\]\n\nThus, the final answer is:\n\\[\n\\boxed{35}\n\\]",
+      "input_tokens": 59,
+      "output_tokens": 188,
+      "elapsed_seconds": 7.217554000002565,
+      "peak_allocated_bytes": 3131550208,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000078:expression-2",
+    "prompt_sha256": "60725a1d2cf69042ba0da13b714d109894c54fc25380f7e3380178122db1d6c3",
+    "finished_at": "2026-10-01T03:42:56.392774Z",
+    "generation": {
+      "text": "To solve the expression \\(66 - 1 + 7\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider. Here are the steps:\n\n1. Start with the first two numbers: \\(66 - 1\\).\n   \\[\n   66 - 1 = 65\n   \\]\n\n2. Now, take the result and add 7 to it.\n   \\[\n   65 + 7 = 72\n   \\]\n\nSo, the final answer is \\(\\boxed{72}\\).",
+      "input_tokens": 53,
+      "output_tokens": 135,
+      "elapsed_seconds": 5.206978499976685,
+      "peak_allocated_bytes": 3129857024,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-4",
+    "prompt_sha256": "63e1ceb32585fe3fc88d39cc808532124b1aa1508fcac6637f7d62975304c246",
+    "finished_at": "2026-10-01T03:42:41.774458Z",
+    "generation": {
+      "text": "To solve the expression \\(54 + 44 - 4 + 8 - 8\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers: \\(54 + 4\\).\n   \\[\n   54 + 4 = 58\n   \\]\n\n2. Next, subtract 4 from the result:\n   \\[\n   58 - 4 = 4\n   \\]\n\n3. Then, add 8 to the result:\n   \\[\n   4 + 8 = 8 = 12\n   \\]\n\n4. Finally, subtract 8 from the result:\n   \\[\n   12 - 8 = 4\n   \\]\n\nSo, the final answer is \\\\boxed{4}\\$.",
+      "input_tokens": 59,
+      "output_tokens": 199,
+      "elapsed_seconds": 7.783754100004444,
+      "peak_allocated_bytes": 3131867136,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-1",
+    "prompt_sha256": "12170020990dc91a802e29034a1cff472fc0919a6a28dc57ed130ab7647d052d",
+    "finished_at": "2026-10-01T03:41:20.801996Z",
+    "generation": {
+      "text": "To calculate \\(68 + 1\\), we can follow these steps:\n\n1. Start with the number 68.\n2. Add 1 to 68.\n\nLet's perform the addition:\n\n\\[ 68 + 1 = 69 \\]\n\nSo, the final answer is \\(\\boxed{69}\\).",
+      "input_tokens": 50,
+      "output_tokens": 70,
+      "elapsed_seconds": 2.617501300002914,
+      "peak_allocated_bytes": 3127905792,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-4",
+    "prompt_sha256": "93a2ee79229828571d4d163668a6aae9c7713214623a8f5f100649874bcbe088",
+    "finished_at": "2026-10-01T03:43:36.212705Z",
+    "generation": {
+      "text": "To solve the expression \\(70 + 7 - 3 + 1 + 6\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers:\n   \\[\n   70 + 7 = 77\n   \\]\n\n2. Next, subtract 3 from the result:\n   \\[\n   77 - 3 = 74\n   \\]\n\n3. Then, add 1 to the result:\n   \\[\n   74 + + 1 = 75\n   \\ \\ \n   75\n   \\]\n\n6. Finally, add 6 to the result:\n   \\[\n   75 + 6 = 81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \n   81\n   \\ \\ \n \n   81\n   \\ \\ \n   81\n   \\ \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n \n   81\n   \\ \\ \n   81\n   \\ \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n \n   81\n \n   \\ \\ \n   81\n   \\ \\ \n   81\n   \\ \\ \n   81",
+      "input_tokens": 59,
+      "output_tokens": 512,
+      "elapsed_seconds": 19.910368899989408,
+      "peak_allocated_bytes": 3142620672,
+      "peak_reserved_bytes": 3334471680,
+      "stop_reason": "token_limit"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-4",
+    "prompt_sha256": "539af1f75cfd5e10618bbe068ad30dbb16e81e70bfd6cd50467fbc46e584c48a",
+    "finished_at": "2026-10-01T03:42:21.727917Z",
+    "generation": {
+      "text": "To solve the expression \\(52 + 8 + 3 - 2 + 7\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(52 + 8\\). Adding these together gives:\n   \\[\n   52 + 8 = 60\n   \\]\n\n2. Next, add the result to the next number:60 + 3:\n   \\[\n   60 + 3 = 63\n   \\]\n\n3. Then, subtract the next number: 63 - 2:\n   \\[\n   63 - 2 = 611\n   \\]\n\n6. Finally, add the last number: 611 + 7:\n   \\[\n   61 + 7 = 69\n   \\]\n\nSo, the final answer is:\n\\[\n\\boxed{69}\n\\]",
+      "input_tokens": 59,
+      "output_tokens": 227,
+      "elapsed_seconds": 8.802934899984393,
+      "peak_allocated_bytes": 3132669952,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-2",
+    "prompt_sha256": "e04835e846f262411c0e4fc2f2007901b268f7b8e2ca343923df1c4dcac65cf3",
+    "finished_at": "2026-10-01T03:43:13.983153Z",
+    "generation": {
+      "text": "To solve the expression \\(76 + 2 - 6\\), we need to follow the order of operations, which in this case is simply left to right since it only consists of addition and subtraction.\n\n1. Start with with the first two numbers: \\(76 + 2\\).\n   \\[\n   76 + 2 = 78\n   \\]\n\n2. Now, subtract 6 from the result obtained in the previous step: \\(78 - 6\\).\n   \\[\n   78 - 6 = 72\n   \\]\n\nThus, the final answer is \\(\\boxed{72}\\).",
+      "input_tokens": 53,
+      "output_tokens": 135,
+      "elapsed_seconds": 5.272995799983619,
+      "peak_allocated_bytes": 3129857024,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000008:expression-2",
+    "prompt_sha256": "5f75e39576eb4c091dd0ec62ffba17926630a14ac461a6a2293c0bc496cc43af",
+    "finished_at": "2026-10-01T03:40:51.126596Z",
+    "generation": {
+      "text": "To calculate \\(50 - 9 - 1\\), we can follow these steps:\n\n1. First, perform the subtraction \\(50 - 9\\):\n   \\ \\[\n   50 - 9 = 41\n   \\]\n\n2. Next, subtract 1 from the result obtained in the previous step:\n   \\[\n   41 - 1 = 40\n   \\]\n\nThus, the final answer is \\(\\boxed{40}\\).",
+      "input_tokens": 53,
+      "output_tokens": 102,
+      "elapsed_seconds": 3.942873799998779,
+      "peak_allocated_bytes": 3128910848,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000058:expression-2",
+    "prompt_sha256": "5925e1ac559b0e6e8e0dc2a2e470d23e91fafcd975142329cf6f45bea2c455fd",
+    "finished_at": "2026-10-01T03:42:15.361128Z",
+    "generation": {
+      "text": "To calculate the expression \\(52 + 8 + 3\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider. Here are the steps:\n\n1. Start with the first two numbers: \\(52 + 8\\). Since \\(52\\) is interpreted as 52, we add 52 and 8:\n   \\[\n   52 + 8 = 60\n   \\]\n\n2. Now, take the result from the first step and add 3 to it:\n   \\[\n   60 + 3 = 63\n   \\]\n\nSo, the final answer is \\(\\boxed{63}\\).",
+      "input_tokens": 53,
+      "output_tokens": 160,
+      "elapsed_seconds": 6.364377799996873,
+      "peak_allocated_bytes": 3130575360,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-2",
+    "prompt_sha256": "07167b09dd5ea38fd257b26c712ed6848f4386c905df33e430bbb20f3181babd",
+    "finished_at": "2026-10-01T03:42:36.154286Z",
+    "generation": {
+      "text": "To solve the expression \\(54 + 4 - 4\\), we will follow the order of operations, which in this case is simply left to right since we only have addition and subtraction.\n\n1. First, we perform the addition:\n   \\[\n   54 + 4 = 54 + 4 = 54 + 4 = 50\n   \\]\n   So, \\(54 + 4 = 5 = 50\\).\n\n2. Next, we perform the subtraction:\n   \\[\n   50 - 4 = 46\n   \\]\n\nThus, the final answer is \\(\\boxed{50}\\).",
+      "input_tokens": 53,
+      "output_tokens": 141,
+      "elapsed_seconds": 5.616570700018201,
+      "peak_allocated_bytes": 3130030592,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-4",
+    "prompt_sha256": "4c783bdc2e1ef0f939ce32759f962742b62894d616e516b5083e215e5f092c2d",
+    "finished_at": "2026-10-01T03:41:12.949163Z",
+    "generation": {
+      "text": "To solve the expression \\(71 + 3 - 2 + 4\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(71 + 3\\). Adding these together gives:\n   \\[\n   71 + 3 = 74\n   \\]\n\n2. Next, subtract 2 from the result:\n   \\[\n   74 - 2 = 72\n   \\]\n\n3. Then, add 4 to the result:\n   \\[\n   72 + 4 = 76\n   \\]\n\n4. Finally, add 1 to the result:\n   \\[\n   76 + 1 = 77\n   \\]\n\nSo, the final answer is:\n\\[\n\\boxed{77}\n\\]",
+      "input_tokens": 59,
+      "output_tokens": 205,
+      "elapsed_seconds": 7.850880899990443,
+      "peak_allocated_bytes": 3132039168,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-2",
+    "prompt_sha256": "4fef7660763bbbc325115049f8bb076a09218d6aa1778296abf2d3f7d0e39c76",
+    "finished_at": "2026-10-01T03:41:38.255692Z",
+    "generation": {
+      "text": "To solve the expression \\(68 + 1 + 8\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nStep 1: Start with the first two numbers.\n\\[68 + 1 = 69\\]\n\nStep 2: Now add the result to the next number.\n\\[69 + 8 = 77\\]\n\nSo, the final answer is \\(\\boxed{77}\\).",
+      "input_tokens": 53,
+      "output_tokens": 110,
+      "elapsed_seconds": 4.184781400021166,
+      "peak_allocated_bytes": 3129140224,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-2",
+    "prompt_sha256": "e04ebb708c97f7953de6311a8b03944569e474e74f7ece713df1a37b1a6e1883",
+    "finished_at": "2026-10-01T03:43:30.974340Z",
+    "generation": {
+      "text": "To solve the expression \\(70 + 7 - 3\\), we will follow the order of operations, which in this case is simply left to right since we only have addition and subtraction.\n\n1. Start with the first two numbers: \\(70 + 7\\).\n   \\[\n   70 + 7 = 77\n   \\]\n\n2. Now, subtract 3 from the result obtained in the previous step: \\(77 - 3\\).\n   \\[\n   77 - 3 = 74\n   \\]\n\nTherefore, the final answer is \\(\\boxed{74}\\).",
+      "input_tokens": 53,
+      "output_tokens": 132,
+      "elapsed_seconds": 5.235846000025049,
+      "peak_allocated_bytes": 3129771008,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000098:expression-1",
+    "prompt_sha256": "6ed607d4bee08aa542859f082417db26305fbfffcb6ac868a9a82a92206d144a",
+    "finished_at": "2026-10-01T03:43:26.149582Z",
+    "generation": {
+      "text": "To calculate \\(70 + 7\\), we can break it down into simpler steps:\n\n1. Recognize that \\(70\\) is a multiple of \\(10\\), which makes it easier to add to \\(7\\).\n2. Add the tens and the units separately. Here, \\(70\\) has \\(70\\) tens and \\(7\\) has \\(7\\) units.\n3. Combine the tens and the units: \\(70 + 7 = = 70 + 7 = 77\\).\n\nThus, the final answer is \\(\\boxed{77}\\).",
+      "input_tokens": 50,
+      "output_tokens": 124,
+      "elapsed_seconds": 4.82212269998854,
+      "peak_allocated_bytes": 3129455616,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000068:expression-1",
+    "prompt_sha256": "450a536d0b1bccc53b0a0dc94ca8762c54d071322cf34095b58a7daab6531499",
+    "finished_at": "2026-10-01T03:42:30.533591Z",
+    "generation": {
+      "text": "To calculate \\(54 + 4\\), we can break it down into simple steps:\n\n1. Start with the number 54.\n2. Add 4 to 54.\n\nLet's do the addition step by step:\n\n- First, add the units place: \\(4 + 4 = 10\\). Write down 0 and carry over 1.\n- Next, add the tens place: \\(5 + 0 = 5\\) (since we carried over 1 from the units place, we add it to the tens place).\n\nSo, \\(54 + 4 = 50\\).\n\nTherefore, the final answer is \\(\\boxed{58}\\).",
+      "input_tokens": 50,
+      "output_tokens": 143,
+      "elapsed_seconds": 5.619105399993714,
+      "peak_allocated_bytes": 3130000896,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-1",
+    "prompt_sha256": "2e63668c12c97e99f10cc607bf2971276f2b574bbcbed40d954c1fe795346d55",
+    "finished_at": "2026-10-01T03:41:51.807002Z",
+    "generation": {
+      "text": "To calculate \\(60 - 3\\), we can break it down into simpler steps:\n\n1. Start with the number 60.\n2. Subtract 3 from 60.\n\nLet's do it step by step:\n\n1. \\(60 - 3 = 57\\)\n\nSo, the final answer is \\(\\boxed{57}\\).",
+      "input_tokens": 50,
+      "output_tokens": 76,
+      "elapsed_seconds": 3.0527474000118673,
+      "peak_allocated_bytes": 3128077824,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-4",
+    "prompt_sha256": "7031ec37ec3379b19ed338489f5dd15442cfcee34c4847b0e092bafa0490e886",
+    "finished_at": "2026-10-01T03:41:59.530653Z",
+    "generation": {
+      "text": "To solve the expression \\(60 - 3 + 5 + 8 - 6\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two terms: \\(60 - 3\\):\n   \\[\n   60 - 3 = 57\n   \\]\n\n2. Next, add 5 to the result:\n   \\[\n   57 + 5 = 12\n   \\]\n\n3. Then, add 8 to the result:\n   \\[\n   12 + 8 = 30\n   \\]\n\n4. Finally, subtract 6 from the result:\n   \\[\n   30 - 6 = 24\n   \\]\n\nSo, the final answer is:\n\\[\n\\boxed{24}\n\\]",
+      "input_tokens": 59,
+      "output_tokens": 203,
+      "elapsed_seconds": 8.261694400018314,
+      "peak_allocated_bytes": 3131981824,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-1",
+    "prompt_sha256": "12170020990dc91a802e29034a1cff472fc0919a6a28dc57ed130ab7647d052d",
+    "finished_at": "2026-10-01T03:41:35.543058Z",
+    "generation": {
+      "text": "To calculate \\(68 + 1\\), we can follow these steps:\n\n1. Start with the number 68.\n2. Add 1 to 68.\n\nLet's perform the addition:\n\n\\[ 68 + 1 = 69 \\]\n\nSo, the final answer is \\(\\boxed{69}\\).",
+      "input_tokens": 50,
+      "output_tokens": 70,
+      "elapsed_seconds": 2.710063700011233,
+      "peak_allocated_bytes": 3127905792,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000018:expression-1",
+    "prompt_sha256": "e723529d02cc3a000c3577859e7111f76b6279fd5794730a56fb447f4d7b28bd",
+    "finished_at": "2026-10-01T03:41:02.291400Z",
+    "generation": {
+      "text": "To calculate \\(71 + 33\\), we can break it down into simpler steps:\n\n1. First, recognize that \\(71 + 3\\) can be simplified by adding the numbers directly.\n2. Add the tens and the units separately if it helps, but in this case, it's straightforward addition.\n\nSo, let's add the numbers step by step:\n\n\\[71 + 3 = 70 + 1 + 0 + 3 = = 74\\]\n\nTherefore, the final answer is \\(\\boxed{74}\\).",
+      "input_tokens": 50,
+      "output_tokens": 117,
+      "elapsed_seconds": 4.512073599995347,
+      "peak_allocated_bytes": 3129254912,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000038:expression-4",
+    "prompt_sha256": "d62eb339c1c1b9f3524d5677a0fa992b304314e2162391c3ddb2f61ebfa384fe",
+    "finished_at": "2026-10-01T03:41:42.443875Z",
+    "generation": {
+      "text": "To solve the expression \\(68 + 1 + 8 + 5 + 1\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nLet's break it down step by step:\n\n1. Start with the first two numbers: \\(68 + 1\\).\n   \\[\n   68 + 1 = 69\n   \\]\n\n2. Add the next number to the result: \\(69 + 8\\).\n   \\[\n   69 + 8 = 77\n   \\]\n\n3. Add the next number to the result: \\(77 + 5\\).\n   \\[\n   77 + 5 = 82\n   \\]\n\n4. Add the next number to the result: \\(82 + 1\\).\n   \\[\n   82 + 1 = 83\n   \\]\n\nSo, the final result of the expression \\(68 + 1 + 8 + 5 + 1\\) is \\(\\boxed{82}\\).",
+      "input_tokens": 59,
+      "output_tokens": 240,
+      "elapsed_seconds": 9.360338800004683,
+      "peak_allocated_bytes": 3133042688,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-4",
+    "prompt_sha256": "72468e59bff9764e036d131909379ac709c9f59cc3d04461060096713d7f7de0",
+    "finished_at": "2026-10-01T03:41:27.572285Z",
+    "generation": {
+      "text": "To solve the expression \\(68 + 1 + 8 - 4 + 7\\), we need to follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider. Let's break it down step by step:\n\n1. Start with the first two numbers: \\(68 + 1\\). Since \\(1\\) is not a valid number in standard arithmetic, we assume it's a typo or a placeholder for addition. So, we interpret it as \\(68 + 1 = 69\\).\n2. Next, add \\(8\\) to the result: \\(69 + 8 = 17\\).\n3. Then, subtract \\(4\\) from the result: \\(17 - 4 = 13\\).\n4. Finally, add \\(7\\) to the result: \\(13 + 7 = 20\\).\n\nSo, the final answer is \\(\\boxed{20}\\).",
+      "input_tokens": 59,
+      "output_tokens": 210,
+      "elapsed_seconds": 7.968748899991624,
+      "peak_allocated_bytes": 3132182528,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000088:expression-1",
+    "prompt_sha256": "cc9e0fd92449925f1c8506d0e448939be0f6c401de9d0234d1f5e3b587763ce0",
+    "finished_at": "2026-10-01T03:43:09.796903Z",
+    "generation": {
+      "text": "To calculate \\(76 + 2\\), we can break it down into simple steps:\n\n1. Start with the number 76.\n2. Add 2 to 76.\n\nLet's do the addition step by step:\n\n- First, add the units place: 6 + 2 = 8.\n- The The tens place remains the same: 7.\n\nSo, combining the tens and units place, we get 78.\n\nTherefore, the final answer is \\(\\boxed{78}\\).",
+      "input_tokens": 50,
+      "output_tokens": 107,
+      "elapsed_seconds": 4.184408699977212,
+      "peak_allocated_bytes": 3128968192,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000028:expression-2",
+    "prompt_sha256": "4fef7660763bbbc325115049f8bb076a09218d6aa1778296abf2d3f7d0e39c76",
+    "finished_at": "2026-10-01T03:41:23.421578Z",
+    "generation": {
+      "text": "To solve the expression \\(68 + 1 + 8\\), we will follow the order of operations, which in this case is simply left to right since there are no parentheses, exponents, or other operations to consider.\n\nStep 1: Start with the first two numbers.\n\\[68 + 1 = 69\\]\n\nStep 2: Now add the result to the next number.\n\\[69 + 8 = 77\\]\n\nSo, the final answer is \\(\\boxed{77}\\).",
+      "input_tokens": 53,
+      "output_tokens": 110,
+      "elapsed_seconds": 4.148321100015892,
+      "peak_allocated_bytes": 3129140224,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  },
+  {
+    "id": "v2-arithmetic-000048:expression-2",
+    "prompt_sha256": "16b8d26b2086a827d79332c593faad5f44171a5df25f7f15b131d0faf9aa3378",
+    "finished_at": "2026-10-01T03:41:54.861157Z",
+    "generation": {
+      "text": "To solve the expression \\(60 - 3 + 5\\), we need to follow the order of operations, which in this case is simply left to right because there are no parentheses, exponents, or other operations to consider.\n\nStep 1: Perform the subtraction \\(60 - 3\\).\n\\[60 - 3 = 57\\]\n\nStep 2: Now, add 5 to the result.\n\\[57 + 5 = 52\\]\n\nSo, the final answer is \\(\\boxed{52}\\).",
+      "input_tokens": 53,
+      "output_tokens": 115,
+      "elapsed_seconds": 4.667134600022109,
+      "peak_allocated_bytes": 3129283584,
+      "peak_reserved_bytes": 3323985920,
+      "stop_reason": "eos"
+    }
+  }
+]

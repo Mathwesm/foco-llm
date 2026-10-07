@@ -1,0 +1,14 @@
+{
+  "experiment_type": "source_task_development_pilot_not_confirmatory_evidence",
+  "completed_steps": 384,
+  "unique_training_examples": 144,
+  "initial_train_probe_loss": 1.4359411001205444,
+  "final_train_probe_loss": 5.503013380803168e-05,
+  "base_weights_unchanged": true,
+  "adapters_changed": true,
+  "reload_max_abs_logit_difference": 0.0,
+  "training_seconds": 114.53561479999917,
+  "supervised_tokens": 2801,
+  "peak_allocated_bytes": 3765868544,
+  "peak_reserved_bytes": 6446645248
+}
