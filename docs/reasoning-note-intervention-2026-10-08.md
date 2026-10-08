@@ -33,6 +33,13 @@ pelo Git. O notebook `notebooks/kaggle_reasoning_note_intervention_7b.ipynb`
 prepara o mesmo conjunto para o Qwen2.5-7B-Instruct no Kaggle e grava
 `comparison.json`, `summary.json`, `scores.json` e `rejected.json`.
 
+A execução salva do 7B também não produziu notas elegíveis: **0/20**.
+[Versão executada no Kaggle](https://www.kaggle.com/code/matheusdsousaribeiro/kaggle-reasoning-note-intervention-7b)
+(versão 2, fonte `94ae2fafabfa12a21bc2c1d5cf11c6212dd9ff8b`). Assim,
+as quatro intervenções não têm comparação pareada interpretável; células
+com zero no resumo não são acurácia de 0%. Uma eventual simplificação do
+formato será registrada como outro protocolo, com novos dados e denominador.
+
 Mesmo quando válido, remover uma linha altera o contexto fornecido ao modelo;
 isso demonstra sensibilidade a texto externo produzido por ele, não revela
 ativações nem prova um mecanismo interno de pensamento. A ordem de remoção é a
