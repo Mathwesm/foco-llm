@@ -1,0 +1,31 @@
+{
+  "protocol": "chain-divergence-v1",
+  "source_url": "https://www.kaggle.com/code/matheusdsousaribeiro/kaggle-chain-divergence-7b/output?scriptVersionId=356460561",
+  "source_commit": "68bbc94",
+  "dataset_sha256": "a17296b912c661efb90da2231257ceb9b8facc3cb87ee60de4c2e9a0fc530036",
+  "cases_per_model": 160,
+  "bases": 40,
+  "source_note": "Group counts transcribed from the saved Kaggle comparison.json; raw model generations remain in that notebook output.",
+  "groups": {
+    "base": {
+      "deduction:unrelated": {"cases": 20, "valid": 20, "exact": 12, "false_positive": 5, "false_negative": 4},
+      "deduction:early": {"cases": 20, "valid": 20, "exact": 6, "false_positive": 1, "false_negative": 14},
+      "deduction:middle": {"cases": 20, "valid": 20, "exact": 5, "false_positive": 0, "false_negative": 15},
+      "deduction:late": {"cases": 20, "valid": 20, "exact": 4, "false_positive": 5, "false_negative": 15},
+      "tracking:unrelated": {"cases": 20, "valid": 20, "exact": 2, "false_positive": 3, "false_negative": 31},
+      "tracking:early": {"cases": 20, "valid": 20, "exact": 1, "false_positive": 0, "false_negative": 32},
+      "tracking:middle": {"cases": 20, "valid": 20, "exact": 0, "false_positive": 0, "false_negative": 40},
+      "tracking:late": {"cases": 20, "valid": 20, "exact": 1, "false_positive": 1, "false_negative": 39}
+    },
+    "deduction_specialist": {
+      "deduction:unrelated": {"cases": 20, "valid": 20, "exact": 13, "false_positive": 8, "false_negative": 0},
+      "deduction:early": {"cases": 20, "valid": 20, "exact": 12, "false_positive": 3, "false_negative": 8},
+      "deduction:middle": {"cases": 20, "valid": 20, "exact": 8, "false_positive": 9, "false_negative": 11},
+      "deduction:late": {"cases": 20, "valid": 20, "exact": 7, "false_positive": 11, "false_negative": 13},
+      "tracking:unrelated": {"cases": 20, "valid": 20, "exact": 12, "false_positive": 4, "false_negative": 6},
+      "tracking:early": {"cases": 20, "valid": 20, "exact": 13, "false_positive": 0, "false_negative": 9},
+      "tracking:middle": {"cases": 20, "valid": 20, "exact": 9, "false_positive": 0, "false_negative": 13},
+      "tracking:late": {"cases": 20, "valid": 20, "exact": 9, "false_positive": 0, "false_negative": 14}
+    }
+  }
+}
