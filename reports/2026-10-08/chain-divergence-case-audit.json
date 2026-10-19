@@ -1,0 +1,95 @@
+{
+  "source_archive_sha256": "227c20e893aac646367bc97ce3ed9c6c45b2269370479b2f9eb954c78c4a3113",
+  "dataset_sha256": "a17296b912c661efb90da2231257ceb9b8facc3cb87ee60de4c2e9a0fc530036",
+  "cases": 160,
+  "independent_bases": 40,
+  "groups": {
+    "deduction:unrelated": {
+      "both_correct": 9,
+      "adapter_gain": 4,
+      "adapter_loss": 3,
+      "both_wrong": 4
+    },
+    "deduction:early": {
+      "both_correct": 4,
+      "adapter_gain": 8,
+      "adapter_loss": 2,
+      "both_wrong": 6
+    },
+    "deduction:middle": {
+      "both_correct": 3,
+      "adapter_gain": 5,
+      "adapter_loss": 2,
+      "both_wrong": 10
+    },
+    "deduction:late": {
+      "both_correct": 4,
+      "adapter_gain": 3,
+      "adapter_loss": 0,
+      "both_wrong": 13
+    },
+    "tracking:unrelated": {
+      "both_correct": 2,
+      "adapter_gain": 10,
+      "adapter_loss": 0,
+      "both_wrong": 8
+    },
+    "tracking:early": {
+      "both_correct": 1,
+      "adapter_gain": 12,
+      "adapter_loss": 0,
+      "both_wrong": 7
+    },
+    "tracking:middle": {
+      "both_correct": 0,
+      "adapter_gain": 9,
+      "adapter_loss": 0,
+      "both_wrong": 11
+    },
+    "tracking:late": {
+      "both_correct": 1,
+      "adapter_gain": 8,
+      "adapter_loss": 0,
+      "both_wrong": 11
+    }
+  },
+  "by_task": {
+    "deduction": {
+      "paired": {
+        "both_correct": 20,
+        "adapter_gain": 20,
+        "adapter_loss": 7,
+        "both_wrong": 33
+      },
+      "difference_interval_95": [
+        0.05,
+        0.2875
+      ]
+    },
+    "tracking": {
+      "paired": {
+        "both_correct": 4,
+        "adapter_gain": 39,
+        "adapter_loss": 0,
+        "both_wrong": 37
+      },
+      "difference_interval_95": [
+        0.3375,
+        0.6375
+      ]
+    }
+  },
+  "overall": {
+    "paired": {
+      "both_correct": 24,
+      "adapter_gain": 59,
+      "adapter_loss": 7,
+      "both_wrong": 70
+    },
+    "difference_interval_95": [
+      0.2313,
+      0.4188
+    ]
+  },
+  "interval_note": "Exploratory stratified percentile bootstrap, 20,000 resamples of 20 bases within each task; the four arms of each base remain together."
+}
