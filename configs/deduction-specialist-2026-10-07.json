@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "seed": 42,
+  "steps": 320,
+  "max_tokens": 512,
+  "learning_rate": 0.0001,
+  "rank": 4,
+  "source_task": "deduction",
+  "condition": "similar",
+  "examples": 80,
+  "selection_seed": 42,
+  "supervision": "evidence_only",
+  "tasks": null,
+  "arithmetic_prefix_curriculum": false
+}
