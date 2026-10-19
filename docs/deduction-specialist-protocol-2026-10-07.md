@@ -60,3 +60,47 @@ Em 7/10, a conta Kaggle mostrou `02:27 / 30 hrs` de GPU usadas na semana, deixan
 aproximadamente 27h33 disponíveis. Conferir novamente antes de iniciar, pois a cota
 pode mudar. O notebook deve guardar manifestos, histórico, resumos e respostas brutas
 como saída da versão salva do Kaggle.
+
+## Resultado da versão salva em 8/10
+
+O [notebook Kaggle, versão 1](https://www.kaggle.com/code/matheusdsousaribeiro/foco-llm-especialista-em-deducao-qwen-7b/output?scriptVersionId=356224021)
+terminou com sucesso em 2.997,5 s (49 min 57 s) na GPU T4 x2. O código usado foi o
+commit `2f11d8b8b8642a68f266e7e0d5ed409eab2795fa`. Os artefatos completos estão
+em `deduction-7b/` na saída da versão: `comparison.json`, manifestos, datasets,
+`scores.json` por braço, respostas brutas e checkpoint. Hashes do dataset:
+treino `153ff15972b62fb7e8372a312134918038ff709d05fbb2a90badde18881abab8`;
+teste `1ca12dae3b0c101175f927ecbf36c3efc98c01160e44ae4ab9256e0ec79e9d4f`.
+O treino completou 320 passos em 1.561,5 s com 80 exemplos únicos. A perda de treino
+medida no *probe* caiu de 0,8549 para 0,00005; isso indica ajuste aos exemplos vistos,
+sem medir generalização.
+
+| Tarefa e distrator | Casos | Base: seleção exata | Especialista: seleção exata | Base: seleção válida | Especialista: seleção válida |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Dedução, não relacionado | 30 | 0 | 4 | 21 | 30 |
+| Dedução, cadeia semelhante | 30 | 1 | 2 | 26 | 30 |
+| Rastreamento, não relacionado | 30 | 1 | 1 | 30 | 30 |
+| Rastreamento, cadeia semelhante | 30 | 0 | 1 | 30 | 30 |
+
+Na tarefa-alvo, a seleção exata passou de **1/60 para 6/60**. Na comparação dos
+`scores.json` pareados, cinco entradas antes erradas ficaram exatas, nenhuma exata
+regrediu e o acerto anterior permaneceu. Em rastreamento, a seleção exata passou de
+**1/60 para 2/60**, com um ganho e uma perda entre as mesmas entradas. Nenhuma das
+30 bases de dedução foi selecionada exatamente nas **duas** condições. Não se deve
+comparar essas contagens diretamente aos 4/120 do seletor aritmético: os datasets,
+históricos de treino e a hipótese testada são diferentes.
+
+O especialista reduziu omissões de fatos relevantes em dedução de 220 para 110,
+mas aumentou inclusões indevidas de 23 para 38. Em rastreamento, as omissões caíram
+de 221 para 136 e as inclusões indevidas subiram de 39 para 82. A validade do formato
+melhorou de 47/60 para 60/60 em dedução. Assim, parte do ganho decorre de respostas
+válidas e seleção de mais fatos, não de filtragem precisa de distratores. Os 2/30
+acertos de dedução com cadeia semelhante mostram que o principal caso difícil
+continua sem solução satisfatória.
+
+Esta é uma análise **pós-hoc, exploratória, de uma única semente e uma única família
+de templates**. Treino e teste não repetem bases, mas compartilham moldes. As duas
+condições de cada base são dependentes; 60 entradas de dedução não são 60 bases
+independentes. Não há evidência suficiente aqui para afirmar transferência robusta,
+entendimento de textos livres, significância estatística ou mecanismo interno de
+raciocínio. Para avançar, a prioridade é uma avaliação de dedução com novos moldes e
+redações antes de mais passos de treino sobre o mesmo conjunto.
