@@ -1,0 +1,170 @@
+{
+  "source_notebook_script_version_id": 354998927,
+  "source_files": {
+    "baseline": "blind-selection-7b/baseline/ea01cf365b565f6f/scores.json",
+    "adapted": "blind-selection-7b/adapted-0320/5c9b43ebb43e8b50/scores.json"
+  },
+  "source_field": "selection_exact",
+  "method": "Paired case transcription from the saved Kaggle v2 output; full raw response files remain on Kaggle",
+  "case_count": 20,
+  "forms": {
+    "explicit": {
+      "base_correct": 18,
+      "adapted_correct": 20,
+      "adapter_gains": 2,
+      "adapter_losses": 0,
+      "both_correct": 18,
+      "both_wrong": 0
+    },
+    "alias": {
+      "base_correct": 13,
+      "adapted_correct": 17,
+      "adapter_gains": 4,
+      "adapter_losses": 0,
+      "both_correct": 13,
+      "both_wrong": 3
+    }
+  },
+  "cases": [
+    {
+      "base_id": "blind-arithmetic-0000",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0001",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": false
+    },
+    {
+      "base_id": "blind-arithmetic-0002",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0003",
+      "explicit_base_correct": false,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0004",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0005",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0006",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0007",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0008",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0009",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": false
+    },
+    {
+      "base_id": "blind-arithmetic-0010",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0011",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0012",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": false
+    },
+    {
+      "base_id": "blind-arithmetic-0013",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0014",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0015",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0016",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0017",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0018",
+      "explicit_base_correct": true,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": true,
+      "alias_adapted_correct": true
+    },
+    {
+      "base_id": "blind-arithmetic-0019",
+      "explicit_base_correct": false,
+      "explicit_adapted_correct": true,
+      "alias_base_correct": false,
+      "alias_adapted_correct": true
+    }
+  ]
+}

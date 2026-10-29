@@ -1,0 +1,14 @@
+{
+  "source": "reports/2026-09-30/frozen-test/C0/test.json",
+  "source_sha256": "f02f1e0560ce26fab6ae4c44af14a7d5009019e4eae249edee483449b65d3a4b",
+  "method": "Independent exact-template parser of visible test-split text",
+  "total": 120,
+  "by_task": {
+    "arithmetic": 40,
+    "deduction": 40,
+    "tracking": 40
+  },
+  "answer_failures": 0,
+  "evidence_failures": 0,
+  "discrepancies": []
+}
