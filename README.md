@@ -4,6 +4,21 @@ Investigação experimental da seleção de informações relevantes em modelos 
 
 **Autor:** Mateus.
 
+## Artigo e auditoria final
+
+A versão sem bloco de identificação do TCC está disponível em
+[PDF](docs/tcc/article-anonymous.pdf),
+[Word editável](docs/tcc/article-anonymous.docx) e
+[LaTeX](docs/tcc/article-anonymous.tex). O link deste repositório aparece no artigo.
+Os arquivos com nomes e e-mail foram mantidos fora do repositório público.
+
+A [auditoria dos 120 casos locais](reports/2026-10-29/frozen-test-visible-audit.json)
+reconstruiu respostas e evidências a partir dos enunciados visíveis e não encontrou
+divergências. A [comparação pareada dos 20 casos cegos](reports/2026-10-29/blind20-paired-audit.json)
+registra quatro ganhos e nenhuma perda do 7B adaptado na condição com apelidos.
+A auditoria é computacional e cobre os templates do teste local; os arquivos brutos
+completos da nuvem e os pesos dos adaptadores permanecem externos ao Git.
+
 **Robustez — 07/10:** repetimos o seletor aritmético local de 1,5B com
 sementes 42, 43 e 44, mantendo os 80 exemplos e as 320 atualizações. Na
 replicação com 60 bases, a condição com apelidos ficou em **0/60, 2/60 e
@@ -197,7 +212,7 @@ data/          # saídas locais; não versionadas
 
 O piloto original usa inglês nos enunciados, dificuldade fixa e templates compartilhados entre splits. A versão candidata v2 separa templates e comprimentos de cadeia, mas muda ambos ao mesmo tempo e ainda precisa de auditoria ampliada. Os dados não sustentam afirmações de generalização estrutural ampla ou de relevância semântica em texto livre. Os validadores reconhecem a gramática controlada do gerador.
 
-O ajuste funcional, os treinos locais e as avaliações dos adaptadores já foram verificados. Ainda faltam auditoria ampliada dos dados sintéticos, intervalos de confiança, repetição de cada adaptação por sementes e avaliação em linguagem natural mais variada. Não há agendamento nem consumo de serviços pagos nesta etapa.
+O ajuste funcional, os treinos locais e as avaliações dos adaptadores já foram verificados. A auditoria independente dos enunciados cobre as 120 entradas do teste local reservado; ainda faltam revisão humana, auditoria dos outros conjuntos sintéticos e avaliação em linguagem natural mais variada. As análises de incerteza e as repetições por sementes existentes são limitadas aos conjuntos descritos nos relatórios. Não há agendamento nem consumo de serviços pagos nesta etapa.
 
 - [Plano e referências](docs/research-plan.md)
 - [Diário e registro de treinamentos](docs/experiment-log.md)
